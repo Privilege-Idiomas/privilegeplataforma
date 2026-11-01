@@ -215,6 +215,26 @@
 - **Relacionamentos:** DEC-003/004/009/011/012, DEC-029/030/032/035, REQ-001/002/003/004; não substituir pendências comerciais de Matheus por suposições.
 - **Evidência de implementação:** nenhuma afirmada.
 
+### DEC-037 — Público prioritário adulto, acesso de adolescentes e ausência de fotos de perfil
+- **Data:** 2026-11-01. **Responsável pelas decisões funcionais:** Marina. **Comunicado por:** Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** para orientação de público e dispensa de foto; operacionalização de acesso por idade e proteção de menores **PENDENTE** de especificação e validação jurídica, sem execução autorizada.
+- **Público:** plataforma focada predominantemente em **adultos**, com cursos voltados a viagens e negócios, mas **sem excluir adolescentes** que tenham interesse. Marina não quer atender crianças muito pequenas, exemplificando **menores de 12 anos**: tratar **12 anos como limite mínimo pretendido**, sujeito à política jurídica de elegibilidade e mecanismo de aferição proporcional, ainda não aprovados. Não inferir que deixar objetivos dos cursos claros equivale a cumprimento automático da legislação, nem transformar foco comercial em proibição geral a adolescentes.
+- **Apresentação:** landing page e páginas dos cursos devem comunicar com transparência temas, objetivos e perfil de demanda, em vez de promover conteúdos inadequados.
+- **Foto de perfil:** **não solicitar, exigir nem oferecer upload de foto de perfil** no escopo funcional definido, pois Marina não vê finalidade pedagógica ou operacional. Evitar armazenar mídia pessoal desnecessária.
+- **Requisitos de proteção:** avaliar ECA Digital (Lei 15.211/2025, vigente em 2026) e LGPD, inclusive melhor interesse, privacidade por padrão, requisitos proporcionais de aferição etária, interação com adultos, eventual supervisão parental e publicidade dirigida a menores. Não presumir que todos os artigos destinados a redes sociais se aplicam automaticamente a cursos online. Necessária validação jurídico-regulatória antes de finalizar o fluxo e termos para menores. Separar **aluno menor** de **contratante/pagador adulto**, e não concluir que adolescentes possam celebrar sozinhos todos os contratos de assinatura.
+- **Vetores de custo (levantamento, ainda não orçamento):** eventuais medidas de aferição etária, salvaguardas para menores, mensagens e mecanismos de autorização/contato com responsáveis, revisão jurídica e testes. Eliminar fotos reduz armazenamento e superfície de tratamento de dados, mas **não presumir redução monetária quantificada**.
+- **Governança:** funcionalidade definida, custos e arquitetura pendentes segundo DEC-032 e DEC-035; sem autorização de execução.
+- **Referências:** DEC-035/036 e REQ-001/002/020. Normas para análise futura: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm ; https://www.gov.br/anpd/pt-br/assuntos/eca-digital/ ; https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm .
+
+### DEC-038 — Campos de cadastro e distinção aluno versus pagador (proposta para revisão)
+- **Data:** 2026-11-01. **Responsável por confirmar:** Marina. **Comunicado por:** Marina.
+- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — Marina sugeriu, consultivamente, e-mail, telefone, senha e CPF; **a obrigatoriedade de cada campo não está aprovada**. Exceção: foto de perfil dispensada, já resolvido em DEC-037.
+- **Proposta de Marina:** cadastro completo com **e-mail, telefone, senha e CPF**; Marina solicitou crítica técnica e de segurança antes de confirmar.
+- **Recomendação da PM, NÃO aprovada:** e-mail único e verificado obrigatório; nome para identificação/atendimento e potencial emissão fiscal a avaliar (Marina não o reiterou expressamente); senha apenas se adotada autenticação por senha, armazenada por hash robusto (nunca em texto simples); telefone opcional salvo finalidade operacional concreta; CPF exigir de **pagador/tomador quando necessário** à cobrança ou documentação fiscal, não automaticamente do aluno, principalmente se adolescente ou contratante diferente. Evitar usar CPF ou telefone como 'prova' de posse da conta. Quando fornecedor de pagamento puder manter dados exigidos, reter somente o mínimo necessário e evitar duplicação, sujeito a obrigações legais e de suporte.
+- **Pendências de decisão:** (a) telefone obrigatório ou opcional; (b) CPF do aluno versus CPF do contratante/pagador e obrigatoriedade por finalidade; (c) nome completo no cadastro; (d) confirmação de login por senha versus outras opções; (e) identificação etária mínima e procedimentos de compra/acesso para adolescentes, responsáveis e recuperação. Desenhar sem sobrecoleta.
+- **Custos potenciais:** campos extras acrescentam validação, segurança de dados pessoais, suporte, tratamento de incidentes e eventual cobrança por SMS/OTP; armazenar CPF traz obrigações e risco de exposição, sem benefício intrínseco de autenticação. Os custos só serão quantificados após escopo e stack (DEC-035), e não estão aprovados conforme DEC-032.
+- **Governança:** proposta não autoriza implementação nem exige entrada no Notion de custos aprovados. Reavaliar após resposta de Marina.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
