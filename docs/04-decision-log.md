@@ -113,6 +113,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-044 | Página inicial personalizada com progresso, retomada e divulgação de cursos adicionais sem acesso | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e proteção de menores pendentes) | Marina |
 
+| DEC-045 | “Conhecer curso” abre página com descrição, objetivos, módulos e benefícios antes da compra | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e implementação pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
