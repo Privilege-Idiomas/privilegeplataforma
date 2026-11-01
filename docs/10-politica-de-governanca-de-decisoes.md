@@ -193,3 +193,14 @@ Marina orientou que o assistente **faça as perguntas de produto normalmente, co
 - **Ambiguidade real:** pedir esclarecimento apenas quando necessário para registrar corretamente o estado ou responsável; não tornar a classificação uma pergunta obrigatória para toda definição.
 
 **Aplicação:** DEC-025 (MAT-013), exercícios de prática antes da avaliação: Marina respondeu em 2026-10-31 que os exercícios serão **obrigatórios a princípio**, tendo sinalizado anteriormente revisão posterior com Matheus. Responsável único: Matheus; autora da resposta provisória e comunicadora: Marina; status **REVISAR**, aprovação final pendente. Registro canônico em `docs/09-decisoes-matheus.md` e referência no índice `docs/04-decision-log.md`.
+
+
+## 15. GitHub integral e Notion exclusivamente executivo — esclarecimento de Marina (2026-10-31)
+
+A adoção do Notion (DEC-026) **não altera, reduz nem substitui absolutamente nenhum registro ou processo do GitHub**. O GitHub é a fonte **única e integral** de todas as informações do projeto, incluindo tarefas técnicas e não técnicas, responsáveis, marcos, status, cronograma, decisões e seus históricos, evidências, riscos, requisitos, documentação e código.
+
+O Notion é um **relatório executivo extraído de informações que já estejam registradas no GitHub** para oferecer transparência a Matheus. Não será usado como fonte independente de tarefas, decisões, aprovações ou situação das entregas. Informações vistas no Notion — mesmo as atualizadas pelo Claude Code — precisam existir antes no GitHub. Qualquer divergência é resolvida corrigindo o relatório derivado conforme o GitHub.
+
+O documento canônico de síntese é `docs/12-relatorio-executivo.md` e o esquema de publicação está em `docs/11-estrutura-notion.md`. Não confundir publicar um resumo no Notion com aprovar/registrar uma decisão ou concluir uma tarefa. O status `RESOLVIDO` de DEC-026 atesta a escolha do uso, **não** a implantação técnica do Notion, ainda pendente.
+
+As regras anteriores de um único responsável, ficha canônica exclusiva por decisor e índice geral no GitHub permanecem integralmente em vigor.
