@@ -112,3 +112,8 @@ Quando houver conflito entre código, documentação e instruções informais, n
 - **DEC-028:** Marina decided each module gets a mixed-content chapter-style review exercise list. Do not infer any compulsory grade or progress gate for this list; practice is optional under DEC-025 unless a future explicit exception is approved.
 - There must be no DEC-024/MAR-005 mirror in `docs/08-decisoes-marina.md`.
 - Keep `docs/04-decision-log.md` as the official index and maintain `docs/08-decisoes-marina.md` and `docs/09-decisoes-matheus.md` as mutually exclusive decision queues.
+
+
+## Controle obrigatório pré-execução — DEC-029
+Antes de repassar uma tarefa ao Claude, a PM confere todas as decisões, requisitos, aprovações e pendências aplicáveis no GitHub, sem presumir respostas. Itens relevantes em REVISAR ou SEM RESPOSTA bloqueiam a parte dependente, até Marina esclarecer. A PM prepara escopo, critérios de aceitação, referências e checklist e recebe autorização de Marina para o pacote. EXCEÇÃO: Marina pode delegar explicitamente autonomia para uma tarefa específica e delimitar os aspectos abertos que podem ser decididos pela PM/Claude conforme boas práticas, priorizando baixo custo, alta segurança e coerência com decisões já aprovadas. Autonomia não é geral, não revoga requisitos aprovados, nem autoriza publicar em produção. Registrar escopo da delegação, escolhas e justificativas no GitHub; se surgir conflito ou risco relevante fora da autorização, voltar a Marina. Toda publicação continua exigindo revisão e aprovação prévia.
+Fonte canônica: docs/08-decisoes-marina.md; índice: docs/04-decision-log.md.
