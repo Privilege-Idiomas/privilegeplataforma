@@ -141,6 +141,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-058 | QR Code no PDF do certificado abre a validação pública pelo código único, sem expor arquivo privado | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; layout, privacidade de menores, custos e implementação pendentes) | Marina |
 
+| DEC-059 | Certificado PDF apresenta nome completo do aluno; validação pública mantém só iniciais | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regra funcional; nomes especiais, privacidade de menores, custos e implementação pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
