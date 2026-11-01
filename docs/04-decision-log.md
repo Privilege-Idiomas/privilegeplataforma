@@ -125,6 +125,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-050 | Progresso percentual calculado por aulas concluídas com avaliação obrigatória aprovada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (critério/fórmula; detalhes, custos e execução pendentes) | Marina |
 
+| DEC-051 | Curso com 100% real recebe status “Concluído” e mantém revisão enquanto acesso estiver vigente | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; certificados, exceções, custos e implementação pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
