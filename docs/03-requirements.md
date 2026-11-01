@@ -202,6 +202,16 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos potenciais a estimar depois de escopo e stack:** identificação e relacionamento de pagador/aluno, armazenamento de contatos, mensagens transacionais, verificação e recuperação de e-mail, suporte a casos de conta infantil. A quantidade de endereços não implica automaticamente duplicação de mensagens nem economia monetária.
 - **Referências:** DEC-043, DEC-039/040/041/042, REQ-002/020/022/023.
 
+### REQ-025 — Página inicial personalizada e vitrine de cursos adicionais
+- **Status:** **APROVADO por Marina na DEC-044** como escopo funcional para o produto completo; desenho final, custos, arquitetura, prioridade de versão e implementação pendentes.
+- **Pós-login:** exibir página inicial personalizada com (1) cursos cujo direito de acesso esteja ativo, (2) progresso individual de aprendizagem e (3) ação de destaque para retomar o ponto de estudo autorizado (“Continuar de onde parou”). O primeiro acesso sem histórico requer comportamento específico a detalhar; não simular progresso.
+- **Descoberta comercial:** quando os direitos atuais não cobrirem todo o catálogo disponível, mostrar uma seção informando a existência de outros cursos comercializáveis, com identificação clara dos que ainda não estão incluídos. Quando a conta tiver acesso integral ao catálogo, não apresentar a seção como se houvesse cursos adicionais para contratar. Basear essa condição nos direitos vigentes, não apenas no rótulo de um plano.
+- **Segurança e conteúdo restrito:** a vitrine pode utilizar somente informações públicas/aprovadas do catálogo e indicação de falta de acesso. Não permitir abrir aula, material ou questão bloqueada a partir da home ou via link/API. Respeitar DEC-027: na aba de exercícios de cursos sem direito, apenas agrupamentos bloqueados, sem individualização de questões. Aplicar controle de acesso no servidor, com testes de usuário autorizado e não autorizado.
+- **Menores:** eventual oferta na home de estudante menor precisa de avaliação jurídica e desenho adequado à idade/contratação por responsável; não usar perfilamento comercial nem publicidade comportamental direcionada a menores. A decisão não implica autorização de usar dados de aprendizagem/faixa etária para anúncios.
+- **Pendências:** número/ordem e campos dos cartões, destino de “Conhecer curso”/upgrade, situação de cursos não iniciados, retorno a aulas concluídas, preços/planos/checkout, uso ou ausência de personalização comercial e dados de mensuração. Nenhum sistema de recomendação por IA foi autorizado.
+- **Custo a quantificar depois de escopo completo e stack:** interface, consultas e cache de progresso e acesso, catálogo, infraestrutura fixa e banda, operações administrativas e suporte, segurança, acessibilidade e eventuais comunicações. Separar inicial, fixo mensal, variável por aluno e variável administrativo. Aprovação financeira independente exigida por DEC-032; não executar antes dos gates.
+- **Relações:** DEC-044, DEC-027, DEC-030/032/035/037/040, REQ-003/004/021.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
