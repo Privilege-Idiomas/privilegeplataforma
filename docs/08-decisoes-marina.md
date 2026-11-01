@@ -189,6 +189,16 @@
 - **Relacionamentos:** DEC-025, DEC-027, DEC-031, DEC-032, DEC-033; REQ-012, REQ-018.
 - **Evidências de implementação:** inexistentes no registro.
 
+### DEC-035 — Sequenciamento: escopo integral antes de stack, custos e versões
+- **Data:** 2026-11-01. **Responsável único e aprovadora:** Marina; comunicado por Marina.
+- **Status funcional:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — regra de condução do planejamento; não constitui autorização de desenvolvimento ou de despesas.
+- **Decisão:** primeiro mapear e decidir **todo o escopo desejado do produto**, incluindo capacidades para versões futuras, jornadas, regras de negócio e requisitos transversais. Não recortar o MVP nem definir exclusões de versões antes de concluir essa visão integral. Depois definir e validar **toda a stack e arquitetura propostas** em função do escopo completo. **Somente após escopo e stack completos**, comparar e quantificar os custos de implementação, manutenção fixa, variáveis por aluno e variáveis de operação, alternativas de fornecedores, riscos, confiabilidade e segurança. **Após a análise de custos**, Marina decidirá o que entra na primeira versão e o que fica para versões posteriores e aprovará o orçamento respectivo. Então estruturar cronograma, pacotes e auditoria pré-execução para Claude conforme DEC-029.
+- **Esclarecimento da DEC-032:** enquanto estivermos levantando escopo, decisões funcionais podem ser registradas como RESOLVIDO **sem valores monetários finais ou aprovação financeira**; a PM deve registrar imediatamente os possíveis **vetores de custo** que cada decisão introduz, sem fingir precisão onde falta stack. A avaliação financeira detalhada é consolidada após a definição integral de escopo e stack, antes de qualquer autorização de execução/contratação. Aprovação funcional ≠ aprovação de custo ≠ autorização de executar. Não enviar ao Claude nem publicar sem os gates aplicáveis. Itens de custo desconhecido seguem pendentes, nunca R$0 assumido.
+- **Motivo comunicado:** conhecer primeiro todo o produto desejado e as tecnologias que serão usadas para, então, comparar custos e decidir racionalmente o recorte da primeira versão versus o produto completo.
+- **Alternativas tratadas:** (a) recortar MVP e fazer orçamento técnico imediatamente por módulo, conforme recomendação anterior da PM; (b) escopo integral → stack → custos → distribuição por versão. Marina rejeitou a ordem (a) neste momento e escolheu expressamente (b).
+- **Impacto de custo da própria decisão:** análise e documentação podem exigir tempo de planejamento; não há preço incremental comprovado. Não foi aprovada aquisição, serviço ou implementação por esta decisão. Custos de produção e operação de cada funcionalidade serão examinados na fase financeira antes da implementação.
+- **Documentos relacionados:** DEC-029, DEC-030, DEC-032 e docs/06-roadmap.md. GitHub segue fonte de verdade; Notion contém somente relatório derivado, e sua tabela de custos apenas itens financeiramente aprovados.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
