@@ -5,14 +5,16 @@ A Plataforma Privilège é uma plataforma digital de ensino de idiomas. O produt
 
 Este repositório GitHub é a **fonte principal de verdade para o projeto**, incluindo código, requisitos, escopo, decisões, governança e documentação técnica. Consulte o README e os documentos em `docs/` antes de implementar mudanças, especialmente requisitos, escopo, trilhas e Decision Log.
 
-## 1.1. GitHub principal; Notion complementar — DEC-026
-- **GitHub é a fonte principal de verdade do Privilege** para código, decisões canônicas, requisitos, arquitetura, documentação e histórico. Não transferir o registro canônico para o Notion.
-- **Notion substitui somente o ClickUp** como **relatório executivo de andamento para Matheus**, conforme DEC-026 e esclarecimento de Marina em 2026-10-31. Não é backlog técnico, espelho do repositório ou centro documental.
-- **ChatGPT/PM** cadastra e atribui **somente entregas/marcos de alto nível** no Notion a **Marina ou Claude Code**; acompanha cronograma, resultados, prazos, bloqueios e pontos que demandem atenção de Matheus. Tarefas técnicas granulares e evidências completas permanecem no GitHub.
-- **Claude Code, executor técnico, atualiza somente as entregas macro atribuídas a ele no Notion**, após receber acesso à integração: situação geral, previsão fundamentada, avanço relevante e bloqueios com impacto. Não publicar cada issue, PR, commit, teste, bug, decisão ou detalhe de arquitetura. Atualizar para Em andamento ao iniciar o marco, Em validação quando entregar para aceite, Bloqueado quando houver impedimento e Concluído apenas após validação aplicável. Manter os detalhes e evidências no GitHub.
-- **Sem acesso ao Notion**, não alegar que atualizou: informar limitação ao PM/Marina e solicitar configuração de integração antes de prometer sincronização automática.
-- Os registros Markdown de decisões continuam exclusivos do responsável (docs/08 para Marina; docs/09 para Matheus), com índice docs/04. Notion pode referenciar links ou IDs, sem reproduzir fichas completas.
-- Ver `docs/11-estrutura-notion.md` para o relatório executivo, critério de inclusão, campos enxutos, acesso e implantação. A adoção está decidida, mas o workspace ainda necessita conexão/configuração.
+## 1.1. GitHub é o registro integral; Notion é somente relatório derivado — DEC-026
+- **GitHub é a fonte ÚNICA, oficial e COMPLETA de tudo sobre o Privilege:** **todas** as tarefas, marcos (inclusive executivos), responsabilidades, status, prazos, dependências, aprovações, bloqueios, requisitos, decisões canônicas, histórico, arquitetura, código, testes, documentação e evidências. Não retirar nem omitir dados do GitHub porque aparecem no Notion.
+- **Notion substitui apenas a antiga função de apresentação executiva pensada para o ClickUp:** uma visão resumida do andamento para Matheus, **estritamente derivada de informações que já estão no GitHub**. Não é backlog original, repositório de documentação, fonte paralela nem lugar para armazenar progresso exclusivo.
+- **ChatGPT/PM** registra e atribui no GitHub as tarefas a Marina ou Claude Code, mantém roadmap e andamento e consolida **também no GitHub** o relatório executivo canônico `docs/12-relatorio-executivo.md`. A apresentação no Notion exibe apenas os destaques do relatório e links de apoio.
+- **Claude Code, executor técnico, atualiza PRIMEIRO o GitHub**: status das próprias tarefas, previsões fundamentadas, impedimentos, PRs/commits, testes e critérios de aceite. Quando um marco de Claude estiver representado no relatório Notion, ele pode **refletir** o status executivo ali somente se a informação já estiver registrada e verificável no GitHub, após integração autorizada. Nenhuma alteração no Notion substitui um registro oficial do GitHub.
+- **Atualizações de conclusão:** não declarar Concluído sem registro de aceite/evidência correspondente no GitHub. Em andamento, Em validação e Bloqueado exigem atualização oficial primeiro.
+- **Divergência GitHub × Notion:** GitHub prevalece; corrigir o Notion com base na informação oficial. Nunca usar status isolado do Notion para alterar decisões ou planejar/aceitar entregas.
+- **Sem acesso ao Notion**, não alegar que foi atualizado; comunicar impedimento ao PM/Marina. Adoção decidida, conexão e sincronização não confirmadas.
+- Fichas completas de decisão pertencem apenas a seu arquivo Markdown único (docs/08 para Marina; docs/09 para Matheus); `docs/04-decision-log.md` é índice. A apresentação no Notion pode mostrar IDs de pendências relevantes, com links e sem duplicação integral.
+- Ver `docs/11-estrutura-notion.md` para o formato executivo e `docs/12-relatorio-executivo.md` para o conteúdo oficial a resumir.
 
 ## 2. Papéis e autoridade
 - **Matheus — patrocinador:** decide/aprova os itens atribuídos expressamente a ele por Marina, inclusive respostas provisórias de Marina que exijam a validação dele. Não atribuir automaticamente a ele todo tema comercial, pedagógico ou estratégico.
