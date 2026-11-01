@@ -111,6 +111,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-043 | E-mail financeiro separado do login do aluno; e-mail exclusivo da criança gerido pelos pais | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; custos e segurança pendentes) | Marina |
 
+| DEC-044 | Página inicial personalizada com progresso, retomada e divulgação de cursos adicionais sem acesso | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e proteção de menores pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
