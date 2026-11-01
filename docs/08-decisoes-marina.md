@@ -150,6 +150,14 @@
 - **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
 - **Decisão:** Nos exercícios opcionais em cards, após erro ocultar gabarito e oferecer 'Tentar novamente' ou 'Ver resposta e explicação'. Tentativas adicionais são ilimitadas, sem obrigar revelação; registrar histórico. Gabarito e explicação devem estar pré-aprovados e armazenados, sem IA em tempo real. Acerto posterior retira a pendência e marca questão como concluída; visualização da resposta não é acerto. Manter avaliações obrigatórias em fluxo separado, com regras próprias de tentativas.
 
+
+### DEC-032 — Orçamento por funcionalidade e aprovação explícita dos custos
+- **Data:** 2026-10-31.
+- **Responsável e aprovação:** Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
+- **Decisão:** Toda decisão proposta, inclusive visual ou comercial, deve receber análise proporcional dos impactos financeiros imediatos e futuros antes da aprovação: implantação/desenvolvimento, custo mensal fixo em repouso, custos variáveis por uso de alunos e custos variáveis administrativos, com gatilhos, premissas, horizonte, cenários de escala, alternativas seguras e confiáveis e incertezas. Custos precisam de aprovação explícita de Marina, separada da aprovação funcional; custos não estimados permanecem pendentes, nunca presumidos como R$0. Registrar as estimativas e seus ajustes no GitHub com ID da funcionalidade/decisão, origem, versão, data e autorização; somente funcionalidades E custos aprovados entram no painel executivo Notion, como cópia resumida derivada do GitHub, sem substituir nenhum registro. Para não distorcer totais, distinguir aprovado, implementado e em produção, e estimado versus efetivamente medido. Consolidar mensalidade fixa compartilhada uma única vez e alocar custos compartilhados sem dupla contagem; calcular custo mensal estimado total no cenário de alunos ativos e custo por aluno ativo como total dividido pelo número de ativos, evitando tratar indevidamente custos fixos como variáveis por usuário. Priorizar minimização do custo variável provocado pelos alunos, com aprovação prévia de Marina para qualquer novo custo desse tipo (inclusive pequeno).
+- **Painel executivo Notion:** https://app.notion.com/p/0a5db82ea71547e8bf354d7a6a2d4ae8 (atualmente sem valores até aprovação).
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
