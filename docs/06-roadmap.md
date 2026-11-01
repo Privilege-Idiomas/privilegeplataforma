@@ -10,6 +10,18 @@
 - Itens não validados devem permanecer identificados como pendentes.
 - **Todo o roadmap, todas as tarefas (técnicas e executivas), status, responsáveis, estimativas, prazos, dependências e decisões ficam no GitHub** como fonte única de verdade. O Notion apresenta **somente um relatório executivo derivado** dos marcos e entregas relevantes já registrados no GitHub.
 
+## Sequência de planejamento aprovada — DEC-035
+
+**Marina definiu que não se deve dividir o produto entre MVP e versões finais enquanto o escopo integral, a stack e o comparativo de custos não estiverem concluídos.** A sequência obrigatória de gestão é:
+
+1. **Definir o produto completo:** documentar todas as funcionalidades desejadas, inclusive futuras, requisitos, regras de negócio, segurança, dados, experiências de alunos/professores/administração, integrações e pendências de validação. Não selecionar ainda o subconjunto do MVP.
+2. **Definir a stack completa:** escolher arquitetura e fornecedores compatíveis com todo o produto, com atenção a segurança, confiabilidade, evolução e escalabilidade. Escolha formal sujeita à aprovação pertinente.
+3. **Comparar e estimar custos:** para cada componente/funcionalidade, calcular ou sinalizar incertezas de produção, mínimo mensal fixo, variável por aluno, variável administrativo, cenários de escala e alternativas. Manter toda análise no GitHub. Nenhum custo indefinido se torna R$0.
+4. **Aprovar custos e separar entregas por versão:** Marina decide, com o comparativo em mãos, o que será primeira versão e o que ficará para versões posteriores; então definir prioridades, cronograma realista e orçamento.
+5. **Auditar e autorizar execução:** antes de enviar pacotes ao Claude, aplicar DEC-029 e gates financeiros da DEC-032; registrar a decisão e suas aprovações no GitHub. Notion mostra somente relatórios derivados.
+
+**Durante a descoberta do escopo:** cada decisão funcional ainda deve ter mapeados seus possíveis gatilhos de custo, sem necessidade de inventar estimativas monetárias antes da stack. A análise financeira consolidada ocorre na fase 3; aprovação financeira é independente da funcional e precede execução e contratação. Fases abaixo são referências de execução **posteriores à fase de definição**, não autorização para iniciar implementação agora.
+
 ## Fases propostas
 
 | Fase | Atividades principais | Saída esperada |
