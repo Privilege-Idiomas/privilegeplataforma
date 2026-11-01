@@ -46,7 +46,7 @@
 - **DEC-027 / REQ-018:** biblioteca geral de exercícios com filtros por curso, módulo, aula e dificuldade.
 - **DEC-028 / REQ-019:** listas de revisão por módulo integrando conteúdos das aulas de cada módulo.
 - **Regra de autorização já definida por Marina (DEC-027):** exercícios herdam acesso do curso ao qual pertencem; nunca permitir prática de um curso não contratado, inclusive pela biblioteca e revisões de módulos.
-- **Apresentação definida por Marina:** exercícios não contratados **visíveis como bloqueados**, com convite para conhecer planos de maior acesso (DEC-027), sem exposição de enunciados/respostas ou liberação de prática.
+- **Apresentação definida por Marina (DEC-027):** somente **indicadores agrupados de exercícios adicionais em cursos bloqueados** devem ficar visíveis, com convite para conhecer planos mais abrangentes. **Não listar individualmente exercícios de cursos não contratados**, nem expor enunciados/respostas ou permitir prática.
 - **Dependências antes de estimar/programar:** quantidade de exercícios, estrutura de metadados/dificuldade, criação das listas, modelo de upgrade e ofertas comerciais reais (a definir), além dos detalhes da experiência de prática.
 - **Controle de escopo:** são definições de produto aprovadas por Marina, **não** compromisso automático de inclusão no MVP nem extensão aprovada do prazo de 30 dias. Registrar estimativas, prioridades e tarefas no GitHub antes de assumir cronograma.
 
