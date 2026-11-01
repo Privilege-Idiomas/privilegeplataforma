@@ -20,7 +20,7 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 
 ## Ferramentas e fontes de verdade
 - **GitHub:** código, documentação técnica e histórico de decisões.
-- **ClickUp:** tarefas, responsáveis, prazos, prioridades e acompanhamento da execução.
+- **Notion:** fonte central de gestão do projeto: tarefas, responsáveis, prazos, prioridades, decisões (índice e visualizações), riscos e acompanhamento da execução. A migração foi decidida por Marina em 2026-10-31 (DEC-026); a estrutura deverá ser implementada após conexão ao workspace.
 - **Claude Code:** apoio técnico à implementação, conforme os requisitos e decisões registrados.
 
 ## Documentação
@@ -32,6 +32,11 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - [Roadmap Preliminar](docs/06-roadmap.md)
 - [Trilhas de Aprendizagem](docs/07-learning-paths.md)
 - [Orientações para Claude Code](CLAUDE.md)
+- [Estrutura de implantação no Notion](docs/11-estrutura-notion.md)
+
+## Separação de fontes de verdade
+- **Notion:** operação, visibilidade e gestão de projeto; um único banco de decisões com filtros por responsável, sem registros duplicados.
+- **GitHub:** código, arquitetura, histórico técnico e arquivos Markdown canônicos de decisões existentes, preservados até eventual migração documental formal. O Notion deve referenciar os registros canônicos em vez de copiá-los integralmente.
 
 ## Regra de governança
 Não tratar propostas ou hipóteses como requisitos aprovados. Decisões de negócio, orçamento e escopo precisam de aprovação do patrocinador e devem ser registradas no Decision Log.
