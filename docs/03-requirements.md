@@ -1,8 +1,8 @@
 # Requisitos do Produto — Plataforma Privilège
 
-**Versão:** 0.1  
-**Status:** Baseline inicial em elaboração; aprovação do patrocinador pendente  
-**Última atualização:** 2026-10-30
+**Versão:** 0.2  
+**Status:** Baseline inicial em elaboração; aprovação formal do patrocinador pendente  
+**Última atualização:** 2026-10-31
 
 ## 1. Convenções
 - **Confirmado pela responsável:** definição informada por Marina; ainda sujeita à aprovação formal do patrocinador.
@@ -11,11 +11,11 @@
 
 Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A prioridade deverá ser validada no backlog.
 
-## 2. Público e acesso
+## 2. Público, conta e acesso
 
 ### REQ-001 — Atender alunos atuais e novos alunos
 - **Status:** Confirmado pela responsável; aprovação do patrocinador pendente.
-- **Descrição:** a plataforma deverá atender alunos que já estudam na Privilège e novos alunos que contratarem cursos online.
+- **Descrição:** atender alunos que já estudam na Privilège e novos alunos que contratarem cursos online.
 - **Critério de aceitação preliminar:** ambos os públicos conseguem utilizar a plataforma conforme suas regras de acesso.
 - **Pendente:** processo de cadastro/migração dos alunos atuais e jornada de aquisição dos novos alunos.
 
@@ -25,67 +25,110 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Critério de aceitação preliminar:** credenciais válidas permitem acesso; credenciais inválidas não permitem acesso.
 - **Pendente:** método de autenticação, recuperação de senha e eventual login social.
 
-## 3. Assinaturas e acesso comercial
+## 3. Assinaturas e direitos de acesso
 
-### REQ-003 — Contratação por assinatura recorrente
-- **Status:** Confirmado pela responsável; aprovação do patrocinador pendente.
-- **Descrição:** o modelo de contratação dos cursos será baseado em assinatura recorrente.
-- **Critério de aceitação preliminar:** aluno consegue contratar uma assinatura e visualizar sua situação.
-- **Pendente:** periodicidade, planos, preços, gateway, meios de pagamento, renovação, cancelamento, reembolso e inadimplência.
+### REQ-003 — Assinatura recorrente com modalidades flexíveis de acesso
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** suportar assinaturas recorrentes que concedam acesso ao catálogo completo ou a cursos específicos.
+- **Critério de aceitação preliminar:** a estrutura de planos/assinaturas permite configurar ambos os modelos sem reconstrução da lógica de autorização.
+- **Pendente:** planos, preços, periodicidade, benefícios, gateway, meios de pagamento, renovação, cancelamento, reembolso e inadimplência.
 
-### REQ-004 — Controle de acesso conforme contratação
+### REQ-004 — Controle de acesso conforme direitos contratados
 - **Status:** Proposto.
-- **Descrição:** o sistema deverá disponibilizar conteúdos conforme o direito de acesso do aluno.
-- **Critério de aceitação preliminar:** usuário sem direito de acesso não consegue consumir conteúdo restrito.
-- **Pendente:** relação entre assinatura, catálogo, cursos e estados de pagamento.
+- **Descrição:** disponibilizar cursos e serviços conforme os direitos ativos do aluno.
+- **Critério de aceitação preliminar:** aluno acessa conteúdos incluídos em sua assinatura e não acessa conteúdos/serviços não contratados.
+- **Pendente:** relação entre assinatura, catálogo, cursos, serviços adicionais e estados de pagamento.
 
-## 4. Conteúdo e administração
+## 4. Catálogo, nivelamento e trilhas
 
-### REQ-005 — Administração de cursos e aulas restrita à equipe administrativa
-- **Status:** Confirmado pela responsável; aprovação do patrocinador pendente.
+### REQ-005 — Catálogo inicial de três cursos
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** o catálogo inicial terá os cursos Basic English, Travel e Business.
+- **Critério de aceitação preliminar:** os três cursos podem ser apresentados e acessados conforme direitos do aluno.
+- **Pendente:** ementa, módulos, aulas, pré-requisitos e conteúdo final de cada curso.
+
+### REQ-006 — Teste de nivelamento
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** permitir que o aluno realize um teste de nivelamento como uma das formas de iniciar sua jornada.
+- **Critério de aceitação preliminar:** aluno consegue realizar o teste e receber o resultado/encaminhamento definido pelo produto.
+- **Pendente:** estrutura do teste, faixas de nível, pontuação, recomendação automática e se o teste será obrigatório ou opcional.
+
+### REQ-007 — Início por diferentes portas de entrada
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** permitir que o aluno escolha entre:
+  1. realizar o teste de nivelamento;
+  2. começar pela base, seguindo Basic English e depois Travel ou Business;
+  3. entrar diretamente em Travel ou Business.
+- **Critério de aceitação preliminar:** a plataforma apresenta e suporta essas opções de entrada, respeitando os direitos de acesso do aluno.
+- **Pendente:** regras de recomendação, orientação ao aluno e eventuais pré-requisitos comerciais/pedagógicos.
+
+### REQ-008 — Trilhas por objetivo usando cursos compartilhados
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** permitir criar trilhas de aprendizagem associadas a objetivos. As trilhas reutilizam os mesmos cursos (Basic English, Travel e Business), mas podem variar a sequência e a prioridade desses cursos.
+- **Critério de aceitação preliminar:** uma trilha pode referenciar cursos existentes e definir sua ordem/prioridade sem duplicar o conteúdo dos cursos.
+- **Pendente:** objetivos oferecidos, sequências de cada trilha, possibilidade de personalização e regras para mudança de trilha.
+- **Nota de modelagem:** trilha e curso devem ser entidades conceitualmente distintas; uma trilha organiza referências aos cursos, não cria cópias dos cursos.
+
+## 5. Conteúdo e administração
+
+### REQ-009 — Administração de cursos e aulas restrita à equipe administrativa
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
 - **Descrição:** somente integrantes autorizados da equipe administrativa poderão cadastrar e administrar cursos e aulas.
 - **Critério de aceitação preliminar:** aluno não possui acesso às funções administrativas; usuário administrativo autorizado consegue gerenciar conteúdo.
 - **Pendente:** definição de perfis, permissões e fluxo de publicação/revisão.
 
-### REQ-006 — Organização de cursos em módulos e aulas
+### REQ-010 — Organização de cursos em módulos e aulas
 - **Status:** Proposto.
-- **Descrição:** permitir organizar o conteúdo educacional em cursos, módulos e aulas.
+- **Descrição:** organizar conteúdo em cursos, módulos e aulas.
 - **Critério de aceitação preliminar:** aluno consegue navegar pela estrutura do curso ao qual tem acesso.
 - **Pendente:** campos obrigatórios, ordenação, pré-requisitos e publicação.
 
-### REQ-007 — Disponibilização de aulas em vídeo
+### REQ-011 — Disponibilização de aulas em vídeo
 - **Status:** Proposto.
 - **Descrição:** disponibilizar vídeos como parte das aulas.
 - **Critério de aceitação preliminar:** aluno autorizado consegue reproduzir o vídeo da aula.
-- **Pendente:** provedor de hospedagem, proteção de conteúdo, qualidade, legendas e requisitos de acessibilidade.
+- **Pendente:** provedor de hospedagem, proteção de conteúdo, qualidade, legendas e acessibilidade.
 
-## 5. Exercícios, avaliações e progresso
+## 6. Exercícios, avaliações e progresso
 
-### REQ-008 — Exercícios associados às aulas
-- **Status:** Confirmado pela responsável; aprovação do patrocinador pendente.
-- **Descrição:** as aulas deverão ter exercícios associados.
-- **Critério de aceitação preliminar:** o aluno consegue acessar e responder aos exercícios vinculados à aula.
-- **Pendente:** tipos de questão, correção automática/manual, tentativas, feedback e obrigatoriedade.
+### REQ-012 — Exercícios associados às aulas
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** as aulas terão exercícios associados.
+- **Critério de aceitação preliminar:** aluno consegue acessar e responder aos exercícios vinculados à aula.
+- **Pendente:** tipos de questão, correção automática/manual, feedback e quais exercícios são obrigatórios.
 
-### REQ-009 — Avaliações associadas às aulas
-- **Status:** Confirmado pela responsável; aprovação do patrocinador pendente.
-- **Descrição:** as aulas deverão ter avaliações associadas.
-- **Critério de aceitação preliminar:** o aluno consegue realizar a avaliação vinculada à aula e visualizar o resultado permitido pelas regras do produto.
-- **Pendente:** diferença entre exercício e avaliação, pontuação, nota mínima, tentativas, aprovação, feedback e eventual certificado.
+### REQ-013 — Avaliações com nota mínima e uma tentativa adicional
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** as avaliações associadas às aulas terão uma nota mínima de aprovação. Se o aluno não atingir a nota mínima na primeira tentativa, poderá realizar exatamente mais uma tentativa.
+- **Critério de aceitação preliminar:** o sistema registra a nota; identifica aprovação ou não aprovação conforme o limite configurado; permite no máximo duas tentativas por avaliação (uma inicial e uma adicional).
+- **Pendente:** valor da nota mínima, escala de pontuação, se a segunda tentativa será liberada imediatamente ou após revisão, e regras para exceções/retentativas administrativas.
 
-### REQ-010 — Registro de progresso
+### REQ-014 — Orientação após duas tentativas sem aprovação
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** se o aluno não atingir a nota mínima após as duas tentativas, exibir uma mensagem de orientação recomendando plantão de dúvidas ou aula particular.
+- **Critério de aceitação preliminar:** após a segunda tentativa insuficiente, a plataforma exibe orientação contextual sobre as opções de apoio.
+- **Regra comercial:** se o aluno estiver em plano básico com acesso somente à plataforma, a mensagem deverá explicar que o plantão/aula particular depende de contratar um plano que inclua esses serviços ou uma opção avulsa, caso essa modalidade seja aprovada.
+- **Pendente:** conteúdo da mensagem, disponibilidade e contratação dos serviços, preço, agenda e distinção entre benefícios incluídos e adicionais.
+
+### REQ-015 — Desbloqueio sequencial de aulas dentro do curso
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** o aluno deverá concluir uma aula para desbloquear a próxima aula do mesmo curso.
+- **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até a conclusão da aula anterior; ao concluir, a próxima aula da sequência é liberada.
+- **Pendente:** definição exata de conclusão da aula e se a aprovação na avaliação é requisito obrigatório para considerar a aula concluída.
+
+### REQ-016 — Registro de progresso
 - **Status:** Proposto.
-- **Descrição:** registrar o progresso do aluno no curso.
-- **Critério de aceitação preliminar:** o aluno consegue identificar aulas concluídas e seu avanço no curso.
-- **Pendente:** definição de conclusão de aula, persistência de respostas e relação com avaliações.
+- **Descrição:** registrar o avanço do aluno em cada curso e trilha.
+- **Critério de aceitação preliminar:** aluno consegue identificar aulas concluídas, próxima aula disponível e avanço geral.
+- **Pendente:** cálculo percentual, retomada de vídeo, persistência de atividades e visualização de progresso entre cursos/trilhas.
 
-## 6. Requisitos transversais a detalhar
-- Segurança e controle de acesso por perfil.
+## 7. Requisitos transversais a detalhar
+- Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
 - Responsividade para desktop e dispositivos móveis.
 - Desempenho e disponibilidade.
 - Acessibilidade e legibilidade dos conteúdos.
 - Registro de erros e monitoramento sem exposição de dados sensíveis.
 
-## 7. Próxima etapa
-Transformar os requisitos em histórias de usuário, critérios de aceitação verificáveis e tarefas no ClickUp após validação das regras em aberto.
+## 8. Próxima etapa
+Transformar os requisitos em histórias de usuário, critérios de aceitação verificáveis e tarefas no ClickUp após validar as regras pendentes com o patrocinador e a equipe pedagógica.
