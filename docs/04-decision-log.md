@@ -52,6 +52,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-029 | Auditoria antes da execução pelo Claude | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
 
+| DEC-030 | Preferência por operação sem tokens em tempo real e controle de custos variáveis | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
+| DEC-031 | Tentativas ilimitadas e revelação opcional na prática | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
+
 **Notion complementar (DEC-026):** não constitui migração da documentação ou das fichas de decisão. O GitHub é a fonte de verdade única para **todas** as informações do projeto, inclusive tarefas, status, cronograma, marcos e fichas completas de decisões (em arquivo Markdown do responsável, mais o índice geral). No Notion, exibir apenas um resumo executivo **extraído de registros já existentes no GitHub** (marcos, status, cronograma, próximos passos e impedimentos relevantes para Matheus), com links pontuais, sem cópias de fichas completas ou tarefas técnicas granulares. Itens de titularidade legada ambígua continuam para saneamento, sem novas atribuições presumidas.
 
 
@@ -63,6 +66,19 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 
 - **Complemento — autonomia explícita por tarefa (2026-10-31):** Antes de repassar uma tarefa ao Claude, a PM confere todas as decisões, requisitos, aprovações e pendências aplicáveis no GitHub, sem presumir respostas. Itens relevantes em REVISAR ou SEM RESPOSTA bloqueiam a parte dependente, até Marina esclarecer. A PM prepara escopo, critérios de aceitação, referências e checklist e recebe autorização de Marina para o pacote. EXCEÇÃO: Marina pode delegar explicitamente autonomia para uma tarefa específica e delimitar os aspectos abertos que podem ser decididos pela PM/Claude conforme boas práticas, priorizando baixo custo, alta segurança e coerência com decisões já aprovadas. Autonomia não é geral, não revoga requisitos aprovados, nem autoriza publicar em produção. Registrar escopo da delegação, escolhas e justificativas no GitHub; se surgir conflito ou risco relevante fora da autorização, voltar a Marina. Toda publicação continua exigindo revisão e aprovação prévia.
+
+
+## DEC-030 — Custos de uso e IA em produção (2026-10-31)
+- **Decisora:** Marina; comunicado por Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
+- **Regra:** A arquitetura deve priorizar conteúdos, gabaritos, explicações e regras preparados e armazenados antecipadamente para servir os alunos sem chamadas de IA ou consumo de tokens por interação. Toda proposta de recurso com IA em tempo real, tokens, API paga por uso ou outro custo variável relevante exige sinalização prévia à Marina com finalidade, alternativas sem IA, estimativa de custo por uso e em escala, limites e medidas de controle; só poderá ser executada após aprovação explícita específica. Isso não significa custo operacional zero: tráfego, armazenamento, banco e infraestrutura também escalam e devem ser monitorados. Otimizar custo sem sacrificar segurança e qualidade.
+- **Registro canônico:** [Decisões da Marina](08-decisoes-marina.md).
+
+## DEC-031 — Tentativas e revelação em exercícios de prática (2026-10-31)
+- **Decisora:** Marina; comunicado por Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
+- **Regra:** Nos exercícios opcionais em cards, após erro ocultar gabarito e oferecer 'Tentar novamente' ou 'Ver resposta e explicação'. Tentativas adicionais são ilimitadas, sem obrigar revelação; registrar histórico. Gabarito e explicação devem estar pré-aprovados e armazenados, sem IA em tempo real. Acerto posterior retira a pendência e marca questão como concluída; visualização da resposta não é acerto. Manter avaliações obrigatórias em fluxo separado, com regras próprias de tentativas.
+- **Registro canônico:** [Decisões da Marina](08-decisoes-marina.md).
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
