@@ -45,31 +45,9 @@
 - **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
 - **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
 
-### DEC-025 — Obrigatoriedade dos exercícios de prática antes da avaliação (MAT-013)
-- **Responsável único:** Matheus, conforme atribuição expressa de Marina em 2026-10-31.
-- **Arquivo canônico:** `docs/09-decisoes-matheus.md`. MAT-013 é o identificador da pauta da mesma decisão, não uma segunda decisão.
-- **Data de abertura:** 2026-10-31.
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória comunicada por Marina em 2026-10-31; confirmação final de Matheus pendente.
-- **Tema/pergunta:** os exercícios de prática da aula serão obrigatórios antes de realizar a avaliação, ou o aluno poderá ir diretamente para a avaliação?
-- **Contexto:** já foi informado que a próxima aula depende de concluir os componentes obrigatórios e ser aprovado na avaliação (REQ-015). Falta decidir se os exercícios de prática estão entre esses componentes e como o acesso à avaliação funcionará.
-- **Fonte da resposta e das futuras confirmações:** Marina.
-- **Autora da resposta provisória:** Marina.
-- **Resposta provisória (2026-10-31):** "os exercícios serão obrigatórios a princípio". Considerando a pergunta apresentada, a orientação inicial é exigir os exercícios de prática antes da avaliação, em vez de permitir que o aluno vá diretamente à avaliação sem fazê-los. A formulação é provisória e depende da revisão com Matheus.
-- **Responsável pela confirmação final:** Matheus, cuja confirmação será comunicada por Marina.
-- **Alternativas consideradas:** (1) exercícios de prática obrigatórios antes da avaliação; (2) permitir acesso direto à avaliação sem realizar os exercícios de prática.
-- **Alternativa selecionada provisoriamente por Marina:** (1), exercícios obrigatórios a princípio.
-- **Alternativa não selecionada nesta etapa:** (2); justificativa do descarte não informada, não tratá-la como rejeição definitiva de Matheus.
-- **Justificativa da escolha:** não informada além da orientação provisória; não presumir razão pedagógica.
-- **Aprovação final e data:** Matheus ainda não confirmou. Marina comunicará confirmação ou mudança.
-- **Execução e validação:** não informadas; registro de resposta não é autorização de implementação nem evidência de execução.
-- **Histórico de status:** criada como **SEM RESPOSTA** em 2026-10-31, antes de Marina responder; na mesma data Marina indicou que os exercícios serão obrigatórios a princípio e o registro passou a **REVISAR**. Manter as duas etapas preservadas.
-- **Próxima transição:** somente após Marina comunicar a revisão/validação com Matheus; registrar a escolha final, motivos conhecidos e data. Caso haja mudança, preservar a resposta anterior e vinculá-la à alteração.
-- **Relações:** REQ-012 e REQ-015; item MAT-008 foi delimitado para não duplicar esta decisão.
-- **Pendências:** confirmação de Matheus comunicada por Marina; detalhar a implementação exata do bloqueio e quais exercícios concretos são necessários, sem presumir essas regras adicionais.
-
 ## Pauta histórica de decisões classificadas para Matheus
 
-**Revisão de titularidade:** os itens abaixo são classificações históricas, ainda sujeitas à confirmação de Marina. A inclusão antiga não prova a responsabilidade de Matheus. A DEC-024 é a atribuição explícita já destacada acima.
+**Revisão de titularidade:** os itens abaixo são classificações históricas, ainda sujeitas à confirmação de Marina. A inclusão antiga não prova a responsabilidade de Matheus. A DEC-024 é a atribuição explícita de Matheus destacada acima. A antiga MAT-013 / DEC-025 foi **transferida por decisão expressa de Marina para o arquivo dela**; o conteúdo histórico não se perde (consultar DEC-025 na lista de Marina e Git).
 
 ### MAT-001 — Aprovação da baseline do produto e do público inicial
 - **Pergunta:** Matheus aprova o lançamento voltado tanto a alunos atuais quanto a novos alunos?
@@ -110,7 +88,7 @@
 
 ### MAT-008 — Política pedagógica de avaliação e recuperação
 - **Perguntas:** quais tipos de questão serão usados? Como ocorrerão a correção e o feedback? Haverá exceções ou retentativas administrativas além das duas tentativas padrão?
-- **Desdobramento para evitar sobreposição:** a obrigatoriedade dos exercícios de prática recebeu decisão própria DEC-025 (pauta MAT-013), explicitamente atribuída por Marina a Matheus em 2026-10-31; o conteúdo deste item permanece restrito às outras regras de avaliação. Não registrar a resposta sobre exercícios também aqui.
+- **Separação de assuntos:** a obrigatoriedade dos exercícios de prática é tratada apenas pela DEC-025, **transferida por Marina para sua própria responsabilidade em 2026-10-31 e resolvida como exercícios opcionais**. Não copiar a ficha nem a decisão para esta pauta; esta trata exclusivamente de tipos de questão, correção, feedback e exceções de avaliação.
 - **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Parcialmente definido; detalhamento pedagógico pendente.
 - **Definição já registrada:** uma tentativa inicial e uma tentativa adicional; a segunda ocorre após revisão de um resumo escrito da aula, sem exigir assistir novamente ao vídeo.
 - **Origem:** DEC-017, DEC-021 e DEC-023; REQ-012, REQ-013 e REQ-017.
@@ -145,4 +123,4 @@ Adicionar novos itens no formato:
 - **Impactos e documentos/requisitos afetados:**
 
 ## Histórico
-A DEC-024 tem resposta provisória da Marina e requer confirmação final de Matheus: **REVISAR não equivale a aprovação**. As antigas atribuições desta pauta não são automaticamente confirmadas pela presença aqui; Marina é a fonte da classificação e das respostas.
+A antiga MAT-013 / DEC-025 foi retirada da pauta porque Marina reassumiu essa decisão e a resolveu, passando seu registro canônico para `docs/08-decisoes-marina.md`; não se trata de validação por Matheus. A versão anterior permanece no Git. A DEC-024 tem resposta provisória da Marina e requer confirmação final de Matheus: **REVISAR não equivale a aprovação**. As antigas atribuições desta pauta não são automaticamente confirmadas pela presença aqui; Marina é a fonte da classificação e das respostas.
