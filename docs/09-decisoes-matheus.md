@@ -45,6 +45,22 @@
 - **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
 - **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
 
+### DEC-025 — Obrigatoriedade dos exercícios de prática antes da avaliação (MAT-013)
+- **Responsável único:** Matheus, conforme atribuição expressa de Marina em 2026-10-31.
+- **Arquivo canônico:** `docs/09-decisoes-matheus.md`. MAT-013 é o identificador da pauta da mesma decisão, não uma segunda decisão.
+- **Data de abertura:** 2026-10-31.
+- **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — Marina informou que responderá provisoriamente e confirmará com Matheus depois; a resposta ainda não foi comunicada.
+- **Tema/pergunta:** os exercícios de prática da aula serão obrigatórios antes de realizar a avaliação, ou o aluno poderá ir diretamente para a avaliação?
+- **Contexto:** já foi informado que a próxima aula depende de concluir os componentes obrigatórios e ser aprovado na avaliação (REQ-015). Falta decidir se os exercícios de prática estão entre esses componentes e como o acesso à avaliação funcionará.
+- **Fonte das respostas:** Marina.
+- **Autor da futura resposta provisória:** Marina; ainda não informada.
+- **Responsável pela confirmação final:** Matheus, cuja confirmação será comunicada por Marina.
+- **Alternativas discutidas:** obrigatoriedade dos exercícios de prática antes da avaliação versus acesso direto à avaliação; ainda não há escolha registrada. Nenhuma das alternativas foi aprovada ou rejeitada.
+- **Justificativa, data de aprovação e implementação:** não informadas; aprovação e execução não presumidas.
+- **Transição de status:** quando Marina responder, registrar exatamente a opção e a justificativa informadas e mudar para **REVISAR**, até que comunique a confirmação ou alteração por Matheus. Preservar o histórico da resposta provisória.
+- **Relações:** REQ-012 e REQ-015; item MAT-008 foi delimitado para não duplicar esta decisão.
+- **Próxima ação:** solicitar a resposta provisória de Marina e, posteriormente, sua comunicação sobre a validação de Matheus.
+
 ## Pauta histórica de decisões classificadas para Matheus
 
 **Revisão de titularidade:** os itens abaixo são classificações históricas, ainda sujeitas à confirmação de Marina. A inclusão antiga não prova a responsabilidade de Matheus. A DEC-024 é a atribuição explícita já destacada acima.
@@ -87,7 +103,8 @@
 - **Origem:** DEC-019; REQ-013 e REQ-015.
 
 ### MAT-008 — Política pedagógica de avaliação e recuperação
-- **Perguntas:** quais tipos de questão serão usados? Como ocorrerá a correção e o feedback? Haverá exceções ou retentativas administrativas além das duas tentativas padrão? Quais exercícios serão obrigatórios?
+- **Perguntas:** quais tipos de questão serão usados? Como ocorrerão a correção e o feedback? Haverá exceções ou retentativas administrativas além das duas tentativas padrão?
+- **Desdobramento para evitar sobreposição:** a obrigatoriedade dos exercícios de prática recebeu decisão própria DEC-025 (pauta MAT-013), explicitamente atribuída por Marina a Matheus em 2026-10-31; o conteúdo deste item permanece restrito às outras regras de avaliação. Não registrar a resposta sobre exercícios também aqui.
 - **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Parcialmente definido; detalhamento pedagógico pendente.
 - **Definição já registrada:** uma tentativa inicial e uma tentativa adicional; a segunda ocorre após revisão de um resumo escrito da aula, sem exigir assistir novamente ao vídeo.
 - **Origem:** DEC-017, DEC-021 e DEC-023; REQ-012, REQ-013 e REQ-017.
