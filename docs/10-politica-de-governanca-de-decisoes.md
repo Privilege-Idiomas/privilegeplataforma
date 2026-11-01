@@ -192,7 +192,7 @@ Marina orientou que o assistente **faça as perguntas de produto normalmente, co
 - **Sem duplicações:** uma decisão sob responsabilidade final de Matheus não deve ser copiada para o arquivo de Marina, mesmo quando ela tiver dado a resposta provisória. O registro geral permanece como índice de todas as decisões.
 - **Ambiguidade real:** pedir esclarecimento apenas quando necessário para registrar corretamente o estado ou responsável; não tornar a classificação uma pergunta obrigatória para toda definição.
 
-**Aplicação:** DEC-025 (MAT-013), exercícios de prática antes da avaliação: Marina respondeu em 2026-10-31 que os exercícios serão **obrigatórios a princípio**, tendo sinalizado anteriormente revisão posterior com Matheus. Responsável único: Matheus; autora da resposta provisória e comunicadora: Marina; status **REVISAR**, aprovação final pendente. Registro canônico em `docs/09-decisoes-matheus.md` e referência no índice `docs/04-decision-log.md`.
+**Registro histórico da DEC-025:** inicialmente Marina respondeu provisoriamente que exercícios eram obrigatórios, atribuindo confirmação a Matheus (REVISAR). Depois Marina transferiu explicitamente a decisão para si e definiu exercícios opcionais e avaliação obrigatória, sem necessidade de confirmação de Matheus (RESOLVIDO). Registro canônico atual: `docs/08-decisoes-marina.md`; o registro anterior no arquivo de Matheus foi retirado sem apagar o histórico de Git.
 
 
 ## 15. GitHub integral e Notion exclusivamente executivo — esclarecimento de Marina (2026-10-31)
