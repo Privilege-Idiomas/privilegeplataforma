@@ -8,7 +8,7 @@
 - O roadmap representa fases e dependências, não uma promessa de entrega.
 - A meta de referência de 30 dias só poderá ser confirmada após aprovação do escopo e estimativa.
 - Itens não validados devem permanecer identificados como pendentes.
-- O backlog detalhado e os responsáveis por tarefas serão acompanhados no ClickUp.
+- O backlog detalhado e os responsáveis por tarefas serão acompanhados no Notion.
 
 ## Fases propostas
 
@@ -41,4 +41,4 @@
 - Disponibilidade de usuários para testes de aceitação.
 
 ## Planejamento detalhado
-As datas, durações, estimativas e dependências entre tarefas serão inseridas no ClickUp após decomposição do escopo e avaliação de capacidade. Não atribuir datas definitivas com base apenas na meta preliminar de 30 dias.
+As datas, durações, estimativas e dependências entre tarefas serão inseridas no Notion após decomposição do escopo e avaliação de capacidade. Não atribuir datas definitivas com base apenas na meta preliminar de 30 dias.
