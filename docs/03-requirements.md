@@ -101,7 +101,7 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
 - **Descrição:** as avaliações associadas às aulas terão uma nota mínima de aprovação. Se o aluno não atingir a nota mínima na primeira tentativa, poderá realizar exatamente mais uma tentativa.
 - **Critério de aceitação preliminar:** o sistema registra a nota; identifica aprovação ou não aprovação conforme o limite configurado; permite no máximo duas tentativas por avaliação (uma inicial e uma adicional).
-- **Regra definida:** a segunda tentativa será liberada depois que o aluno revisar o conteúdo da aula.
+- **Regra definida:** a segunda tentativa será liberada depois que o aluno revisar o conteúdo da aula por meio de um resumo escrito disponibilizado na própria aula. Não será necessário assistir novamente ao vídeo.
 - **Pendente:** valor da nota mínima e escala de pontuação; regras para exceções/retentativas administrativas.
 
 ### REQ-014 — Orientação após duas tentativas sem aprovação
@@ -117,6 +117,12 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
 - **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
 - **Pendente:** detalhar quais componentes são obrigatórios em cada aula e o valor/escala da nota mínima.
+
+### REQ-017 — Resumo escrito da aula para revisão
+- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Descrição:** disponibilizar um resumo escrito do conteúdo da aula para apoiar a revisão do aluno antes da segunda tentativa da avaliação.
+- **Critério de aceitação preliminar:** após uma primeira tentativa sem aprovação, o aluno consegue acessar o resumo escrito da aula e, após revisá-lo, realizar a segunda tentativa sem precisar assistir novamente ao vídeo.
+- **Pendente:** formato e extensão do resumo, autoria/produção, possibilidade de incluir imagens ou exemplos e se o material será obrigatório em todas as aulas.
 
 ### REQ-016 — Registro de progresso
 - **Status:** Proposto.
