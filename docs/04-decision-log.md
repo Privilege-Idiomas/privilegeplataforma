@@ -123,6 +123,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-049 | “Acessar curso” abre visão geral com módulos, aulas, progresso, retomada e revisão de aulas liberadas | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e execução pendentes) | Marina |
 
+| DEC-050 | Progresso percentual calculado por aulas concluídas com avaliação obrigatória aprovada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (critério/fórmula; detalhes, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
