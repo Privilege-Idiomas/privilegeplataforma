@@ -127,7 +127,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-051 | Curso com 100% real recebe status “Concluído” e mantém revisão enquanto acesso estiver vigente | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; certificados, exceções, custos e implementação pendentes) | Marina |
 
-| DEC-052 | Certificado digital de conclusão de curso Privilège após 100% real | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; formato, validação, custos e execução pendentes) | Marina |
+| DEC-052 | Certificado digital de conclusão de curso Privilège após 100% real | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; formato e canal definidos na DEC-053, validação/custos/execução pendentes) | Marina |
+
+| DEC-053 | Certificado em PDF para download em “Meus certificados”, sem envio automático por e-mail | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (formato/canal; validação, custos e implementação pendentes) | Marina |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
