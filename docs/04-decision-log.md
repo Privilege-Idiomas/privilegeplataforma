@@ -135,7 +135,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-055 | Código único no certificado e verificação pública de autenticidade mediante código | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (campos públicos definidos na DEC-056; menores, custos e implementação pendentes) | Marina |
 
-| DEC-056 | Verificação pública exibe autenticidade, curso, data de emissão e identificação parcialmente ocultada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (campos; máscara, proteção de menores, custos e implementação pendentes) | Marina |
+| DEC-056 | Verificação pública exibe autenticidade, curso, data de emissão e identificação parcialmente ocultada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (campos; máscara definida na DEC-057; menores, custos e implementação pendentes) | Marina |
+
+| DEC-057 | Identificação por iniciais do primeiro e último nome (ex.: M. S.) na validação pública de certificado | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (formato; exceções, menores, custos e implementação pendentes) | Marina |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
