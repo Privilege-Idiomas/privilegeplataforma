@@ -194,6 +194,14 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos potenciais ainda sem orçamento:** modelagem de dados, fluxo de compra, cobrança e comunicação, suporte e auditoria, taxa por transação (potencialmente mais operações porque não há checkout conjunto), infraestrutura fixa e custos variáveis por aluno e por administrador. Quantificar depois do escopo completo e da stack, antes de aprovar execução.
 - **Referências:** DEC-042, DEC-040, DEC-041, DEC-038, REQ-003/004/020/022.
 
+### REQ-024 — E-mails distintos por função e conta infantil gerida pelo responsável
+- **Status:** **APROVADO** por Marina (DEC-043) separar e-mail do pagador e e-mail do aluno quando forem pessoas diferentes; **PENDENTE de esclarecimento** a forma exata do login infantil gerido pelos pais. Não implementar sem orçamento aprovado.
+- **Descrição:** e-mail do pagador para cobranças, comprovantes e comunicação contratual; e-mail do aluno para ativação, login tradicional e recuperação da senha. Quando aluno e pagador forem a mesma pessoa, aceitar um único endereço para ambas as finalidades. Manter compra separada por aluno e contas acadêmicas individuais com direitos e progresso próprios.
+- **Crianças:** Marina solicitou recomendar que o login fique no nome/gestão dos pais. Não interpretar automaticamente como permissão para dois ou mais alunos compartilharem um mesmo e-mail identificador de login. **Pendente confirmar** se será um e-mail exclusivo por conta de aluno, administrado pelos pais, ou outro mecanismo a discutir. A conta acadêmica, nome completo e histórico sempre pertencem ao estudante; a identidade do pai/mãe não substitui o titular acadêmico.
+- **Critérios preliminares:** separar os destinatários financeiro e de autenticação quando diferentes; exigir verificação da titularidade/controle do endereço de login na ativação; proteger recuperação; evitar colisões de contas e exposição de dados, inclusive entre irmãos; controlar permissões no servidor; não criar área de pais; manter obrigações de proteção de menores sob avaliação jurídica.
+- **Custos potenciais a estimar depois de escopo e stack:** identificação e relacionamento de pagador/aluno, armazenamento de contatos, mensagens transacionais, verificação e recuperação de e-mail, suporte a casos de conta infantil. A quantidade de endereços não implica automaticamente duplicação de mensagens nem economia monetária.
+- **Referências:** DEC-043, DEC-039/040/041/042, REQ-002/020/022/023.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
