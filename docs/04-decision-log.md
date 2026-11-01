@@ -117,6 +117,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-046 | Página pública única por curso acessível sem login, da landing page ou da plataforma | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; orçamento, conteúdo e regras comerciais pendentes) | Marina |
 
+| DEC-047 | Página de curso → “Ver planos e preços” → contratação da oferta escolhida | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (sequência/CTA; preços, regras comerciais, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
