@@ -319,6 +319,18 @@
 - **Governança:** funcionalidade aprovada **não autoriza execução, aquisição de serviços, cronograma ou inclusion automática no MVP**; nenhuma informação inédita apenas no Notion. Atualizar requisitos no GitHub e aguardar autorização de tarefas (DEC-029).
 - **Relacionamentos:** DEC-027/029/030/032/035/040/041/042/044; REQ-003/004/020/025/026.
 
+### DEC-046 — Uma única página pública por curso, acessível sem login
+- **Data:** 2026-11-01. **Responsável e decisora funcional:** Marina. **Comunicado por:** Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** quanto ao caráter público e reutilizável da página de apresentação de cada curso. Layout, chamada de contratação, conteúdo editorial definitivo, custos e execução **PENDENTES**.
+- **Decisão expressamente aprovada:** a página informativa de curso prevista na DEC-045 será **a mesma página pública por curso**, acessível diretamente **sem login**, por links da **landing page** e pela ação **“Conhecer curso”** na plataforma do aluno. Permitir compartilhar o endereço para divulgação/campanhas, sem criar uma segunda versão da página para visitantes autenticados. A existência de sessão não deve bloquear o acesso à informação pública do catálogo.
+- **Conteúdo público:** descrição, objetivos de aprendizagem, lista/visão dos módulos e benefícios esperados do curso, exclusivamente quando aprovados para divulgação; texto claro e consistente entre visitante e aluno autenticado. Evitar duplicação de fonte editorial e de componentes de página. A definição de cursos, nomes, programas, preços, ofertas e regras comerciais depende de aprovações próprias, inclusive as pertinentes a Matheus.
+- **Segurança:** páginas públicas devem entregar **somente metadados de catálogo autorizados a serem públicos**; não publicar conteúdo de aulas, vídeos, materiais privados, questões, gabaritos, exercícios individuais restritos, dados pessoais de estudantes, indicadores de progresso ou tokens de acesso. **Rotas/APIs de ensino continuam exigindo autenticação e autorização por direito contratado no backend** (REQ-004, DEC-027). Páginas públicas não geram matrícula, pagamento nem direito de acesso.
+- **Experiência:** links vindos de landing page, da home do aluno ou de campanhas convergem para a mesma URL/página pública do curso. Pode existir CTA futuro para ver planos ou contratar, **mas destino e regras ainda não foram aprovados**; não redirecionar direto ao pagamento no clique em “Conhecer curso” (DEC-045). Para usuários já contratantes, eventual contextualização visual é questão separada, sem obrigar a criar outra página.
+- **Proteção de menores:** manter revisão jurídica/etária de ofertas comerciais, sobretudo dentro de contas de menores; não utilizar dados comportamentais/educacionais para publicidade direcionada a menores. Acessibilidade, privacidade e segurança continuam requisitos transversais.
+- **Impacto e custos não estimados:** reaproveitamento da página e conteúdo pode reduzir trabalho editorial e manutenção comparado a páginas separadas, porém cria superfície pública com hospedagem, tráfego de campanhas, cache/CDN, monitoramento, proteção contra abusos e manutenção de conteúdo; possíveis custos fixos e variáveis por visualização/egresso, além dos operacionais. Nenhum valor aprovado. Quantificar após escopo e stack (DEC-035), submeter aprovação financeira independente (DEC-032); não enviar trabalho ao Claude sem autorização (DEC-029). Não registrar custo hipotético na tabela financeira do Notion.
+- **Relacionamentos:** DEC-027/029/030/032/035/037/040/041/044/045; REQ-004/020/025/026.
+- **Implementação:** não autorizada/não comprovada.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
