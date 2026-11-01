@@ -121,6 +121,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-048 | CTA “Acessar curso” substitui “Ver planos e preços” para aluno com direito ativo ao curso | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e implementação pendentes) | Marina |
 
+| DEC-049 | “Acessar curso” abre visão geral com módulos, aulas, progresso, retomada e revisão de aulas liberadas | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
