@@ -34,10 +34,10 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Pendente:** planos, preços, periodicidade, benefícios, gateway, meios de pagamento, renovação, cancelamento, reembolso e inadimplência.
 
 ### REQ-004 — Controle de acesso conforme direitos contratados
-- **Status:** Proposto.
-- **Descrição:** disponibilizar cursos e serviços conforme os direitos ativos do aluno.
-- **Critério de aceitação preliminar:** aluno acessa conteúdos incluídos em sua assinatura e não acessa conteúdos/serviços não contratados.
-- **Pendente:** relação entre assinatura, catálogo, cursos, serviços adicionais e estados de pagamento.
+- **Status:** Regra geral de controle de acesso proposta; **herança de acesso dos exercícios definida por Marina (DEC-027, RESOLVIDO)**.
+- **Descrição:** disponibilizar cursos e serviços conforme os direitos ativos do aluno. **Exercícios pertencem a aulas → módulos → cursos e devem obedecer às mesmas permissões do curso, sem direito de acesso independente.**
+- **Critério de aceitação preliminar:** aluno acessa conteúdos incluídos em sua assinatura e não acessa conteúdos/serviços não contratados. **Mesmo na aba geral de exercícios ou via endereço direto, deve ser impedido de abrir/realizar exercícios de cursos sem autorização ativa.**
+- **Pendente:** demais relações entre assinatura, catálogo, cursos, serviços adicionais e estados de pagamento; decisões sobre visualização de conteúdo bloqueado na interface.
 
 ## 4. Catálogo, nivelamento e trilhas
 
@@ -134,16 +134,17 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Pendente:** cálculo percentual, retomada de vídeo, persistência de atividades e visualização de progresso entre cursos/trilhas.
 
 ### REQ-018 — Aba geral de exercícios com filtros
-- **Status:** **Definido por Marina — DEC-027, RESOLVIDO** quanto à existência da funcionalidade; regras de autorização comercial ainda pendentes.
-- **Descrição:** oferecer uma área própria **“Exercícios”** acessível à navegação do aluno, independente de estar dentro de uma aula, reunindo exercícios disponíveis na plataforma e permitindo filtrar por **curso, módulo, aula e nível de dificuldade**.
-- **Critério de aceitação preliminar:** o aluno consegue abrir a aba, localizar exercícios e filtrar o conjunto por esses quatro atributos.
-- **Atenção — regra comercial não definida:** a solicitação de visualizar/acessar “todos os exercícios da plataforma” precisa ser conciliada com REQ-003/REQ-004, que restringem cursos e serviços aos direitos da assinatura. **Não conceder acesso a exercícios de cursos não contratados nem restringi-los como regra definitiva sem perguntar a Marina.** Permanecem pendentes a diferença entre visibilidade do catálogo e permissão de responder aos exercícios.
-- **Outras pendências:** definição de níveis e escala de dificuldade, taxonomia de exercícios, persistência e histórico de prática, ordenação, combinações de filtros e experiência em dispositivos móveis.
+- **Status:** **Definido por Marina — DEC-027, RESOLVIDO**, incluindo o controle de acesso herdado dos cursos.
+- **Descrição:** oferecer uma área própria **“Exercícios”**, independente de estar dentro de uma aula, reunindo exercícios vinculados à estrutura **curso → módulo → aula → exercício** e permitindo filtrar por **curso, módulo, aula e nível de dificuldade**.
+- **Critério de aceitação preliminar:** o aluno consegue abrir a aba, localizar exercícios autorizados e filtrar pelos quatro atributos; **só pode abrir/realizar exercícios de cursos aos quais possui direito de acesso**. Aluno contratado apenas em Basic English não acessa exercícios de Travel/Business, nem por navegação direta ou URL.
+- **Regra comercial resolvida:** a biblioteca **não concede acesso universal**: cada exercício herda a permissão do curso ao qual pertence, conforme DEC-027 e REQ-003/REQ-004.
+- **Pendências de apresentação e detalhamento:** definir se exercícios de cursos não contratados aparecem ocultos ou indicados como bloqueados (sem possibilidade de realizá-los); níveis/escala de dificuldade e taxonomia; persistência e histórico de prática; ordenação, combinação de filtros e experiência móvel.
 - **Referências:** DEC-027, DEC-025; REQ-003/REQ-004.
 
 ### REQ-019 — Lista de revisão dos conteúdos de cada módulo
 - **Status:** **Definido por Marina — DEC-028, RESOLVIDO** quanto à existência de lista por módulo.
 - **Descrição:** ao final de cada módulo, oferecer uma **lista de exercícios de revisão**, combinando assuntos das **diferentes aulas que compõem aquele módulo**, análoga a uma revisão de capítulo.
+- **Direito de acesso:** a lista fica vinculada ao módulo e ao curso de origem; **só pode ser acessada se o aluno tiver acesso ao respectivo curso** (DEC-027).
 - **Critério de aceitação preliminar:** cada módulo pode disponibilizar uma lista agregada de revisão com questões ligadas a conteúdos de várias aulas do próprio módulo; a lista não substitui as avaliações obrigatórias por aula.
 - **Regra de conclusão:** as listas são exercícios de prática. A política geral da DEC-025 é de exercícios opcionais. **Não criar bloqueios de progressão ou avaliação adicional ao fechar módulos por suposição**; eventual exceção a ser confirmada por Marina.
 - **Pendências:** quantidade e composição das questões, criação manual ou automática, momento de disponibilização, feedback, e se o aluno pode refazer a lista ilimitadamente.
