@@ -49,17 +49,23 @@
 - **Responsável único:** Matheus, conforme atribuição expressa de Marina em 2026-10-31.
 - **Arquivo canônico:** `docs/09-decisoes-matheus.md`. MAT-013 é o identificador da pauta da mesma decisão, não uma segunda decisão.
 - **Data de abertura:** 2026-10-31.
-- **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — Marina informou que responderá provisoriamente e confirmará com Matheus depois; a resposta ainda não foi comunicada.
+- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória comunicada por Marina em 2026-10-31; confirmação final de Matheus pendente.
 - **Tema/pergunta:** os exercícios de prática da aula serão obrigatórios antes de realizar a avaliação, ou o aluno poderá ir diretamente para a avaliação?
 - **Contexto:** já foi informado que a próxima aula depende de concluir os componentes obrigatórios e ser aprovado na avaliação (REQ-015). Falta decidir se os exercícios de prática estão entre esses componentes e como o acesso à avaliação funcionará.
-- **Fonte das respostas:** Marina.
-- **Autor da futura resposta provisória:** Marina; ainda não informada.
+- **Fonte da resposta e das futuras confirmações:** Marina.
+- **Autora da resposta provisória:** Marina.
+- **Resposta provisória (2026-10-31):** "os exercícios serão obrigatórios a princípio". Considerando a pergunta apresentada, a orientação inicial é exigir os exercícios de prática antes da avaliação, em vez de permitir que o aluno vá diretamente à avaliação sem fazê-los. A formulação é provisória e depende da revisão com Matheus.
 - **Responsável pela confirmação final:** Matheus, cuja confirmação será comunicada por Marina.
-- **Alternativas discutidas:** obrigatoriedade dos exercícios de prática antes da avaliação versus acesso direto à avaliação; ainda não há escolha registrada. Nenhuma das alternativas foi aprovada ou rejeitada.
-- **Justificativa, data de aprovação e implementação:** não informadas; aprovação e execução não presumidas.
-- **Transição de status:** quando Marina responder, registrar exatamente a opção e a justificativa informadas e mudar para **REVISAR**, até que comunique a confirmação ou alteração por Matheus. Preservar o histórico da resposta provisória.
+- **Alternativas consideradas:** (1) exercícios de prática obrigatórios antes da avaliação; (2) permitir acesso direto à avaliação sem realizar os exercícios de prática.
+- **Alternativa selecionada provisoriamente por Marina:** (1), exercícios obrigatórios a princípio.
+- **Alternativa não selecionada nesta etapa:** (2); justificativa do descarte não informada, não tratá-la como rejeição definitiva de Matheus.
+- **Justificativa da escolha:** não informada além da orientação provisória; não presumir razão pedagógica.
+- **Aprovação final e data:** Matheus ainda não confirmou. Marina comunicará confirmação ou mudança.
+- **Execução e validação:** não informadas; registro de resposta não é autorização de implementação nem evidência de execução.
+- **Histórico de status:** criada como **SEM RESPOSTA** em 2026-10-31, antes de Marina responder; na mesma data Marina indicou que os exercícios serão obrigatórios a princípio e o registro passou a **REVISAR**. Manter as duas etapas preservadas.
+- **Próxima transição:** somente após Marina comunicar a revisão/validação com Matheus; registrar a escolha final, motivos conhecidos e data. Caso haja mudança, preservar a resposta anterior e vinculá-la à alteração.
 - **Relações:** REQ-012 e REQ-015; item MAT-008 foi delimitado para não duplicar esta decisão.
-- **Próxima ação:** solicitar a resposta provisória de Marina e, posteriormente, sua comunicação sobre a validação de Matheus.
+- **Pendências:** confirmação de Matheus comunicada por Marina; detalhar a implementação exata do bloqueio e quais exercícios concretos são necessários, sem presumir essas regras adicionais.
 
 ## Pauta histórica de decisões classificadas para Matheus
 
