@@ -140,4 +140,28 @@ O assistente e ferramentas de desenvolvimento devem:
 
 Marina determinou que continuará existindo separação entre decisões dela e de Matheus, mas **ela é a única pessoa que determina quais itens pertencem a cada um e a única fonte que comunica as respostas de ambos**. Ela poderá informar posteriormente uma decisão tomada por Matheus, caso em que o decisor registrado será Matheus, o comunicador será Marina e o histórico de alternativas e justificativas será preservado. Quando Marina não indicar o decisor ou a aprovação, o assistente deve cobrar essa informação, sem classificar nem aprovar por suposição.
 
-**Retificação histórica:** a DEC-024 foi indevidamente atribuída à validação pedagógica de Matheus. A responsabilidade e aprovação dessa definição estão agora a confirmar com Marina. Os itens antigos atribuídos a Matheus por inferência também exigem conferência, mas não devem ser apagados ou transferidos automaticamente.
+**Retificação histórica:** a DEC-024 foi inicialmente atribuída a Matheus por inferência. Marina exigiu que a classificação partisse apenas dela; posteriormente, em 2026-10-31, atribuiu explicitamente a DEC-024 à lista de Matheus, com resposta provisória definida por ela e status REVISAR. O histórico dessas etapas não deve ser apagado. Outros itens antigos classificados por inferência continuam sujeitos à conferência com Marina.
+
+## 11. Duas categorias de titularidade de decisão — orientação de Marina (2026-10-31)
+
+1. **Decisões da Marina:** decisões cuja palavra final pertence a Marina; a definição pode ser revista futuramente, sem atribuir automaticamente aprovação a Matheus.
+2. **Decisões do Matheus:** incluem tanto (a) decisões que só Matheus pode tomar quanto (b) decisões cuja resposta provisória Marina formula, mas precisa validar com Matheus. A inclusão nessa categoria é determinada **exclusivamente por Marina**. Em ambos os casos, a pauta ativa fica em `docs/09-decisoes-matheus.md`, não em `docs/08-decisoes-marina.md`. A resposta pode chegar sempre por Marina, mesmo quando a aprovação é de Matheus.
+
+**Campos distintos:** categoria/quem deve confirmar; autoria da resposta provisória; responsável pela aprovação final; comunicado por; status; justificativas e alternativas efetivamente discutidas. Não declarar que Matheus participou ou concordou sem relato explícito de Marina.
+
+**Status REVISAR:** resposta provisória já informada por Marina, mas requer discussão/validação de Matheus. Pode orientar planejamento sujeito à revisão; **não é aprovação final de Matheus nem autorização implícita de implementação**. Quando Marina informar a confirmação de Matheus, registrar data, `Aprovador: Matheus`, `Comunicado por: Marina` e mover para resolvido. Se Matheus alterar a resposta, preservar integralmente a anterior, as alternativas, o motivo da mudança quando conhecido e o vínculo entre registros.
+
+## 12. Tags coloridas para os arquivos Markdown de decisões
+
+Exibir em `docs/04-decision-log.md`, `docs/08-decisoes-marina.md` e `docs/09-decisoes-matheus.md` uma tag colorida por item; o texto é parte essencial do status e a cor é um auxílio visual:
+
+- 🟢 **RESOLVIDO:** decisão tomada e questão resolvida pelo responsável informado; não confundir aprovação com implementação/validação técnica.
+- 🟡 **REVISAR:** existe resposta provisória/diretriz, mas ela ainda precisa ser discutida, revisada ou aprovada; inclui resposta de Marina aguardando Matheus.
+- 🔴 **SEM RESPOSTA:** ainda não há resposta efetiva à questão registrada.
+
+Usar badges Markdown visíveis no GitHub, respectivamente:
+- `![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e)`
+- `![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800)`
+- `![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49)`
+
+O badge **não substitui** o registro de responsável, origem da resposta, justificativa, alternativas e data de aprovação. Um item parcialmente respondido pode usar REVISAR e enumerar os subitens ainda sem resposta. Não marcar como verde pela simples existência de uma proposta, nem presumir a titularidade de itens legados por estarem em uma fila.
