@@ -185,6 +185,14 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos a dimensionar após escopo e stack:** relações aluno–responsável–pagador, comunicações e links seguros de autorização, registros de auditoria, segurança e atendimento, eventual verificação, sem construir área parental específica. A ausência de portal pode reduzir desenvolvimento/manutenção, mas não elimina obrigações de consentimento ou proteção; estimativas e aprovação financeira específicas antes de executar, conforme DEC-032/035.
 - **Relações:** DEC-040/041, DEC-037/038/036/039, REQ-001/002/020/021.
 
+### REQ-023 — Pagador vinculado a múltiplos alunos
+- **Status:** aprovado funcionalmente por Marina, DEC-042; custos, detalhes do checkout e execução pendentes.
+- **Regra:** um pagador poderá pagar cursos ou assinaturas de vários estudantes, incluindo irmãos. Cada aluno mantém credenciais, direitos contratados, progresso, avaliações, histórico e marcadores privados independentes. Um vínculo de cobrança não dá acesso à conta ou histórico dos estudantes; autorização obrigatória no backend.
+- **Critérios:** associar cada compra e direito ao beneficiário correto; preservar separação de identidades aluno, pagador e responsável legal; registrar situação e histórico da compra; impedir liberação, suspensão ou cancelamento na conta errada. Não exigir CPF do aluno quando diferente do pagador e não criar área dos responsáveis.
+- **A definir:** checkout único para vários alunos versus compras separadas, recorrência consolidada, convite/ativação, reembolsos, cancelamentos, troca de pagador, preços, eventuais descontos e suporte financeiro. Não presumir plano familiar.
+- **Custos potenciais ainda sem orçamento:** modelagem de dados, fluxo de compra, cobrança e comunicação, suporte e auditoria, taxa por transação, infraestrutura fixa e custos variáveis por aluno e por administrador. Quantificar depois do escopo completo e da stack, antes de aprovar execução.
+- **Referências:** DEC-042, DEC-040, DEC-041, DEC-038, REQ-003/004/020/022.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
