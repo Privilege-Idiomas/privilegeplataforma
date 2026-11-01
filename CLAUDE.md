@@ -50,7 +50,9 @@ As definições abaixo foram informadas por Marina. Consultar o status específi
 - Gestão de cursos e aulas: somente a equipe administrativa poderá cadastrar e administrar conteúdos.
 - Entrada do aluno: teste de nivelamento, início pela base (Basic English e depois Travel ou Business), ou entrada direta em Travel/Business.
 - Trilhas: reutilizam os mesmos cursos, mas podem variar sequência e prioridade conforme o objetivo do aluno.
-- Aulas: exercícios e avaliações associados.
+- Aulas: exercícios de prática **opcionais**, recomendados para fixação (DEC-025, aprovada por Marina); **avaliação obrigatória** com nota mínima para desbloquear a próxima aula. Não bloquear avaliação por ausência de exercícios.
+- Área independente **Exercícios** (DEC-027, definida por Marina): biblioteca de exercícios com filtros por curso, módulo, aula e dificuldade. O acesso a exercícios de cursos não contratados está **em aberto** frente aos direitos comerciais REQ-003/REQ-004; não decidir por suposição.
+- **Revisão de módulo** (DEC-028, definida por Marina): lista de exercícios combinando conteúdos das diferentes aulas de cada módulo, como revisão de capítulo. Não assumir nota mínima ou bloqueio adicional de progresso nesse componente.
 - Avaliações: nota mínima (valor ainda em aberto) e uma tentativa adicional, totalizando no máximo duas tentativas.
 - Segunda tentativa: somente após revisão do resumo escrito da aula; não exigir que o aluno assista novamente ao vídeo.
 - Após duas tentativas abaixo da nota mínima: sugerir plantão de dúvidas ou aula particular, respeitando os serviços incluídos ou disponíveis para contratação no plano do aluno.
@@ -60,7 +62,7 @@ As definições abaixo foram informadas por Marina. Consultar o status específi
 
 ## 6. Ambiguidades que não devem ser resolvidas por suposição
 - Valor/escala da nota mínima.
-- Tipos de exercício, correção, feedback e obrigatoriedade; formato e produção dos resumos escritos das aulas.
+- Tipos de exercício, correção, feedback, níveis de dificuldade e composição das listas; **a opcionalidade geral de prática já foi decidida (DEC-025)**. Produção e formato dos resumos escritos ainda precisam de detalhamento.
 - Resultado e lógica de recomendação do teste de nivelamento.
 - Objetivos e sequências finais das trilhas; mudança de trilha e preservação de progresso.
 - Planos, preços, periodicidade, direitos exatos, gateway, cancelamento e inadimplência.
@@ -105,5 +107,8 @@ Quando houver conflito entre código, documentação e instruções informais, n
 - `docs/04-decision-log.md` is the sole exception: it indexes **all decisions** with ID, brief summary, link, status and owner. It must not duplicate the full decision record. Other requirements/docs may refer to decision IDs only.
 - If an old entry lists multiple possible owners, mark it `a confirmar com Marina` and ask Marina for the definitive single owner; do not silently select one, split the same decision into copies, or imply approval.
 - The DEC-024 (MAT-009) must have a single canonical record in `docs/09-decisoes-matheus.md`, with owner Matheus, provisional response by Marina, and yellow REVISAR until she reports Matheus's confirmation.
-- The DEC-025 (MAT-013) concerns whether practice exercises are mandatory before assessment. Marina gave the provisional answer **mandatory in principle**; final owner Matheus, status yellow **REVISAR**, and Marina will communicate his later confirmation. Store its canonical record only in `docs/09-decisoes-matheus.md`; `docs/04-decision-log.md` is the index. Do not duplicate it in Marina's file. There must be no DEC-024/MAR-005 mirror in `docs/08-decisoes-marina.md`.
+- **DEC-025 — latest approved correction (2026-10-31):** previously owned by Matheus (MAT-013) with a provisional Marina answer **mandatory**, but Marina **explicitly transferred the decision to herself** and **replaced the answer: practice exercises are optional; assessment mandatory**. Current final owner **Marina**, green **RESOLVIDO**. Its single canonical record, with the entire earlier Matheus/provisional history, is now in `docs/08-decisoes-marina.md`; the old DEC-025 decision block was removed from `docs/09-decisoes-matheus.md`. Do **not** require Matheus confirmation or retain an active MAT-013 duplicate. The Git history preserves the old original. `docs/04-decision-log.md` indexes the change.
+- **DEC-027:** Marina decided on a global exercises tab filtered by course/module/lesson/difficulty. **Authorization to view/use exercises outside entitled courses is unresolved**; flag conflict with REQ-003/REQ-004 before implementation.
+- **DEC-028:** Marina decided each module gets a mixed-content chapter-style review exercise list. Do not infer any compulsory grade or progress gate for this list; practice is optional under DEC-025 unless a future explicit exception is approved.
+- There must be no DEC-024/MAR-005 mirror in `docs/08-decisoes-marina.md`.
 - Keep `docs/04-decision-log.md` as the official index and maintain `docs/08-decisoes-marina.md` and `docs/09-decisoes-matheus.md` as mutually exclusive decision queues.
