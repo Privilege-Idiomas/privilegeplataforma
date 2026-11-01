@@ -40,7 +40,8 @@ Esses exemplos representam as opções informadas até o momento, não uma defin
 
 ## 4. Regras de progressão dentro dos cursos
 - Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação.
-- Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula.
+- Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula por meio de um resumo escrito disponibilizado na própria aula.
+- Não será necessário assistir novamente ao vídeo para realizar a segunda tentativa.
 - A nota mínima ainda será definida.
 - A sequência de aulas é definida dentro do curso.
 - A ordem dos cursos é definida pela trilha escolhida.
