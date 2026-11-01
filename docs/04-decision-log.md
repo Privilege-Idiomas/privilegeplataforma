@@ -105,6 +105,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-040 | Contratação por responsável e conta individual do aluno menor | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (modelo funcional; fluxo detalhado, legislação e custos pendentes) | Marina |
 
+| DEC-041 | Sem área dos responsáveis; clareza antes da compra | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; jurídico e custos pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
