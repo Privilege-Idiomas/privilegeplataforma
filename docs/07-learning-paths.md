@@ -52,7 +52,7 @@ Esses exemplos representam as opções informadas até o momento, não uma defin
 - **Fluxo de aprendizagem:** conteúdo da aula (vídeo e materiais) → exercícios de fixação **opcionais** → avaliação **obrigatória** → desbloqueio por nota mínima. A ordem descreve a apresentação/recomendação, não um bloqueio para exercícios que o aluno deseje pular.
 - **Aba “Exercícios” (DEC-027):** entrada independente para prática, com filtros por curso, módulo, aula e dificuldade.
 - **Revisão de módulo (DEC-028):** cada módulo possui uma lista de exercícios que mistura conteúdos das aulas daquele módulo, como uma revisão de capítulo.
-- **Acesso aos exercícios — definido por Marina (DEC-027):** cada exercício pertence à hierarquia curso → módulo → aula e **herda os direitos de acesso do curso**. Sem direito ao curso, o aluno não pode acessar seus exercícios, seja na aula, na biblioteca ou nas listas de revisão. Nenhuma permissão universal de prática foi criada.
+- **Acesso aos exercícios — definido por Marina (DEC-027):** cada exercício pertence à hierarquia curso → módulo → aula e **herda os direitos de acesso do curso**. Sem direito ao curso, o aluno não pode abrir ou resolver seus exercícios, seja na aula, na biblioteca ou nas listas de revisão. **Na aba geral, exercícios de cursos sem acesso permanecem visíveis, identificados como bloqueados**, para descoberta do catálogo e consulta de planos mais amplos. A exibição da oportunidade comercial não concede direito ao conteúdo.
 - **Pontos de produto pendentes:** parametrização dos níveis de dificuldade, composição das listas e eventual exceção à opcionalidade de revisão modular.
 
 ## 5. Separação entre curso, trilha e assinatura
