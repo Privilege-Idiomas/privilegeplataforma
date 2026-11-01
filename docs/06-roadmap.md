@@ -17,7 +17,7 @@
 | 1. Alinhamento e descoberta | Validar objetivos, público, escopo, jornadas, regras comerciais, avaliação e critérios de sucesso | Project Charter e baseline do MVP aprovados |
 | 2. Definição do produto e arquitetura | Modelar catálogo, planos/direitos de acesso, teste de nivelamento, trilhas, progressão, avaliações e integrações | Requisitos priorizados e decisões técnicas registradas |
 | 3. Fundação técnica | Preparar repositório, ambientes, autenticação, estrutura da aplicação e banco de dados | Base técnica testável |
-| 4. Experiência de aprendizagem | Construir catálogo, cursos, módulos, aulas, vídeo, exercícios, avaliações, tentativas e desbloqueio sequencial | Jornada principal de aprendizagem funcional |
+| 4. Experiência de aprendizagem | Construir catálogo, cursos, módulos, aulas, vídeo, **prática opcional**, avaliações obrigatórias, tentativas e desbloqueio sequencial; avaliar esforço da aba geral de exercícios e revisão por módulo | Jornada principal de aprendizagem funcional, com escopo complementar sujeito a priorização |
 | 5. Trilhas, administração e comercial | Construir trilhas reutilizando cursos, gestão administrativa, assinatura recorrente e controle de acesso | Operação administrativa e comercial integrada |
 | 6. Qualidade e lançamento | Testes funcionais, regras de avaliação, permissões, segurança, responsividade, revisão de conteúdo e piloto | MVP validado para lançamento controlado |
 
@@ -39,6 +39,14 @@
 - Definição de nota mínima, critério de conclusão e política de tentativas.
 - Definição de trilhas e critérios do teste de nivelamento.
 - Disponibilidade de usuários para testes de aceitação.
+
+## Necessidades adicionais de exercícios — aguardando dimensionamento
+
+- **DEC-025 / REQ-012:** exercícios de prática **opcionais**; avaliação da aula **obrigatória** e determinante para conclusão/desbloqueio.
+- **DEC-027 / REQ-018:** biblioteca geral de exercícios com filtros por curso, módulo, aula e dificuldade.
+- **DEC-028 / REQ-019:** listas de revisão por módulo integrando conteúdos das aulas de cada módulo.
+- **Dependências antes de estimar/programar:** quantidade de exercícios, estrutura de metadados/dificuldade, criação das listas e regra de autorização para acessar exercícios fora dos cursos contratados.
+- **Controle de escopo:** são definições de produto aprovadas por Marina, **não** compromisso automático de inclusão no MVP nem extensão aprovada do prazo de 30 dias. Registrar estimativas, prioridades e tarefas no GitHub antes de assumir cronograma.
 
 ## Planejamento detalhado
 O planejamento detalhado e o próprio resumo executivo permanecerão documentados e versionados no GitHub. O PM apresentará no Notion somente datas e previsões dos **marcos de alto nível** que já constem do GitHub, e os desvios relevantes para Matheus, também registrados previamente lá. Não atribuir datas definitivas nem declarar andamento «em dia» sem cronograma de referência validado; a meta preliminar de 30 dias não é uma baseline confirmada.
