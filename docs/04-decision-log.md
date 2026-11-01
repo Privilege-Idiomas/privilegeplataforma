@@ -31,11 +31,13 @@ Este documento registra decisões, propostas e pendências relevantes. Definiç�
 | DEC-013 | Catálogo inicial | Basic English, Travel e Business | Pendente de aprovação | Matheus |
 | DEC-014 | Trilhas por objetivo | Reutilizar os mesmos cursos em trilhas com sequências/prioridades diferentes | Pendente de aprovação | Matheus |
 | DEC-015 | Portas de entrada | Teste de nivelamento, início por Basic English ou entrada direta em Travel/Business | Pendente de aprovação | Matheus |
-| DEC-016 | Progressão | Concluir uma aula para desbloquear a próxima aula do mesmo curso | Pendente de aprovação | Matheus |
-| DEC-017 | Avaliações | Nota mínima e uma tentativa adicional (duas tentativas no total) | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-016 | Progressão | Concluir todos os componentes obrigatórios da aula e atingir a nota mínima da avaliação para desbloquear a próxima aula do mesmo curso | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-017 | Avaliações | Nota mínima e uma tentativa adicional (duas tentativas no total); a segunda tentativa ocorre após revisão do conteúdo da aula | Pendente de aprovação | Matheus / responsável pedagógico |
 | DEC-018 | Apoio após reprovação | Após duas tentativas abaixo da nota mínima, sugerir plantão de dúvidas ou aula particular, respeitando os serviços do plano | Pendente de aprovação | Matheus |
-| DEC-019 | Nota mínima | Definir valor e escala da nota mínima de aprovação | Em aberto | Matheus / responsável pedagógico |
-| DEC-020 | Critério de conclusão | Definir se a conclusão exige apenas consumir a aula ou também aprovação na avaliação | Em aberto | Marina / responsável pedagógico |
+| DEC-019 | Nota mínima | Valor e escala da nota mínima de aprovação ainda serão definidos | Em aberto | Matheus / responsável pedagógico |
+| DEC-020 | Critério de conclusão | A conclusão exige completar todos os componentes obrigatórios da aula e atingir a nota mínima da avaliação | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-021 | Segunda tentativa | Liberar a segunda tentativa da avaliação somente depois que o aluno revisar o conteúdo da aula | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | Em aberto | Marina / responsável pedagógico / Matheus |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
