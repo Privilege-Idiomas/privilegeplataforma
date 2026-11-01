@@ -19,9 +19,9 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - Após duas tentativas sem atingir a nota mínima, a plataforma deverá sugerir plantão de dúvidas ou aula particular, conforme os serviços disponíveis no plano do aluno.
 
 ## Ferramentas e fontes de verdade
-- **GitHub:** código, documentação técnica e histórico de decisões.
-- **Notion:** fonte central de gestão do projeto: tarefas, responsáveis, prazos, prioridades, decisões (índice e visualizações), riscos e acompanhamento da execução. A migração foi decidida por Marina em 2026-10-31 (DEC-026); a estrutura deverá ser implementada após conexão ao workspace.
-- **Claude Code:** apoio técnico à implementação, conforme os requisitos e decisões registrados.
+- **GitHub (principal):** fonte oficial de verdade do projeto: código, decisões canônicas, requisitos, escopo, governança e documentação versionada.
+- **Notion (complementar):** quadro operacional de tarefas, responsáveis, prioridades, status e transparência de andamento para Matheus. Não substitui os registros Markdown nem a documentação do GitHub. Adoção decidida por Marina em 2026-10-31 (DEC-026), ainda aguardando conexão/configuração.
+- **Claude Code:** executor de tarefas técnicas designadas pelo PM; deve atualizar diretamente o status de suas tarefas no Notion quando o acesso estiver configurado, além de manter código e evidências no GitHub.
 
 ## Documentação
 - [Termo de Abertura](docs/01-project-charter.md)
@@ -35,8 +35,8 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - [Estrutura de implantação no Notion](docs/11-estrutura-notion.md)
 
 ## Separação de fontes de verdade
-- **Notion:** operação, visibilidade e gestão de projeto; um único banco de decisões com filtros por responsável, sem registros duplicados.
-- **GitHub:** código, arquitetura, histórico técnico e arquivos Markdown canônicos de decisões existentes, preservados até eventual migração documental formal. O Notion deve referenciar os registros canônicos em vez de copiá-los integralmente.
+- **GitHub é principal e canônico:** fonte oficial para decisões completas, governança, escopo, requisitos, planos, arquitetura, código e histórico; cada decisão pertence a um só arquivo Markdown por responsável, com índice geral.
+- **Notion é complementar:** apenas quadro de execução para transparência; tarefas cadastradas e atribuídas pelo ChatGPT/PM a Marina ou Claude Code; o Claude atualiza o status de suas tarefas diretamente no Notion, condicionado a acesso técnico. Links para documentos/PRs do GitHub; nunca copiar integralmente fichas de decisão.
 
 ## Regra de governança
 Não tratar propostas ou hipóteses como requisitos aprovados. Decisões de negócio, orçamento e escopo precisam de aprovação do patrocinador e devem ser registradas no Decision Log.
