@@ -39,14 +39,21 @@ ou
 Esses exemplos representam as opções informadas até o momento, não uma definição completa de todas as trilhas comerciais/pedagógicas.
 
 ## 4. Regras de progressão dentro dos cursos
-- Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação.
+- Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir os componentes efetivamente obrigatórios e atingir a nota mínima na **avaliação obrigatória**. **Exercícios de prática são opcionais** (DEC-025, resolvida por Marina), não condicionam o acesso à avaliação nem o desbloqueio.
 - **DEC-024 — REVISAR:** resposta provisória formulada e comunicada por Marina, que atribuiu a confirmação final a Matheus. A proposta é não exigir 100% do vídeo para conclusão/desbloqueio, desde que atividades obrigatórias e avaliação sejam cumpridas. **Aguardando Matheus; ainda não aprovada por ele.**
 - Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula por meio de um resumo escrito disponibilizado na própria aula.
 - Não será necessário assistir novamente ao vídeo para realizar a segunda tentativa.
 - A nota mínima ainda será definida.
 - A sequência de aulas é definida dentro do curso.
 - A ordem dos cursos é definida pela trilha escolhida.
-- Ainda será detalhado quais atividades e outros componentes serão obrigatórios em cada aula, sem exigir 100% de reprodução do vídeo conforme DEC-024.
+- Ainda será detalhado se existe algum outro componente obrigatório por aula além da aprovação na avaliação. A obrigatoriedade de assistir ao vídeo integral depende de revisão com Matheus (DEC-024); exercícios de prática **não são obrigatórios** (DEC-025, Marina).
+
+## 4.1. Prática opcional, biblioteca e revisão modular
+- **Fluxo de aprendizagem:** conteúdo da aula (vídeo e materiais) → exercícios de fixação **opcionais** → avaliação **obrigatória** → desbloqueio por nota mínima. A ordem descreve a apresentação/recomendação, não um bloqueio para exercícios que o aluno deseje pular.
+- **Aba “Exercícios” (DEC-027):** entrada independente para prática, com filtros por curso, módulo, aula e dificuldade.
+- **Revisão de módulo (DEC-028):** cada módulo possui uma lista de exercícios que mistura conteúdos das aulas daquele módulo, como uma revisão de capítulo.
+- **Ponto comercial pendente:** esclarecer se o aluno pode acessar exercícios de cursos não cobertos por sua assinatura. O controle de direitos não pode ser alterado por inferência.
+- **Pontos de produto pendentes:** parametrização dos níveis de dificuldade, composição das listas e eventual exceção à opcionalidade de revisão modular.
 
 ## 5. Separação entre curso, trilha e assinatura
 - **Curso:** conjunto de módulos e aulas com conteúdo próprio.
