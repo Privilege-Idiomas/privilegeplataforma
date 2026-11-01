@@ -119,6 +119,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-047 | Página de curso → “Ver planos e preços” → contratação da oferta escolhida | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (sequência/CTA; preços, regras comerciais, custos e execução pendentes) | Marina |
 
+| DEC-048 | CTA “Acessar curso” substitui “Ver planos e preços” para aluno com direito ativo ao curso | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e implementação pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
