@@ -199,6 +199,22 @@
 - **Impacto de custo da própria decisão:** análise e documentação podem exigir tempo de planejamento; não há preço incremental comprovado. Não foi aprovada aquisição, serviço ou implementação por esta decisão. Custos de produção e operação de cada funcionalidade serão examinados na fase financeira antes da implementação.
 - **Documentos relacionados:** DEC-029, DEC-030, DEC-032 e docs/06-roadmap.md. GitHub segue fonte de verdade; Notion contém somente relatório derivado, e sua tabela de custos apenas itens financeiramente aprovados.
 
+### DEC-036 — Contratação por landing page e dupla opção segura de ativação de conta
+- **Data:** 2026-11-01.
+- **Responsável único / aprovadora da definição funcional:** Marina, comunicado por Marina.
+- **Status funcional:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** para a decisão de ativação; condições comerciais e detalhes de cadastro/checkout ainda exigem definições. **Aprovação financeira: PENDENTE** conforme DEC-032.
+- **Contexto:** jornada de aquisição proposta por Marina: landing page pública de apresentação e tráfego com serviços, funcionalidades e planos; usuário informa e-mail → faz pagamento → recebe e-mail de primeiro acesso → completa cadastro → entra na plataforma.
+- **Decisão expressamente aprovada nesta etapa:** oferecer **duas opções para concluir a ativação** após a contratação: (1) link seguro encaminhado ao e-mail e (2) opção de prosseguir a ativação na própria página do site, **também condicionada à verificação segura da posse do e-mail**. Não considerar apenas a permanência na página do checkout como prova de identidade. O objetivo é permitir continuidade mesmo quando a mensagem demora e preservar segurança em ambos os caminhos.
+- **Condições de segurança e integridade propostas para o desenho, não fornecedores aprovados:** usar ativação de uso único/curta duração e validação no servidor; nunca enviar senha; evitar exposição de tokens na URL/logs; assegurar confirmação de pagamento confiável pelo provedor e vincular a compra à conta correta; não liberar direitos contratados com base apenas no redirecionamento visual ou em informação do navegador. Tratar pagamentos pendentes/falhos e e-mail já cadastrado sem criar contas duplicadas. Detalhes de mecanismo OTP/link, tempo de expiração, política de reenvio, transações Pix e demais estados **a definir**.
+- **Alternativas discutidas:** ativação apenas por link no e-mail versus link por e-mail + continuidade no site com verificação do mesmo e-mail. Marina aprovou a segunda.
+- **Custos potenciais de produção:** páginas públicas e pós-checkout, fluxo de confirmação/recuperação, integração com pagamento e serviço de autenticação, tratamento de exceções e testes antifraude; custo monetário ainda desconhecido.
+- **Custos potenciais fixos:** hospedagem, domínio e ferramentas de autenticação/comunicação; a dimensionar após a stack.
+- **Custos potenciais variáveis do aluno:** sessões de checkout, taxas de transação, envio e reenvio de e-mails/OTP, tráfego, armazenamento de dados de cadastro, requisições de confirmação. Buscar alternativas com alta segurança e menor custo variável, sem IA em tempo real. **Não presumir custo zero.**
+- **Custos administrativos:** suporte a ativação, revisão de pagamentos divergentes, gestão de campanhas e conteúdo; a dimensionar.
+- **Gates:** decisão de produto aprovada, mas **sem autorização para implementar ou contratar ferramentas antes de concluir escopo integral, stack, análise e aprovação financeira e divisão por versões** (DEC-035).
+- **Relacionamentos:** DEC-003/004/009/011/012, DEC-029/030/032/035, REQ-001/002/003/004; não substituir pendências comerciais de Matheus por suposições.
+- **Evidência de implementação:** nenhuma afirmada.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
