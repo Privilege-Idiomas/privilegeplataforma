@@ -40,14 +40,15 @@ As definições abaixo foram informadas pela responsável pelo projeto e ainda a
 - Entrada do aluno: teste de nivelamento, início pela base (Basic English e depois Travel ou Business), ou entrada direta em Travel/Business.
 - Trilhas: reutilizam os mesmos cursos, mas podem variar sequência e prioridade conforme o objetivo do aluno.
 - Aulas: exercícios e avaliações associados.
-- Avaliações: nota mínima e uma tentativa adicional, totalizando no máximo duas tentativas.
+- Avaliações: nota mínima (valor ainda em aberto) e uma tentativa adicional, totalizando no máximo duas tentativas.
+- Segunda tentativa: somente após revisão do resumo escrito da aula; não exigir que o aluno assista novamente ao vídeo.
 - Após duas tentativas abaixo da nota mínima: sugerir plantão de dúvidas ou aula particular, respeitando os serviços incluídos ou disponíveis para contratação no plano do aluno.
-- Progressão: concluir uma aula para desbloquear a próxima aula do mesmo curso.
+- Progressão: concluir todos os componentes obrigatórios da aula e atingir a nota mínima da avaliação para desbloquear a próxima aula do mesmo curso.
+- Material de revisão: disponibilizar resumo escrito da aula para a revisão antes da segunda tentativa.
 
 ## 6. Ambiguidades que não devem ser resolvidas por suposição
 - Valor/escala da nota mínima.
-- Se aprovação na avaliação é requisito para concluir a aula e desbloquear a próxima.
-- Tipos de exercício, correção, feedback e obrigatoriedade.
+- Tipos de exercício, correção, feedback e obrigatoriedade; formato e produção dos resumos escritos das aulas.
 - Resultado e lógica de recomendação do teste de nivelamento.
 - Objetivos e sequências finais das trilhas; mudança de trilha e preservação de progresso.
 - Planos, preços, periodicidade, direitos exatos, gateway, cancelamento e inadimplência.
