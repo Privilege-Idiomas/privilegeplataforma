@@ -39,6 +39,26 @@ Este documento registra decisões, propostas e pendências relevantes. Definiç�
 | DEC-021 | Segunda tentativa | Liberar a segunda tentativa da avaliação somente depois que o aluno revisar o conteúdo da aula | Pendente de aprovação | Matheus / responsável pedagógico |
 | DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | Em aberto | Marina / responsável pedagógico / Matheus |
 | DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-024 | Vídeo e conclusão de aula | Vídeo completo não será obrigatório para concluir aula/desbloquear a próxima, desde que atividades obrigatórias sejam cumpridas e a avaliação aprovada | Pendente de aprovação | Matheus / responsável pedagógico |
+
+### DEC-024 — Obrigatoriedade de assistir ao vídeo completo para conclusão da aula
+- **Data de abertura e registro:** 2026-10-31.
+- **Status:** Direcionamento confirmado por Marina; aguardando validação/aprovação pedagógica por Matheus ou responsável designado.
+- **Contexto/problema:** esclarecer se 100% de reprodução do vídeo deve ser obrigatório para considerar a aula concluída e liberar a próxima, preservando a regra já informada de realização dos componentes obrigatórios e aprovação na avaliação.
+- **Proponente/resposta:** Marina.
+- **Responsável pela aprovação:** Matheus / responsável pedagógico.
+- **Consultados:** equipe pedagógica, a consultar; não há parecer registrado.
+- **Critérios explicitamente informados:** conclusão das atividades obrigatórias e aprovação na avaliação permanecem necessárias.
+- **Alternativas efetivamente apresentadas na consulta:** (1) vídeo integral obrigatório; (2) vídeo integral não obrigatório, desde que sejam cumpridos os demais componentes obrigatórios e a avaliação seja aprovada; (3) obrigatoriedade do vídeo definida por aula; (4) adiar a definição para Matheus/equipe pedagógica. Essas alternativas foram apresentadas, mas não há análise formal de prós/contras ou custos registrada.
+- **Alternativa selecionada por Marina:** opção (2). Não exigir que o aluno assista ao vídeo inteiro para concluir a aula, desde que as atividades obrigatórias sejam concluídas e a nota mínima seja atingida.
+- **Alternativas não selecionadas e justificativas:** opções (1), (3) e (4) não selecionadas nesta consulta; motivos específicos de descarte não informados. Não tratar como rejeições pedagógicas formais.
+- **Justificativa registrada:** a própria definição de Marina condiciona a progressão ao cumprimento das atividades obrigatórias e à aprovação; justificativa adicional não informada.
+- **Aprovador e data:** aprovação formal pedagógica pendente; não atribuir aprovação a Matheus.
+- **Execução:** não autorizada nem comprovada por este registro; sem tarefa, PR, commit de produto ou validação funcional informados. Atualização documental não equivale a implementação.
+- **Impacto funcional:** percentual de reprodução do vídeo não deve ser requisito de desbloqueio segundo o direcionamento, mantendo-se os demais componentes obrigatórios e a aprovação na avaliação. O vídeo permanece disponível como conteúdo; não se conclui que exercícios específicos já estejam definidos.
+- **Decisões relacionadas:** DEC-016, DEC-020 e DEC-023; sem substituição das decisões anteriores.
+- **Documentos afetados:** REQ-015 em `docs/03-requirements.md`; `docs/07-learning-paths.md`; MAR-005; MAT-009.
+- **Pendências:** validação pedagógica; identificação dos componentes obrigatórios por aula; nota mínima e escala de aprovação.
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
