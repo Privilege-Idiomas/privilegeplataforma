@@ -107,6 +107,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-041 | Sem área dos responsáveis; clareza antes da compra | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; jurídico e custos pendentes) | Marina |
 
+| DEC-042 | Um pagador pode contratar para vários alunos | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; checkout e custos pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
