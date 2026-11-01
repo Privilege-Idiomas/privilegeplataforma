@@ -74,3 +74,12 @@ Para cada tarefa:
 Registre decisões relevantes em `docs/04-decision-log.md`. Use status explícitos: **Proposta**, **Pendente de aprovação**, **Aprovada**, **Rejeitada** ou **Substituída**.
 
 Quando houver conflito entre código, documentação e instruções informais, não escolha silenciosamente: sinalize a divergência e peça orientação.
+
+## Decision traceability — mandatory
+- Follow `docs/10-politica-de-governanca-de-decisoes.md` for every product, business, pedagogical, operational, and technical decision.
+- Never delete or silently overwrite decision history. A changed decision must be recorded as a new linked entry; preserve the prior entry and mark it superseded only after the replacement is explicitly approved.
+- Record alternatives actually considered, their known trade-offs, rejected options and reasons, selected option, approver, approval date, implementation evidence, and validation evidence.
+- Never invent an option, rationale, approval, or execution evidence. Mark unknown information as pending/not documented.
+- Distinguish proposal, deferred, awaiting approval, approved, rejected, in execution, executed, validated, superseded, and cancelled.
+- Do not implement unresolved business or pedagogical rules by assumption. Ask for clarification or leave a clear TODO.
+- Keep `docs/04-decision-log.md` as the official index and maintain `docs/08-decisoes-marina.md` and `docs/09-decisoes-matheus.md` as live decision queues.
