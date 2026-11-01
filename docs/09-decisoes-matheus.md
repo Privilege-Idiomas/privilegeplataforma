@@ -58,10 +58,11 @@
 - **Origem:** DEC-017, DEC-021 e DEC-023; REQ-012, REQ-013 e REQ-017.
 
 ### MAT-009 — Critérios pedagógicos de conclusão da aula
-- **Pergunta:** quais componentes serão obrigatórios para considerar uma aula concluída e permitir o desbloqueio da próxima?
+- **Perguntas para aprovação:** Matheus valida que o aluno não precise assistir a 100% do vídeo para concluir a aula, desde que cumpra as demais atividades obrigatórias e seja aprovado? Quais componentes serão obrigatórios para conclusão e desbloqueio?
 - **Definição já registrada:** o aluno precisa concluir todos os componentes obrigatórios e atingir a nota mínima da avaliação.
-- **Status:** Regra geral informada; componentes específicos e validação pedagógica pendentes.
-- **Origem:** DEC-016 e DEC-020; REQ-015.
+- **Direcionamento de Marina (2026-10-31):** vídeo completo não é obrigatório para conclusão e desbloqueio (DEC-024). Ainda não houve aprovação pedagógica documentada.
+- **Status:** Parcialmente definido por Marina; confirmação de Matheus/equipe pedagógica e detalhamento dos componentes pendentes.
+- **Origem:** DEC-016, DEC-020 e DEC-024; REQ-015.
 
 ### MAT-010 — Apoio após duas tentativas sem aprovação
 - **Perguntas:** plantão de dúvidas e aula particular serão benefícios de quais planos? Também poderão ser contratados avulsamente? Como funcionarão disponibilidade, agenda, preço e contratação?
