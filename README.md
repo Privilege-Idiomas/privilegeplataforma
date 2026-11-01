@@ -6,13 +6,17 @@ Projeto de desenvolvimento de uma plataforma digital de ensino de idiomas da Pri
 Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com acesso para alunos atuais e novos alunos e gestão de conteúdo pela equipe administrativa.
 
 ## Estado atual
-**Documentação inicial — versão 0.1.** Os documentos registram o entendimento atual e propostas de MVP. Definições comerciais e de escopo aguardam aprovação formal do patrocinador.
+**Documentação inicial — versão 0.2.** Este repositório registra o entendimento atual, propostas e decisões pendentes. As definições de produto informadas pela responsável ainda aguardam aprovação formal do patrocinador quando indicado no Decision Log.
 
-## Definições iniciais informadas
+## Definições de produto informadas
 - Público de lançamento: alunos atuais e novos alunos.
-- Modelo comercial pretendido: assinatura recorrente.
+- Modelo comercial: assinatura recorrente, com flexibilidade para planos que deem acesso ao catálogo completo ou a cursos específicos.
 - Gestão de cursos e aulas: restrita à equipe administrativa.
-- Aprendizagem: aulas com exercícios e avaliações associados.
+- Catálogo inicial: Basic English, Travel e Business.
+- Jornada: teste de nivelamento, início pela base (Basic English) ou entrada direta em Travel ou Business.
+- Trilhas: os mesmos cursos poderão ser organizados em sequências e prioridades diferentes conforme o objetivo do aluno.
+- Aprendizagem: aulas com exercícios e avaliações associados; avaliação com nota mínima e uma tentativa adicional.
+- Após duas tentativas sem atingir a nota mínima, a plataforma deverá sugerir plantão de dúvidas ou aula particular, conforme os serviços disponíveis no plano do aluno.
 
 ## Ferramentas e fontes de verdade
 - **GitHub:** código, documentação técnica e histórico de decisões.
@@ -26,6 +30,7 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - [Registro de Decisões](docs/04-decision-log.md)
 - [Riscos e Problemas](docs/05-risks-and-issues.md)
 - [Roadmap Preliminar](docs/06-roadmap.md)
+- [Trilhas de Aprendizagem](docs/07-learning-paths.md)
 - [Orientações para Claude Code](CLAUDE.md)
 
 ## Regra de governança
