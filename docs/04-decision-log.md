@@ -133,7 +133,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-054 | Certificados já conquistados podem ser baixados mediante login após encerramento da assinatura | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regra funcional; retenção, custos e implementação pendentes) | Marina |
 
-| DEC-055 | Código único no certificado e verificação pública de autenticidade mediante código | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; dados públicos, proteção de menores, custos e implementação pendentes) | Marina |
+| DEC-055 | Código único no certificado e verificação pública de autenticidade mediante código | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (campos públicos definidos na DEC-056; menores, custos e implementação pendentes) | Marina |
+
+| DEC-056 | Verificação pública exibe autenticidade, curso, data de emissão e identificação parcialmente ocultada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (campos; máscara, proteção de menores, custos e implementação pendentes) | Marina |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
