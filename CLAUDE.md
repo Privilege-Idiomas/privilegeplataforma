@@ -7,12 +7,12 @@ Este repositório GitHub é a **fonte principal de verdade para o projeto**, inc
 
 ## 1.1. GitHub principal; Notion complementar — DEC-026
 - **GitHub é a fonte principal de verdade do Privilege** para código, decisões canônicas, requisitos, arquitetura, documentação e histórico. Não transferir o registro canônico para o Notion.
-- **Notion substitui somente o ClickUp**, como quadro complementar de tarefas e transparência para Matheus, conforme definição de Marina em 2026-10-31.
-- **ChatGPT/PM** define, cadastra, organiza e atribui tarefas no Notion a **Marina ou Claude Code**, com critério de aceite e links para documentação do GitHub. O executor não deve se autoatribuir tarefas sem orientação.
-- **Claude Code, executor técnico, deve atualizar diretamente o status de cada tarefa sua no Notion**, após receber acesso à integração; registrar no item bloqueios, etapa atual, links de PR/commit e resultados de teste. Atualizar para Em andamento ao iniciar, Em revisão/Testes ao entregar para validação, Bloqueado se houver impedimento e Concluído apenas quando critério de aceite e validação pertinentes forem cumpridos. Não confundir PR criado com entrega validada.
+- **Notion substitui somente o ClickUp** como **relatório executivo de andamento para Matheus**, conforme DEC-026 e esclarecimento de Marina em 2026-10-31. Não é backlog técnico, espelho do repositório ou centro documental.
+- **ChatGPT/PM** cadastra e atribui **somente entregas/marcos de alto nível** no Notion a **Marina ou Claude Code**; acompanha cronograma, resultados, prazos, bloqueios e pontos que demandem atenção de Matheus. Tarefas técnicas granulares e evidências completas permanecem no GitHub.
+- **Claude Code, executor técnico, atualiza somente as entregas macro atribuídas a ele no Notion**, após receber acesso à integração: situação geral, previsão fundamentada, avanço relevante e bloqueios com impacto. Não publicar cada issue, PR, commit, teste, bug, decisão ou detalhe de arquitetura. Atualizar para Em andamento ao iniciar o marco, Em validação quando entregar para aceite, Bloqueado quando houver impedimento e Concluído apenas após validação aplicável. Manter os detalhes e evidências no GitHub.
 - **Sem acesso ao Notion**, não alegar que atualizou: informar limitação ao PM/Marina e solicitar configuração de integração antes de prometer sincronização automática.
 - Os registros Markdown de decisões continuam exclusivos do responsável (docs/08 para Marina; docs/09 para Matheus), com índice docs/04. Notion pode referenciar links ou IDs, sem reproduzir fichas completas.
-- Ver `docs/11-estrutura-notion.md` para fluxo, campos, visões, acesso e implantação. A adoção está decidida, mas o workspace ainda necessita conexão/configuração.
+- Ver `docs/11-estrutura-notion.md` para o relatório executivo, critério de inclusão, campos enxutos, acesso e implantação. A adoção está decidida, mas o workspace ainda necessita conexão/configuração.
 
 ## 2. Papéis e autoridade
 - **Matheus — patrocinador:** decide/aprova os itens atribuídos expressamente a ele por Marina, inclusive respostas provisórias de Marina que exijam a validação dele. Não atribuir automaticamente a ele todo tema comercial, pedagógico ou estratégico.
