@@ -7,7 +7,7 @@
 ## Como usar este arquivo
 - Quando Marina disser "isso é uma decisão minha, mas vou responder depois" ou "coloca nas minhas decisões", adicionar um item aqui.
 - Quando Marina responder a um item, registrar a decisão, a data e os documentos/requisitos afetados; não apagar o histórico.
-- Se a decisão depender também de Matheus ou da equipe pedagógica, marcar como compartilhada e registrar a dependência.
+- Somente Marina pode indicar que uma decisão depende de Matheus ou de outra pessoa. Não presumir validação pedagógica ou divisão compartilhada pela natureza do tema; se não houver indicação, perguntar.
 - Não tratar sugestões do assistente como decisões aprovadas.
 - Itens com responsável ainda não confirmado ficam identificados como "a confirmar".
 
@@ -44,11 +44,11 @@
 ### MAR-005 — Componentes obrigatórios por aula
 - **Tema:** definição operacional do que o aluno precisa concluir em cada aula.
 - **Pergunta atual:** quais atividades, exercícios, leituras ou outros componentes serão obrigatórios? A configuração poderá variar por aula?
-- **Responsável:** Marina para organizar o requisito; validação pedagógica de Matheus/equipe pedagógica.
-- **Status:** Parcialmente definido por Marina; validação pedagógica e detalhamento restantes pendentes.
+- **Responsável pela organização:** Marina. **Decisor/aprovador da regra:** a confirmar com Marina.
+- **Status:** Conteúdo informado por Marina; classificação e aprovação a confirmar; detalhamento de atividades pendente.
 - **Origem:** REQ-015 e REQ-017; DEC-020 e DEC-024.
-- **Direcionamento registrado em 2026-10-31 (DEC-024):** Marina definiu que assistir ao vídeo inteiro não precisa ser obrigatório quando o aluno cumpre as atividades obrigatórias e atinge a nota mínima. Aprovador pedagógico: ainda não confirmado.
-- **Pendente:** definir exatamente os componentes obrigatórios, eventuais variações entre aulas e obter validação pedagógica. Preserva-se a regra já definida de aprovação na avaliação para desbloqueio.
+- **Direcionamento registrado em 2026-10-31 (DEC-024):** Marina definiu que assistir ao vídeo inteiro não precisa ser obrigatório quando o aluno cumpre as atividades obrigatórias e atinge a nota mínima. Atribuição e aprovação: a confirmar diretamente com Marina.
+- **Pendente:** definir exatamente os componentes obrigatórios, eventuais variações entre aulas e confirmar com Marina quem decide e se está aprovado. **Histórico:** a antiga exigência de validação de Matheus foi uma atribuição presumida, depois corrigida. Preserva-se a regra já definida de aprovação na avaliação para desbloqueio.
 
 ### MAR-006 — Produção e formato dos resumos escritos
 - **Tema:** operação de criação e publicação dos resumos de aula.
