@@ -14,6 +14,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 ## Registro
 
+**Índice, não repositório de decisões:** os detalhes e o histórico completo de cada decisão pertencem exclusivamente ao arquivo Markdown de seu responsável único. Esta tabela fornece apenas referência e status. A DEC-024 tem seu único registro canônico no arquivo do Matheus. As demais entradas históricas anteriores à regra de unicidade ainda exigem consolidação e confirmação de titularidade com Marina; não assumir que a classificação antiga esteja correta.
+
+
 | ID | Tema | Definição | Status e situação | Responsável registrado |
 |---|---|---|---|---|
 | DEC-001 | Repositório | GitHub privado da organização Privilège para código e documentação | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Aprovada como configuração operacional | Marina |
@@ -39,30 +42,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-021 | Segunda tentativa | Liberar a segunda tentativa da avaliação somente depois que o aluno revisar o conteúdo da aula | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus / responsável pedagógico |
 | DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | Marina / responsável pedagógico / Matheus |
 | DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus / responsável pedagógico |
-| DEC-024 | Vídeo e conclusão de aula | Vídeo completo não obrigatório, mantendo atividades obrigatórias e aprovação na avaliação; definição comunicada por Marina | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória de Marina, aguarda Matheus | Matheus — confirmação final pendente |
-
-### DEC-024 — Obrigatoriedade de assistir ao vídeo completo para conclusão da aula
-- **Data de abertura e registro:** 2026-10-31.
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória registrada, requer confirmação de Matheus; não está aprovada por ele.
-- **Contexto/problema:** esclarecer se 100% de reprodução do vídeo deve ser obrigatório para considerar a aula concluída e liberar a próxima, preservando a regra já informada de realização dos componentes obrigatórios e aprovação na avaliação.
-- **Categoria / fila:** decisão do Matheus (necessita validação dele), atribuída explicitamente por Marina em 2026-10-31.
-- **Autora da resposta provisória:** Marina.
-- **Responsável pela confirmação/aprovação final:** Matheus; ainda não confirmou.
-- **Comunicado por:** Marina.
-- **Consultados:** não informados.
-- **Critérios explicitamente informados:** conclusão das atividades obrigatórias e aprovação na avaliação permanecem necessárias.
-- **Alternativas efetivamente apresentadas na consulta:** (1) vídeo integral obrigatório; (2) vídeo integral não obrigatório, desde que sejam cumpridos os demais componentes obrigatórios e a avaliação seja aprovada; (3) obrigatoriedade do vídeo definida por aula; (4) adiar a definição para Matheus/equipe pedagógica. Essas alternativas foram apresentadas, mas não há análise formal de prós/contras ou custos registrada.
-- **Resposta provisória definida por Marina:** opção (2). Não exigir que o aluno assista ao vídeo inteiro para concluir a aula, desde que as atividades obrigatórias sejam concluídas e a nota mínima seja atingida. Ainda precisa ser revisada/confirmada por Matheus.
-- **Alternativas não selecionadas e justificativas:** opções (1), (3) e (4) não selecionadas nesta consulta; motivos específicos de descarte não informados. Não tratar como rejeições pedagógicas formais.
-- **Justificativa registrada:** a própria definição de Marina condiciona a progressão ao cumprimento das atividades obrigatórias e à aprovação; justificativa adicional não informada.
-- **Aprovador final e data:** Matheus; confirmação e data pendentes. Marina comunicará o resultado, inclusive se a resposta for alterada.
-- **Execução:** não autorizada nem comprovada por este registro; sem tarefa, PR, commit de produto ou validação funcional informados. Atualização documental não equivale a implementação.
-- **Impacto funcional:** percentual de reprodução do vídeo não deve ser requisito de desbloqueio segundo o direcionamento, mantendo-se os demais componentes obrigatórios e a aprovação na avaliação. O vídeo permanece disponível como conteúdo; não se conclui que exercícios específicos já estejam definidos.
-- **Decisões relacionadas:** DEC-016, DEC-020 e DEC-023; sem substituição das decisões anteriores.
-- **Documentos afetados:** REQ-015 em `docs/03-requirements.md`; `docs/07-learning-paths.md`; MAT-009 em `docs/09-decisoes-matheus.md`; MAR-005 apenas como histórico de acompanhamento, não decisão final de Marina.
-- **Pendências:** Marina comunicar a confirmação ou mudança da resposta por Matheus; identificação dos componentes obrigatórios por aula; nota mínima e escala de aprovação.
-- **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
-- **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
+| DEC-024 | Vídeo e conclusão de aula | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** | Matheus |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
