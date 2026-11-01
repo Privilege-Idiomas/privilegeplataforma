@@ -5,6 +5,13 @@ A Plataforma Privilège é uma plataforma digital de ensino de idiomas. O produt
 
 Este repositório é a fonte de verdade para código e documentação técnica. Consulte o README e os documentos em `docs/` antes de implementar mudanças, especialmente requisitos, escopo, trilhas e Decision Log.
 
+## 1.1. Gestão operacional no Notion — DEC-026
+- Notion substituiu ClickUp na gestão do Privilege por decisão de Marina em 2026-10-31.
+- O workspace do Notion deverá consolidar tarefas, acompanhamento, roadmap, riscos, requisitos e um **índice de decisões** com visualizações filtradas por Marina, Matheus e situação.
+- A **ficha canônica integral e o histórico** de decisões permanecem no arquivo Markdown único do responsável no GitHub (docs/08 para Marina; docs/09 para Matheus), mais o índice geral docs/04, até decisão explícita de migração. Notion não deve criar segundas fichas completas, somente metadados e links para os IDs.
+- A escolha do Notion está resolvida, mas a implantação e integração ao workspace ainda não são consideradas concluídas.
+- Ver `docs/11-estrutura-notion.md` para base de dados, campos, views e sequência de implantação.
+
 ## 2. Papéis e autoridade
 - **Matheus — patrocinador:** decide/aprova os itens atribuídos expressamente a ele por Marina, inclusive respostas provisórias de Marina que exijam a validação dele. Não atribuir automaticamente a ele todo tema comercial, pedagógico ou estratégico.
 - **Marina — responsável pela condução do projeto e produto:** decide suas próprias questões; é a única fonte que classifica quem decide cada item e comunica as respostas/aprovações dela ou de Matheus.
