@@ -57,6 +57,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-032 | Análise e aprovação de custos por decisão | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
 
+| DEC-033 | Ordenação dos exercícios por estado | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — pendentes de revisão → inéditas → concluídas; **custos ainda aguardam análise e aprovação** | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional); aprovação financeira pendente | Marina |
+
 **Notion complementar (DEC-026):** não constitui migração da documentação ou das fichas de decisão. O GitHub é a fonte de verdade única para **todas** as informações do projeto, inclusive tarefas, status, cronograma, marcos e fichas completas de decisões (em arquivo Markdown do responsável, mais o índice geral). No Notion, exibir apenas um resumo executivo **extraído de registros já existentes no GitHub** (marcos, status, cronograma, próximos passos e impedimentos relevantes para Matheus), com links pontuais, sem cópias de fichas completas ou tarefas técnicas granulares. Itens de titularidade legada ambígua continuam para saneamento, sem novas atribuições presumidas.
 
 
