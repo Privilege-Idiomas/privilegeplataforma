@@ -2,7 +2,7 @@
 
 **Última consolidação:** 2026-10-31  
 **Responsável pelas respostas:** Marina  
-**Finalidade:** registrar as decisões efetivamente atribuídas a Marina e as pendências sob sua responsabilidade. Se Marina indicar que a definição depende de Matheus ou da validação dele, a decisão deve constar na lista do Matheus, preservando aqui apenas o histórico da eventual transferência.
+**Finalidade:** registrar as decisões efetivamente atribuídas a Marina e as pendências sob sua responsabilidade. Se Marina indicar que a definição depende de Matheus ou da validação dele, o registro canônico da decisão pertence exclusivamente ao arquivo do Matheus, sem cópias, espelhos ou blocos de histórico no arquivo da Marina. O histórico de mudanças é preservado no Git e no próprio registro canônico.
 
 ## Como usar este arquivo
 - Quando Marina disser "isso é uma decisão minha, mas vou responder depois" ou "coloca nas minhas decisões", adicionar um item aqui.
@@ -61,17 +61,6 @@
 - **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) A definir após decomposição dos requisitos.
 - **Origem:** roadmap e RSK-003.
 
-## Histórico de encaminhamentos transferidos
-
-### MAR-005 — Histórico de acompanhamento da conclusão de aula
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** (DEC-024 na lista do Matheus); demais componentes sem resposta.
-- **Tema original:** definição operacional do que o aluno precisa cumprir em cada aula.
-- **Histórico:** a MAR-005 reunia vídeo, exercícios e outros componentes e registrava equivocadamente aprovação pedagógica presumida de Matheus. Depois, Marina esclareceu que apenas ela classifica as decisões. Em 2026-10-31, Marina atribuiu **expressamente a DEC-024 (dispensa de vídeo integral) à lista do Matheus**, com resposta provisória formulada por ela. A partir daí, a DEC-024 é acompanhada em MAT-009, não como decisão independente de Marina.
-- **Resposta provisória comunicada por Marina:** o vídeo não precisa ser assistido integralmente se as atividades obrigatórias forem cumpridas e a avaliação for aprovada.
-- **Pendente:** confirmar com Matheus a resposta da DEC-024; detalhar quais outras atividades são obrigatórias e confirmar com Marina a titularidade desses outros detalhes.
-- **Referências:** DEC-024, MAT-009, DEC-020, REQ-015 e REQ-017.
-- **Histórico de versões:** informações anteriores preservadas no Git e no log de decisões.
-
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
@@ -86,4 +75,4 @@ Adicionar novos itens no formato:
 - **Documentos/requisitos afetados:**
 
 ## Histórico
-Apenas constar nesta fila não significa aprovação. Respostas e alterações dependem do que Marina comunicar. A DEC-024 foi transferida à pauta Matheus (MAT-009) com status REVISAR, sem apagar a MAR-005 histórica.
+Apenas constar nesta fila não significa aprovação. Respostas e alterações dependem do que Marina comunicar. Transferências de responsabilidade não devem deixar cópias da decisão neste arquivo; o histórico de alterações permanece no versionamento Git.
