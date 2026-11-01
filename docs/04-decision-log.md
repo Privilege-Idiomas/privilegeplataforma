@@ -99,7 +99,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-036 | Ativação segura após contratação | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — ativação por e-mail ou continuidade no site com comprovação segura do e-mail; custos pendentes | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional) | Marina |
 
 | DEC-037 | Público sem idade mínima comercial; foto dispensada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (diretriz; salvaguardas para menores pendentes) | Marina |
-| DEC-038 | Cadastro: CPF do pagador, faixa etária e telefone opcional aprovados; demais campos em revisão | [Registro canônico da Marina](08-decisoes-marina.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** (CPF do pagador ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**; faixa etária e telefone opcional **RESOLVIDOS**; demais campos pendentes) | Marina |
+| DEC-038 | Cadastro: nome completo, CPF do pagador, faixa etária e telefone opcional aprovados; login em revisão | [Registro canônico da Marina](08-decisoes-marina.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** (CPF do pagador ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**; faixa etária, telefone opcional e nome completo obrigatório **RESOLVIDOS**; autenticação e detalhes pendentes) | Marina |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
