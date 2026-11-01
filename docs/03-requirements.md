@@ -91,11 +91,12 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 
 ## 6. Exercícios, avaliações e progresso
 
-### REQ-012 — Exercícios associados às aulas
-- **Status:** exercícios previstos; **obrigatoriedade dos exercícios de prática = resposta provisória de Marina, DEC-025 (REVISAR com Matheus)**.
-- **Descrição:** as aulas terão exercícios associados. Segundo a resposta provisória de Marina, os exercícios de prática serão obrigatórios a princípio, antes da avaliação.
-- **Critério de aceitação preliminar:** aluno consegue acessar e responder aos exercícios vinculados à aula. A obrigatoriedade e eventual bloqueio da avaliação aguardam confirmação de Matheus e detalhamento técnico.
-- **Pendente:** Matheus confirmar ou revisar DEC-025, por meio de Marina; tipos de questão, correção automática/manual, feedback e identificação dos exercícios necessários. Não presumir mecanismos específicos de verificação ou bloqueio.
+### REQ-012 — Exercícios de prática associados às aulas (opcionais)
+- **Status:** **Definido por Marina em 2026-10-31 — DEC-025, RESOLVIDO.** A regra provisória anterior de exercícios obrigatórios foi substituída por decisão expressa dela. Nenhuma confirmação de Matheus é necessária para esta decisão.
+- **Descrição:** cada aula pode apresentar exercícios de prática destinados à fixação, **recomendados, mas opcionais**. O aluno pode acessar a avaliação da aula sem concluir exercícios de prática.
+- **Critérios de aceitação preliminares:** (1) o aluno acessa exercícios de fixação associados à aula; (2) pode deixar de fazê-los sem impedir o acesso à avaliação; (3) a aprovação na avaliação permanece obrigatória para concluir a aula e liberar a próxima, conforme REQ-013/REQ-015.
+- **Pendente:** tipos de questões, correção automática/manual, feedback, vínculo de questões a curso/módulo/aula, definição e exibição de dificuldade; não presumir mecanismos de pontuação/progresso da prática.
+- **Histórico:** inicialmente DEC-025/MAT-013 considerava obrigatoriedade como resposta provisória de Marina sujeita à revisão com Matheus; em 2026-10-31 Marina transferiu a decisão para si e a resolveu como **opcional**. O registro canônico e a história da mudança estão em `docs/08-decisoes-marina.md`.
 
 ### REQ-013 — Avaliações com nota mínima e uma tentativa adicional
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
@@ -117,7 +118,7 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
 - **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
 - **Resposta provisória de Marina (DEC-024; decisão atribuída por ela à validação de Matheus, status REVISAR):** não é obrigatório assistir a 100% do vídeo para concluir a aula ou desbloquear a próxima. O aluno pode avançar ao cumprir os demais componentes obrigatórios e atingir a nota mínima. A presença do vídeo como conteúdo da aula permanece prevista; o percentual assistido não será requisito de conclusão segundo esse direcionamento.
-- **Relação com DEC-025:** Marina respondeu provisoriamente que os exercícios de prática serão obrigatórios a princípio; decisão sob responsabilidade de Matheus, status **REVISAR**. A definição não substitui o requisito de aprovação na avaliação.
+- **Relação com DEC-025 (RESOLVIDO — Marina):** exercícios de prática agora são **opcionais**, não entram nos componentes obrigatórios da aula e não podem bloquear a avaliação. A decisão anterior, que os tratava como obrigatórios provisoriamente, foi substituída e preservada no histórico. A avaliação **continua obrigatória**, com nota mínima para desbloqueio.
 - **Pendente:** detalhar quais atividades e demais componentes serão obrigatórios em cada aula e o valor/escala da nota mínima; Marina comunicará a confirmação ou mudança da DEC-024 após conversar com Matheus.
 
 ### REQ-017 — Resumo escrito da aula para revisão
@@ -131,6 +132,22 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Descrição:** registrar o avanço do aluno em cada curso e trilha.
 - **Critério de aceitação preliminar:** aluno consegue identificar aulas concluídas, próxima aula disponível e avanço geral.
 - **Pendente:** cálculo percentual, retomada de vídeo, persistência de atividades e visualização de progresso entre cursos/trilhas.
+
+### REQ-018 — Aba geral de exercícios com filtros
+- **Status:** **Definido por Marina — DEC-027, RESOLVIDO** quanto à existência da funcionalidade; regras de autorização comercial ainda pendentes.
+- **Descrição:** oferecer uma área própria **“Exercícios”** acessível à navegação do aluno, independente de estar dentro de uma aula, reunindo exercícios disponíveis na plataforma e permitindo filtrar por **curso, módulo, aula e nível de dificuldade**.
+- **Critério de aceitação preliminar:** o aluno consegue abrir a aba, localizar exercícios e filtrar o conjunto por esses quatro atributos.
+- **Atenção — regra comercial não definida:** a solicitação de visualizar/acessar “todos os exercícios da plataforma” precisa ser conciliada com REQ-003/REQ-004, que restringem cursos e serviços aos direitos da assinatura. **Não conceder acesso a exercícios de cursos não contratados nem restringi-los como regra definitiva sem perguntar a Marina.** Permanecem pendentes a diferença entre visibilidade do catálogo e permissão de responder aos exercícios.
+- **Outras pendências:** definição de níveis e escala de dificuldade, taxonomia de exercícios, persistência e histórico de prática, ordenação, combinações de filtros e experiência em dispositivos móveis.
+- **Referências:** DEC-027, DEC-025; REQ-003/REQ-004.
+
+### REQ-019 — Lista de revisão dos conteúdos de cada módulo
+- **Status:** **Definido por Marina — DEC-028, RESOLVIDO** quanto à existência de lista por módulo.
+- **Descrição:** ao final de cada módulo, oferecer uma **lista de exercícios de revisão**, combinando assuntos das **diferentes aulas que compõem aquele módulo**, análoga a uma revisão de capítulo.
+- **Critério de aceitação preliminar:** cada módulo pode disponibilizar uma lista agregada de revisão com questões ligadas a conteúdos de várias aulas do próprio módulo; a lista não substitui as avaliações obrigatórias por aula.
+- **Regra de conclusão:** as listas são exercícios de prática. A política geral da DEC-025 é de exercícios opcionais. **Não criar bloqueios de progressão ou avaliação adicional ao fechar módulos por suposição**; eventual exceção a ser confirmada por Marina.
+- **Pendências:** quantidade e composição das questões, criação manual ou automática, momento de disponibilização, feedback, e se o aluno pode refazer a lista ilimitadamente.
+- **Referências:** DEC-028 e DEC-025; REQ-012/REQ-015.
 
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
