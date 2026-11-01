@@ -48,10 +48,21 @@ A lógica de recomendação após o teste e os objetivos específicos de cada tr
 | Assinaturas | Cobrança recorrente com acesso ao catálogo completo ou a cursos específicos | Definição informada; regras comerciais pendentes |
 | Controle de acesso | Conceder e restringir acesso conforme assinatura e direitos do aluno | A detalhar |
 | Conteúdo | Cursos, módulos e aulas em vídeo | Proposta |
-| Exercícios e avaliações | Atividades e avaliações associadas às aulas | Definição informada; regras detalhadas pendentes |
+| Exercícios e avaliações | Exercícios de prática opcionais; avaliação obrigatória com nota mínima para desbloqueio (DEC-025) | Regra definida por Marina; detalhes técnicos pendentes |
 | Tentativas e recuperação | Nota mínima, uma tentativa adicional e recomendação de apoio após duas tentativas insuficientes | Definição informada; parâmetros pendentes |
 | Progresso | Registro de conclusão e desbloqueio sequencial de aulas no mesmo curso | Definição informada; regra de conclusão pendente |
 | Administração | Cadastro e gestão de cursos, módulos, aulas e atividades pela equipe administrativa | Definição informada |
+
+## 5.1. Novas funcionalidades de exercícios — definidas, ainda sem priorização de entrega
+
+Marina definiu em 2026-10-31 as seguintes necessidades de produto, cujas **estimativas e entrada exata no MVP ainda precisam ser avaliadas**:
+- **DEC-025:** os exercícios de fixação são opcionais; a avaliação da aula segue obrigatória para progressão. A antiga resposta provisória (exercícios obrigatórios, para validar com Matheus) foi substituída e a responsabilidade foi transferida expressamente para Marina.
+- **DEC-027:** aba geral “Exercícios”, independente da aula, com filtros por **curso, módulo, aula e nível de dificuldade**.
+- **DEC-028:** lista de exercícios de revisão ao final de **cada módulo**, combinando conteúdos de todas as aulas daquele módulo, como revisão de capítulo.
+
+**Ponto de compatibilização obrigatório:** a abrangência de “todos os exercícios” na aba geral pode conflitar com o controle de acesso comercial por curso/assinatura (REQ-003/REQ-004). A decisão sobre acesso a exercícios de cursos não contratados ainda não foi informada; não inferir liberação universal.
+
+A existência das funcionalidades foi decidida por Marina. **Incluí-las no MVP, indicar esforço, prazo ou compromisso de entrega exigirá estimativa e priorização posteriores**, sem criar obrigação implícita de lançamento imediato.
 
 ## 6. Apoio pedagógico e serviços adicionais
 Quando o aluno não atingir a nota mínima após a tentativa inicial e a tentativa adicional, a plataforma deverá apresentar uma mensagem sugerindo:
@@ -79,7 +90,7 @@ Os itens abaixo não devem ser considerados compromissos de entrega até valida�
 5. Qual será a nota mínima de aprovação?
 6. A tentativa adicional será liberada automaticamente? Haverá intervalo ou revisão entre tentativas?
 7. A aprovação na avaliação será condição para concluir a aula ou apenas a conclusão da aula desbloqueará a próxima?
-8. Como exercícios diferem de avaliações e quais são obrigatórios?
+8. Quais tipos de exercícios e regras de correção/feedback serão usados? Exercícios de prática são opcionais (DEC-025), enquanto a avaliação da aula é obrigatória.
 9. Como serão ofertados e contratados plantões e aulas particulares?
 10. Quais meios de pagamento e políticas de cancelamento serão adotados?
 
