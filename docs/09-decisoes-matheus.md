@@ -20,20 +20,30 @@
 
 ## Decisões atribuídas expressamente por Marina
 
-### MAT-009 — Regra do vídeo completo (DEC-024)
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória, aguardando Matheus.
-- **Categoria:** decisão do Matheus que requer validação dele; Marina atribuiu explicitamente essa titularidade em 2026-10-31.
-- **Pergunta:** assistir a 100% do vídeo é obrigatório para conclusão/desbloqueio?
-- **Resposta provisória definida por:** Marina.
-- **Resposta provisória:** não; o aluno pode concluir sem ver o vídeo completo se cumprir as atividades obrigatórias e alcançar a nota mínima na avaliação.
-- **Aprovação final:** Matheus, ainda não confirmada.
-- **Comunicado por:** Marina, inclusive após futura conversa com Matheus.
-- **Alternativas registradas:** integral obrigatório; integral dispensado com atividades e aprovação; obrigatoriedade variável por aula; adiar definição. Ver DEC-024 para o registro completo.
-- **Motivos para alternativas não selecionadas:** não informados.
-- **Próxima ação:** Marina trará a confirmação de Matheus ou comunicará uma mudança. Registrar resultado, data e justificativa sem apagar resposta provisória.
-- **Histórico:** a atribuição inicial a Matheus fora feita por inferência do assistente, contestada e corrigida. Agora Marina o atribuiu **expressamente** a Matheus. Isso não constitui aprovação dele.
-- **Limite desta classificação:** demais regras sobre atividades obrigatórias e nota mínima não foram atribuídas automaticamente.
-- **Origem:** DEC-024; REQ-015; DEC-016 e DEC-020 relacionadas.
+### DEC-024 — Obrigatoriedade de assistir ao vídeo completo para conclusão da aula (MAT-009)
+- **Responsável único:** Matheus.
+- **Arquivo canônico:** `docs/09-decisoes-matheus.md`. O ID de pauta MAT-009 corresponde a esta mesma decisão, não a uma segunda decisão.
+- **Data de abertura e registro:** 2026-10-31.
+- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória registrada, requer confirmação de Matheus; não está aprovada por ele.
+- **Contexto/problema:** esclarecer se 100% de reprodução do vídeo deve ser obrigatório para considerar a aula concluída e liberar a próxima, preservando a regra já informada de realização dos componentes obrigatórios e aprovação na avaliação.
+- **Categoria / fila:** decisão do Matheus (necessita validação dele), atribuída explicitamente por Marina em 2026-10-31.
+- **Autora da resposta provisória:** Marina.
+- **Responsável pela confirmação/aprovação final:** Matheus; ainda não confirmou.
+- **Comunicado por:** Marina.
+- **Consultados:** não informados.
+- **Critérios explicitamente informados:** conclusão das atividades obrigatórias e aprovação na avaliação permanecem necessárias.
+- **Alternativas efetivamente apresentadas na consulta:** (1) vídeo integral obrigatório; (2) vídeo integral não obrigatório, desde que sejam cumpridos os demais componentes obrigatórios e a avaliação seja aprovada; (3) obrigatoriedade do vídeo definida por aula; (4) adiar a definição para Matheus/equipe pedagógica. Essas alternativas foram apresentadas, mas não há análise formal de prós/contras ou custos registrada.
+- **Resposta provisória definida por Marina:** opção (2). Não exigir que o aluno assista ao vídeo inteiro para concluir a aula, desde que as atividades obrigatórias sejam concluídas e a nota mínima seja atingida. Ainda precisa ser revisada/confirmada por Matheus.
+- **Alternativas não selecionadas e justificativas:** opções (1), (3) e (4) não selecionadas nesta consulta; motivos específicos de descarte não informados. Não tratar como rejeições pedagógicas formais.
+- **Justificativa registrada:** a própria definição de Marina condiciona a progressão ao cumprimento das atividades obrigatórias e à aprovação; justificativa adicional não informada.
+- **Aprovador final e data:** Matheus; confirmação e data pendentes. Marina comunicará o resultado, inclusive se a resposta for alterada.
+- **Execução:** não autorizada nem comprovada por este registro; sem tarefa, PR, commit de produto ou validação funcional informados. Atualização documental não equivale a implementação.
+- **Impacto funcional:** percentual de reprodução do vídeo não deve ser requisito de desbloqueio segundo o direcionamento, mantendo-se os demais componentes obrigatórios e a aprovação na avaliação. O vídeo permanece disponível como conteúdo; não se conclui que exercícios específicos já estejam definidos.
+- **Decisões relacionadas:** DEC-016, DEC-020 e DEC-023; sem substituição das decisões anteriores.
+- **Documentos afetados:** REQ-015 em `docs/03-requirements.md`; `docs/07-learning-paths.md`; MAT-009 em `docs/09-decisoes-matheus.md`; o antigo MAR-005 foi descontinuado como registro espelhado, preservando a história no versionamento Git.
+- **Pendências:** Marina comunicar a confirmação ou mudança da resposta por Matheus; identificação dos componentes obrigatórios por aula; nota mínima e escala de aprovação.
+- **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
+- **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
 
 ## Pauta histórica de decisões classificadas para Matheus
 
