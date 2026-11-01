@@ -16,6 +16,25 @@
 - ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) decisão respondida provisoriamente, ainda em revisão
 - ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) decisão sem resposta
 
+## Decisões resolvidas da Marina
+
+### DEC-026 — Adoção do Notion como plataforma oficial de gestão do projeto
+- **Responsável único:** Marina.
+- **Data de definição e comunicação:** 2026-10-31.
+- **Tag de resposta:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — ferramenta escolhida, implantação ainda não concluída.
+- **Contexto:** a configuração inicial utilizava ClickUp para acompanhamento da execução; surgiu a necessidade de concentrar gestão do projeto, documentação operacional, visibilidade e decisões em ambiente compartilhado com Matheus.
+- **Alternativas efetivamente consideradas:** manter ClickUp (ferramenta anteriormente prevista) ou adotar Notion como substituto. Não existe avaliação técnica comparativa formal documentada.
+- **Decisão:** adotar Notion no lugar de ClickUp como ferramenta de gerenciamento, acompanhamento e documentação operacional do projeto Privilège.
+- **Justificativa comunicada no contexto:** concentrar tarefas, informações, painéis e documentos em ambiente transparente para Marina e Matheus. Não foram informadas métricas quantitativas de comparação.
+- **Decisora/aprovadora:** Marina; nenhuma aprovação adicional de Matheus foi informada ou presumida.
+- **Comunicado por:** Marina.
+- **Decisão anterior:** DEC-002 — escolha operacional do ClickUp, agora com ciclo de vida **Substituída**; preservar o histórico.
+- **Condição de execução:** acesso e permissões ao workspace do Notion ainda precisam ser configurados; preparação de esquema/documentação no GitHub não equivale a implantação no Notion.
+- **Escopo da migração:** tarefas, prioridades, responsáveis, roadmap, riscos, requisitos e visualizações de decisões; preservar os arquivos Markdown de decisão canônicos no GitHub, sem espelhos ou duplicação.
+- **Status de execução:** planejamento e preparação da migração; importação, conferência e compartilhamento ainda pendentes.
+- **Critério de validação:** workspace compartilhado, bases criadas, visões filtradas por responsável, IDs únicos e conferência com os registros Markdown originais, sem atribuições/aprovações presumidas.
+- **Documentos afetados:** README.md, docs/04-decision-log.md, docs/06-roadmap.md, docs/08-decisoes-marina.md, docs/11-estrutura-notion.md e CLAUDE.md.
+
 ## Pendências consolidadas da Marina
 
 ### MAR-001 — Stack tecnológica
