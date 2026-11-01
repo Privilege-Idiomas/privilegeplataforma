@@ -37,7 +37,8 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Status:** Regra geral de controle de acesso proposta; **herança de acesso dos exercícios definida por Marina (DEC-027, RESOLVIDO)**.
 - **Descrição:** disponibilizar cursos e serviços conforme os direitos ativos do aluno. **Exercícios pertencem a aulas → módulos → cursos e devem obedecer às mesmas permissões do curso, sem direito de acesso independente.**
 - **Critério de aceitação preliminar:** aluno acessa conteúdos incluídos em sua assinatura e não acessa conteúdos/serviços não contratados. **Mesmo na aba geral de exercícios ou via endereço direto, deve ser impedido de abrir/realizar exercícios de cursos sem autorização ativa.**
-- **Pendente:** demais relações entre assinatura, catálogo, cursos, serviços adicionais e estados de pagamento; decisões sobre visualização de conteúdo bloqueado na interface.
+- **Apresentação definida (DEC-027):** na aba geral de exercícios, conteúdos de cursos sem direito de acesso **aparecem identificados como bloqueados**, com orientação para conhecer opções de planos que ampliem o acesso. O aluno não pode abrir/responder o conteúdo restrito; o bloqueio não é apenas visual.
+- **Pendente:** demais relações entre assinatura, catálogo, cursos, serviços adicionais e estados de pagamento, e experiência exata de upgrade.
 
 ## 4. Catálogo, nivelamento e trilhas
 
@@ -138,7 +139,8 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Descrição:** oferecer uma área própria **“Exercícios”**, independente de estar dentro de uma aula, reunindo exercícios vinculados à estrutura **curso → módulo → aula → exercício** e permitindo filtrar por **curso, módulo, aula e nível de dificuldade**.
 - **Critério de aceitação preliminar:** o aluno consegue abrir a aba, localizar exercícios autorizados e filtrar pelos quatro atributos; **só pode abrir/realizar exercícios de cursos aos quais possui direito de acesso**. Aluno contratado apenas em Basic English não acessa exercícios de Travel/Business, nem por navegação direta ou URL.
 - **Regra comercial resolvida:** a biblioteca **não concede acesso universal**: cada exercício herda a permissão do curso ao qual pertence, conforme DEC-027 e REQ-003/REQ-004.
-- **Pendências de apresentação e detalhamento:** definir se exercícios de cursos não contratados aparecem ocultos ou indicados como bloqueados (sem possibilidade de realizá-los); níveis/escala de dificuldade e taxonomia; persistência e histórico de prática; ordenação, combinação de filtros e experiência móvel.
+- **Regra de descoberta e upgrade (DEC-027, definida por Marina):** exercícios de cursos não contratados **aparecem visíveis na aba**, claramente marcados como bloqueados, com opção de conhecer planos que ampliem acesso. É permitido mostrar metadados para descoberta, **não** enunciados completos, respostas ou execução do exercício sem direito ao curso. O controle de acesso deve ser aplicado no backend, inclusive em URLs/APIs diretas.
+- **Pendências de apresentação e detalhamento:** nomes/preços de planos elegíveis, ação exata de upgrade ou contato comercial, conteúdo do item bloqueado; níveis/escala de dificuldade e taxonomia; persistência e histórico de prática; ordenação, combinação de filtros e experiência móvel.
 - **Referências:** DEC-027, DEC-025; REQ-003/REQ-004.
 
 ### REQ-019 — Lista de revisão dos conteúdos de cada módulo
