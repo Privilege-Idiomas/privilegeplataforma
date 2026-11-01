@@ -38,6 +38,7 @@ Este documento registra decisões, propostas e pendências relevantes. Definiç�
 | DEC-020 | Critério de conclusão | A conclusão exige completar todos os componentes obrigatórios da aula e atingir a nota mínima da avaliação | Pendente de aprovação | Matheus / responsável pedagógico |
 | DEC-021 | Segunda tentativa | Liberar a segunda tentativa da avaliação somente depois que o aluno revisar o conteúdo da aula | Pendente de aprovação | Matheus / responsável pedagógico |
 | DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | Em aberto | Marina / responsável pedagógico / Matheus |
+| DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | Pendente de aprovação | Matheus / responsável pedagógico |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
