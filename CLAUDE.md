@@ -3,14 +3,16 @@
 ## 1. Contexto do projeto
 A Plataforma Privilège é uma plataforma digital de ensino de idiomas. O produto prevê cursos online, aulas em vídeo, exercícios, avaliações, trilhas de aprendizagem, assinaturas recorrentes e operação administrativa.
 
-Este repositório é a fonte de verdade para código e documentação técnica. Consulte o README e os documentos em `docs/` antes de implementar mudanças, especialmente requisitos, escopo, trilhas e Decision Log.
+Este repositório GitHub é a **fonte principal de verdade para o projeto**, incluindo código, requisitos, escopo, decisões, governança e documentação técnica. Consulte o README e os documentos em `docs/` antes de implementar mudanças, especialmente requisitos, escopo, trilhas e Decision Log.
 
-## 1.1. Gestão operacional no Notion — DEC-026
-- Notion substituiu ClickUp na gestão do Privilege por decisão de Marina em 2026-10-31.
-- O workspace do Notion deverá consolidar tarefas, acompanhamento, roadmap, riscos, requisitos e um **índice de decisões** com visualizações filtradas por Marina, Matheus e situação.
-- A **ficha canônica integral e o histórico** de decisões permanecem no arquivo Markdown único do responsável no GitHub (docs/08 para Marina; docs/09 para Matheus), mais o índice geral docs/04, até decisão explícita de migração. Notion não deve criar segundas fichas completas, somente metadados e links para os IDs.
-- A escolha do Notion está resolvida, mas a implantação e integração ao workspace ainda não são consideradas concluídas.
-- Ver `docs/11-estrutura-notion.md` para base de dados, campos, views e sequência de implantação.
+## 1.1. GitHub principal; Notion complementar — DEC-026
+- **GitHub é a fonte principal de verdade do Privilege** para código, decisões canônicas, requisitos, arquitetura, documentação e histórico. Não transferir o registro canônico para o Notion.
+- **Notion substitui somente o ClickUp**, como quadro complementar de tarefas e transparência para Matheus, conforme definição de Marina em 2026-10-31.
+- **ChatGPT/PM** define, cadastra, organiza e atribui tarefas no Notion a **Marina ou Claude Code**, com critério de aceite e links para documentação do GitHub. O executor não deve se autoatribuir tarefas sem orientação.
+- **Claude Code, executor técnico, deve atualizar diretamente o status de cada tarefa sua no Notion**, após receber acesso à integração; registrar no item bloqueios, etapa atual, links de PR/commit e resultados de teste. Atualizar para Em andamento ao iniciar, Em revisão/Testes ao entregar para validação, Bloqueado se houver impedimento e Concluído apenas quando critério de aceite e validação pertinentes forem cumpridos. Não confundir PR criado com entrega validada.
+- **Sem acesso ao Notion**, não alegar que atualizou: informar limitação ao PM/Marina e solicitar configuração de integração antes de prometer sincronização automática.
+- Os registros Markdown de decisões continuam exclusivos do responsável (docs/08 para Marina; docs/09 para Matheus), com índice docs/04. Notion pode referenciar links ou IDs, sem reproduzir fichas completas.
+- Ver `docs/11-estrutura-notion.md` para fluxo, campos, visões, acesso e implantação. A adoção está decidida, mas o workspace ainda necessita conexão/configuração.
 
 ## 2. Papéis e autoridade
 - **Matheus — patrocinador:** decide/aprova os itens atribuídos expressamente a ele por Marina, inclusive respostas provisórias de Marina que exijam a validação dele. Não atribuir automaticamente a ele todo tema comercial, pedagógico ou estratégico.
