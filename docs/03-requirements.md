@@ -162,6 +162,15 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Pendências:** quantidade e composição das questões, criação manual ou automática, momento de disponibilização, feedback, e se o aluno pode refazer a lista ilimitadamente.
 - **Referências:** DEC-028 e DEC-025; REQ-012/REQ-015.
 
+### REQ-021 — Público-alvo, salvaguardas de menores e dados mínimos de cadastro
+- **Status:** DEC-037 **RESOLVIDO** quanto ao foco adulto, elegibilidade pretendida de adolescentes a partir de 12 anos e ausência de foto; implementação de controles etários e regras jurídicas pendentes. DEC-038 **REVISAR** para campos propostos de e-mail, telefone, senha e CPF.
+- **Público:** cursos comercialmente voltados a adultos, especialmente viagens e negócios; descrever objetivos de cursos de modo transparente; não impedir interesse de adolescentes que preencham regras de elegibilidade legal. Não ofertar a crianças menores de 12 anos como orientação inicial de Marina; mecanismo de idade e fluxo de contratação por responsável a especificar depois de avaliação jurídica. A existência de cursos 'adultos' em tema não elimina ECA Digital/LGPD se adolescentes puderem usá-los.
+- **Foto de perfil:** não incluir campo, upload, armazenamento nem fluxo de foto de perfil, sem finalidade definida.
+- **Campos sob avaliação, sem obrigatoriedade aprovada:** e-mail, telefone, senha e CPF foram propostos por Marina. Avaliar nome completo, e-mail verificado e exclusivo, armazenamento de senhas por hash se aplicável, telefone opcional salvo uso demonstrado e CPF preferencialmente vinculado ao contratante/tomador para faturamento quando legalmente necessário. **Nunca tornar CPF ou telefone fator autônomo de autenticação.** Distinguir cadastro do aluno e dados da pessoa que compra, pois podem não coincidir.
+- **Critérios e cuidados de segurança:** controles de autorização por identidade e perfil, dados pessoais minimizados, proteção contra exposição e vazamento, fluxo seguro de ativação (DEC-036), aferição de idade proporcional conforme legislação vigente e avaliação jurídico-regulatória para menores, inclusive titularidade e capacidade para assinar contrato e publicidade. Não assumir que CPF confirma identidade sem integração específica e justificada.
+- **Vetores de custo a comparar após escopo e stack:** registro e validação de dados, verificação de e-mail, eventuais SMS, antifraude, mecanismos para responsáveis, suporte, observabilidade e proteção de dados, alternativas sem custos variáveis desnecessários. Sem custo aprovado.
+- **Referências:** DEC-037, DEC-038, DEC-036, DEC-032, DEC-035, REQ-001/002/020.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
