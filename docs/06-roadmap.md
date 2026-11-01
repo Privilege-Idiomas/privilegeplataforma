@@ -45,7 +45,8 @@
 - **DEC-025 / REQ-012:** exercícios de prática **opcionais**; avaliação da aula **obrigatória** e determinante para conclusão/desbloqueio.
 - **DEC-027 / REQ-018:** biblioteca geral de exercícios com filtros por curso, módulo, aula e dificuldade.
 - **DEC-028 / REQ-019:** listas de revisão por módulo integrando conteúdos das aulas de cada módulo.
-- **Dependências antes de estimar/programar:** quantidade de exercícios, estrutura de metadados/dificuldade, criação das listas e regra de autorização para acessar exercícios fora dos cursos contratados.
+- **Regra de autorização já definida por Marina (DEC-027):** exercícios herdam acesso do curso ao qual pertencem; nunca permitir prática de um curso não contratado, inclusive pela biblioteca e revisões de módulos.
+- **Dependências antes de estimar/programar:** quantidade de exercícios, estrutura de metadados/dificuldade, criação das listas, forma de exibir itens sem acesso (ocultos ou bloqueados) e demais detalhes da experiência de prática.
 - **Controle de escopo:** são definições de produto aprovadas por Marina, **não** compromisso automático de inclusão no MVP nem extensão aprovada do prazo de 30 dias. Registrar estimativas, prioridades e tarefas no GitHub antes de assumir cronograma.
 
 ## Planejamento detalhado
