@@ -51,7 +51,7 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
 - **Descrição:** permitir que o aluno realize um teste de nivelamento como uma das formas de iniciar sua jornada.
 - **Critério de aceitação preliminar:** aluno consegue realizar o teste e receber o resultado/encaminhamento definido pelo produto.
-- **Pendente:** estrutura do teste, faixas de nível, pontuação, recomendação automática e se o teste será obrigatório ou opcional.
+- **Pendente:** todo o desenho funcional e pedagógico do teste, incluindo estrutura, faixas de nível, pontuação, interpretação do resultado, recomendação/encaminhamento e se será obrigatório ou opcional.
 
 ### REQ-007 — Início por diferentes portas de entrada
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
@@ -101,7 +101,8 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
 - **Descrição:** as avaliações associadas às aulas terão uma nota mínima de aprovação. Se o aluno não atingir a nota mínima na primeira tentativa, poderá realizar exatamente mais uma tentativa.
 - **Critério de aceitação preliminar:** o sistema registra a nota; identifica aprovação ou não aprovação conforme o limite configurado; permite no máximo duas tentativas por avaliação (uma inicial e uma adicional).
-- **Pendente:** valor da nota mínima, escala de pontuação, se a segunda tentativa será liberada imediatamente ou após revisão, e regras para exceções/retentativas administrativas.
+- **Regra definida:** a segunda tentativa será liberada depois que o aluno revisar o conteúdo da aula.
+- **Pendente:** valor da nota mínima e escala de pontuação; regras para exceções/retentativas administrativas.
 
 ### REQ-014 — Orientação após duas tentativas sem aprovação
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
@@ -112,9 +113,10 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 
 ### REQ-015 — Desbloqueio sequencial de aulas dentro do curso
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
-- **Descrição:** o aluno deverá concluir uma aula para desbloquear a próxima aula do mesmo curso.
-- **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até a conclusão da aula anterior; ao concluir, a próxima aula da sequência é liberada.
-- **Pendente:** definição exata de conclusão da aula e se a aprovação na avaliação é requisito obrigatório para considerar a aula concluída.
+- **Descrição:** o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação para desbloquear a próxima aula do mesmo curso.
+- **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
+- **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
+- **Pendente:** detalhar quais componentes são obrigatórios em cada aula e o valor/escala da nota mínima.
 
 ### REQ-016 — Registro de progresso
 - **Status:** Proposto.
