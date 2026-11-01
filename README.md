@@ -20,8 +20,8 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 
 ## Ferramentas e fontes de verdade
 - **GitHub (principal):** fonte oficial de verdade do projeto: código, decisões canônicas, requisitos, escopo, governança e documentação versionada.
-- **Notion (complementar):** quadro operacional de tarefas, responsáveis, prioridades, status e transparência de andamento para Matheus. Não substitui os registros Markdown nem a documentação do GitHub. Adoção decidida por Marina em 2026-10-31 (DEC-026), ainda aguardando conexão/configuração.
-- **Claude Code:** executor de tarefas técnicas designadas pelo PM; deve atualizar diretamente o status de suas tarefas no Notion quando o acesso estiver configurado, além de manter código e evidências no GitHub.
+- **Notion (complementar):** relatório executivo de andamento para Matheus com status do projeto, cronograma de alto nível, entregas principais, bloqueios e próximos passos. **Não** é backlog técnico nem espelho dos documentos ou tarefas do GitHub. Decisão DEC-026; implantação ainda não concluída.
+- **Claude Code:** executor técnico; detalha trabalho, código e evidências no GitHub. Quando uma entrega macro lhe for atribuída no Notion, deve atualizar somente seu status executivo, previsão fundamentada e bloqueios relevantes, após a integração ser configurada.
 
 ## Documentação
 - [Termo de Abertura](docs/01-project-charter.md)
@@ -36,7 +36,7 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 
 ## Separação de fontes de verdade
 - **GitHub é principal e canônico:** fonte oficial para decisões completas, governança, escopo, requisitos, planos, arquitetura, código e histórico; cada decisão pertence a um só arquivo Markdown por responsável, com índice geral.
-- **Notion é complementar:** apenas quadro de execução para transparência; tarefas cadastradas e atribuídas pelo ChatGPT/PM a Marina ou Claude Code; o Claude atualiza o status de suas tarefas diretamente no Notion, condicionado a acesso técnico. Links para documentos/PRs do GitHub; nunca copiar integralmente fichas de decisão.
+- **Notion é complementar e enxuto:** ChatGPT/PM registra apenas entregas/marcos relevantes, atribuídos a Marina ou Claude Code, e consolida relatório do cronograma para Matheus. Claude atualiza status de marcos sob sua responsabilidade após conexão. Todos os detalhes técnicos, issues, testes, PRs e fichas de decisão ficam no GitHub.
 
 ## Regra de governança
 Não tratar propostas ou hipóteses como requisitos aprovados. Decisões de negócio, orçamento e escopo precisam de aprovação do patrocinador e devem ser registradas no Decision Log.
