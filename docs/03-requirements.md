@@ -92,10 +92,10 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 ## 6. Exercícios, avaliações e progresso
 
 ### REQ-012 — Exercícios associados às aulas
-- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
-- **Descrição:** as aulas terão exercícios associados.
-- **Critério de aceitação preliminar:** aluno consegue acessar e responder aos exercícios vinculados à aula.
-- **Pendente:** tipos de questão, correção automática/manual, feedback e quais exercícios são obrigatórios.
+- **Status:** exercícios previstos; **obrigatoriedade dos exercícios de prática = resposta provisória de Marina, DEC-025 (REVISAR com Matheus)**.
+- **Descrição:** as aulas terão exercícios associados. Segundo a resposta provisória de Marina, os exercícios de prática serão obrigatórios a princípio, antes da avaliação.
+- **Critério de aceitação preliminar:** aluno consegue acessar e responder aos exercícios vinculados à aula. A obrigatoriedade e eventual bloqueio da avaliação aguardam confirmação de Matheus e detalhamento técnico.
+- **Pendente:** Matheus confirmar ou revisar DEC-025, por meio de Marina; tipos de questão, correção automática/manual, feedback e identificação dos exercícios necessários. Não presumir mecanismos específicos de verificação ou bloqueio.
 
 ### REQ-013 — Avaliações com nota mínima e uma tentativa adicional
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
@@ -117,6 +117,7 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
 - **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
 - **Resposta provisória de Marina (DEC-024; decisão atribuída por ela à validação de Matheus, status REVISAR):** não é obrigatório assistir a 100% do vídeo para concluir a aula ou desbloquear a próxima. O aluno pode avançar ao cumprir os demais componentes obrigatórios e atingir a nota mínima. A presença do vídeo como conteúdo da aula permanece prevista; o percentual assistido não será requisito de conclusão segundo esse direcionamento.
+- **Relação com DEC-025:** Marina respondeu provisoriamente que os exercícios de prática serão obrigatórios a princípio; decisão sob responsabilidade de Matheus, status **REVISAR**. A definição não substitui o requisito de aprovação na avaliação.
 - **Pendente:** detalhar quais atividades e demais componentes serão obrigatórios em cada aula e o valor/escala da nota mínima; Marina comunicará a confirmação ou mudança da DEC-024 após conversar com Matheus.
 
 ### REQ-017 — Resumo escrito da aula para revisão
