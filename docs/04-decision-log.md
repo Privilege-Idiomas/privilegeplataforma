@@ -96,6 +96,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-035 | Ordem de definição do produto | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — escopo integral → stack → análise de custos → separação por versões → execução | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
 
+| DEC-036 | Ativação segura após contratação | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — ativação por e-mail ou continuidade no site com comprovação segura do e-mail; custos pendentes | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
