@@ -112,12 +112,12 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Pendente:** conteúdo da mensagem, disponibilidade e contratação dos serviços, preço, agenda e distinção entre benefícios incluídos e adicionais.
 
 ### REQ-015 — Desbloqueio sequencial de aulas dentro do curso
-- **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
+- **Status:** parcial; regra geral informada por Marina. **DEC-024 = REVISAR (resposta provisória de Marina, aguardando confirmação de Matheus).** Não tratar a DEC-024 como aprovação final dele.
 - **Descrição:** o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação para desbloquear a próxima aula do mesmo curso.
 - **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
 - **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
-- **Definição comunicada por Marina (DEC-024; decisor e aprovação a confirmar com ela):** não é obrigatório assistir a 100% do vídeo para concluir a aula ou desbloquear a próxima. O aluno pode avançar ao cumprir os demais componentes obrigatórios e atingir a nota mínima. A presença do vídeo como conteúdo da aula permanece prevista; o percentual assistido não será requisito de conclusão segundo esse direcionamento.
-- **Pendente:** detalhar quais atividades e demais componentes serão obrigatórios em cada aula e o valor/escala da nota mínima; confirmar diretamente com Marina o decisor e a aprovação de DEC-024.
+- **Resposta provisória de Marina (DEC-024; decisão atribuída por ela à validação de Matheus, status REVISAR):** não é obrigatório assistir a 100% do vídeo para concluir a aula ou desbloquear a próxima. O aluno pode avançar ao cumprir os demais componentes obrigatórios e atingir a nota mínima. A presença do vídeo como conteúdo da aula permanece prevista; o percentual assistido não será requisito de conclusão segundo esse direcionamento.
+- **Pendente:** detalhar quais atividades e demais componentes serão obrigatórios em cada aula e o valor/escala da nota mínima; Marina comunicará a confirmação ou mudança da DEC-024 após conversar com Matheus.
 
 ### REQ-017 — Resumo escrito da aula para revisão
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
