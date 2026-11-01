@@ -8,7 +8,7 @@
 - O roadmap representa fases e dependências, não uma promessa de entrega.
 - A meta de referência de 30 dias só poderá ser confirmada após aprovação do escopo e estimativa.
 - Itens não validados devem permanecer identificados como pendentes.
-- O backlog detalhado e os responsáveis por tarefas serão acompanhados no Notion.
+- O roadmap versionado e as decisões permanecem no GitHub como fonte oficial; o backlog operacional, responsáveis e status de execução serão acompanhados no Notion como painel complementar para Matheus.
 
 ## Fases propostas
 
@@ -41,4 +41,4 @@
 - Disponibilidade de usuários para testes de aceitação.
 
 ## Planejamento detalhado
-As datas, durações, estimativas e dependências entre tarefas serão inseridas no Notion após decomposição do escopo e avaliação de capacidade. Não atribuir datas definitivas com base apenas na meta preliminar de 30 dias.
+As datas, durações, estimativas e dependências entre tarefas serão registradas pelo PM no Notion para acompanhamento operacional após decomposição do escopo e avaliação de capacidade; mudanças de baseline aprovadas deverão ser registradas também na documentação canônica no GitHub. Não atribuir datas definitivas com base apenas na meta preliminar de 30 dias.
