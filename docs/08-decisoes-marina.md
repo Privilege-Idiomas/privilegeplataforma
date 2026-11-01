@@ -130,6 +130,13 @@
 - **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) A definir após decomposição dos requisitos.
 - **Origem:** roadmap e RSK-003.
 
+
+### DEC-029 — Conferência pré-execução e autonomia excepcional delimitada
+- **Data:** 2026-10-31.
+- **Responsável/aprovação/comunicação:** Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
+- **Regra:** Antes de repassar uma tarefa ao Claude, a PM confere todas as decisões, requisitos, aprovações e pendências aplicáveis no GitHub, sem presumir respostas. Itens relevantes em REVISAR ou SEM RESPOSTA bloqueiam a parte dependente, até Marina esclarecer. A PM prepara escopo, critérios de aceitação, referências e checklist e recebe autorização de Marina para o pacote. EXCEÇÃO: Marina pode delegar explicitamente autonomia para uma tarefa específica e delimitar os aspectos abertos que podem ser decididos pela PM/Claude conforme boas práticas, priorizando baixo custo, alta segurança e coerência com decisões já aprovadas. Autonomia não é geral, não revoga requisitos aprovados, nem autoriza publicar em produção. Registrar escopo da delegação, escolhas e justificativas no GitHub; se surgir conflito ou risco relevante fora da autorização, voltar a Marina. Toda publicação continua exigindo revisão e aprovação prévia.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
