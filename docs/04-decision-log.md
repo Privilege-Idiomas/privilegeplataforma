@@ -98,6 +98,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-036 | Ativação segura após contratação | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — ativação por e-mail ou continuidade no site com comprovação segura do e-mail; custos pendentes | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional) | Marina |
 
+| DEC-037 | Público adulto com acesso a adolescentes; foto de perfil dispensada | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regras de produto; salvaguardas pendentes) | Marina |
+| DEC-038 | Campos de cadastro e aluno versus pagador | [Registro canônico da Marina](08-decisoes-marina.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** (campos sugeridos, obrigatoriedade não confirmada) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
