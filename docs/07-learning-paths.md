@@ -40,7 +40,7 @@ Esses exemplos representam as opções informadas até o momento, não uma defin
 
 ## 4. Regras de progressão dentro dos cursos
 - Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação.
-- **Definição comunicada por Marina; titularidade e aprovação a confirmar com ela (DEC-024):** assistir ao vídeo completo não é requisito obrigatório de conclusão/desbloqueio; o aluno pode progredir cumprindo as demais atividades obrigatórias e alcançando a nota mínima.
+- **DEC-024 — REVISAR:** resposta provisória formulada e comunicada por Marina, que atribuiu a confirmação final a Matheus. A proposta é não exigir 100% do vídeo para conclusão/desbloqueio, desde que atividades obrigatórias e avaliação sejam cumpridas. **Aguardando Matheus; ainda não aprovada por ele.**
 - Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula por meio de um resumo escrito disponibilizado na própria aula.
 - Não será necessário assistir novamente ao vídeo para realizar a segunda tentativa.
 - A nota mínima ainda será definida.
