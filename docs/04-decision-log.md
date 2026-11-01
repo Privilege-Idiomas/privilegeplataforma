@@ -1,13 +1,13 @@
 # Registro de Decisões — Plataforma Privilège
 
-**Versão:** 0.1  
-**Última atualização:** 2026-10-30
+**Versão:** 0.2  
+**Última atualização:** 2026-10-31
 
-Este documento registra decisões, propostas e pendências relevantes. Uma definição informada pela responsável pelo projeto não equivale automaticamente à aprovação formal do patrocinador.
+Este documento registra decisões, propostas e pendências relevantes. Definições informadas por Marina registram o direcionamento atual do produto, mas aguardam aprovação formal do patrocinador quando indicado.
 
 ## Status
 - **Aprovada:** decisão formalmente autorizada.
-- **Pendente de aprovação:** definição proposta ou informada, aguardando aprovação do responsável competente.
+- **Pendente de aprovação:** definição informada/proposta, aguardando aprovação do responsável competente.
 - **Em aberto:** decisão ainda não tomada.
 - **Rejeitada:** alternativa avaliada e descartada.
 - **Substituída:** decisão anterior que deixou de valer.
@@ -27,6 +27,15 @@ Este documento registra decisões, propostas e pendências relevantes. Uma defin
 | DEC-009 | Pagamentos | Selecionar provedor e regras de cobrança recorrente | Em aberto | Matheus |
 | DEC-010 | Vídeos | Selecionar solução de geração/hospedagem/entrega de vídeos | Em aberto | Marina e Matheus, conforme orçamento |
 | DEC-011 | Planos e preços | Definir catálogo comercial, preços e benefícios | Em aberto | Matheus |
+| DEC-012 | Modalidades de assinatura | Suportar planos com acesso ao catálogo completo e assinaturas com acesso a cursos específicos | Pendente de aprovação | Matheus |
+| DEC-013 | Catálogo inicial | Basic English, Travel e Business | Pendente de aprovação | Matheus |
+| DEC-014 | Trilhas por objetivo | Reutilizar os mesmos cursos em trilhas com sequências/prioridades diferentes | Pendente de aprovação | Matheus |
+| DEC-015 | Portas de entrada | Teste de nivelamento, início por Basic English ou entrada direta em Travel/Business | Pendente de aprovação | Matheus |
+| DEC-016 | Progressão | Concluir uma aula para desbloquear a próxima aula do mesmo curso | Pendente de aprovação | Matheus |
+| DEC-017 | Avaliações | Nota mínima e uma tentativa adicional (duas tentativas no total) | Pendente de aprovação | Matheus / responsável pedagógico |
+| DEC-018 | Apoio após reprovação | Após duas tentativas abaixo da nota mínima, sugerir plantão de dúvidas ou aula particular, respeitando os serviços do plano | Pendente de aprovação | Matheus |
+| DEC-019 | Nota mínima | Definir valor e escala da nota mínima de aprovação | Em aberto | Matheus / responsável pedagógico |
+| DEC-020 | Critério de conclusão | Definir se a conclusão exige apenas consumir a aula ou também aprovação na avaliação | Em aberto | Marina / responsável pedagógico |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
