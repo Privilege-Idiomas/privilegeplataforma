@@ -19,9 +19,9 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - Após duas tentativas sem atingir a nota mínima, a plataforma deverá sugerir plantão de dúvidas ou aula particular, conforme os serviços disponíveis no plano do aluno.
 
 ## Ferramentas e fontes de verdade
-- **GitHub (principal):** fonte oficial de verdade do projeto: código, decisões canônicas, requisitos, escopo, governança e documentação versionada.
-- **Notion (complementar):** relatório executivo de andamento para Matheus com status do projeto, cronograma de alto nível, entregas principais, bloqueios e próximos passos. **Não** é backlog técnico nem espelho dos documentos ou tarefas do GitHub. Decisão DEC-026; implantação ainda não concluída.
-- **Claude Code:** executor técnico; detalha trabalho, código e evidências no GitHub. Quando uma entrega macro lhe for atribuída no Notion, deve atualizar somente seu status executivo, previsão fundamentada e bloqueios relevantes, após a integração ser configurada.
+- **GitHub (principal e completo):** fonte **única** de verdade do projeto: **todas** as tarefas (inclusive marcos executivos), responsáveis, status, cronograma, riscos, decisões, requisitos, documentos, código, testes, evidências e histórico. Nada pode existir somente no Notion.
+- **Notion (somente relatório derivado):** visão executiva resumida para Matheus, **extraída exclusivamente de fatos já registrados no GitHub**. Não armazena informação original, não modifica o fluxo do GitHub e não é repositório paralelo. Decisão DEC-026; implantação ainda não concluída.
+- **Claude Code:** executor técnico; atualiza primeiro no GitHub as tarefas, status, previsões, impedimentos e evidências. Se um marco sob sua responsabilidade aparecer no Notion, pode atualizar ali o resumo executivo **somente depois** de registrar a mesma informação no GitHub, quando autorizado/conectado.
 
 ## Documentação
 - [Termo de Abertura](docs/01-project-charter.md)
@@ -32,11 +32,12 @@ Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com a
 - [Roadmap Preliminar](docs/06-roadmap.md)
 - [Trilhas de Aprendizagem](docs/07-learning-paths.md)
 - [Orientações para Claude Code](CLAUDE.md)
-- [Estrutura de implantação no Notion](docs/11-estrutura-notion.md)
+- [Estrutura do relatório executivo no Notion](docs/11-estrutura-notion.md)
+- [Relatório executivo canônico (origem da projeção para Notion)](docs/12-relatorio-executivo.md)
 
 ## Separação de fontes de verdade
-- **GitHub é principal e canônico:** fonte oficial para decisões completas, governança, escopo, requisitos, planos, arquitetura, código e histórico; cada decisão pertence a um só arquivo Markdown por responsável, com índice geral.
-- **Notion é complementar e enxuto:** ChatGPT/PM registra apenas entregas/marcos relevantes, atribuídos a Marina ou Claude Code, e consolida relatório do cronograma para Matheus. Claude atualiza status de marcos sob sua responsabilidade após conexão. Todos os detalhes técnicos, issues, testes, PRs e fichas de decisão ficam no GitHub.
+- **GitHub é a fonte única e completa:** todas as tarefas, marcos, alterações de status, previsões, decisões, requisitos, documentação, execução e evidências devem estar registrados nele. Cada decisão possui uma única ficha Markdown canônica por responsável, com índice geral.
+- **Notion é somente apresentação executiva:** ChatGPT/PM seleciona e resume marcos e resultados **já documentados no GitHub**; o relatório canônico também reside no GitHub. Atualizações de Claude/Marina devem chegar primeiro ao GitHub; qualquer atualização posterior no Notion é reflexo, jamais fonte primária.
 
 ## Regra de governança
 Não tratar propostas ou hipóteses como requisitos aprovados. Decisões de negócio, orçamento e escopo precisam de aprovação do patrocinador e devem ser registradas no Decision Log.
