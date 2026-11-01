@@ -94,6 +94,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 - **Registro canônico:** [Decisões da Marina](08-decisoes-marina.md).
 - **Painel:** [Custos aprovados por funcionalidade no Notion](https://app.notion.com/p/0a5db82ea71547e8bf354d7a6a2d4ae8).
 
+| DEC-035 | Ordem de definição do produto | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — escopo integral → stack → análise de custos → separação por versões → execução | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
