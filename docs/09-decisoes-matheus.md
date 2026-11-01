@@ -6,13 +6,15 @@
 **Finalidade:** pauta consolidada para levar às reuniões com Matheus. Reúne decisões de negócio, comerciais e pedagógicas que precisam de definição ou aprovação dele.
 
 ## Como usar este arquivo
-- Quando Marina disser "coloca nas decisões do Matheus" ou indicar que um assunto será decidido por ele, adicionar um item aqui.
+- Apenas quando Marina disser "coloca nas decisões do Matheus" ou indicar expressamente que o item será decidido por ele, incluí-lo nesta pauta. Não presumir atribuição por assunto pedagógico, comercial ou estratégico.
 - Manter cada pergunta objetiva, com contexto suficiente para ser respondida em reunião.
-- Ao receber a resposta de Matheus, registrar decisão, data, justificativa e impacto; atualizar também o registro oficial em docs/04-decision-log.md e os requisitos afetados.
+- Quando Marina informar a decisão de Matheus, registrar **decisor: Matheus; comunicado por: Marina**, aprovação, data e justificativas conforme ela informar; atualizar também o registro oficial e os requisitos. Matheus não precisa comunicar pessoalmente ao assistente.
 - Não presumir que Matheus aprovou uma proposta por ela ter sido discutida.
-- Se a decisão for pedagógica, identificar a equipe pedagógica como participante/consultada quando apropriado.
+- Só registrar participação ou aprovação da equipe pedagógica se Marina informar explicitamente. Itens históricos desta pauta com atribuições não confirmadas devem ser sinalizados para conferência com Marina, preservando os registros.
 
-## Pauta consolidada para Matheus
+## Pauta histórica de decisões classificadas para Matheus
+
+**Revisão de titularidade:** esta lista mantém as classificações anteriores por rastreabilidade. A presença de um item não prova que Marina tenha atribuído sua decisão a Matheus. Confirmar com Marina a titularidade dos itens anteriormente classificados por inferência; não incluir novos sem indicação explícita dela.
 
 ### MAT-001 — Aprovação da baseline do produto e do público inicial
 - **Pergunta:** Matheus aprova o lançamento voltado tanto a alunos atuais quanto a novos alunos?
@@ -57,11 +59,12 @@
 - **Definição já registrada:** uma tentativa inicial e uma tentativa adicional; a segunda ocorre após revisão de um resumo escrito da aula, sem exigir assistir novamente ao vídeo.
 - **Origem:** DEC-017, DEC-021 e DEC-023; REQ-012, REQ-013 e REQ-017.
 
-### MAT-009 — Critérios pedagógicos de conclusão da aula
-- **Perguntas para aprovação:** Matheus valida que o aluno não precise assistir a 100% do vídeo para concluir a aula, desde que cumpra as demais atividades obrigatórias e seja aprovado? Quais componentes serão obrigatórios para conclusão e desbloqueio?
-- **Definição já registrada:** o aluno precisa concluir todos os componentes obrigatórios e atingir a nota mínima da avaliação.
-- **Direcionamento de Marina (2026-10-31):** vídeo completo não é obrigatório para conclusão e desbloqueio (DEC-024). Ainda não houve aprovação pedagógica documentada.
-- **Status:** Parcialmente definido por Marina; confirmação de Matheus/equipe pedagógica e detalhamento dos componentes pendentes.
+### MAT-009 — Critérios de conclusão da aula (classificação histórica a confirmar)
+- **Histórico:** assunto anteriormente classificado como decisão do Matheus pelo assistente, sem indicação expressa de Marina; a classificação não é válida até confirmação dela.
+- **Definição comunicada por Marina:** atividades/componentes obrigatórios e nota mínima necessários; vídeo completo não precisa ser obrigatório (DEC-024).
+- **Responsável pela decisão e aprovação:** a confirmar com Marina; nenhuma validação de Matheus deve ser presumida.
+- **Pergunta ainda aberta:** quais componentes específicos são obrigatórios e quem é o responsável pela decisão?
+- **Status:** titularidade e aprovação a confirmar com Marina; detalhamento pendente.
 - **Origem:** DEC-016, DEC-020 e DEC-024; REQ-015.
 
 ### MAT-010 — Apoio após duas tentativas sem aprovação
