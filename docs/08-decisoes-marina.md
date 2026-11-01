@@ -43,11 +43,12 @@
 
 ### MAR-005 — Componentes obrigatórios por aula
 - **Tema:** definição operacional do que o aluno precisa concluir em cada aula.
-- **Pergunta:** vídeo, exercícios, leitura/resumo ou outros componentes serão obrigatórios? A regra pode variar por aula?
+- **Pergunta atual:** quais atividades, exercícios, leituras ou outros componentes serão obrigatórios? A configuração poderá variar por aula?
 - **Responsável:** Marina para organizar o requisito; validação pedagógica de Matheus/equipe pedagógica.
-- **Status:** Em aberto / decisão compartilhada.
-- **Origem:** REQ-015 e REQ-017; DEC-020.
-- **Observação:** já está definido que a próxima aula só desbloqueia após concluir os componentes obrigatórios e atingir a nota mínima. Falta especificar quais são esses componentes.
+- **Status:** Parcialmente definido por Marina; validação pedagógica e detalhamento restantes pendentes.
+- **Origem:** REQ-015 e REQ-017; DEC-020 e DEC-024.
+- **Direcionamento registrado em 2026-10-31 (DEC-024):** Marina definiu que assistir ao vídeo inteiro não precisa ser obrigatório quando o aluno cumpre as atividades obrigatórias e atinge a nota mínima. Aprovador pedagógico: ainda não confirmado.
+- **Pendente:** definir exatamente os componentes obrigatórios, eventuais variações entre aulas e obter validação pedagógica. Preserva-se a regra já definida de aprovação na avaliação para desbloqueio.
 
 ### MAR-006 — Produção e formato dos resumos escritos
 - **Tema:** operação de criação e publicação dos resumos de aula.
