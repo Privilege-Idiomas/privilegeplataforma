@@ -18,21 +18,21 @@
 
 ## Decisões resolvidas da Marina
 
-### DEC-026 — Adoção do Notion como plataforma oficial de gestão do projeto
+### DEC-026 — Adoção do Notion como painel complementar de execução e transparência
 - **Responsável único:** Marina.
 - **Data de definição e comunicação:** 2026-10-31.
 - **Tag de resposta:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — ferramenta escolhida, implantação ainda não concluída.
-- **Contexto:** a configuração inicial utilizava ClickUp para acompanhamento da execução; surgiu a necessidade de concentrar gestão do projeto, documentação operacional, visibilidade e decisões em ambiente compartilhado com Matheus.
+- **Contexto:** a configuração inicial previa ClickUp para tarefas; Marina decidiu usar Notion para permitir a Matheus acompanhar execução, mantendo o GitHub como principal fonte de verdade de todo o projeto.
 - **Alternativas efetivamente consideradas:** manter ClickUp (ferramenta anteriormente prevista) ou adotar Notion como substituto. Não existe avaliação técnica comparativa formal documentada.
-- **Decisão:** adotar Notion no lugar de ClickUp como ferramenta de gerenciamento, acompanhamento e documentação operacional do projeto Privilège.
-- **Justificativa comunicada no contexto:** concentrar tarefas, informações, painéis e documentos em ambiente transparente para Marina e Matheus. Não foram informadas métricas quantitativas de comparação.
+- **Decisão:** substituir ClickUp por Notion **apenas como ferramenta complementar de registro e acompanhamento operacional de tarefas e transparência para Matheus**; manter GitHub como ferramenta principal e fonte canônica do projeto, documentos, decisões e código.
+- **Justificativa comunicada no contexto:** dar transparência ao Matheus sobre o andamento do projeto sem abandonar o GitHub. Não foram informadas métricas quantitativas de comparação.
 - **Decisora/aprovadora:** Marina; nenhuma aprovação adicional de Matheus foi informada ou presumida.
 - **Comunicado por:** Marina.
 - **Decisão anterior:** DEC-002 — escolha operacional do ClickUp, agora com ciclo de vida **Substituída**; preservar o histórico.
 - **Condição de execução:** acesso e permissões ao workspace do Notion ainda precisam ser configurados; preparação de esquema/documentação no GitHub não equivale a implantação no Notion.
-- **Escopo da migração:** tarefas, prioridades, responsáveis, roadmap, riscos, requisitos e visualizações de decisões; preservar os arquivos Markdown de decisão canônicos no GitHub, sem espelhos ou duplicação.
+- **Escopo operacional:** o ChatGPT como PM deverá cadastrar e atribuir tarefas no Notion a Marina ou Claude Code, com prioridade, prazo quando definido, critérios de aceite, referências e status; Claude Code como executor técnico deverá atualizar no Notion o status das tarefas dele. A documentação de requisitos, decisões, arquitetura e plano base permanece canônica no GitHub. O Notion pode mostrar resumos e links, nunca cópias integrais de decisões.
 - **Status de execução:** planejamento e preparação da migração; importação, conferência e compartilhamento ainda pendentes.
-- **Critério de validação:** workspace compartilhado, bases criadas, visões filtradas por responsável, IDs únicos e conferência com os registros Markdown originais, sem atribuições/aprovações presumidas.
+- **Critério de validação:** quadro de tarefas compartilhado e acessível para Marina e Matheus, campos/visões filtrados por responsável e status, vínculo de tarefas aos documentos e PRs do GitHub, capacidade de Claude Code atualizar as tarefas dele, sem atribuições/aprovações presumidas.
 - **Documentos afetados:** README.md, docs/04-decision-log.md, docs/06-roadmap.md, docs/08-decisoes-marina.md, docs/11-estrutura-notion.md e CLAUDE.md.
 
 ## Pendências consolidadas da Marina
