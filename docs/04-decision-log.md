@@ -50,7 +50,16 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-027 | Aba geral de exercícios | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — biblioteca filtrável; **indicação agregada de exercícios adicionais bloqueados**, sem listar exercícios individuais de cursos não contratados | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — controle de acesso herdado do curso e oportunidade de conhecer planos maiores | Marina |
 | DEC-028 | Revisão de exercícios por módulo | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — exercícios misturando conteúdos de todas as aulas de cada módulo | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — execução e detalhes pendentes | Marina |
 
+| DEC-029 | Auditoria antes da execução pelo Claude | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Marina |
+
 **Notion complementar (DEC-026):** não constitui migração da documentação ou das fichas de decisão. O GitHub é a fonte de verdade única para **todas** as informações do projeto, inclusive tarefas, status, cronograma, marcos e fichas completas de decisões (em arquivo Markdown do responsável, mais o índice geral). No Notion, exibir apenas um resumo executivo **extraído de registros já existentes no GitHub** (marcos, status, cronograma, próximos passos e impedimentos relevantes para Matheus), com links pontuais, sem cópias de fichas completas ou tarefas técnicas granulares. Itens de titularidade legada ambígua continuam para saneamento, sem novas atribuições presumidas.
+
+
+## DEC-029 — Auditoria obrigatória antes de delegar ao Claude (2026-10-31)
+- **Responsável e aprovação:** Marina; comunicado por Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**.
+- **Regra:** Antes de delegar qualquer pacote de implementação ao Claude, a PM examina no GitHub todas as decisões, requisitos, dependências, aprovações, exceções e conflitos ligados ao escopo. Nenhuma suposição é requisito; decisões REVISAR ou SEM RESPOSTA relevantes bloqueiam a parte afetada até Marina comunicar a definição/validação (inclusive as decisões atribuídas a Matheus). A PM apresenta checklist com IDs, evidências de aprovação, escopo, critérios de aceitação, exclusões e pendências resolvidas, e obtém a autorização de Marina para encaminhar ao Claude. Somente trabalho independente e aprovado pode ser isolado em outro pacote. Isso evita gasto de tokens e retrabalho. A auditoria anterior à execução é distinta da aprovação exigida para publicar em produção. Histórico integral permanece no GitHub; Notion só resume.
+- **Registro canônico:** [Decisões de Marina](08-decisoes-marina.md).
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
