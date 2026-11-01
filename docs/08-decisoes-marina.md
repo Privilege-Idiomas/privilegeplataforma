@@ -170,6 +170,23 @@
 - **Aprovação financeira:** **PENDENTE**, separada da aprovação da decisão funcional, conforme DEC-032. Não implementar nem enviar ao Claude enquanto o custo não for apresentado e explicitamente aprovado por Marina. Não incluir esta funcionalidade na tabela de custos aprovados do Notion até ambas as aprovações.
 - **Execução e validação:** não comprovadas.
 
+### DEC-034 — Sorteio por grupo, identificador de questão e marcação pessoal de dúvidas
+- **Data:** 2026-10-31.
+- **Responsável único, decisora e aprovação funcional:** Marina, comunicado por Marina.
+- **Status da definição funcional:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO**. Aprovação financeira **PENDENTE** conforme DEC-032; implementação não autorizada.
+- **Contexto:** facilitar variedade na prática, referência objetiva a uma questão durante plantão de dúvidas/aula particular e acompanhamento autônomo de questões que o aluno quer discutir.
+- **Complemento da DEC-033:** manter a ordem de prioridade **pendentes de revisão → inéditas → concluídas**, mas exibir as questões em **ordem aleatória dentro de cada grupo, sempre**. Não substituir essa priorização por mistura aleatória global. Detalhes de tamanho de lote, repetição entre sessões e distribuição continuam sem decisão.
+- **Identificação:** toda questão do banco deverá ter identificador único e estável, exibível ao aluno autorizado. Um professor deverá poder localizar a questão pelo código, durante os atendimentos permitidos. Formato do código, perfis de professor, permissão exata de consulta, vínculo com alunos, interface de pesquisa e regras de exposição do gabarito ainda precisam ser especificados e aprovados. Nunca expor questão de curso bloqueado a aluno sem direito; a consulta de professor exige autenticação e autorização próprias, não acesso público por código.
+- **Marcação pessoal:** disponibilizar ao aluno controle de marcar/desmarcar uma questão como **“Questão em dúvida”** (marcador ou favorito), persistente entre sessões. Oferecer lista pessoal para consultar suas questões marcadas e desmarcá-las à medida que solucionar as dúvidas. O estado **marcada em dúvida** é independente do estado pedagógico (pendente de revisão, inédita, concluída): uma questão concluída pode continuar marcada; marcar/desmarcar não altera acertos nem tentativas. Respeitar sempre direitos de curso quando listar ou abrir questões, inclusive se acesso do aluno mudar.
+- **Alternativas efetivamente discutidas:** guardar os códigos fora da plataforma versus marcação pessoal interna; Marina solicitou a marcação interna e códigos pesquisáveis pelo professor. Para ordenação interna, Marina escolheu explicitamente sorteio em vez de sequência fixa. Outras alternativas não foram avaliadas.
+- **Custos de produção (a orçar):** identificadores legíveis e índice de busca; UI de marcador, lista e controles de acesso; testes de segurança e persistência; mecanismo de embaralhamento por grupo.
+- **Custos fixos mensais incrementais (a orçar):** impactos eventuais de infraestrutura, índices e monitoramento; não presumir zero.
+- **Custos variáveis dos alunos (a orçar):** marcações/desmarcações, leituras da lista, histórico persistido, consultas e recuperação das questões; embaralhamento pode ser feito sem IA e sem chamadas pagas a cada resposta. Quantificar com cenários de uso e arquitetura definida.
+- **Custos administrativos/professores (a orçar):** pesquisas de códigos, atualizações de conteúdo e gestão de permissões. Comparar soluções que minimizem escritas/leituras e evitem dependências variáveis sem comprometer segurança. Nenhum preço numérico ou ausência de custo foi demonstrado.
+- **Governança financeira:** funcionalidade aprovada em termos de produto, **custos não estimados/não aprovados**. Não incluir no quadro de custos aprovados do Notion nem encaminhar execução ao Claude antes da análise financeira e autorização expressa de Marina.
+- **Relacionamentos:** DEC-025, DEC-027, DEC-031, DEC-032, DEC-033; REQ-012, REQ-018.
+- **Evidências de implementação:** inexistentes no registro.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
