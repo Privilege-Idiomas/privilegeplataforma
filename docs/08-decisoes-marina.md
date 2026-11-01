@@ -273,6 +273,18 @@
 - **Relações:** DEC-040, DEC-037, DEC-036, DEC-038, DEC-032, DEC-035; REQ-020 e REQ-022.
 - **Execução:** não autorizada, não comprovada.
 
+### DEC-042 — Um mesmo pagador pode contratar cursos para vários alunos
+- **Data da decisão:** 2026-11-01. **Responsável e aprovadora funcional:** Marina. **Comunicado por:** Marina.
+- **Status funcional:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** quanto à capacidade de vincular um pagador a múltiplos alunos; detalhes comerciais/checkout **PENDENTES**, custos **NÃO APROVADOS** e execução não autorizada.
+- **Decisão expressamente aprovada:** permitir que **uma mesma pessoa seja responsável pelo pagamento de cursos/assinaturas para dois ou mais alunos distintos**, inclusive irmãos, e que cada aluno mantenha **conta individual, suas próprias credenciais, cursos/autorizações de acesso, progresso, avaliações, histórico e questões marcadas**. O pagador não precisa ser aluno e pode ser distinto de responsável legal; uma pessoa pode acumular papéis quando pertinente.
+- **Compatibilidade:** manter ausência de portal/área de pais e responsáveis (DEC-041) e as autorizações exigíveis para menores (DEC-040). O vínculo financeiro **não confere automaticamente** acesso a senhas, histórico, respostas, lista de dúvidas ou dados pedagógicos dos alunos; proteções aplicadas no backend, não apenas na interface. CPF solicitado somente ao pagador quando necessário (DEC-038), sem duplicação indevida.
+- **Regras de domínio a especificar:** a identidade do aluno é independente do pagador, e as compras/direitos de acesso devem identificar precisamente seu beneficiário, evitando liberar ou suspender cursos do aluno errado. Administrar estados de compra, ativação, pagamento recorrente, cancelamento, reembolso e alterações de pagador com rastreabilidade e confirmação segura; não presumir planos familiares, descontos, preços ou direito de transferência entre alunos.
+- **Questões expressamente ainda não decididas:** (1) compra de vários cursos/alunos **em um único checkout e pagamento**, ou compras separadas feitas pelo mesmo pagador; (2) contratação recorrente consolidada ou individualizada; (3) forma de cadastrar/convocar mais alunos e recuperar ativação; (4) quem administra pagamentos sem portal dos responsáveis; (5) reembolso/cancelamento parcial, mudanças de pagador e cenários de inadimplência; (6) regras comerciais, tributárias e integrações. Não inventar respostas nem atribuir aprovação a Matheus sem indicação de Marina.
+- **Custos potenciais (mapear agora e estimar após escopo + stack):** modelagem de relação pagador↔N alunos↔compras/assinaturas, desenvolvimento e testes de checkout/ativação múltipla, tratamento de pagamento e estorno, comunicação transacional e suporte; fixo incremental de infraestrutura, uso por aluno e por ação administrativa, taxas do processador de pagamento conforme forma de cobrança e volume de transações. Comparar alternativas seguras, sem uso de IA em runtime. Não supor economia por agregação nem custo zero.
+- **Governança:** decisão de produto não aprova despesas, stack, pacotes de implementação nem o recorte da primeira versão. Observar DEC-029/030/032/035; nenhum registro no quadro de custos aprovados do Notion antes de aprovação financeira.
+- **Documentos relacionados:** DEC-036/037/038/039/040/041 e REQ-003/004/020/021/022/023.
+- **Implementação:** não comprovada/não autorizada.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
