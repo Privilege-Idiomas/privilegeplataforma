@@ -176,6 +176,15 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos potenciais, não estimados:** relatórios de faixa etária, eventual serviço de aferição, segurança, medidas para responsáveis, proteção de registros financeiros, comunicações voluntárias e eventuais SMS (não aprovados); escolher stack antes de orçar e não autorizar gasto sem aprovação da DEC-032.
 - **Referências:** DEC-037, DEC-038, DEC-036, DEC-032, DEC-035, REQ-001/002/020.
 
+### REQ-022 — Aluno menor com conta própria e responsável legal na contratação
+- **Status:** modelo funcional **APROVADO por Marina (DEC-040 RESOLVIDO)**. Permissões de responsável, detalhes jurídicos, verificação, stack e orçamento pendentes; sem autorização de implementação.
+- **Regra:** para estudantes menores de idade, a **contratação e as autorizações necessárias** envolvem responsável legal, mas o estudante acessa **conta própria e individual**, com seu histórico pedagógico, progresso, avaliações, respostas e marcadores pessoais. Não compartilhar senha ou sessão entre aluno e responsável como solução. Não exigir supervisão do responsável durante cada aula apenas em razão da menoridade.
+- **Separação de dados:** identificar separadamente aluno, pagador/contratante e responsável legal, com relacionamentos e permissões apropriados. Esses papéis podem coincidir ou diferir. CPF, se necessário para pagamento ou obrigação fiscal, pertence ao pagador conforme DEC-038; não obrigar CPF pedagógico do menor.
+- **Critérios preliminares:** permitir a existência de conta de aluno menor vinculada à pessoa autorizada a contratar; direitos contratados associados à conta do aluno sem atribuir titularidade indevida do pagamento; preservar registros acadêmicos exclusivamente vinculados à identidade individual do estudante; controlar visibilidade e alterações no servidor; manter trilha auditável de autorizações exigidas. O vínculo do responsável **não libera automaticamente seu acesso ao histórico ou às listas de dúvidas** do aluno; qualquer visualização dependerá de decisão funcional específica e análise jurídica.
+- **Pendências jurídicas e funcionais:** mecanismos proporcionais de idade/autoridade parental, campos obrigatórios e provas quando exigidas, envio de mensagens e cobrança, criação/recuperação da conta do menor, autorizações/revogação, transição à maioridade, proteção de dados e tratamento de crianças conforme LGPD/ECA Digital, acesso opcional do responsável ao progresso (não decidido). A faixa etária estatística autodeclarada não é prova legal de idade.
+- **Custos a dimensionar após escopo e stack:** relações aluno–responsável–pagador, comunicações de autorização, registros de auditoria, segurança e atendimento, eventual verificação; estimativas e aprovação financeira específicas antes de executar, conforme DEC-032/035.
+- **Relações:** DEC-040, DEC-037/038/036/039, REQ-001/002/020/021.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
