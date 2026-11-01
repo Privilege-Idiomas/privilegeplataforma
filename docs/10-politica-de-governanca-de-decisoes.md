@@ -79,13 +79,13 @@ Campos sem informação devem permanecer identificados como pendentes ou não do
 
 ## 6. Relação entre os registros do projeto
 
-- `docs/04-decision-log.md`: índice oficial de decisões e seus estados.
-- `docs/08-decisoes-marina.md`: fila de decisões que dependem de Marina.
-- `docs/09-decisoes-matheus.md`: pauta de decisões e aprovações de Matheus.
+- `docs/04-decision-log.md`: **apenas índice de navegação** com ID, link para registro canônico, status visual e referência ao único responsável; não manter decisões completas ou recontar a resposta neste arquivo.
+- `docs/08-decisoes-marina.md`: **registros canônicos exclusivos** das decisões cuja responsabilidade final Marina tenha atribuído a si mesma.
+- `docs/09-decisoes-matheus.md`: **registros canônicos exclusivos** das decisões atribuídas por Marina a Matheus, inclusive quando a resposta provisória foi definida por ela e aguarda confirmação.
 - Este documento: política permanente para registrar e manter o histórico.
 - Requisitos, escopo, roadmap e documentação técnica: devem apontar para os IDs das decisões que os fundamentam.
 
-Os arquivos de pendências são instrumentos de trabalho. Quando uma pendência for resolvida, ela deve ser marcada como decidida e vinculada ao registro oficial, sem apagar seu histórico.
+Os arquivos de decisão por responsável são o registro canônico, não cópias de um índice. **Cada decisão existe em apenas um arquivo Markdown de decisões, com um único responsável final.** Quando for resolvida, atualizar seu registro único e o link/status do índice; manter o histórico no próprio registro e no Git. Outros documentos, como requisitos e trilhas, podem referenciar o ID como rastreabilidade, mas não devem duplicar fichas de decisão.
 
 ## 7. Procedimento para mudanças
 
@@ -165,3 +165,18 @@ Usar badges Markdown visíveis no GitHub, respectivamente:
 - `![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49)`
 
 O badge **não substitui** o registro de responsável, origem da resposta, justificativa, alternativas e data de aprovação. Um item parcialmente respondido pode usar REVISAR e enumerar os subitens ainda sem resposta. Não marcar como verde pela simples existência de uma proposta, nem presumir a titularidade de itens legados por estarem em uma fila.
+
+## 13. Unicidade obrigatória — instrução explícita de Marina (2026-10-31)
+
+**Regra:** exatamente **um responsável final por decisão** e **um único arquivo Markdown canônico**. Não criar a mesma decisão em `docs/08-decisoes-marina.md` e `docs/09-decisoes-matheus.md`, nem manter uma ficha espelhada de transferência ou histórico da decisão no arquivo da outra pessoa.
+
+- O **responsável final** define em qual arquivo a decisão é registrada: Marina → `docs/08-decisoes-marina.md`; Matheus → `docs/09-decisoes-matheus.md`.
+- **Autoria da resposta provisória**, **quem comunicou** (Marina), consultados e participantes **não são responsáveis adicionais**. Uma decisão de Matheus respondida provisoriamente por Marina continua **exclusivamente de Matheus**, com status **REVISAR**, até validação comunicada por Marina.
+- Se Marina não informar o responsável final, **perguntar** antes de adicionar uma nova decisão às listas; não escolher por inferência. Se um item antigo contém múltiplos responsáveis ou titularidade presumida, classificá-lo como **pendente de saneamento**; não inventar uma transferência.
+- O `docs/04-decision-log.md` é **índice**, não um segundo registro: conter somente ID, tema curto, link para a ficha canônica e tag de situação. As fichas e alternativas completas ficam apenas no arquivo do responsável.
+- Requisitos, trilhas e instruções para IAs podem **referenciar** uma decisão, sem recriar uma segunda ficha de decisão.
+- Se mudar o responsável, mover a ficha canônica para o novo arquivo de titularidade **somente com indicação explícita de Marina**, removendo o registro ativo do arquivo anterior. O histórico não deve ser destruído: preservar sequência de mudanças, justificativas e versões no Git, junto da ficha canônica atual.
+- Manter todos os estados e alternativas considerados no histórico único da ficha. Mudanças de resposta, revisão ou aprovação não criam uma ficha espelhada em outro arquivo.
+- **Aplicação confirmada:** a decisão `DEC-024` (pauta `MAT-009`) pertence a Matheus, com resposta provisória informada por Marina e status **REVISAR**. A ficha completa está somente em `docs/09-decisoes-matheus.md`. Não manter `MAR-005` como cópia histórica dessa decisão em `docs/08-decisoes-marina.md`; versões anteriores permanecem acessíveis pelo histórico do Git. O índice `docs/04-decision-log.md` guarda apenas o link.
+
+**Migração de legados:** anteriores a esta regra, há entradas do índice com responsável atribuído por inferência, por mais de uma pessoa ou sem ficha canônica única. Elas exigem conferência com Marina e consolidação progressiva; **não presumir que a migração esteja concluída** até auditá-las e receber as confirmações necessárias.
