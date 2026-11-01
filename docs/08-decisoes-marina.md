@@ -35,6 +35,47 @@
 - **Critério de validação:** todos os itens e atualizações (inclusive os dados resumidos no Notion) existem previamente no GitHub; Matheus consegue identificar no relatório executivo se há cronograma validado e se está sendo cumprido, avanços, próximos marcos e impedimentos; Claude pode refletir no Notion somente a versão já registrada no GitHub, após conexão; nenhum dado exclusivo ou aprovação presumida.
 - **Documentos afetados:** README.md, docs/04-decision-log.md, docs/06-roadmap.md, docs/08-decisoes-marina.md, docs/11-estrutura-notion.md, docs/12-relatorio-executivo.md e CLAUDE.md.
 
+### DEC-025 — Exercícios de prática opcionais e avaliação obrigatória (antiga pauta MAT-013)
+- **Responsável único e aprovadora atual:** Marina, por transferência expressa de responsabilidade em 2026-10-31. **Arquivo canônico exclusivo:** `docs/08-decisoes-marina.md`.
+- **Status da resposta:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — os exercícios de prática não são pré-requisito para acessar a avaliação nem para desbloquear a próxima aula; a avaliação continua obrigatória e exige nota mínima de aprovação.
+- **Origem / data:** decisão inicialmente aberta em 2026-10-31 como MAT-013, com responsável Matheus e resposta provisória de Marina. Em 2026-10-31, Marina comunicou uma revisão expressa, retirou a necessidade de validação com Matheus e assumiu a decisão definitiva. **Comunicado por:** Marina.
+- **Contexto:** definir se os exercícios de prática devem ser realizados antes da avaliação e se condicionam o progresso.
+- **Alternativas efetivamente consideradas:** (1) exercícios obrigatórios antes da avaliação; (2) exercícios opcionais, recomendados para fixação, com avaliação obrigatória independente de sua conclusão.
+- **Histórico cronológico de respostas e classificações:**
+  1. Registro inicial: **SEM RESPOSTA**, classificação Matheus comunicada por Marina para posterior validação.
+  2. Primeira resposta de Marina: **exercícios obrigatórios a princípio**; status **REVISAR**; confirmação por Matheus pendente, não obtida.
+  3. **Revisão e transferência autorizadas por Marina (2026-10-31):** ela determinou **exercícios opcionais**, **avaliação obrigatória**, dispensou validação de Matheus e transferiu explicitamente a titularidade da decisão para si. A resposta anterior passou a **substituída**, não apagada. Status atual **RESOLVIDO**.
+- **Opção escolhida e aprovada por Marina:** (2). As atividades de prática serão sugestões de fixação, não condições de acesso à avaliação ou de aprovação/desbloqueio. O aluno pode optar por não realizá-las.
+- **Alternativa abandonada:** (1), antes escolhida provisoriamente. **Motivo explícito documentado:** Marina decidiu que a prática deve ser opcional e recomendada; justificativas pedagógicas adicionais não foram informadas. Não atribuir rejeição ou aprovação a Matheus.
+- **Critério de aceitação funcional preliminar:** a avaliação pode ser acessada sem que exercícios de prática tenham sido concluídos; aprovação na avaliação é obrigatória para concluir a aula e desbloquear a próxima, conforme REQ-013/REQ-015. O limite de tentativas e a revisão por resumo permanecem inalterados.
+- **Aprovada por:** Marina em 2026-10-31. **Decisor anterior:** Matheus apenas como responsável pela validação de uma proposta que não chegou a ser confirmada; essa responsabilidade foi retirada explicitamente pela própria Marina.
+- **Execução/validação técnica:** não há evidência de implementação, testes, deploy ou aceite funcional. A aprovação do requisito não comprova execução.
+- **Documentos/requisitos relacionados:** DEC-016 e DEC-020 (progressão geral), REQ-012, REQ-013, REQ-015; DEC-027 (biblioteca), DEC-028 (revisão de módulo).
+- **Rastreabilidade:** registro original MAT-013/DEC-025 foi transferido integralmente de titularidade. Sua sequência de status e decisões consideradas está descrita acima; o texto anterior e suas alterações permanecem no histórico Git do arquivo `docs/09-decisoes-matheus.md`. Não manter a decisão ativa nem sua ficha no arquivo de Matheus.
+
+### DEC-027 — Aba geral de exercícios com filtros
+- **Responsável único / aprovadora:** Marina. **Comunicado por:** Marina. **Data:** 2026-10-31.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — diretriz funcional escolhida; implementação não registrada.
+- **Problema/objetivo:** permitir ao aluno praticar de forma independente da sequência de aulas, consultando exercícios num único lugar.
+- **Decisão:** criar uma aba dedicada, **“Exercícios”**, que reúna exercícios da plataforma e permita filtrar por **curso, módulo, aula e nível de dificuldade**.
+- **Alternativas efetivamente discutidas:** manter somente exercícios vinculados à navegação das aulas versus oferecer também biblioteca de exercícios independente. A escolha inclui a biblioteca e mantém os exercícios nas aulas; não foi documentada uma avaliação formal de custos/comparação.
+- **Justificativa comunicada:** o aluno deve poder entrar na área apenas para praticar e fixar conteúdo.
+- **Regras que permanecem sem definição:** níveis/escala de dificuldade e sua atribuição; combinação de filtros; paginação/ordenação; progresso/histórico de tentativas; sobretudo **se a aba exibirá e liberará exercícios de cursos não contratados** (REQ-003/REQ-004), porque a solicitação de acesso a “todos os exercícios da plataforma” pode conflitar com direitos de assinatura já previstos. Não presumir liberação de conteúdo fora do plano sem nova confirmação expressa de Marina.
+- **Execução/evidências:** não implementada nem validada; nenhuma tarefa/PR relacionada foi comprovada.
+- **Relacionamentos:** DEC-025; REQ-012, REQ-018.
+
+### DEC-028 — Lista de revisão ao final de cada módulo
+- **Responsável único / aprovadora:** Marina. **Comunicado por:** Marina. **Data:** 2026-10-31.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — existência da lista definida; implementação não registrada.
+- **Problema/objetivo:** oferecer uma revisão integrada de conteúdo de várias aulas de um mesmo módulo, semelhante à revisão de capítulo.
+- **Decisão:** cada módulo terá uma **lista própria de exercícios que mistura conteúdos de todas as aulas daquele módulo**.
+- **Alternativas efetivamente discutidas:** somente exercícios por aula versus exercício de revisão agregada por módulo. A alternativa agregada foi escolhida como complemento; justificativas de eventual rejeição definitiva da prática por aula não existem, pois ela continua prevista.
+- **Relação com DEC-025:** exercícios de prática foram definidos como opcionais. **A obrigatoriedade específica da lista de revisão de módulo não foi informada separadamente**; não introduzir bloqueio automático no término do módulo ou exigência adicional de aprovação. A pergunta sobre qualquer avaliação de fechamento do módulo é distinta e continua sem resposta.
+- **Pendências:** formato/quantidade das questões, apresentação e momento de acesso, regras de feedback, eventual composição automática/manual da lista e se há exceções à opcionalidade geral.
+- **Execução/evidências:** não implementada nem validada; nenhuma tarefa/PR comprovada.
+- **Relacionamentos:** DEC-025; REQ-019 e REQ-012.
+
+
 ## Pendências consolidadas da Marina
 
 ### MAR-001 — Stack tecnológica
