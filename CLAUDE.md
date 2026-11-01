@@ -75,6 +75,12 @@ Registre decisões relevantes em `docs/04-decision-log.md`. Use status explícit
 
 Quando houver conflito entre código, documentação e instruções informais, não escolha silenciosamente: sinalize a divergência e peça orientação.
 
+## Fonte e atribuição de decisões — regra explícita de Marina
+- Marina é a única fonte que comunica quem decide e quem aprova, inclusive decisões tomadas por Matheus e transmitidas por ela.
+- Manter a separação Marina / Matheus. Somente atribuir um item a Matheus quando Marina indicar expressamente. Não usar natureza pedagógica, comercial ou estratégica como critério automático.
+- Registrar separadamente **decisor**, **aprovador**, **comunicado por (Marina)** e **status**; não presumir aprovação. Se Marina não informar quem decide ou se já foi aprovado, perguntar e registrar **a confirmar com Marina**.
+- Na DEC-024, a atribuição automática de validação pedagógica a Matheus foi um erro histórico corrigido na documentação; não repeti-lo.
+
 ## Decision traceability — mandatory
 - Follow `docs/10-politica-de-governanca-de-decisoes.md` for every product, business, pedagogical, operational, and technical decision.
 - Never delete or silently overwrite decision history. A changed decision must be recorded as a new linked entry; preserve the prior entry and mark it superseded only after the replacement is explicitly approved.
