@@ -1,20 +1,20 @@
 # Orientações para Claude Code — Plataforma Privilège
 
 ## 1. Contexto do projeto
-A Plataforma Privilège é um projeto de desenvolvimento de uma plataforma digital de ensino de idiomas. O objetivo é disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com acesso de alunos e operação administrativa.
+A Plataforma Privilège é uma plataforma digital de ensino de idiomas. O produto prevê cursos online, aulas em vídeo, exercícios, avaliações, trilhas de aprendizagem, assinaturas recorrentes e operação administrativa.
 
-Este repositório é a fonte de verdade para código e documentação técnica. Consulte os documentos em `docs/` antes de implementar mudanças.
+Este repositório é a fonte de verdade para código e documentação técnica. Consulte o README e os documentos em `docs/` antes de implementar mudanças, especialmente requisitos, escopo, trilhas e Decision Log.
 
 ## 2. Papéis e autoridade
 - **Matheus — patrocinador:** autoridade para aprovar decisões de negócio, orçamento, escopo e prioridades estratégicas.
 - **Marina — responsável pela condução do projeto e produto:** organiza requisitos, prioriza o trabalho, acompanha a execução e valida entregas.
 - **Claude Code — apoio técnico:** analisa, propõe e implementa soluções técnicas conforme requisitos e decisões registrados.
 
-Não tome decisões de negócio por conta própria. Quando uma regra de produto, cobrança, acesso, conteúdo ou escopo estiver ambígua, interrompa a implementação dessa parte e solicite esclarecimento.
+Não tome decisões de negócio por conta própria. Quando uma regra de produto, cobrança, acesso, avaliação, progressão, conteúdo ou escopo estiver ambígua, sinalize e solicite esclarecimento antes de implementar essa parte.
 
 ## 3. Regras obrigatórias
 1. Leia o README e os documentos relevantes em `docs/` antes de iniciar uma tarefa.
-2. Diferencie requisitos confirmados, propostas, hipóteses e decisões pendentes.
+2. Diferencie requisitos confirmados pela responsável, propostas, hipóteses e decisões formalmente aprovadas.
 3. Não transforme uma sugestão em requisito aprovado.
 4. Não altere escopo, regras comerciais, preços, planos, permissões ou arquitetura aprovada sem autorização.
 5. Antes de mudanças relevantes, explique a abordagem, arquivos afetados, riscos e testes previstos.
@@ -32,24 +32,44 @@ Não tome decisões de negócio por conta própria. Quando uma regra de produto,
 - Nunca exponha credenciais ou conteúdo privado em respostas, commits ou arquivos.
 
 ## 5. Estado conhecido do produto
-As seguintes definições foram informadas pela responsável pelo projeto e ainda devem passar pela aprovação formal do patrocinador:
-- Público de lançamento: alunos atuais da Privilège e novos alunos que contratarem cursos online.
-- Modelo comercial: assinatura recorrente.
+As definições abaixo foram informadas pela responsável pelo projeto e ainda aguardam aprovação formal do patrocinador quando indicado no Decision Log:
+- Público inicial: alunos atuais da Privilège e novos alunos.
+- Modelo comercial: assinatura recorrente; a estrutura deve suportar acesso ao catálogo completo ou a cursos específicos.
+- Cursos iniciais: Basic English, Travel e Business.
 - Gestão de cursos e aulas: somente a equipe administrativa poderá cadastrar e administrar conteúdos.
-- Experiência de aprendizagem: aulas terão exercícios e avaliações associados.
+- Entrada do aluno: teste de nivelamento, início pela base (Basic English e depois Travel ou Business), ou entrada direta em Travel/Business.
+- Trilhas: reutilizam os mesmos cursos, mas podem variar sequência e prioridade conforme o objetivo do aluno.
+- Aulas: exercícios e avaliações associados.
+- Avaliações: nota mínima e uma tentativa adicional, totalizando no máximo duas tentativas.
+- Após duas tentativas abaixo da nota mínima: sugerir plantão de dúvidas ou aula particular, respeitando os serviços incluídos ou disponíveis para contratação no plano do aluno.
+- Progressão: concluir uma aula para desbloquear a próxima aula do mesmo curso.
 
-Não presumir, sem decisão registrada, se exercícios são obrigatórios, como avaliações afetam aprovação, se há nota mínima, como funciona a liberação de aulas, quais planos existem ou quais meios de pagamento serão usados.
+## 6. Ambiguidades que não devem ser resolvidas por suposição
+- Valor/escala da nota mínima.
+- Se aprovação na avaliação é requisito para concluir a aula e desbloquear a próxima.
+- Tipos de exercício, correção, feedback e obrigatoriedade.
+- Resultado e lógica de recomendação do teste de nivelamento.
+- Objetivos e sequências finais das trilhas; mudança de trilha e preservação de progresso.
+- Planos, preços, periodicidade, direitos exatos, gateway, cancelamento e inadimplência.
+- Oferta, agenda, preço e contratação de plantão de dúvidas/aula particular.
 
-## 6. Processo de implementação
+## 7. Orientações de modelagem
+- Trate **curso**, **trilha** e **assinatura/direito de acesso** como conceitos distintos.
+- Uma trilha deve referenciar cursos existentes e definir ordem/prioridade; não duplique cursos ou aulas para formar trilhas.
+- Direitos comerciais devem ser verificados independentemente da recomendação pedagógica da trilha.
+- Progresso deve ser preservado no nível do conteúdo e associado à jornada/trilha do aluno, sem duplicar registros quando a trilha mudar.
+- Limite de tentativas deve ser validado no backend, não apenas na interface.
+
+## 8. Processo de implementação
 Para cada tarefa:
-1. Identifique os requisitos e critérios de aceitação relacionados.
+1. Identifique requisitos e critérios de aceitação relacionados.
 2. Aponte dúvidas e dependências antes de codificar.
-3. Proponha uma solução proporcional ao MVP.
+3. Proponha solução proporcional ao MVP.
 4. Implemente em etapas pequenas.
 5. Execute testes e registre resultados.
 6. Resuma alterações, limitações e próximos passos.
 
-## 7. Documentação
+## 9. Documentação
 Registre decisões relevantes em `docs/04-decision-log.md`. Use status explícitos: **Proposta**, **Pendente de aprovação**, **Aprovada**, **Rejeitada** ou **Substituída**.
 
 Quando houver conflito entre código, documentação e instruções informais, não escolha silenciosamente: sinalize a divergência e peça orientação.
