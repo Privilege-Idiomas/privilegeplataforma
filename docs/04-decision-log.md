@@ -45,6 +45,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | A confirmar com Marina (atribuição legada não validada) |
 | DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | A confirmar com Marina (atribuição legada não validada) |
 | DEC-024 | Vídeo e conclusão de aula | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** | Matheus |
+| DEC-025 | Exercícios de prática antes da avaliação | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — resposta provisória de Marina aguardada | Matheus |
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
