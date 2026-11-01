@@ -2,7 +2,7 @@
 
 **Data de referência:** 2026-10-31  
 **Última atualização documental:** 2026-10-31  
-**Status:** documento canônico no GitHub para apresentação resumida no Notion, quando conectado.  
+**Status:** documento canônico no GitHub; projeção inicial no Notion criada como rascunho privado em 2026-10-31, ainda não compartilhada.  
 **Leitor principal:** Matheus.  
 **Fontes:** [Termo de abertura](01-project-charter.md), [Escopo](02-scope.md), [Requisitos](03-requirements.md), [Decisões](04-decision-log.md), [Riscos](05-risks-and-issues.md), [Roadmap](06-roadmap.md) e [Governança](10-politica-de-governanca-de-decisoes.md).
 
@@ -60,5 +60,5 @@ Os itens acima são **avanços de governança/documentação**, não evidências
 - **Fonte de verdade:** GitHub. Alterações de status ou prazo devem ser registradas primeiramente em issues, documentos, decisões e demais registros pertinentes do repositório.
 - **Atualização deste relatório:** responsabilidade de gestão do ChatGPT/PM, com base nas informações existentes no GitHub. Confirmar fatos e registrar data/fonte antes de alterar.
 - **Notion:** camada de leitura executiva; pode mostrar versão curta deste relatório, com links e data de atualização. Nunca ser a origem de uma decisão, tarefa, prazo, conclusão ou bloqueio.
-- **Última publicação no Notion:** não confirmada; integração pendente.
+- **Publicação inicial no Notion:** rascunho privado criado em 2026-10-31: https://app.notion.com/p/40b4d0da2309815ca13ec0eba6be93af?pvs=204. Compartilhamento com Matheus, validação da apresentação e sincronização automática permanecem pendentes.
 - **Cadência futura:** a definir; nenhuma atualização automática deve ser presumida.
