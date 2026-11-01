@@ -261,6 +261,18 @@
 - **Impactos:** DEC-037, DEC-038, DEC-036, DEC-039, DEC-032, DEC-035 e REQ-001/002/020/021/022.
 - **Execução:** não iniciada/não comprovada; não enviar ao Claude nem incluir no painel Notion de custos aprovados sem gates aplicáveis.
 
+### DEC-041 — Sem área exclusiva dos responsáveis; informação clara antes da contratação
+- **Data:** 2026-11-01. **Decisora funcional e responsável:** Marina. **Comunicado por:** Marina.
+- **Status funcional:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** para ausência de área exclusiva de responsáveis e transparência pré-contratual; especificações legais, segurança, custos e implementação ainda pendentes.
+- **Decisão expressamente aprovada:** a Privilège **não terá um portal, painel, dashboard ou conta de acesso exclusivos para pais/responsáveis**. O responsável legal participa da contratação e das autorizações exigidas, sem área permanente dedicada. A experiência do aluno continua individual e separada, conforme DEC-040. Não conceder ao responsável acesso à senha, sessões, atividades pedagógicas, listas privadas ou dados acadêmicos do aluno apenas por ser pagador.
+- **Informação antes da compra:** a landing page e as páginas de planos/cursos devem apresentar **claramente os temas, objetivos de aprendizagem, público de interesse e funcionalidades/serviços oferecidos**, de modo que o responsável compreenda o que está contratando. Apresentar também informações contratuais pertinentes e claras (características do plano, preço/renovação, cancelamento/reembolso e canais de suporte), sem antecipar definições comerciais ainda pendentes de Matheus.
+- **Como atender obrigações sem portal:** projetar fluxo simples e seguro de confirmação da contratação, autorizações/documentos e comunicações por e-mail e/ou links temporários protegidos, **como alternativa de especificação sujeita a validação** — o meio técnico exato não foi escolhido nesta decisão. Deve permitir revisão/recuperação dos registros legalmente exigidos sem criar conta de responsável dedicada. Não presumir que marcar uma caixa genérica substitua o consentimento ou procedimento exigido pela legislação.
+- **Limites da premissa de risco:** Marina considera os cursos essencialmente educacionais e de baixo risco pedagógico, mas **isso não equivale a ausência de risco digital**. Ainda é necessário avaliar privacidade, segurança das contas, dados de menores, pagamento, proteção do conteúdo e interações que venham a ser definidas; LGPD e ECA Digital permanecem relevantes. Uma área de responsáveis não é automaticamente necessária para todo produto educacional; avaliar eventuais exigências de supervisão/gestão pertinentes à funcionalidade real e, se houver incompatibilidade jurídica, submeter proposta de ajuste a Marina antes da execução.
+- **Comparação de alternativas efetivamente discutidas:** (A) sem área exclusiva, com contrato e autorizações por canais seguros; (B) área exclusiva para gerir compras/autorização. Marina escolheu **A**; nenhuma área parental adicional está autorizada.
+- **Custos preliminares, não quantificados:** ausência de portal evita desenvolvimento e manutenção de uma superfície adicional de autenticação, telas e permissões, mas permanecem os custos de comunicações, links de autorização, proteção de dados, guarda de evidências e atendimento. Quantificar custos iniciais, fixos, variáveis por aluno e administrativos após escopo e stack completos (DEC-035); **aprovação financeira separada ainda PENDENTE** (DEC-032). Não presumir custo zero.
+- **Relações:** DEC-040, DEC-037, DEC-036, DEC-038, DEC-032, DEC-035; REQ-020 e REQ-022.
+- **Execução:** não autorizada, não comprovada.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
