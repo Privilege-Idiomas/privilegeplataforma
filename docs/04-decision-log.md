@@ -115,6 +115,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-045 | “Conhecer curso” abre página com descrição, objetivos, módulos e benefícios antes da compra | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; detalhes, custos e implementação pendentes) | Marina |
 
+| DEC-046 | Página pública única por curso acessível sem login, da landing page ou da plataforma | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; orçamento, conteúdo e regras comerciais pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
