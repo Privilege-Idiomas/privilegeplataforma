@@ -22,7 +22,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | ID | Tema | Definição | Status e situação | Responsável registrado |
 |---|---|---|---|---|
 | DEC-001 | Repositório | GitHub privado da organização Privilège para código e documentação | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Aprovada como configuração operacional | Marina |
-| DEC-002 | Gestão de tarefas | ClickUp como ferramenta de acompanhamento da execução | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Aprovada como configuração operacional | Marina |
+| DEC-002 | Gestão de tarefas (histórico) | ClickUp foi a escolha operacional inicial; substituída por DEC-026, sem apagar a decisão histórica | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Ciclo de vida: **Substituída** em 2026-10-31 | Marina |
 | DEC-003 | Público inicial | Alunos atuais e novos alunos | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
 | DEC-004 | Modelo comercial | Assinatura recorrente | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
 | DEC-005 | Administração de conteúdo | Somente equipe administrativa cadastra e administra cursos e aulas | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
@@ -46,6 +46,9 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | A confirmar com Marina (atribuição legada não validada) |
 | DEC-024 | Vídeo e conclusão de aula | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** | Matheus |
 | DEC-025 | Exercícios de prática antes da avaliação | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — exercícios obrigatórios a princípio, resposta provisória de Marina | Matheus |
+| DEC-026 | Ferramenta central de gestão | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — Notion substitui ClickUp para gestão e documentação operacional | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Escolha confirmada por Marina; implantação ainda pendente | Marina |
+
+**Migração para o Notion (DEC-026):** o banco de decisões do Notion é uma visualização de navegação com exatamente uma linha por ID. Os registros completos e respectivos históricos permanecem no único arquivo Markdown do responsável, conforme a política, até migração formal validada. Itens de titularidade legada ambígua devem ser marcados para saneamento, não atribuídos automaticamente.
 
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
