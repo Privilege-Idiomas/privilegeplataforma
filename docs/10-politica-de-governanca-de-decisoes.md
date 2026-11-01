@@ -40,6 +40,7 @@ O histórico decisório é permanente. Uma decisão substituída, rejeitada ou c
 - **Alternativas descartadas e justificativas:**
 - **Opção selecionada:**
 - **Justificativa da escolha:**
+- **Comunicado por (fonte da resposta):**
 - **Aprovador e data da aprovação:**
 - **Status da decisão:**
 - **Plano de execução / responsável / prazo:**
@@ -67,12 +68,14 @@ Campos sem informação devem permanecer identificados como pendentes ou não do
 
 ## 5. Separação de responsabilidades
 
-- **Marina:** decisões de produto e operação sob sua alçada; organização do processo, requisitos, backlog, documentação e rastreabilidade.
-- **Matheus:** decisões de patrocínio, negócio, orçamento, estratégia, regras comerciais e decisões pedagógicas atribuídas a ele.
-- **Equipe pedagógica:** consultoria e validação técnica-pedagógica quando aplicável.
-- **Apoio técnico:** análise de viabilidade e implementação conforme decisões aprovadas; não assumir autoridade para decisões de negócio ou pedagógicas.
+- **Marina:** fonte única que comunica a atribuição, resposta e aprovação de cada decisão, independentemente de quem a tenha tomado; pode ser também a própria decisora/aprovadora.
+- **Matheus:** decisor/aprovador somente de itens que Marina informar expressamente como da responsabilidade dele.
+- **Equipe pedagógica:** participação e validação registradas somente quando Marina assim indicar.
+- **Apoio técnico:** analisa e implementa conforme as decisões documentadas; não define por conta própria a autoridade decisória.
 
-Quando a autoridade ainda não estiver clara, marcar o responsável como “a confirmar” em vez de atribuir por suposição.
+**Não atribuir por tema:** o fato de uma decisão ser pedagógica, comercial, técnica, estratégica ou orçamentária não determina que seja de Matheus, de Marina ou compartilhada. Somente Marina define essa classificação.
+
+**Separar decisor, aprovador e comunicador:** quando Marina informar uma decisão de Matheus, registrar `Decisor: Matheus; Comunicado por: Marina` e a situação da aprovação conforme informado. Quando for decisão dela, registrar `Decisor: Marina; Comunicado por: Marina`. Não presumir aprovação nem participação externa. Se faltarem indicação de decisor ou aprovação, perguntar a Marina e marcar `a confirmar com Marina`.
 
 ## 6. Relação entre os registros do projeto
 
@@ -99,7 +102,8 @@ Os arquivos de pendências são instrumentos de trabalho. Quando uma pendência 
 O assistente e ferramentas de desenvolvimento devem:
 - Registrar fielmente o que foi dito e distinguir fato, proposta, hipótese e decisão.
 - Não inventar opções consideradas, justificativas, aprovações ou evidências.
-- Perguntar quando a autoridade, o motivo do descarte ou a decisão efetiva não estiverem claros.
+- Perguntar a Marina quando a autoridade, aprovação, motivo do descarte ou decisão efetiva não estiverem claros; nunca atribuir a Matheus por inferência temática.
+- Registrar em campos separados quem decidiu/aprovou e que Marina comunicou a decisão, inclusive quando o decisor foi Matheus.
 - Atualizar os arquivos pertinentes sem apagar entradas anteriores.
 - Confirmar o resultado da atualização e apontar o que continua pendente.
 
@@ -119,6 +123,7 @@ O assistente e ferramentas de desenvolvimento devem:
 - Opções descartadas e motivos:
 - Opção aprovada:
 - Justificativa:
+- Comunicado por:
 - Aprovador/data:
 - Status:
 - Execução/responsável/prazo:
@@ -130,3 +135,9 @@ O assistente e ferramentas de desenvolvimento devem:
 ```
 
 **Regra final:** o histórico deve permitir que alguém que não participou das conversas entenda o que foi decidido, por que foi decidido, quais alternativas foram descartadas, quem autorizou, como foi executado e como sua conclusão foi verificada.
+
+## 10. Esclarecimento de governança de autoria e fonte — 2026-10-31
+
+Marina determinou que continuará existindo separação entre decisões dela e de Matheus, mas **ela é a única pessoa que determina quais itens pertencem a cada um e a única fonte que comunica as respostas de ambos**. Ela poderá informar posteriormente uma decisão tomada por Matheus, caso em que o decisor registrado será Matheus, o comunicador será Marina e o histórico de alternativas e justificativas será preservado. Quando Marina não indicar o decisor ou a aprovação, o assistente deve cobrar essa informação, sem classificar nem aprovar por suposição.
+
+**Retificação histórica:** a DEC-024 foi indevidamente atribuída à validação pedagógica de Matheus. A responsabilidade e aprovação dessa definição estão agora a confirmar com Marina. Os itens antigos atribuídos a Matheus por inferência também exigem conferência, mas não devem ser apagados ou transferidos automaticamente.
