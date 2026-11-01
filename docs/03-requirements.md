@@ -116,7 +116,8 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Descrição:** o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação para desbloquear a próxima aula do mesmo curso.
 - **Critério de aceitação preliminar:** aulas futuras permanecem bloqueadas até que o aluno conclua todo o conteúdo/atividades obrigatórios e seja aprovado na avaliação; após cumprir ambos os critérios, a próxima aula da sequência é liberada.
 - **Regra definida:** a aprovação na avaliação é requisito obrigatório para a conclusão da aula e o desbloqueio da próxima.
-- **Pendente:** detalhar quais componentes são obrigatórios em cada aula e o valor/escala da nota mínima.
+- **Direcionamento informado por Marina (DEC-024; validação pedagógica pendente):** não é obrigatório assistir a 100% do vídeo para concluir a aula ou desbloquear a próxima. O aluno pode avançar ao cumprir os demais componentes obrigatórios e atingir a nota mínima. A presença do vídeo como conteúdo da aula permanece prevista; o percentual assistido não será requisito de conclusão segundo esse direcionamento.
+- **Pendente:** detalhar quais atividades e demais componentes serão obrigatórios em cada aula e o valor/escala da nota mínima; obter validação de Matheus/equipe pedagógica para DEC-024.
 
 ### REQ-017 — Resumo escrito da aula para revisão
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
