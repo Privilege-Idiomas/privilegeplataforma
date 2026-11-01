@@ -25,6 +25,14 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Critério de aceitação preliminar:** credenciais válidas permitem acesso; credenciais inválidas não permitem acesso.
 - **Pendente:** método de autenticação, recuperação de senha e eventual login social.
 
+### REQ-020 — Jornada pública de aquisição e ativação pós-compra
+- **Status:** Diretriz funcional de Marina para landing page/fluxo; **duas formas de ativação aprovadas (DEC-036, RESOLVIDO)**. Validação de integrações, regras comerciais e aprovação dos custos pendentes.
+- **Descrição:** landing page pública apresentará serviços, funcionalidades e planos, inclusive para campanhas de tráfego. Jornada pretendida: interessado informa e-mail → segue para pagamento → recebe comunicação de primeiro acesso → completa cadastro → entra na plataforma. Após a contratação, disponibilizar **e-mail de ativação** e, alternativamente, **continuidade da ativação no próprio site mediante verificação segura de posse do e-mail**.
+- **Critérios de aceite preliminares:** não basta a sessão de checkout para provar propriedade do e-mail; os dois caminhos exigem confirmação segura; evitar duplicação de conta; permitir retomar ativação de compra confirmada; estados de pagamento aprovados/pendentes/não concluídos devem ser distinguidos. Concessão de acesso deve ocorrer somente com confirmação confiável do direito pelo backend, sem confiar apenas em retorno do navegador. Nunca enviar senhas por e-mail.
+- **Ainda a definir:** checkout, provedor, confirmação de compra, meios de pagamento, campos de cadastro, sistema de ativação, expiração/reenvio, e-mails existentes, regras para alunos atuais, tratamento de pagamentos pendentes e mensagens.
+- **Custos potenciais a quantificar após definição de escopo e stack:** produção do funil, hospedagem e tráfego da landing page, taxas do checkout, comunicação transacional e possíveis reenvios/OTP, autenticação, banco de dados e suporte. Custo variável por aluno requer aprovação expressa antes da execução; nenhuma cifra ainda aprovada.
+- **Relação:** DEC-036, DEC-032, DEC-035, REQ-001, REQ-002, REQ-003, REQ-004.
+
 ## 3. Assinaturas e direitos de acesso
 
 ### REQ-003 — Assinatura recorrente com modalidades flexíveis de acesso
