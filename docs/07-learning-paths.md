@@ -18,7 +18,7 @@ O aluno poderá iniciar sua jornada por uma das opções:
 2. **Começar do zero:** iniciar em Basic English e, depois, seguir para Travel ou Business.
 3. **Entrada direta:** iniciar diretamente em Travel ou Business, conforme escolha e direitos de acesso.
 
-A obrigatoriedade do teste e a forma como o resultado gera recomendações ainda precisam ser definidas.
+O funcionamento do teste de nivelamento ainda será definido. Permanecem em aberto sua obrigatoriedade, estrutura, critérios de avaliação, interpretação do resultado e eventual lógica de recomendação/encaminhamento.
 
 ## 3. Estrutura conceitual inicial
 
@@ -39,10 +39,12 @@ ou
 Esses exemplos representam as opções informadas até o momento, não uma definição completa de todas as trilhas comerciais/pedagógicas.
 
 ## 4. Regras de progressão dentro dos cursos
-- O aluno deverá concluir uma aula para desbloquear a próxima aula do mesmo curso.
+- Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir todos os componentes obrigatórios da aula e atingir a nota mínima na avaliação.
+- Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula.
+- A nota mínima ainda será definida.
 - A sequência de aulas é definida dentro do curso.
 - A ordem dos cursos é definida pela trilha escolhida.
-- A definição exata de conclusão da aula — incluindo a relação entre vídeo, exercícios e aprovação na avaliação — permanece pendente.
+- Ainda será detalhado quais componentes (vídeo, exercícios ou outros) serão obrigatórios em cada aula.
 
 ## 5. Separação entre curso, trilha e assinatura
 - **Curso:** conjunto de módulos e aulas com conteúdo próprio.
@@ -57,7 +59,7 @@ A recomendação pedagógica de uma trilha não deve conceder acesso comercial a
 3. O aluno poderá ignorar a recomendação do teste e escolher outra entrada?
 4. O aluno poderá mudar de trilha depois de começar? Como o progresso será preservado?
 5. Basic English será sempre pré-requisito pedagógico para Travel/Business ou apenas o caminho recomendado para iniciantes?
-6. A conclusão da avaliação com nota mínima será obrigatória para desbloquear a aula seguinte?
+6. Quais componentes serão obrigatórios para concluir cada aula e qual será a nota mínima da avaliação?
 7. Como o plano/assinatura limitará cursos dentro de uma trilha que recomenda conteúdos não contratados?
 
 ## 7. Orientação técnica
