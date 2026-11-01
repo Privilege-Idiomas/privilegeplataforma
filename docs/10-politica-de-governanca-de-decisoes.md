@@ -204,3 +204,9 @@ O Notion é um **relatório executivo extraído de informações que já estejam
 O documento canônico de síntese é `docs/12-relatorio-executivo.md` e o esquema de publicação está em `docs/11-estrutura-notion.md`. Não confundir publicar um resumo no Notion com aprovar/registrar uma decisão ou concluir uma tarefa. O status `RESOLVIDO` de DEC-026 atesta a escolha do uso, **não** a implantação técnica do Notion, ainda pendente.
 
 As regras anteriores de um único responsável, ficha canônica exclusiva por decisor e índice geral no GitHub permanecem integralmente em vigor.
+
+## 16. Revisão expressa de DEC-025 e novas decisões de exercícios — 2026-10-31
+
+Marina transferiu **DEC-025** da pauta de Matheus para suas próprias decisões. A resposta provisória antiga — exercícios obrigatórios, sob revisão de Matheus — foi substituída por decisão final de Marina: **exercícios de prática opcionais, avaliação da aula obrigatória**. A ficha completa fica só em `docs/08-decisoes-marina.md`, com o histórico da mudança; a antiga cópia do arquivo de Matheus foi retirada, preservando o histórico Git. Status: **RESOLVIDO**.
+
+Também são decisões de Marina, sem validação de Matheus indicada: **DEC-027**, aba “Exercícios” com filtros de curso, módulo, aula e dificuldade; e **DEC-028**, lista de revisão por módulo combinando questões de várias aulas. Não inferir bloqueio adicional de progresso pelas listas. **A autorização para usar exercícios de cursos não contratados ainda não foi resolvida** e deverá ser esclarecida com Marina por possível conflito com REQ-003/REQ-004. Aprovação de regra não equivale a implementação.
