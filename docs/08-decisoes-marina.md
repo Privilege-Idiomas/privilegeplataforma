@@ -496,6 +496,16 @@
 - **Governança:** aprovação **funcional somente**; não autoriza execução, Claude, gastos, MVP ou prazo (DEC-029/035). GitHub é canônico; Notion permanece relatório executivo derivado, sem custos não aprovados.
 - **Relações:** DEC-024/029/030/032/035/050/051/052/053/054/055/056/057/058/059; REQ-030/031/032/034/035/036/037/038.
 
+### DEC-061 — Carga horária oficial do curso constará no certificado PDF
+- **Data:** 2026-11-01. **Decisora funcional:** Marina. **Comunicado por:** Marina.
+- **Status:** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** para exibir no certificado digital PDF a carga horária oficial definida pedagogicamente para o curso, sem basear no tempo de conexão do aluno. Cálculo pedagógico/valor concreto por curso, padrões de alterações curriculares, custos e execução **PENDENTES**.
+- **Decisão expressamente aprovada:** o PDF do certificado de conclusão da Privilège incluirá a **carga horária oficial do curso, previamente determinada pela equipe pedagógica**. A mesma carga horária oficial será associada ao curso/versão aplicável, e não individualizada pelo número de horas em que o estudante ficou conectado, assistiu a vídeos ou repetiu atividades. Não derivar automaticamente da duração efetiva de uso, de vídeo reproduzido ou de tempo gasto em exercício.
+- **Critérios de aceitação preliminares:** (1) PDF apresenta carga horária oficial pertinente ao curso efetivamente concluído; (2) alunos que concluem uma mesma versão do curso recebem a carga horária oficial daquela versão mesmo que tenham dedicado tempos individuais diferentes; (3) a carga não muda por revisitar aulas ou baixar o documento novamente; (4) a carga horária não é apresentada como medição de presença individual ou frequência controlada, nem como carga horária reconhecida oficialmente por terceiro; (5) dados confiáveis e atualização administrada pela equipe autorizada.
+- **Pendências:** definição numérica da carga horária por curso e versão pela equipe pedagógica, metodologia de cálculo acadêmico, unidade e redação visual no documento, mudanças curriculares e histórico de certificados, curso parcialmente concluído, retificações e contexto contratual/jurídico. **Não incluir carga horária na página pública de validação**, cujo conjunto de quatro campos permanece fechado pela DEC-056/057.
+- **Custos potenciais não estimados:** cadastro/versionamento de carga horária por curso, controles administrativos, integração com geração do PDF, consistência histórica, validação de conteúdo, alterações e correções, suporte e testes. Incluir custo inicial, mensal fixo inclusive ocioso, variável por certificado/aluno e operações administrativas após escopo e stack completos (DEC-035), com aprovação financeira separada (DEC-032), sem IA por aluno (DEC-030).
+- **Governança:** aprovação **exclusivamente funcional**; não autoriza Claude, implementação, contratação, cronograma nem inclusão automática no MVP (DEC-029/035). GitHub continua fonte de verdade integral; Notion apenas transparência executiva derivada e sem custos não aprovados.
+- **Relacionamentos:** DEC-024/029/030/032/035/050/051/052/053/055/056/057/058/059/060; REQ-030/031/032/034/035/036/037/038/039.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
