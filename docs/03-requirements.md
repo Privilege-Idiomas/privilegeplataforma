@@ -328,6 +328,14 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos e dependências:** data de conclusão derivada do registro acadêmico e data de emissão do registro documental, geração determinística de PDF, persistência e testes, eventuais retificações e suporte; dimensionar inicial, fixo ocioso, variável por documento e operação administrativa na avaliação completa após escopo e stack (DEC-035); aprovação financeira separada DEC-032 e sem implementação autorizada (DEC-029).
 - **Referências:** DEC-060/059/058/057/056/055/053/052/050/051/030/032/035; REQ-030/031/032/033/034/035/036/037.
 
+### REQ-039 — Carga horária oficial pedagógica no certificado digital de conclusão
+- **Status:** **APROVADO funcionalmente por Marina (DEC-061)** quanto a exibir no certificado PDF a carga horária oficial do curso. Quantidade por curso/versão, critérios acadêmicos, layout, custos e implementação pendentes.
+- **Regra:** certificado PDF de curso concluído deve mostrar a **carga horária oficial pré-definida pela equipe pedagógica para o curso/versão correspondente**, e não o tempo individual de conexão, a duração de vídeos efetivamente assistidos ou o tempo gasto em atividades. Usar dados acadêmicos consistentes, administráveis apenas por responsáveis autorizados.
+- **Aceite preliminar:** (1) certificado emitido mostra a carga horária oficial do curso/versão efetivamente concluída; (2) distintos estudantes que concluem a mesma versão recebem a mesma carga horária oficial, mesmo estudando em ritmos diferentes; (3) revisões e downloads repetidos não alteram a carga horária; (4) alterações curriculares não reescrevem silenciosamente dados históricos; (5) a carga horária não aparece na verificação pública, que permanece limitada à autenticidade, curso, data de emissão e iniciais.
+- **Pendências:** cargas horárias numéricas e seu fundamento pedagógico, unidade/formatação, versão curricular, regras de alteração e eventual correção de certificados, validação jurídica de alegações sobre carga horária e design. Evitar inferir reconhecimento governamental ou controle individual de frequência.
+- **Custos potenciais e governança:** cadastro e versionamento dos metadados pedagógicos, geração do PDF, testes e suporte, manutenção administrativa e retificações; avaliar custo inicial, fixo ocioso, variável por documento e administração após escopo e stack (DEC-035), com aprovação financeira separada (DEC-032), nenhuma implementação/Claude ainda autorizada (DEC-029) e sem IA runtime (DEC-030).
+- **Referências:** DEC-061/060/059/056/055/052/030/032/035; REQ-009/010/030/031/032/034/035/037/038.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
