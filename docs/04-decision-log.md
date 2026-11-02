@@ -169,6 +169,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-072 | Seis regras finais: recuperação excepcional, confidencialidade de notas docentes, revisão de gabaritos, moderação, intervenções e qualidade dos KPIs | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, Matheus, custo, stack e execução pendentes) | Marina |
 
+| DEC-073 | Recomendações operacionais AUD-004/007/008/009 aprovadas; 5 avaliações válidas para média docente condicionado à privacidade e proteção contra inferência | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO quanto às diretrizes; validações jurídica e anti-inferência pendentes | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
