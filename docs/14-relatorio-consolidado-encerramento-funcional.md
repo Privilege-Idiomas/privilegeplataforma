@@ -58,3 +58,15 @@ O conjunto funcional está amplamente especificado. DEC-071/REQ-050 (dez regras)
 - **Claude:** nenhuma implementação, compra ou configuração de stack autorizada por este relatório.
 - **Cronograma:** não há baseline final de MVP, prazo de 30 dias ou orçamento aprovado.
 - **Natureza deste registro:** consolidação de fatos e dependências documentais, não uma DEC nova.
+
+## Registro de autorização — 2026-11-02: quatro encaminhamentos da auditoria
+**Decisão comunicada por Marina:** aprovados os encaminhamentos de **AUD-004, AUD-007, AUD-008 e AUD-009** para detalhamento e preparação documental. Esta aprovação é **de trabalho de especificação**, e não homologação de parâmetros, políticas jurídicas, decisões comerciais/pedagógicas de Matheus, tecnologia, custos, MVP ou implementação.
+
+| Item | Encaminhamento autorizado | Estado do achado |
+|---|---|---|
+| AUD-004 | Detalhar jornadas excepcionais, recuperação e atualização de contas, prevenção de duplicidades, migração de alunos atuais, identidade de responsáveis e trilha de auditoria; preservar direitos sujeitos a contrato e parecer jurídico. | **EM DETALHAMENTO — não encerrado** |
+| AUD-007 | Detalhar escala, substituição de professores, faltas, comunicação, contingências, acesso e moderação de plantões coletivos sem reserva e aulas particulares sem colisão; parâmetros comerciais permanecem com decisor competente. | **EM DETALHAMENTO — não encerrado** |
+| AUD-008 | Preparar matriz de permissões por ação e dado, privacidade, LGPD e auditoria de operações sensíveis. **Cinco avaliações válidas é limiar inicial PROPOSTO** para liberar a própria média ao professor, não valor definitivo nem autorizado para implementação. Avaliar inferência, revisões e proteção de dados com Marina/jurídico. | **EM DETALHAMENTO — não encerrado** |
+| AUD-009 | Preparar dicionário de KPIs com definição, fonte, fórmula, período, ausência de dados e permissões; especificar exportação CSV/Excel controlada e auditável. | **EM DETALHAMENTO — não encerrado** |
+
+**Preservados como pendentes:** AUD-005 (comércio/Matheus nas atribuições confirmadas), AUD-006 (pedagogia; DEC-024 atribuída a Matheus e demais titularidades a confirmar), AUD-010 (gates de stack/custos/MVP/auditoria/execução). Não houve aprovação de parâmetros novos. **AUD-001–003** continuam resolvidos apenas documentalmente.
