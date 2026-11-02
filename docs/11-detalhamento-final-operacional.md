@@ -169,3 +169,6 @@ Para **cada** KPI aprovado, registrar: `id`, nome, objetivo, numerador/denominad
 
 ### Critério de fechamento das quatro frentes
 O detalhamento acima **não encerra** AUD-004/007/008/009: permanecem em elaboração até que políticas pendentes, responsáveis e critérios de aceitação sejam validados e rastreados nos requisitos/decisões canônicas. AUD-005/006/010 continuam pendentes sem alteração.
+
+## Deliberação operacional posterior — DEC-073 / REQ-052 (2026-11-02)
+Marina **aprovou as recomendações operacionais** de AUD-004, AUD-007, AUD-008 e AUD-009, antes apenas autorizadas para detalhamento. **O limiar de 5 avaliações válidas foi aprovado condicionalmente** à validação de privacidade e à proteção contra inferência; não é uma liberação incondicional nem autorização de desenvolvimento. As quatro frentes permanecem **APROVADAS EM DIRETRIZES / ABERTAS EM VALIDAÇÕES**. Dependências jurídicas, de Matheus, comerciais, pedagógicas, custos, stack, MVP e implementação permanecem pendentes. **AUD-005/006/010 não foram resolvidas.** Consultar DEC-073 e REQ-052.
