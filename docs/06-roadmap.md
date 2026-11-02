@@ -1,8 +1,8 @@
 # Roadmap Preliminar — Plataforma Privilège
 
-**Versão:** 0.2  
-**Status:** Planejamento de referência; datas e escopo sujeitos à validação  
-**Última atualização:** 2026-10-31
+**Versão:** 0.3 — gates atuais e fases históricas identificadas  
+**Status:** definição funcional em consolidação; **nenhuma data de entrega, MVP ou execução aprovada**  
+**Última atualização:** 2026-11-02
 
 ## Princípios
 - O roadmap representa fases e dependências, não uma promessa de entrega.
@@ -21,6 +21,22 @@
 5. **Auditar e autorizar execução:** antes de enviar pacotes ao Claude, aplicar DEC-029 e gates financeiros da DEC-032; registrar a decisão e suas aprovações no GitHub. Notion mostra somente relatórios derivados.
 
 **Durante a descoberta do escopo:** cada decisão funcional ainda deve ter mapeados seus possíveis gatilhos de custo, sem necessidade de inventar estimativas monetárias antes da stack. A análise financeira consolidada ocorre na fase 3; aprovação financeira é independente da funcional e precede execução e contratação. Fases abaixo são referências de execução **posteriores à fase de definição**, não autorização para iniciar implementação agora.
+
+## Painel vigente de gates — DEC-035
+
+| Gate | Critério de passagem | Situação em 2026-11-02 |
+|---|---|---|
+| G1 — Escopo integral | Cobertura e regras funcionais completas, com titularidades e exceções discriminadas; reunião única de Matheus sobre pendências comerciais/pedagógicas | **Em consolidação** — AUD-001/002/003 em correção; cinco frentes operacionais detalhadas em `docs/11-detalhamento-final-operacional.md`, dependências ainda abertas |
+| G2 — Arquitetura e stack | Escolher tecnologias, infraestrutura e serviços para o produto inteiro, com segurança, privacidade e escalabilidade | **Não iniciado/aprovado** |
+| G3 — Estimativa de custo | Comparativo por funcionalidade e cenários: implantação, mensal fixo mesmo ocioso, variável por aluno/professor/administrador/serviço | **Não aprovado**; gatilhos qualitativos registrados |
+| G4 — Orçamento e versões | Aprovação financeira expressa; **depois** decidir MVP, versões, cronograma e metas | **Não autorizado** |
+| G5 — Auditoria e autorização de execução | Checklist DEC-029, dependências resolvidas, custos aprovados e liberação expressa para Claude | **Não autorizado** |
+
+**Bloqueios de governança:** decisões DEC-024 e DEC-067 permanecem sob Matheus; notas acadêmicas, contratos/planos, cancelamentos e demais parâmetros não podem ser presumidos. Estimativas não são compromisso de pagamento. O GitHub contém o planejamento integral; Notion somente status executivo derivado.
+
+## Fases históricas de implementação — cenário preliminar, sem compromisso
+
+As atividades e marcos abaixo permanecem como referência anterior para preservar rastreabilidade. **Não são uma seleção de MVP, um cronograma aprovado nem autorização para iniciar tarefas.** A implantação real será replanejada após G1–G4.
 
 ## Fases propostas
 
