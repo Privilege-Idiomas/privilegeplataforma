@@ -1,10 +1,37 @@
 # Escopo do Produto — Plataforma Privilège
 
-**Versão:** 0.2  
-**Status:** Proposta de MVP; aprovação formal do patrocinador pendente  
-**Última atualização:** 2026-10-31
+**Versão:** 0.3 — consolidação documental do escopo integral  
+**Status:** escopo funcional em consolidação; **MVP/versões não selecionados**, decisões de Matheus e requisitos jurídicos/técnicos/financeiros pendentes  
+**Última atualização:** 2026-11-02
 
 > **Nota de governança atualizada em 2026-11-02:** as seções abaixo refletem uma **hipótese histórica de MVP**, não uma priorização aprovada nem o escopo funcional completo mais recente. A DEC-035 determina: primeiro fechar todas as funcionalidades, depois selecionar a stack, estimar custos e somente então decidir versões/MVP e autorizar implementação. Os pacotes funcionais aprovados desde DEC-025 até **DEC-070**, inclusive as oito funções complementares DEC-070/REQ-049, estão documentados canonicamente em `docs/08-decisoes-marina.md` e `docs/03-requirements.md`; propostas comerciais de Matheus seguem em `docs/09-decisoes-matheus.md`. Não interpretar a seção “Fora do escopo inicial” como rejeição permanente de funcionalidades aprovadas. É necessária consolidação posterior desta baseline sem eliminar o histórico Git.
+
+## Escopo integral consolidado — referência vigente
+
+Esta seção resume **o conjunto de funcionalidades desejadas para o produto completo**, sem selecionar MVP, versões, prazo ou stack. A fonte detalhada de critérios de aceitação permanece em `docs/03-requirements.md`; decisões aprovadas e pendentes nos arquivos do respectivo responsável. Esta consolidação foi autorizada por Marina como **correção AUD-002**, não como novo pacote de funcionalidades.
+
+| Domínio | Escopo funcional documentado | Aprovação e dependências |
+|---|---|---|
+| Aquisição e acesso comercial | páginas públicas de curso, apresentação de planos, contratação e ativação individual segura, cursos contratados e vitrine de outros cursos | DEC-036–048; planos, preços, pagamento e modelos de contratação com Matheus |
+| Identidade, pagador e crianças | login por e-mail/senha, recuperação, minha conta, vínculo pagador e múltiplos alunos, conta do menor com responsável | DEC-037–043/070, REQ-002/020–024/049; LGPD/ECA Digital e fluxos de exceção pendentes |
+| Catálogo e orientação | Basic English, Travel e Business como catálogo de referência, teste de nivelamento, portas de entrada e trilhas | REQ-005–008; detalhes pedagógicos e validação de Matheus pendentes |
+| Experiência acadêmica | aulas em vídeo, materiais, resumos, retomada, prática opcional, biblioteca e revisões, avaliações obrigatórias e progresso real | DEC-025/027/028/031–034/049–051/063; vídeo completo DEC-024, nota mínima e exceções pendentes |
+| Certificados | PDF privado, acesso após término de assinatura conforme retenção, QR e código verificador, correções, revogações e privacidade | DEC-052–062, REQ-032–040; pacote funcional fechado, jurídico e stack/custos pendentes |
+| Docentes e qualidade | área docente, agenda, consulta a questões de todos os cursos, média agregada própria, notas individuais/ranking somente para admin | DEC-034/064/065; proteção por amostras pequenas e operação pendentes |
+| Atendimentos | aulas particulares individuais agendadas por **data e horário → professores disponíveis**, anticolisão; plantão coletivo de entrada livre por link do dia | DEC-066/069, REQ-044/048; créditos, duração, cancelamentos e escala sob pauta comercial/operacional pendente de Matheus |
+| Administração e finanças | 12 áreas administrativas incluindo cursos, alunos, avaliações, professores, agenda, plantões, pagamentos, certificados, usuários e auditoria | DEC-068; procedimentos, permissões e decisões comerciais específicas pendentes |
+| Relatórios, automações e integrações | 12 funções de métricas, alertas, e-mails, exportações, auditoria e integração modular de serviços | DEC-069; fontes, segurança, provedores e orçamento pendentes |
+| Suporte, publicação e resiliência | recuperação de conta, FAQ, tickets, relatos de erro, revisão/publicação editorial, solicitações de dados e contingências | DEC-070; detalhamento no `docs/11-detalhamento-final-operacional.md` e validações restantes |
+
+**Limites e decisões preservados:** sem obrigatoriedade de IA em produção ou videoconferência própria; nenhuma ferramenta, custo fixo/variável, integração, prazo, MVP ou tarefa de execução autorizada por este inventário. Avaliações dos professores não são públicas; plantão não tem reserva; exercício de prática é facultativo. Não inferir que funcionalidades ausentes da hipótese histórica de MVP estejam rejeitadas ou postergadas.
+
+**Gates de planejamento obrigatórios (DEC-035):** fechar escopo integral e dependências → selecionar stack → estimar custos iniciais, mensais ociosos e variáveis → aprovar orçamento e recortar MVP/versões → auditar (DEC-029) e autorizar implementação. A pauta de Matheus será tratada em reunião única, sem registrar aprovação antes da resposta.
+
+---
+
+## Registro histórico — proposta inicial de MVP (não vigente como priorização)
+
+O conteúdo abaixo permanece para rastreabilidade, **não define o escopo vigente**, não revoga aprovações posteriores e não representa calendário ou MVP selecionado. Para regras atuais, consultar a tabela acima e os documentos canônicos.
 
 ## 1. Objetivo do escopo
 Delimitar uma primeira versão viável da plataforma, evitando adicionar funcionalidades sem validação de valor, esforço e dependências.
