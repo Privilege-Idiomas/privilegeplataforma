@@ -147,6 +147,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-061 | Carga horária oficial definida pela equipe pedagógica, não pelo tempo individual, no certificado PDF | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regra funcional; horas por curso, custos e implementação pendentes) | Marina |
 
+| DEC-062 | Aprovação integral do pacote final de 10 regras do certificado: emissão, downloads, correções, revogação, versão curricular, conteúdo, assinatura, apresentação, validade e privacidade | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (rodada funcional encerrada; jurídico, pedagógico, stack, custos, MVP e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
