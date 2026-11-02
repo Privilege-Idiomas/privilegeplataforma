@@ -159,6 +159,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-067 | Dez propostas de políticas comerciais e operacionais de particulares e plantões transferidas para decisão de Matheus (MAT-014) | [Registro canônico do Matheus](09-decisoes-matheus.md) | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — propostas não aprovadas, parâmetros e custos pendentes | Matheus |
 
+| DEC-068 | Aprovação funcional integral das 12 áreas do Painel Administrativo Privilège | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; permissões, privacidade, auditoria, decisões de Matheus, stack, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
