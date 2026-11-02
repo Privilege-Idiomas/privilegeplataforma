@@ -13,9 +13,9 @@ Data: 2026-11-02. Status: DIAGNÓSTICO DE PM, sem novas aprovações. Escopo da 
 ## Achados de reconciliação e correção sem redecidir produto
 | ID | Achado | Gravidade documental | Ação segura | Próximo responsável | Estado |
 |---|---|---|---|---|---|
-| P01-01 | REQ-052 reside em documento complementar, não como seção numerada no principal | Média | Incorporar referência canônica com rastreabilidade completa, sem duplicar texto contraditório; preservar suplemento histórico | PM | A FAZER |
-| P01-02 | Documento de escopo preserva perguntas e MVP antigo; risco de leitura isolada | Média | Inserir tabela de precedência e marcação explícita de trechos históricos sem apagar conteúdo | PM | A FAZER |
-| P01-03 | Baseline inicial do arquivo de requisitos pode parecer pendência genérica, embora várias regras já estejam aprovadas | Média | Especificar que o status geral é de **homologação integral pendente**, com aprovação por regra/DEC prevalecendo | PM | A FAZER |
+| P01-01 | REQ-052 reside em documento complementar, não como seção numerada no principal | Média | Incorporar referência canônica com rastreabilidade completa, sem duplicar texto contraditório; preservar suplemento histórico | PM | RESOLVIDO — seção REQ-052 e suplemento preservados |
+| P01-02 | Documento de escopo preserva perguntas e MVP antigo; risco de leitura isolada | Média | Inserir tabela de precedência e marcação explícita de trechos históricos sem apagar conteúdo | PM | RESOLVIDO — nota de precedência adicionada |
+| P01-03 | Baseline inicial do arquivo de requisitos pode parecer pendência genérica, embora várias regras já estejam aprovadas | Média | Especificar que o status geral é de **homologação integral pendente**, com aprovação por regra/DEC prevalecendo | PM | RESOLVIDO — status de governança esclarecido |
 | P01-04 | Pauta histórica MAT possui titularidades a confirmar | Alta — governança | Apresentar separadamente as decisões expressamente atribuídas e as de titularidade ainda não confirmada | Marina valida titularidade; PM prepara | PENDENTE |
 | P01-05 | Trilhas/nivelamento e avaliação possuem lacunas pedagógicas reais | Alta — produto | Apresentar alternativas e critérios de impacto sem decidir nota, teste ou vídeo | Decisor competente após confirmação; DEC-024 Matheus | PENDENTE |
 | P01-06 | Matriz jurídica foi preparada, mas sem parecer | Alta — privacidade | Preparar evidência e controles candidatos; não afirmar conformidade ou liberar média docente de cinco avaliações | Jurídico/privacidade; Marina | PENDENTE |
@@ -36,7 +36,7 @@ Data: 2026-11-02. Status: DIAGNÓSTICO DE PM, sem novas aprovações. Escopo da 
 - [x] Verificação de presença e sequência de IDs principais.
 - [x] Inventário de riscos de conflito entre textos históricos e atuais.
 - [x] Separação de decisões confirmadas de condicionantes e titularidade incerta.
-- [ ] Corrigir as três ressalvas documentais P01-01–03 com conferência após gravação.
+- [x] Corrigir as três ressalvas documentais P01-01–03 com conferência após gravação.
 - [ ] Desenvolver especificações de ponta a ponta P-02–P-08 e executar checagem de critérios de aceite.
 - [ ] Validar titularidades e parâmetros não decididos com Marina/Matheus/jurídico conforme alçada.
 
