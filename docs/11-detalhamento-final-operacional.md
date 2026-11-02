@@ -4,6 +4,12 @@
 **Status:** especificação de PM em elaboração, iniciada por autorização de Marina para **avançar nas cinco frentes**. Regras marcadas **PROPOSTA** são recomendações operacionais, não novas decisões automaticamente aprovadas. Regras **VIGENTES** apenas operacionalizam decisões já aprovadas. Parâmetros comerciais/pedagógicos de Matheus não são alterados.  
 **Origem:** auditoria `docs/10-auditoria-cobertura-funcional.md` (AUD-004/007/008/009), DEC-035/070 e REQ-049.
 
+## Deliberação posterior — DEC-071 / REQ-050 (2026-11-02)
+
+Marina **aprovou integralmente dez regras operacionais**, transformadas em DEC-071/REQ-050: recuperação de senha com link temporário de uso único; alteração de e-mail com segurança e representação dos menores; atualização simples e verificação de vínculo responsável; cinco grupos de permissões administrativas configuráveis e cumulativos por autorização; auditoria das operações sensíveis; ocorrência e reagendamento por ausência em particular sem pressupor política comercial; substituição de docente ou suspensão comunicada em plantão coletivo; fluxo rascunho → revisão → publicado com preservação de progresso e certificados; suporte protocolado em três estados; definição de alunos ativos/conclusão/cobertura de plantões e indicadores financeiros baseados em registros reais; exportação controlada CSV/Excel.
+
+**Precedência:** esses pontos deixam de ser apenas propostas e passam a **VIGENTES**, observados os limites exatos da DEC-071/REQ-050. Outras propostas deste documento (ex.: limiar para médias docentes com poucas notas, SLAs, prazos de retenção, acesso administrativo excepcional, fórmulas não expressamente aprovadas e mecanismos específicos de contingência) **continuam propostas**, não presumir aprovação por associação. Regras comerciais de Matheus, jurídico, custos, stack e execução permanecem pendentes.
+
 ## F1 — Jornadas excepcionais e estados de conta
 
 | Fluxo | Regra vigente | Detalhamento proposto para validação |
