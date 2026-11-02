@@ -498,4 +498,4 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - Registro de erros e monitoramento sem exposição de dados sensíveis.
 
 ## 8. Próxima etapa
-Transformar os requisitos em histórias de usuário, critérios de aceitação verificáveis e tarefas no ClickUp após validar as regras pendentes com o patrocinador e a equipe pedagógica.
+Após concluir a definição integral do produto e as decisões pendentes, detalhar histórias de usuário e critérios de aceitação no **GitHub**, fonte canônica de toda a documentação e das tarefas técnicas/executivas. Seguir DEC-035: definir stack e custos antes de decidir MVP/versões; obter aprovação financeira e auditoria DEC-029 antes de autorizar execução. O Notion apresenta somente relatório executivo derivado dos registros do GitHub, sem substituir o backlog. Consultar `docs/10-auditoria-cobertura-funcional.md` para lacunas e pendências.
