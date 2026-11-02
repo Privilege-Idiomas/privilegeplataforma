@@ -29,6 +29,8 @@ Esta seção resume **o conjunto de funcionalidades desejadas para o produto com
 
 ---
 
+**Regra de leitura:** o inventário de escopo integral e as decisões canônicas mais recentes prevalecem sobre questões e hipóteses do registro histórico abaixo. Nenhuma seção histórica seleciona MVP, versão ou prazo. Detalhes pendentes estão na matriz P-01 (`docs/18-revisao-cruzada-p01.md`).
+
 ## Registro histórico — proposta inicial de MVP (não vigente como priorização)
 
 O conteúdo abaixo permanece para rastreabilidade, **não define o escopo vigente**, não revoga aprovações posteriores e não representa calendário ou MVP selecionado. Para regras atuais, consultar a tabela acima e os documentos canônicos.
