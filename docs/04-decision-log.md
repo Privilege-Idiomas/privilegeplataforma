@@ -163,6 +163,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-069 | Relatórios, automações, integrações e seleção de professor por disponibilidade | [Decisão da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; financeiro, stack e execução pendentes) | Marina |
 
+| DEC-070 | Oito funções complementares: acesso, conta, suporte, relatos, publicação, privacidade e continuidade | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, operação, custo, stack e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
