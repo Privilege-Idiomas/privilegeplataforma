@@ -161,6 +161,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-068 | Aprovação funcional integral das 12 áreas do Painel Administrativo Privilège | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; permissões, privacidade, auditoria, decisões de Matheus, stack, custos e execução pendentes) | Marina |
 
+| DEC-069 | Relatórios, automações, integrações e seleção de professor por disponibilidade | [Decisão da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; financeiro, stack e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
