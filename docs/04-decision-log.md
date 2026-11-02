@@ -157,6 +157,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-066 | Aula particular com agendamento; plantão coletivo com janelas fixas e link diário, sem reserva do aluno, com vários participantes | [Registro canônico da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; horários são exemplos, operações, jurídico, valores e execução pendentes) | Marina |
 
+| DEC-067 | Dez propostas de políticas comerciais e operacionais de particulares e plantões transferidas para decisão de Matheus (MAT-014) | [Registro canônico do Matheus](09-decisoes-matheus.md) | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — propostas não aprovadas, parâmetros e custos pendentes | Matheus |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
