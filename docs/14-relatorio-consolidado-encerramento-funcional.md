@@ -70,3 +70,6 @@ O conjunto funcional está amplamente especificado. DEC-071/REQ-050 (dez regras)
 | AUD-009 | Preparar dicionário de KPIs com definição, fonte, fórmula, período, ausência de dados e permissões; especificar exportação CSV/Excel controlada e auditável. | **EM DETALHAMENTO — não encerrado** |
 
 **Preservados como pendentes:** AUD-005 (comércio/Matheus nas atribuições confirmadas), AUD-006 (pedagogia; DEC-024 atribuída a Matheus e demais titularidades a confirmar), AUD-010 (gates de stack/custos/MVP/auditoria/execução). Não houve aprovação de parâmetros novos. **AUD-001–003** continuam resolvidos apenas documentalmente.
+
+## Deliberação operacional posterior — DEC-073 / REQ-052 (2026-11-02)
+Marina **aprovou as recomendações operacionais** de AUD-004, AUD-007, AUD-008 e AUD-009, antes apenas autorizadas para detalhamento. **O limiar de 5 avaliações válidas foi aprovado condicionalmente** à validação de privacidade e à proteção contra inferência; não é uma liberação incondicional nem autorização de desenvolvimento. As quatro frentes permanecem **APROVADAS EM DIRETRIZES / ABERTAS EM VALIDAÇÕES**. Dependências jurídicas, de Matheus, comerciais, pedagógicas, custos, stack, MVP e implementação permanecem pendentes. **AUD-005/006/010 não foram resolvidas.** Consultar DEC-073 e REQ-052.
