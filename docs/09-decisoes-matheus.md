@@ -117,7 +117,7 @@
 - **Perguntas:** plantão de dúvidas e aula particular serão benefícios de quais planos? Também poderão ser contratados avulsamente? Como funcionarão disponibilidade, agenda, preço e contratação?
 - **Definição já registrada:** após duas tentativas abaixo da nota mínima, a plataforma deve sugerir plantão ou aula particular, respeitando os direitos do plano.
 - **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Diretriz informada; política comercial e operacional pendente.
-- **Origem:** DEC-018; REQ-014.
+- **Origem:** DEC-018; REQ-014. **Complemento de atribuição expressa em 2026-11-02:** DEC-067/MAT-014 concentra as dez propostas comerciais e operacionais de particulares e plantões para aprovação de Matheus; nenhuma está aprovada por essa transferência. As regras funcionais de entrada livre no plantão já foram aprovadas por Marina na DEC-066 e não estão sendo reabertas.
 
 ### MAT-011 — Prazo, orçamento e critérios de sucesso
 - **Perguntas:** o prazo de referência de 30 dias continua válido? Qual orçamento está aprovado? Quais resultados mensuráveis definirão o sucesso do MVP?
