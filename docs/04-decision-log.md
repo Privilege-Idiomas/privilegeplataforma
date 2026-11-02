@@ -151,6 +151,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-063 | Aprovação integral do pacote de 8 funcionalidades da experiência nas aulas: página unificada, navegação, player, retomada, materiais, prática opcional, avaliação e desbloqueio | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; vídeo DEC-024 em revisão, nota mínima, custos e execução pendentes) | Marina |
 
+| DEC-064 | Portal docente e avaliações de atendimentos por estrelas | [Registro canônico da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
