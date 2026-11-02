@@ -165,6 +165,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-070 | Oito funções complementares: acesso, conta, suporte, relatos, publicação, privacidade e continuidade | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, operação, custo, stack e execução pendentes) | Marina |
 
+| DEC-071 | Dez regras operacionais: recuperação, cadastro, papéis, auditoria, docentes, plantões, publicação, suporte, indicadores e exportação | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, Matheus, custos, stack e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
