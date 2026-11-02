@@ -145,6 +145,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-060 | PDF do certificado exibe separadamente data de conclusão do curso e data de emissão; validador público mantém só emissão | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; fuso, reemissão, custos e execução pendentes) | Marina |
 
+| DEC-061 | Carga horária oficial definida pela equipe pedagógica, não pelo tempo individual, no certificado PDF | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regra funcional; horas por curso, custos e implementação pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
