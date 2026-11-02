@@ -143,6 +143,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-059 | Certificado PDF apresenta nome completo do aluno; validação pública mantém só iniciais | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (regra funcional; nomes especiais, privacidade de menores, custos e implementação pendentes) | Marina |
 
+| DEC-060 | PDF do certificado exibe separadamente data de conclusão do curso e data de emissão; validador público mantém só emissão | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; fuso, reemissão, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
