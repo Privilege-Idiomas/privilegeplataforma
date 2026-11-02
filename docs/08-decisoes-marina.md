@@ -686,6 +686,18 @@
 - **Custo e governança:** dimensionar revisão humana, suporte/identidade, moderação de sala, processos acadêmicos, logs, processamento e qualidade de dados, armazenamento e exportações: implantação, fixo mesmo ocioso e variável por aluno, docente, avaliação, ocorrência, relatório e acesso. Nenhum contrato, gasto, MVP, prazo ou implementação autorizado; GitHub fonte canônica, Notion relatório executivo derivado. DEC-029/030/032/035 mantidas.
 - **Referências:** DEC-024/026/029/030/032/035/040–043/064/065/066/067/068/069/070/071; REQ-002/022–024/042–050/051; `docs/11-detalhamento-final-operacional.md`.
 
+
+## DEC-073 — Aprovação das recomendações operacionais AUD-004/007/008/009 (2026-11-02)
+- **Responsável pela aprovação e comunicação:** Marina.
+- **Situação:** RESOLVIDO quanto à **aprovação das diretrizes operacionais**; pendências de validação e implementação permanecem ABERTAS. Não encerra AUD-004/007/008/009 automaticamente.
+- **Decisão expressa:** “Aprovo as recomendações operacionais das frentes AUD-004, AUD-007, AUD-008 e AUD-009. Quanto ao limiar docente: 5 avaliações válidas, sujeito a validação de privacidade e proteção contra inferência. Registre fielmente o encaminhamento no GitHub, sem antecipar decisões jurídicas, de Matheus, custos, stack, MVP ou implementação.”
+- **AUD-004:** recuperação sem e-mail com comprovação independente e análise autorizada; troca de e-mail com confirmação e avisos seguros; representação de menores validada; prevenção de duplicidades na migração; preservação de histórico/direitos comprovados; auditoria sem exposição de credenciais/documentos desnecessários.
+- **AUD-007:** ausência docente e imprevistos registrados/comunicados; substituição ou suspensão de plantões; tratamento de falhas de link e conduta inadequada; moderação e proteção de menores; particular mantém agendamento sem conflito e plantão permanece coletivo, livre e sem reserva. Consumo de crédito, remarcações comerciais e compensações dependem de política competente.
+- **AUD-008:** mínimo de privilégios, permissões por ação/dado, justificativa e trilha de operações sensíveis. **Limiar de 5 avaliações válidas aprovado como parâmetro condicionado à validação de privacidade e proteção contra inferência**: não está liberado para implementação ou divulgação até satisfazer essas condições; eventual inadequação exige revisão antes da execução. Professor não acessa notas individuais/ranking; somente própria média quando permitido. Administração autorizada preserva acesso interno definido na DEC-065/072.
+- **AUD-009:** dicionário de KPIs com definição, fonte, fórmula, período, público e disponibilidade; ausência de dados não é zero; exportações CSV/Excel com autorização por perfil, minimização e auditoria.
+- **Dependências preservadas:** validações jurídicas de LGPD/menores/representação e retenção; política concreta anti-inferência; titularidades e decisões de Matheus (incluindo DEC-024 e DEC-067); parâmetros financeiros/pedagógicos; stack, fornecedores, custo, MVP, cronograma e implementação permanecem sem aprovação. AUD-005, AUD-006 e AUD-010 inalterados.
+- **Referências:** DEC-065/066/070/071/072; REQ-049/050/051; `docs/10-auditoria-cobertura-funcional.md`; `docs/11-detalhamento-final-operacional.md`; `docs/14-relatorio-consolidado-encerramento-funcional.md`.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
