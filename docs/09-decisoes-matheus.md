@@ -1,6 +1,6 @@
 # Decisões do Matheus — Plataforma Privilège
 
-**Última consolidação:** 2026-10-31  
+**Última consolidação:** 2026-11-02  
 **Responsável pela confirmação/aprovação:** Matheus, quando Marina atribuir a ele  
 **Fonte de respostas e confirmações:** Marina  
 **Finalidade:** decisões exclusivas de Matheus e decisões cuja resposta provisória de Marina necessita validação dele.
@@ -44,6 +44,26 @@
 - **Pendências:** Marina comunicar a confirmação ou mudança da resposta por Matheus; identificação dos componentes obrigatórios por aula; nota mínima e escala de aprovação.
 - **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
 - **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
+
+### DEC-067 — Aprovação do pacote de 10 regras comerciais e operacionais de atendimentos (MAT-014)
+- **Data de encaminhamento:** 2026-11-02. **Responsável por decidir:** Matheus, **atribuído expressamente por Marina**. **Comunicado por:** Marina. **Resposta de Matheus:** não recebida.
+- **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — pacote de recomendações encaminhado para decisão, **não aprovado**. **Registro canônico:** este arquivo; MAT-014 é identificação da pauta, não segunda decisão.
+- **Contexto:** o sistema de **aulas particulares agendadas e plantões coletivos sem reservas** já tem estrutura funcional aprovada por Marina na DEC-066. Este pacote de **10 propostas operacionais/comerciais** foi apresentado a Marina, que solicitou transferir a responsabilidade para Matheus em vez de aprovar ela própria. Não transferir/reabrir DEC-066; suas regras vigentes continuam aprovadas.
+- **Proposta 1 — Duração:** aulas particulares possuem duração padronizada por modalidade, com valor configurável pela administração. **Matheus deverá decidir a duração numérica**, não presumir minutos.
+- **Proposta 2 — Benefícios por plano:** cada plano comercial determina quantidade de aulas particulares e direito de acesso aos plantões; modalidades, limites e preços dependem de decisão específica.
+- **Proposta 3 — Saldo:** aluno poderá ver quantas aulas particulares ainda tem direito de reservar, com apuração coerente com contratos e políticas.
+- **Proposta 4 — Cancelamento:** cancelar aula particular sem perda do benefício quando respeitar antecedência mínima configurável pela administração. **Matheus deverá definir a antecedência e consequências fora do prazo**.
+- **Proposta 5 — Remarcação:** remarcar aulas particulares conforme disponibilidade e antecedência mínima aplicável; regras numéricas pendentes.
+- **Proposta 6 — Falta do aluno:** registrar ausência e aplicar **somente a política comercial que for aprovada**, sem desconto de crédito ou cobrança arbitrária por omissão.
+- **Proposta 7 — Falta do professor:** garantir remarcação sem perda do benefício do aluno quando professor faltar.
+- **Proposta 8 — Plantões de dúvidas:** gestão define dias, janelas horárias, professores escalados e link do dia; aluno elegível acessa livremente no período, **sem agendamento e sem consumir créditos de aulas particulares**. Preservar DEC-066: plantão coletivo com vários alunos e professor disponível, não aula individual, não criar créditos por acesso nem horários definitivos com base nos exemplos 08h–11h/13h–17h.
+- **Proposta 9 — Painel administrativo:** permitir gestão de agendamentos, cancelamentos, uso de benefícios, faltas e cobertura dos plantões, com acesso baseado em papéis.
+- **Proposta 10 — Aulas adicionais:** preparar arquitetura para eventual contratação avulsa de aulas particulares; **não ativar vendas nem fixar preços** sem autorização comercial e financeira subsequente.
+- **Questões para Matheus decidir em bloco:** aprova integralmente essas dez recomendações, rejeita alguma ou propõe ajustes? Quais **duração das aulas, quantidade de aulas por plano, condições de acesso aos plantões, antecedência de cancelamento, validade/acúmulo de créditos, consequência da falta, modelo de aulas avulsas e preços** deverão ser adotados? Não inventar parâmetros não respondidos.
+- **Separação de papéis:** Marina atribuiu esta pauta a Matheus, **não forneceu aprovação funcional em nome dele**. Respostas, alterações e justificativas devem ser comunicadas por Marina para registro como RESOLVIDO. Política comercial não é autorização de fornecedor, cobrança real ou implementação.
+- **Dependências e custo:** cruzar MAT-002, MAT-003, MAT-010 e DEC-066; implantação de agenda, saldo/consumo de benefícios, regras de cancelamento e remarcação, dados e painel administrativo, escalas/plantões, remuneração/cobertura docente e suporte. Avaliar investimento inicial, fixo mensal inclusive ocioso, variável por aluno, agendamento, professor-hora/plantão e administração; **nenhuma estimativa é aprovação de custo** (DEC-032). Fechamento do escopo, stack e comparação de custos antes de decidir MVP/releases (DEC-035); sem autorizar Claude, compras, pagamentos ou lançamento (DEC-029).
+- **Próxima ação:** Matheus avaliar o pacote único e comunicar sua resposta por Marina; atualizar esta ficha, índice e requisitos sem registrar como decidido até lá.
+- **Relacionamentos:** DEC-029/030/032/035/064/065/066; MAT-002/003/010/014; REQ-003/004/014/042/043/044/045.
 
 ## Pauta histórica de decisões classificadas para Matheus
 
