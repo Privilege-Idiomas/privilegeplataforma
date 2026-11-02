@@ -36,6 +36,17 @@ O levantamento **não verifica código, telas, configuração real, serviços ex
 | AUD-009 | Média — qualidade e mensuração | REQ-046/047 aprovam relatórios, mas definicões de métricas, base de cálculo, recortes e exportação não estão fechadas. | Inventariar definições e fontes de cada KPI; restringir exportação por papel, sem inventar dados nem contratar BI. |
 | AUD-010 | Alta — planejamento/custo | Não existe aprovação financeira nem autorização do Claude para os pacotes recentes. Requisitos têm gatilhos de custo qualitativos, não números confiáveis por stack. | Cumprir DEC-032/035: primeiro escopo, stack e análise de custo inicial/fixo/variável; depois MVP/versões; só então auditoria DEC-029 e autorização explícita. |
 
+## 3.1. Andamento das ações autorizado por Marina em 2026-11-02
+
+| ID | Resultado documental | Situação |
+|---|---|---|
+| **AUD-001** | A seção 8 de `docs/03-requirements.md` foi corrigida no GitHub para backlog **GitHub**, com Notion exclusivamente executivo. | **RESOLVIDO — documentação** |
+| **AUD-002** | `docs/02-scope.md` recebeu inventário **integral atualizado** de domínios aprovados e foi identificado o bloco histórico de MVP, sem classificar versões nem excluir a história. | **RESOLVIDO — consolidação documental**, dependências comerciais/pedagógicas permanecem abertas |
+| **AUD-003** | `docs/06-roadmap.md` apresenta gates vigentes G1–G5 da DEC-035; fases antigas são apenas referência histórica, sem cronograma ou prazo de 30 dias aprovado. | **RESOLVIDO — documentação** |
+| **Cinco frentes transversais** | `docs/11-detalhamento-final-operacional.md` especifica jornadas excepcionais, papéis/privacidade, contingências, editorial/suporte e KPI/exportações. | **DETALHAMENTO PROPOSTO**, sem aprovação automática de novas regras, parâmetros ou implementação |
+
+**Autorização da Marina:** “Vamos avançar com essas cinco e com as tres primeiras pendências que você mandou pode seguir de acordo com o seu encaminhamento”. Isto autoriza correções AUD-001/002/003 e preparo de especificação, **não é aceitação explícita de todas as políticas e fórmulas ainda propostas**. Os itens AUD-004 a AUD-010 seguem pendentes conforme dependências; algumas frentes já estão documentadas para futura validação.
+
 ## 4. Proposta para a rodada final de descoberta — **não aprovada**
 Apresentar um único pacote de validação, sem microdecisões repetitivas, abrangendo (i) mapa de jornadas críticas e estados excepcionais; (ii) matriz de papéis e proteção de dados; (iii) procedimentos de suporte/contingência; (iv) regras de publicação/versionamento; (v) métricas e exportação; (vi) operação coletiva e segurança dos plantões; (vii) checklist de prontidão de produto; (viii) conciliação documental dos arquivos legados. Itens que já são requisitos aprovados devem ser tratados como **detalhamento**, não como novas funcionalidades ou aprovações automáticas.
 
