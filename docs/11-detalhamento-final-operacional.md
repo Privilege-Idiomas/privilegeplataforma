@@ -118,3 +118,54 @@ Definições **PROPOSTAS para validação** (DEC-068/069 aprovam existência dos
 - [ ] Só então abrir gate de escolha de stack, comparações de custo e versões (DEC-035).
 
 **Este documento não autoriza implementação, custos, fornecedores, calendário ou tarefas para Claude.**
+
+## Complemento de especificação — encaminhamentos aprovados em 2026-11-02 (AUD-004/007/008/009)
+**Natureza:** aprofundamento técnico-funcional documental autorizado por Marina. Todas as recomendações abaixo são **PROPOSTAS de parâmetros e critérios de aceite**, salvo quando reproduzirem regra já vigente da DEC-070/071/072. Não há autorização de implementação.
+
+### AUD-004 — mapa de jornadas excepcionais
+| Cenário | Fluxo a especificar | Proteções e critério de aceite | Validação pendente |
+|---|---|---|---|
+| Perda de e-mail de login | Solicitação → prova de identidade/vínculo por canal independente → análise administrativa autorizada → decisão motivada → atualização e aviso | Não revelar existência de conta; não aceitar apenas dados públicos; registrar agente, motivo e resultado; evitar transferência indevida de acesso | Marina e jurídico para forma de prova e representação de menor |
+| Troca de e-mail com acesso à conta | Autenticação reforçada → verificação do novo endereço → alteração → avisos e controle de sessões | E-mail financeiro do pagador não muda login do aluno; não expor credenciais; histórico auditável | Prazos e canais a definir |
+| Alteração de responsável/pagador | Comprovação de autoridade → avaliação do vínculo de cada aluno → alteração autorizada e notificação pertinente | Não permitir que acesso financeiro conceda acesso acadêmico indevido; mudanças sensíveis deixam trilha | Jurídico e Marina |
+| Aluno existente/migração | Localizar registro existente sem enumeração → conciliar identidade e direitos contratuais → prevenir duplicidade → registrar ativação | Conservar histórico/certificados legitimamente adquiridos; conflitos direcionados a suporte | Políticas comerciais e direitos contratuais ainda pendentes |
+| Cancelamento/inadimplência/retorno | Receber evento confiável de direitos → registrar estado e comunicar alteração pertinente → reativar sem duplicar vínculo | Histórico acadêmico não é apagado por evento comercial; sem presumir tolerância, cobrança ou prazo | Matheus nos itens atribuídos; jurídico quanto a retenção |
+
+### AUD-007 — procedimento operacional de atendimentos
+| Ocorrência | Tratamento proposto | Restrição vigente |
+|---|---|---|
+| Professor falta a particular | Registrar ocorrência; notificar as partes; oferecer reagendamento sujeito às políticas comerciais aprovadas | Não descontar crédito nem fixar indenização por omissão |
+| Aluno falta/cancela/remarca | Registrar motivo/horário, manter status legível, aguardar política de benefícios | Antecedência, validade e desconto de crédito são pendência comercial |
+| Docente não cobre plantão | Administrador autorizado escolhe substituto habilitado ou suspende a janela e avisa alunos elegíveis | Plantão coletivo sem reservas ou consumo de créditos de particulares |
+| Link inválido ou incidente de plataforma externa | Registrar incidente, corrigir link autorizado ou comunicar indisponibilidade, preservando histórico | Não prometer SLA, sala própria nem custo externo |
+| Conflito/moderação envolvendo menor | Moderação e canal de denúncia com possibilidade de interromper participação indevida; registro minimizado de evidências | Regras concretas de consentimento, imagem/voz, supervisão e retenção precisam jurídico |
+| Choque de horários em particular | Confirmar reserva apenas com horário e docente ainda disponíveis, evitando dupla marcação | Preservar ordem dia/horário → professor elegível (REQ-048) |
+
+### AUD-008 — matriz preliminar de autorização e proteção de dados
+| Dado/ação | Aluno | Professor | Administração autorizada | Pagador/responsável |
+|---|---|---|---|---|
+| Progresso e avaliações individuais do aluno | Próprios dados | Somente permissões acadêmicas expressamente atribuídas | Conforme competência e finalidade | Sem acesso irrestrito; representação de menor sujeita a validação |
+| Nota individual sobre atendimento docente | Pode registrar no próprio atendimento | Sem acesso | Consulta restrita e auditável | Sem acesso |
+| Média do próprio professor | Não acessa | Própria média somente após limiar mínimo válido | Gestão interna conforme permissão | Não acessa |
+| Ranking de professores | Não acessa | Não acessa | Exclusivamente administração autorizada | Não acessa |
+| Dados financeiros e contratos | Conforme titularidade | Sem acesso | Papel financeiro competente | Apenas contratos próprios |
+| Recuperação excepcional, mudança de vínculo e exportação | Solicitar próprios direitos | Restrito ao papel | Ação sensível com justificativa e auditoria | Apenas mediante vínculo comprovado e regra jurídica |
+
+**Limiar proposto para média docente:** mínimo de **5 avaliações válidas** para exibição ao próprio professor; verificar se atualizações sucessivas, filtros ou amostras pequenas possibilitam reconstruir uma avaliação individual. Alternativas para validar: limiar maior, atualização agregada por janela e supressão de detalhamento temporal. O número 5 **não está aprovado**. Administradores conservam exclusividade sobre notas individuais/ranking conforme DEC-065/072. Política de retenção, resposta LGPD, incidente, dados de menores e alçadas devem receber validação jurídica/administrativa antes de execução.
+
+### AUD-009 — estrutura do dicionário de indicadores
+Para **cada** KPI aprovado, registrar: `id`, nome, objetivo, numerador/denominador ou regra de contagem, população elegível, evento/fonte de origem, data de referência, fuso, período, filtros, atualização, responsável, acesso autorizado, tratamento de revisão/duplicidade e estado de qualidade do dado. **Dado indisponível não equivale a zero.**
+
+| Família | Métricas a detalhar sem fixar fórmula nova | Dependência |
+|---|---|---|
+| Alunos e assinaturas | Alunos ativos, novos alunos, contratos com direito ativo, evolução da base | Regras comerciais, vínculo aluno/pagador |
+| Ensino e progresso | Aulas concluídas, conclusão de curso, tentativas insuficientes | Critérios acadêmicos ainda pendentes |
+| Atendimentos | Particulares realizados, remarcações, cobertura de janelas de plantão | Estados/ocorrências e políticas comerciais |
+| Professores | Média de notas válidas, participação em atendimentos | Limiar de proteção de média e privacidade |
+| Financeiro | Pagamentos recebidos, pendências, cancelamentos, receita quando definida | Matheus, conciliação e futura integração |
+| Suporte | Chamados por estado, tempo de tratamento quando definido | Fluxo e eventuais SLAs aprovados |
+
+**Disponibilidade e exportação:** distinguir `disponível`, `indisponível`, `insuficiente` e `não aplicável` quando pertinente; exportar só dados e recortes autorizados em CSV/Excel; registrar solicitante, finalidade, filtro, momento e resultado; minimizar dados de menores. Não aprovar BI, periodicidade, envio automático ou fórmulas comerciais sem decisão competente.
+
+### Critério de fechamento das quatro frentes
+O detalhamento acima **não encerra** AUD-004/007/008/009: permanecem em elaboração até que políticas pendentes, responsáveis e critérios de aceitação sejam validados e rastreados nos requisitos/decisões canônicas. AUD-005/006/010 continuam pendentes sem alteração.
