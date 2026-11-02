@@ -10,6 +10,12 @@ Marina **aprovou integralmente dez regras operacionais**, transformadas em DEC-0
 
 **Precedência:** esses pontos deixam de ser apenas propostas e passam a **VIGENTES**, observados os limites exatos da DEC-071/REQ-050. Outras propostas deste documento (ex.: limiar para médias docentes com poucas notas, SLAs, prazos de retenção, acesso administrativo excepcional, fórmulas não expressamente aprovadas e mecanismos específicos de contingência) **continuam propostas**, não presumir aprovação por associação. Regras comerciais de Matheus, jurídico, custos, stack e execução permanecem pendentes.
 
+## Deliberação posterior — DEC-072 / REQ-051 (2026-11-02)
+
+Marina aprovou funcionalmente seis controles complementares: (1) processo de recuperação excepcional com validação de identidade ao perder o e-mail; (2) ocultação da média docente ao próprio professor até atingir **limiar mínimo de avaliações válidas a definir**, mantendo ranking/notas individuais exclusivamente internos da administração; (3) revisão de impacto antes de alterar retroativamente avaliações publicadas; (4) regras de participação e moderação em plantões coletivos com proteção de menores, sem reservas; (5) justificativa, agente identificado e auditoria em intervenções sensíveis, conforme papel autorizado; e (6) cada indicador deve ter fonte, definição e período, **nunca converter ausência de dados em zero**.
+
+**Status:** as seis regras são **VIGENTES** conforme DEC-072 e REQ-051; respectivos **parâmetros e fluxos de implementação não estão automaticamente aprovados**. A política concreta de limiar, recuperação de identidade, moderação, retroatividade acadêmica, alçadas, fontes e periodicidade de KPIs, validações jurídicas e decisões comerciais/pedagógicas de Matheus continuam pendentes. Esta deliberação complementa DEC-071/REQ-050 sem revogar regras anteriores nem autorizar stack, custos ou execução.
+
 ## F1 — Jornadas excepcionais e estados de conta
 
 | Fluxo | Regra vigente | Detalhamento proposto para validação |
