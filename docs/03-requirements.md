@@ -519,6 +519,8 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Custos e gates:** estimar implantação, custos mensais fixos mesmo sem uso, volume variável de solicitações, moderação, avaliações, consultas/relatórios, logs e exportações. Priorizar métodos determinísticos sem IA por usuário (DEC-030). Seguir DEC-035 e DEC-032 até aprovação financeira e DEC-029 antes de qualquer implementação.
 - **Referências:** DEC-072/071/070/069/068/067/066/065/064/035/032/030/029; REQ-002/022–024/042–050; `docs/11-detalhamento-final-operacional.md`.
 
+**REQ-052 (complementar):** requisitos operacionais da DEC-073 registrados em [docs/15-requisitos-operacionais-dec-073.md](15-requisitos-operacionais-dec-073.md); avaliações docentes: limiar de 5 válido apenas sujeito à validação de privacidade e anti-inferência; ver matriz jurídica [docs/16-matriz-validacao-juridica-privacidade.md](16-matriz-validacao-juridica-privacidade.md). AUD-005/006/010 continuam pendentes.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
