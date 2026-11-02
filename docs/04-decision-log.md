@@ -167,6 +167,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-071 | Dez regras operacionais: recuperação, cadastro, papéis, auditoria, docentes, plantões, publicação, suporte, indicadores e exportação | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, Matheus, custos, stack e execução pendentes) | Marina |
 
+| DEC-072 | Seis regras finais: recuperação excepcional, confidencialidade de notas docentes, revisão de gabaritos, moderação, intervenções e qualidade dos KPIs | [Registro da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; jurídico, Matheus, custo, stack e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
