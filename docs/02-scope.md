@@ -4,6 +4,8 @@
 **Status:** Proposta de MVP; aprovação formal do patrocinador pendente  
 **Última atualização:** 2026-10-31
 
+> **Nota de governança atualizada em 2026-11-02:** as seções abaixo refletem uma **hipótese histórica de MVP**, não uma priorização aprovada nem o escopo funcional completo mais recente. A DEC-035 determina: primeiro fechar todas as funcionalidades, depois selecionar a stack, estimar custos e somente então decidir versões/MVP e autorizar implementação. Os pacotes funcionais aprovados desde DEC-025 até **DEC-070**, inclusive as oito funções complementares DEC-070/REQ-049, estão documentados canonicamente em `docs/08-decisoes-marina.md` e `docs/03-requirements.md`; propostas comerciais de Matheus seguem em `docs/09-decisoes-matheus.md`. Não interpretar a seção “Fora do escopo inicial” como rejeição permanente de funcionalidades aprovadas. É necessária consolidação posterior desta baseline sem eliminar o histórico Git.
+
 ## 1. Objetivo do escopo
 Delimitar uma primeira versão viável da plataforma, evitando adicionar funcionalidades sem validação de valor, esforço e dependências.
 
