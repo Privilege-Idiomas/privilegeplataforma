@@ -409,6 +409,23 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Dependências e custos:** duração da aula particular, horas efetivas/dias do plantão, políticas de cancelamento, benefícios por plano e pagamento avulso, escala, substituição, capacidade, administração de grupos e ordem de atendimento, videoconferência/links diários, comunicações, disponibilidade, fuso, privacidade de menores, acessibilidade e suporte. Dimensionar custos iniciais, fixos inclusive ociosos, variáveis por professor-hora, aluno, encontro, link/videochamada, e-mail e operações administrativas; manter IA fora do runtime por aluno (DEC-030). DEC-029/032/035 exigem orçamento aprovado e autorização antes de implementação, e sem inferir inclusão no MVP.
 - **Referências:** DEC-066/065/064/043/041/040/035/032/030/029; REQ-003/004/014/021/022/024/042/043.
 
+### REQ-045 — Política comercial e operacional de aulas particulares e plantões (decisão de Matheus pendente)
+- **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **PROPOSTO; NÃO APROVADO**. **DEC-067 / MAT-014 atribuída expressamente por Marina a Matheus em 2026-11-02**. Dez recomendações apresentadas para decisão conjunta; não confundir com DEC-066/REQ-044, já aprovados funcionalmente.
+- **Proposta 1 — Duração de particulares:** duração padronizada por modalidade e configurável por administração; quantidade de minutos sem decisão.
+- **Proposta 2 — Benefícios por plano:** benefícios estabelecem quantidade de aulas particulares e direito a plantões; planos, frequência, valores, recorrência e elegibilidade pendentes.
+- **Proposta 3 — Saldo de aulas:** aluno consulta quantas sessões individuais ainda pode reservar, sem contar ingresso livre em plantão como crédito.
+- **Proposta 4 — Cancelamentos:** cancelar aula particular dentro de antecedência mínima configurada sem perda do crédito; prazo e consequências fora dele a definir.
+- **Proposta 5 — Remarcações:** permitir remarcar aulas particulares conforme agenda e regras de antecedência ainda por decidir.
+- **Proposta 6 — Falta do aluno:** registro operacional e consequência exclusivamente conforme futura política comercial; nenhuma cobrança ou débito presumido.
+- **Proposta 7 — Falta do professor:** remarcação sem perda do benefício do aluno.
+- **Proposta 8 — Plantões:** equipe administrativa programa horários, professores e link diário; aluno elegível entra livremente, inclusive com outros alunos, sem agendamento e **sem consumir créditos de aulas particulares**, conforme DEC-066. Exemplos 08h–11h e 13h–17h não são horários fixados.
+- **Proposta 9 — Gestão:** painel administrativo de agendamentos, cancelamentos, créditos/benefícios, faltas e cobertura dos plantões.
+- **Proposta 10 — Aulas avulsas:** suporte estrutural a eventual contratação adicional sem iniciar vendas ou definir preços por inferência.
+- **Decisão pendente de Matheus:** confirmar/aprovar/alterar o pacote completo e definir parâmetros concretos, inclusive duração, benefícios e quantidades por plano, prazos de cancelamento, validade/acúmulo de crédito, consequências de falta, preços/contratação avulsa, dias e escala real de plantões. Manter também pendências de disponibilidade, remuneração, fornecedor de videoconferência e proteção de menores; nenhuma dessas questões pode ser tratada como resolvida por este encaminhamento.
+- **Regras já aprovadas preservadas:** DEC-066/REQ-044 distingue aula particular individual agendada de plantão coletivo sem reserva e com link do dia. DEC-064/065/REQ-042/043 restringem avaliações de professores a atendimentos individuais e sua visibilidade interna. Este REQ-045 **não altera nem substitui** tais decisões.
+- **Gatilhos de custo:** desenvolvimento de saldos e regras de elegibilidade, suporte a planos/créditos/cancelamentos, integração com agendamento e cobrança futura, painel administrativo, escala e horas docentes, videoconferência, comunicações, testes e suporte; separar inicial, fixo ocioso, variável por aluno/atendimento/professor-hora e operações administrativas. Exigir comparação de stack e estimativas por cenário antes de orçamento, aprovação financeira separada DEC-032, definição de MVP posterior DEC-035 e auditoria/autorização pré-Claude DEC-029. Nenhum gasto/execução aprovado.
+- **Referências:** DEC-067/066/065/064/029/030/032/035; MAT-002/003/010/014; REQ-003/004/014/042/043/044.
+
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
 - Privacidade e proteção de dados pessoais, considerando a LGPD.
