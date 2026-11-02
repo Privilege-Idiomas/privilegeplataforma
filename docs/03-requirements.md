@@ -4,6 +4,8 @@
 **Status:** Baseline inicial em elaboração; aprovação formal do patrocinador pendente  
 **Última atualização:** 2026-10-31
 
+**Situação de governança (2026-11-02):** o conjunto está em consolidação para homologação integral; isso não reverte as aprovações funcionais individuais já registradas. Cada REQ deve ser interpretado com a DEC canônica correspondente e as dependências não aprovadas. Ver `docs/18-revisao-cruzada-p01.md`.
+
 ## 1. Convenções
 - **Informado por Marina:** a titularidade e o status de aprovação devem ser confirmados conforme ela informar. Atribuições históricas feitas por inferência precisam ser revistas, sem apagar o histórico.
 - **Proposto:** item sugerido para o MVP, ainda não aprovado.
@@ -520,6 +522,9 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 - **Referências:** DEC-072/071/070/069/068/067/066/065/064/035/032/030/029; REQ-002/022–024/042–050; `docs/11-detalhamento-final-operacional.md`.
 
 **REQ-052 (complementar):** requisitos operacionais da DEC-073 registrados em [docs/15-requisitos-operacionais-dec-073.md](15-requisitos-operacionais-dec-073.md); avaliações docentes: limiar de 5 válido apenas sujeito à validação de privacidade e anti-inferência; ver matriz jurídica [docs/16-matriz-validacao-juridica-privacidade.md](16-matriz-validacao-juridica-privacidade.md). AUD-005/006/010 continuam pendentes.
+
+### REQ-052 — Diretrizes operacionais condicionadas da DEC-073
+O registro complementar canônico de conteúdo detalhado encontra-se em [REQ-052 — Diretrizes operacionais](15-requisitos-operacionais-dec-073.md). Abrange recuperação excepcional e migração, contingências de particulares e plantões, acesso/auditoria, proteção da média docente e KPIs/exportações. **O limiar de 5 avaliações válidas depende de validação de privacidade e anti-inferência antes da aplicação.** Os pareceres JUR-01 a JUR-11 e decisões de Matheus, stack, custos, MVP e implementação não foram aprovados.
 
 ## 7. Requisitos transversais a detalhar
 - Segurança e controle de acesso por perfil e direito contratado.
