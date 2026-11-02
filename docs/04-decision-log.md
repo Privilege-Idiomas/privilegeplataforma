@@ -153,6 +153,8 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-064 | Portal docente e avaliações de atendimentos por estrelas | [Registro canônico da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; custos e execução pendentes) | Marina |
 
+| DEC-065 | Notas individuais visíveis apenas ao administrador; professor vê só sua média; ranking por médias exclusivo do painel administrativo | [Registro canônico da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; privacidade, custos e execução pendentes) | Marina |
+
 ## Modelo para novas decisões
 ### DEC-XXX — [Título]
 - **Data:**
