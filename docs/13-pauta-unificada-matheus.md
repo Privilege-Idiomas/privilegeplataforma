@@ -4,6 +4,9 @@
 **Status:** pauta para reunião futura de Marina e Matheus, **SEM RESPOSTA**. Não atribuir aqui aprovação, presença, agendamento ou manifestação de Matheus.  
 **Fontes:** `docs/09-decisoes-matheus.md` (canônico para decisões atribuídas), `docs/03-requirements.md`, `docs/10-auditoria-cobertura-funcional.md`, `docs/11-detalhamento-final-operacional.md` e `docs/12-preparacao-independente-de-stack.md`.
 
+
+> **Material executivo complementar (2026-11-02):** [Pacote de decisões, alternativas, impactos e ata da reunião](26-pacote-reuniao-matheus-decisao.md). Este documento continua sendo a pauta histórica; o pacote é apoio à reunião, não substitui os registros canônicos de Matheus em `docs/09-decisoes-matheus.md` nem altera atribuições.
+
 ## Regra de governança
 A reunião deve decidir **em bloco** os assuntos de Matheus, como Marina solicitou, para não interromper a descoberta funcional. Esta pauta **não substitui** o documento canônico; não muda titularidades, não cria novas MAT aprovadas e não transforma proposta em decisão. Os temas históricos MAT-001–012 devem ser confirmados conforme responsabilidade e status registrados no documento original, sem presumir que todos exigem nova decisão pessoal de Matheus.
 
