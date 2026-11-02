@@ -544,6 +544,24 @@
 - **Governança:** aprovação **funcional**, não aprovação de custo, contratação, cronograma, implementação ou instrução ao Claude (DEC-029/032/035). GitHub é fonte canônica integral; Notion é relatório executivo derivado para Matheus e não substitui tarefas/requisitos técnicos do GitHub. **Fechar como um pacote; não fracionar em novas perguntas de micro-UX salvo mudança material de escopo.**
 - **Relacionamentos:** DEC-024/025/029/030/032/035/049/050/051/062; REQ-010/011/012/013/014/015/029/030/031/041.
 
+### DEC-064 — Área dos Professores: oito funcionalidades e avaliação de atendimento (1–5 estrelas)
+- **Data:** 2026-11-02. **Aprovadora funcional:** Marina. **Status:** RESOLVIDO para escopo funcional; custos, implementação e detalhes operacionais pendentes.
+- **Aprovação:** pacote de 8 propostas da área docente aprovado integralmente; incluído, por solicitação de Marina, o 9º item de avaliação de aula individual e média do professor.
+- **1. Acesso:** login individual de professor e permissões separadas de aluno e administração.
+- **2. Início:** painel docente com próximos atendimentos, agenda e busca rápida de questões.
+- **3. Questões:** busca por código ou curso; enunciado, alternativas, gabarito e explicação completos de todos os cursos, preservando DEC-034. Não acessar marcadores pessoais dos alunos.
+- **4. Agenda:** professor define disponibilidade e vê seus horários agendados. Agendamento pelo aluno e regras comerciais permanecem pendentes.
+- **5. Sessão:** professor visualiza data, horário, modalidade e identificação estritamente necessária do aluno de seu atendimento.
+- **6. Online:** abrir link da videochamada associada à sessão, sem desenvolver videoconferência própria. Provedor/contratação e custos pendentes; gravação não aprovada.
+- **7. Registro:** marcar atendimento realizado ou ocorrência, sem alterar pagamentos, planos ou direitos comerciais.
+- **8. Limites:** docente não edita cursos/avaliações, não modifica notas nem progresso e não vê listas pessoais de questões marcadas pelos alunos.
+- **9. Avaliação pelo aluno:** após a aula particular/atendimento individual realizado, o aluno pode dar **1 a 5 estrelas à sessão**. Cada nota válida se associa àquela sessão e ao professor que a realizou. A **nota do professor é a média aritmética simples das avaliações válidas recebidas** (exemplo: 5, 4 e 3 estrelas correspondem a 4,0). Evitar avaliações por quem não participou e notas ativas duplicadas na mesma sessão; tratar regras de edição e impugnação na especificação. Não confundir com nota pedagógica, avaliações de videoaulas gravadas ou progresso do estudante.
+- **Privacidade:** não foi aprovado tornar a nota/média pública, criar ranking, publicar comentários, usar avaliação para pagamento/remuneração ou revelar quem atribuiu cada nota. Públicos autorizados a visualizar a média ainda exigem definição; proteger menores conforme legislação e separar acesso a alunos de acesso amplo às questões.
+- **Pendências preservadas:** duração e formato dos atendimentos, contratação e agendamento pelo aluno, cancelamento e remarcação, disponibilidade, remuneração e benefícios por plano, provedor da videochamada, divulgação de avaliações, regras antiabuso, revisão jurídica e proteção de menores, stack e orçamento.
+- **Custos a avaliar:** interface docente e avaliação do aluno, autenticação, agenda, videoconferência, armazenamento de notas, cálculo da média, tráfego, segurança, suporte, custo inicial, mensal fixo mesmo ocioso, por professor, aluno, sessão e avaliação, e operações administrativas. Sem tokens de IA por atendimento como requisito. Não presumir custos nulos.
+- **Governança:** aprovação apenas funcional; não autoriza orçamento, implementação pelo Claude, fornecedor, MVP ou cronograma (DEC-029/032/035). GitHub continua canônico; Notion relatório executivo derivado.
+- **Relações:** DEC-029/030/032/034/035/063; REQ-009/014/018/041/042.
+
 ## Registro de novas decisões
 Adicionar novos itens no formato:
 - **ID:** MAR-XXX
