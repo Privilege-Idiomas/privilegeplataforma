@@ -167,3 +167,12 @@ A antiga MAT-013 / DEC-025 foi retirada da pauta porque Marina reassumiu essa de
 
 ### Confirmação definitiva do modelo de reserva dos plantões — 2026-11-04
 Marina confirmou expressamente que **os plantões coletivos exigem agendamento prévio pelo aluno**. A decisão anterior de entrada livre sem reserva foi substituída por revisão da DEC-066, também registrada no arquivo canônico da Marina. Permanecem confirmados 20 minutos por sessão, até 10 participantes e benefícios mensais de 1/2/4 plantões nos planos 1/2/3. A antiga nota acima sobre conflito ainda a reconciliar está superada por esta confirmação. Regras específicas de cancelamento, ausência e reposição de plantões não foram definidas nesta confirmação. Não há autorização de custo ou execução.
+
+
+### MAT-007 — Confirmação do limiar de recomendação pedagógica (2026-11-04)
+- **Confirmação expressa de Marina:** utilizar **6,0 na escala de 0 a 10** como referência para sugerir ao aluno que revise ou refaça o módulo quando o resultado da avaliação for **inferior a 6,0**. Resultado igual ou superior a 6,0 não dispara esta recomendação por nota baixa.
+- **Regra de progressão:** não existe nota mínima eliminatória. Mesmo com resultado inferior a 6,0, o aluno pode avançar; trata-se de orientação pedagógica, não de bloqueio ou reprovação obrigatória.
+- **Justificativa comunicada:** Marina escolheu 6 por ser a média geralmente utilizada.
+- **Precedência:** substitui o limiar de 5 mencionado no resumo da reunião de 03/11; mantém a informação mais recente do Notion. Também substitui referências legadas a nota mínima obrigatória para desbloqueio, quando incompatíveis com a decisão não eliminatória.
+- **Limite de alcance:** esta confirmação não estabelece novas regras de quantidade de tentativas, cálculo de notas, pontuação por questão ou critérios de certificação ainda não explicitamente definidos.
+- **Status:** RESOLVIDO quanto ao limiar de recomendação e natureza não eliminatória; custos, arquitetura e implementação continuam pendentes.
