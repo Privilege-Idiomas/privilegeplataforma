@@ -721,3 +721,11 @@ Marina confirmou expressamente que o agendamento prévio pelo aluno é obrigató
 Cada plantão possui duração de 20 minutos e limite de 10 participantes com vaga reservada antecipadamente. Benefícios por plano: plano 1, um plantão mensal; plano 2, dois mensais; plano 3, quatro mensais. A expressão uma vez por semana é apenas referência comercial e não fixa limite semanal. Plantões continuam coletivos, com professor escalado e benefício independente dos créditos de aula particular.
 
 A reserva deve considerar direito vigente e capacidade; regras próprias de cancelamento, falta e reposição de plantões ainda não estão especificadas. Esta revisão foi confirmada por Marina em 04/11/2026 e prevalece sobre as descrições anteriores de plantão livre neste arquivo. Não autoriza stack, custos ou desenvolvimento.
+
+
+## Confirmação de Marina — conclusão de aula e certificação sem nota eliminatória (2026-11-04)
+- **Responsável e aprovadora:** Marina. **Status: RESOLVIDO** quanto à regra funcional, comunicada nesta conversa.
+- **Conclusão de aula:** a avaliação obrigatória precisa ser realizada; porém, **não há nota mínima eliminatória**. Realizada a avaliação e cumpridos os demais componentes obrigatórios aplicáveis, a aula pode ser concluída e a próxima etapa liberada, mesmo com desempenho inferior a 6/10.
+- **Recomendação pedagógica:** nota abaixo de 6/10 sugere revisão/refazimento do módulo, sem impedir a progressão. Vídeo integral e exercícios opcionais não são exigências para concluir.
+- **Certificado:** quando todas as etapas obrigatórias do curso forem realizadas e registradas como concluídas, o certificado pode ser emitido independentemente das notas, mantendo as demais regras de emissão, validação pública, privacidade e rastreabilidade já aprovadas na DEC-052–062.
+- **Precedência:** substitui a interpretação anterior de nota mínima de aprovação nas regras de progressão/conclusão, sem apagar o histórico. Não define fórmula de notas, tentativas, fornecedores, custos ou autorização de execução.
