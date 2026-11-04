@@ -144,3 +144,16 @@ Adicionar novos itens no formato:
 
 ## Histórico
 A antiga MAT-013 / DEC-025 foi retirada da pauta porque Marina reassumiu essa decisão e a resolveu, passando seu registro canônico para `docs/08-decisoes-marina.md`; não se trata de validação por Matheus. A versão anterior permanece no Git. A DEC-024 tem resposta provisória da Marina e requer confirmação final de Matheus: **REVISAR não equivale a aprovação**. As antigas atribuições desta pauta não são automaticamente confirmadas pela presença aqui; Marina é a fonte da classificação e das respostas.
+
+
+## Complemento confirmado em 2026-11-04 — distribuição de plantões (DEC-067/08)
+- **Fonte e confirmação:** Marina confirmou expressamente nesta data a distribuição que havia registrado na ata executiva do Notion da reunião de 03/11/2026. Decisão comercial comunicada por Marina, referente à pauta atribuída a Matheus.
+- **Status desta subdecisão:** RESOLVIDO — apenas a distribuição de benefícios de plantões por plano; não significa que todo o pacote DEC-067, os custos, o jurídico ou a implementação estejam aprovados.
+- **Plano 1:** 1 plantão coletivo por mês por aluno elegível.
+- **Plano 2:** 2 plantões coletivos por mês por aluno elegível.
+- **Plano 3:** 4 plantões coletivos por mês por aluno elegível (referência comercial: 1 por semana).
+- **Regras associadas já comunicadas na ata:** duração de cada plantão: 20 minutos; capacidade máxima: 10 participantes por sessão. A reunião prevê agendamento prévio e link para participação.
+- **Conflito de baseline a reconciliar, sem decisão inferida:** DEC-066 e a versão antiga desta DEC-067 descrevem plantões **sem agendamento/reserva individual e entrada livre por link**; a ata de 03/11 e o Notion descrevem **agendamento prévio**, inclusive limite de vagas por sessão. Tratar como mudança da regra de operação proposta na reunião e submeter a confirmação explícita de Marina antes de substituir o registro canônico da DEC-066 (que pertence a Marina).
+- **Escopo da palavra “semana”:** o benefício formal confirmado é **4 por mês**; “1 por semana” é referência comercial. Não inferir bloqueio semanal, acumulação intersemanal ou regra de vencimento sem definição adicional.
+- **Impactos documentais posteriores:** requisitos de elegibilidade, saldo por benefício, limite de reservas, calendário, disponibilidade e critérios de aceitação devem ser revisados; manter as especificações conflitantes visíveis até a reconciliação.
+- **Governança:** GitHub como fonte oficial; Notion como registro executivo derivado. Esta inclusão é documental, não autorização para stack, gastos, implementação ou publicação.
