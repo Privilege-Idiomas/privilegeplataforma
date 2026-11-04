@@ -737,3 +737,10 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 - **Comportamento:** manter a recomendação individual de revisão para cada nota baixa; na terceira ocorrência, acrescentar sugestão de apoio pedagógico, respeitando os direitos do plano. Essa recomendação não é eliminatória, não impede progressão nem emissão de certificado após os demais requisitos de conclusão.
 - **Não inferir da confirmação isolada:** se a contagem é restrita a módulos distintos, ao mesmo curso, a avaliações finais ou a todas as tentativas; o agrupamento da contagem exige especificação separada. Não disparar na quarta por leitura de registro anterior como 'mais de três'.
 - **Limites:** não autoriza stack, custos ou implementação.
+
+
+## Complemento confirmado — contagem de notas baixas por módulos distintos do mesmo curso (2026-11-04)
+- **Decisão expressa de Marina:** a recomendação adicional de apoio pedagógico ocorre quando o aluno acumular nota **inferior a 6,0 em três módulos distintos do mesmo curso**. A terceira ocorrência válida aciona a recomendação, não a quarta.
+- **Contagem:** cada módulo pode contribuir no máximo uma ocorrência para esse gatilho, mesmo que o aluno tenha várias tentativas ou avaliações no mesmo módulo. Módulos de cursos diferentes não se somam para esta contagem.
+- **Comportamento:** manter recomendação individual de revisão para cada resultado baixo. No terceiro módulo distinto com resultado inferior a 6,0 no mesmo curso, acrescentar recomendação de plantão ou aula particular quando elegível. A recomendação não bloqueia progresso nem certificado.
+- **Limite desta confirmação:** critério de qual resultado prevalece caso o aluno refaça avaliação/módulo e melhore a nota ainda não foi especificado; não criar regra de persistência/remoção do alerta sem decisão posterior. Não autoriza implementação, stack ou custos.
