@@ -536,3 +536,14 @@ O registro complementar canônico de conteúdo detalhado encontra-se em [REQ-052
 
 ## 8. Próxima etapa
 Após concluir a definição integral do produto e as decisões pendentes, detalhar histórias de usuário e critérios de aceitação no **GitHub**, fonte canônica de toda a documentação e das tarefas técnicas/executivas. Seguir DEC-035: definir stack e custos antes de decidir MVP/versões; obter aprovação financeira e auditoria DEC-029 antes de autorizar execução. O Notion apresenta somente relatório executivo derivado dos registros do GitHub, sem substituir o backlog. Consultar `docs/10-auditoria-cobertura-funcional.md` para lacunas e pendências.
+
+
+## Adendo vinculante de requisitos — agendamento dos plantões coletivos (2026-11-04)
+**Origem:** revisão expressa da DEC-066 por Marina em 04/11/2026, após decisão de Matheus na reunião de 03/11. **Prevalece sobre todas as frases anteriores deste arquivo que afirmem plantão “sem reserva”, “sem agendamento”, “entrada livre” ou “link aberto”**, inclusive em REQ-044, REQ-047, REQ-048, REQ-050 e REQ-051. Preservam-se esses enunciados históricos para rastreabilidade, não como requisitos atuais.
+
+- **REQ-044 / fluxo vigente:** aluno elegível escolhe uma sessão coletiva publicada e solicita **agendamento prévio obrigatório**; a confirmação verifica benefício disponível e capacidade da sessão, reserva uma das **10 vagas máximas** e fornece acesso ao link da sessão. A sessão dura **20 minutos**; não é aula individual e não consome crédito de aula particular.
+- **Benefícios comerciais:** plano 1: **1 plantão/mês**; plano 2: **2 plantões/mês**; plano 3: **4 plantões/mês**. Não inferir que 4/mês represente bloqueio obrigatório de uma sessão por semana.
+- **Controle de concorrência:** impedir confirmação simultânea de mais de 10 participantes na mesma sessão e reservas duplicadas indevidas; a capacidade não pode depender apenas do estado visual do navegador.
+- **REQ-048 / separação:** reserva de plantão por vaga em sessão coletiva é distinta de reserva de aula particular por professor individual; ambas respeitam disponibilidade/escala, sem alterar a ordem dia/horário → professor nas particulares.
+- **Critérios de aceite:** (1) sem elegibilidade/benefício disponível, negar reserva; (2) com 10 vagas confirmadas, rejeitar a 11ª; (3) solicitações simultâneas nunca excedem 10 vagas; (4) link de participação restrito às condições aprovadas de reserva; (5) limites mensais 1/2/4 aplicados ao plano correspondente; (6) nenhuma reserva de plantão debita aula particular; (7) professor escalado não recebe conflito de agenda com particulares.
+- **A detalhar sem suposição:** regras de cancelamento, no-show, reposição, vencimento/renovação dos direitos a plantão e tratamento de lotação/ausência docente; revisão jurídica de interação entre menores; fornecedor, custo e implementação posteriores.
