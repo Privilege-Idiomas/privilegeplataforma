@@ -729,3 +729,11 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 - **Recomendação pedagógica:** nota abaixo de 6/10 sugere revisão/refazimento do módulo, sem impedir a progressão. Vídeo integral e exercícios opcionais não são exigências para concluir.
 - **Certificado:** quando todas as etapas obrigatórias do curso forem realizadas e registradas como concluídas, o certificado pode ser emitido independentemente das notas, mantendo as demais regras de emissão, validação pública, privacidade e rastreabilidade já aprovadas na DEC-052–062.
 - **Precedência:** substitui a interpretação anterior de nota mínima de aprovação nas regras de progressão/conclusão, sem apagar o histórico. Não define fórmula de notas, tentativas, fornecedores, custos ou autorização de execução.
+
+
+## Confirmação de Marina — disparo de apoio pedagógico na terceira nota baixa (2026-11-04)
+- **Fonte:** confirmação expressa de Marina nesta conversa. **Status funcional: RESOLVIDO** quanto ao momento de disparo.
+- **Decisão:** a recomendação adicional de apoio pedagógico deve aparecer **na terceira ocorrência de nota inferior a 6,0**, e não na quarta. O limiar de nota baixa é estritamente inferior a 6,0 na escala 0–10.
+- **Comportamento:** manter a recomendação individual de revisão para cada nota baixa; na terceira ocorrência, acrescentar sugestão de apoio pedagógico, respeitando os direitos do plano. Essa recomendação não é eliminatória, não impede progressão nem emissão de certificado após os demais requisitos de conclusão.
+- **Não inferir da confirmação isolada:** se a contagem é restrita a módulos distintos, ao mesmo curso, a avaliações finais ou a todas as tentativas; o agrupamento da contagem exige especificação separada. Não disparar na quarta por leitura de registro anterior como 'mais de três'.
+- **Limites:** não autoriza stack, custos ou implementação.
