@@ -599,3 +599,11 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Certificação:** o certificado de conclusão pode ser emitido quando o aluno tiver completado todas as etapas obrigatórias do curso, **sem exigir nota mínima nas avaliações**. A conclusão não pode ser marcada antes da realização das avaliações obrigatórias pertinentes.
 - **Precedência:** esta decisão substitui requisitos legados de aprovação eliminatória ou desbloqueio vinculado a nota mínima em DEC-016/017/019/020/021, DEC-050–052 e REQs correlatos, preservando histórico. Não altera outras condições de verificação, autenticidade e privacidade dos certificados já aprovadas.
 - **Limites:** não estabelece quantidade nova de tentativas, fórmula de pontuação, gatilhos adicionais de apoio, preço, stack, custo, cronograma ou autorização de implementação. Eventual revisão jurídica de descrição comercial do certificado segue independente.
+
+
+## Adendo vinculante — terceira ocorrência de desempenho inferior a 6,0 (2026-11-04)
+- **Fonte:** decisão comunicada expressamente por Marina durante o fechamento G1.
+- **Regra:** apresentar recomendação adicional de apoio pedagógico **na terceira ocorrência de nota abaixo de 6,0**, e não somente após três ocorrências. Recomendações individuais de revisão permanecem em cada avaliação de baixo desempenho.
+- **Sem bloqueio:** nenhum desses avisos restringe avanço, conclusão ou certificação quando os componentes obrigatórios forem cumpridos.
+- **Aceite parcial aprovado:** nas primeiras duas ocorrências, exibir apenas o aviso individual pertinente; na terceira, exibir também a recomendação adicional. Resultado igual a 6,0 não é nota baixa para esta regra.
+- **A detalhar:** a unidade da contagem (módulos distintos versus tentativas, por curso versus toda a plataforma) não foi explicitamente confirmada na resposta; não deduzir automaticamente. Respeitar elegibilidade do plano ao recomendar atendimentos.
