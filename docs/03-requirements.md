@@ -590,3 +590,12 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Crédito restituído:** continua sujeito à validade do benefício mensal e pode ser remarcado dentro do período, segundo disponibilidade. A proposta de carregar excepcionalmente créditos ao próximo mês foi expressamente rejeitada.
 - **Aceite:** (1) reserva confirmada em sessão cancelada restaura o crédito correspondente, sem conceder crédito extra; (2) não inscritos não têm crédito acrescentado; (3) fim do mês não carrega saldo de plantões; (4) cancelamento não altera créditos de aulas particulares.
 - **Nota:** avaliação jurídica de eventual impossibilidade de fruição por falha do prestador continua aplicável, sem alterar a regra comercial informada ou autorizar execução.
+
+
+## Decisão confirmada — conclusão de aula, progressão e certificação sem nota eliminatória (2026-11-04)
+- **Fonte e aprovação:** Marina confirmou expressamente nesta conversa a regra de conclusão proposta no fechamento G1.
+- **Avaliação obrigatória:** o aluno deve **realizar a avaliação prevista como obrigatória** para concluir a respectiva aula/etapa, mas **não precisa atingir nota mínima**. Os exercícios de fixação opcionais e a reprodução integral da videoaula não são condições de conclusão.
+- **Progressão:** após cumprir os componentes obrigatórios aplicáveis, inclusive realizar a avaliação, o aluno pode concluir a aula e avançar, independentemente da nota obtida. Resultado **inferior a 6,0 na escala 0–10** gera recomendação pedagógica de revisão/refazimento, **sem bloqueio**.
+- **Certificação:** o certificado de conclusão pode ser emitido quando o aluno tiver completado todas as etapas obrigatórias do curso, **sem exigir nota mínima nas avaliações**. A conclusão não pode ser marcada antes da realização das avaliações obrigatórias pertinentes.
+- **Precedência:** esta decisão substitui requisitos legados de aprovação eliminatória ou desbloqueio vinculado a nota mínima em DEC-016/017/019/020/021, DEC-050–052 e REQs correlatos, preservando histórico. Não altera outras condições de verificação, autenticidade e privacidade dos certificados já aprovadas.
+- **Limites:** não estabelece quantidade nova de tentativas, fórmula de pontuação, gatilhos adicionais de apoio, preço, stack, custo, cronograma ou autorização de implementação. Eventual revisão jurídica de descrição comercial do certificado segue independente.
