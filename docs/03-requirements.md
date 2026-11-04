@@ -607,3 +607,10 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Sem bloqueio:** nenhum desses avisos restringe avanço, conclusão ou certificação quando os componentes obrigatórios forem cumpridos.
 - **Aceite parcial aprovado:** nas primeiras duas ocorrências, exibir apenas o aviso individual pertinente; na terceira, exibir também a recomendação adicional. Resultado igual a 6,0 não é nota baixa para esta regra.
 - **A detalhar:** a unidade da contagem (módulos distintos versus tentativas, por curso versus toda a plataforma) não foi explicitamente confirmada na resposta; não deduzir automaticamente. Respeitar elegibilidade do plano ao recomendar atendimentos.
+
+
+## Especificação confirmada — terceiro módulo distinto com nota baixa no mesmo curso (2026-11-04)
+- **Fonte:** confirmação expressa de Marina nesta conversa, complementando a regra do disparo na terceira ocorrência.
+- **Critério:** agrupar resultados pelo **mesmo curso** e contar **módulos distintos** com nota inferior a **6,0** (escala 0–10); emitir sugestão adicional de apoio pedagógico no **terceiro módulo distinto**. Não somar módulos de cursos distintos nem contar múltiplas tentativas de um mesmo módulo como ocorrências independentes.
+- **Critérios de aceite:** duas notas baixas de módulos diferentes não acionam apoio adicional; terceira nota baixa em terceiro módulo do mesmo curso aciona; repetição no mesmo módulo não eleva contagem; resultados de outros cursos não interferem; avaliações permanecem não eliminatórias.
+- **Ainda a detalhar:** após recuperação de nota em módulo anteriormente baixo, como recalcular contagem e apresentação do alerta; não pressupor regra. Não autoriza execução nem gastos.
