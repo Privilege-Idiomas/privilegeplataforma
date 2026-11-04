@@ -582,3 +582,11 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - Registrar a ocorrência, permitir comunicação aos alunos afetados e preservar a distinção entre cancelamento pelo prestador e cancelamento tardio ou falta do aluno.
 - **Aceite:** (a) reserva de aluno afetada por cancelamento da escola não reduz o saldo de benefícios; (b) saldo anteriormente debitado é restituído; (c) aluno pode agendar outra sessão disponível; (d) não ocorre débito de aula particular; (e) cancelar um plantão não afeta reservas de outras sessões não canceladas.
 - **Dependências não definidas nesta decisão:** extensão do período de uso do crédito caso não haja horários disponíveis, obrigações legais de reembolso, compensação ou alternativas de atendimento; aguardar validação apropriada. Sem autorização para desenvolvimento ou custos.
+
+
+## Adendo vinculante — não cumulatividade e elegibilidade à restituição de plantão (2026-11-04)
+- **Decisão de Marina:** créditos de plantões de cada mês **não acumulam para o mês seguinte**; não há extensão automática quando sessão é cancelada pela Privilège.
+- **Sessão cancelada pela escola:** somente alunos com **reserva confirmada na sessão cancelada** têm direito à restituição/preservação do crédito utilizado naquela reserva. Alunos não inscritos naquela sessão **não recebem novo crédito ou compensação automática**.
+- **Crédito restituído:** continua sujeito à validade do benefício mensal e pode ser remarcado dentro do período, segundo disponibilidade. A proposta de carregar excepcionalmente créditos ao próximo mês foi expressamente rejeitada.
+- **Aceite:** (1) reserva confirmada em sessão cancelada restaura o crédito correspondente, sem conceder crédito extra; (2) não inscritos não têm crédito acrescentado; (3) fim do mês não carrega saldo de plantões; (4) cancelamento não altera créditos de aulas particulares.
+- **Nota:** avaliação jurídica de eventual impossibilidade de fruição por falha do prestador continua aplicável, sem alterar a regra comercial informada ou autorizar execução.
