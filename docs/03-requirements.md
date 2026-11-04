@@ -614,3 +614,11 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Critério:** agrupar resultados pelo **mesmo curso** e contar **módulos distintos** com nota inferior a **6,0** (escala 0–10); emitir sugestão adicional de apoio pedagógico no **terceiro módulo distinto**. Não somar módulos de cursos distintos nem contar múltiplas tentativas de um mesmo módulo como ocorrências independentes.
 - **Critérios de aceite:** duas notas baixas de módulos diferentes não acionam apoio adicional; terceira nota baixa em terceiro módulo do mesmo curso aciona; repetição no mesmo módulo não eleva contagem; resultados de outros cursos não interferem; avaliações permanecem não eliminatórias.
 - **Ainda a detalhar:** após recuperação de nota em módulo anteriormente baixo, como recalcular contagem e apresentação do alerta; não pressupor regra. Não autoriza execução nem gastos.
+
+
+## Critério vigente — recontagem de dificuldades pela última nota do módulo (2026-11-04)
+- **Decisão:** Marina confirmou que o indicador de dificuldades pedagógicas usa **a nota mais recente de cada módulo**. Nota inferior a **6,0/10** marca dificuldade naquele módulo; nota **igual ou superior a 6,0/10** remove essa marcação para a contagem de apoio adicional.
+- **Agregação:** somente módulos distintos **do mesmo curso**; o alerta adicional exige **três módulos atualmente abaixo de 6,0**. Nova tentativa no mesmo módulo atualiza seu estado, sem adicionar uma segunda ocorrência. A soma é recalculada após cada resultado mais recente.
+- **Critérios de aceite:** (1) três módulos com notas atuais 5/5/5 acionam recomendação; (2) ao melhorar um deles para 6, total de módulos em dificuldade cai para dois e deixa de satisfazer o gatilho; (3) tentativas antigas não mantêm artificialmente um módulo em dificuldade; (4) notas de cursos diferentes não são somadas; (5) recomendação não elimina nem bloqueia o aluno.
+- **Segurança do histórico:** preservar registros históricos de avaliação; substituir somente a referência usada na contagem, sem apagar notas anteriores.
+- **Governança:** decisão funcional, sem escolha de stack, autorização financeira ou execução.
