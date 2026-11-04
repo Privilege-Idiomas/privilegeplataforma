@@ -744,3 +744,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 - **Contagem:** cada módulo pode contribuir no máximo uma ocorrência para esse gatilho, mesmo que o aluno tenha várias tentativas ou avaliações no mesmo módulo. Módulos de cursos diferentes não se somam para esta contagem.
 - **Comportamento:** manter recomendação individual de revisão para cada resultado baixo. No terceiro módulo distinto com resultado inferior a 6,0 no mesmo curso, acrescentar recomendação de plantão ou aula particular quando elegível. A recomendação não bloqueia progresso nem certificado.
 - **Limite desta confirmação:** critério de qual resultado prevalece caso o aluno refaça avaliação/módulo e melhore a nota ainda não foi especificado; não criar regra de persistência/remoção do alerta sem decisão posterior. Não autoriza implementação, stack ou custos.
+
+
+## Decisão confirmada — nota mais recente por módulo para alerta de apoio (2026-11-04)
+- **Fonte e aprovação:** Marina confirmou expressamente nesta conversa a regra sugerida pela PM. **Status funcional: RESOLVIDO**.
+- **Regra:** para identificar módulos com dificuldade, considerar **a nota mais recente da avaliação pertinente de cada módulo**. Se o aluno refizer a avaliação e obtiver **nota igual ou superior a 6,0 (escala 0–10)**, o módulo **deixa de contar** como dificuldade. Se a nota mais recente for inferior a 6,0, o módulo conta uma vez.
+- **Gatilho:** dentro de **um mesmo curso**, a recomendação adicional de apoio pedagógico deve aparecer quando existirem **três módulos distintos** cuja nota mais recente seja inferior a 6,0. Múltiplas tentativas no mesmo módulo não acrescentam ocorrências; não somar cursos diferentes.
+- **Reavaliação:** recalcular o total quando uma nova nota for registrada; se a melhoria reduzir o total para menos de três módulos, a condição do alerta adicional deixa de estar satisfeita. Conservar histórico acadêmico sem tratá-lo como nota vigente para esse gatilho.
+- **Sem reprovação:** revisão e apoio são sugestões não eliminatórias; não bloquear conclusão, progressão nem certificação quando demais obrigações de conclusão forem atendidas.
+- **Limites:** não determina número de tentativas, periodicidade ou retenção de avaliações, nem autoriza stack, custos ou implementação.
