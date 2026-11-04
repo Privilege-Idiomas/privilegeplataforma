@@ -157,3 +157,9 @@ A antiga MAT-013 / DEC-025 foi retirada da pauta porque Marina reassumiu essa de
 - **Escopo da palavra “semana”:** o benefício formal confirmado é **4 por mês**; “1 por semana” é referência comercial. Não inferir bloqueio semanal, acumulação intersemanal ou regra de vencimento sem definição adicional.
 - **Impactos documentais posteriores:** requisitos de elegibilidade, saldo por benefício, limite de reservas, calendário, disponibilidade e critérios de aceitação devem ser revisados; manter as especificações conflitantes visíveis até a reconciliação.
 - **Governança:** GitHub como fonte oficial; Notion como registro executivo derivado. Esta inclusão é documental, não autorização para stack, gastos, implementação ou publicação.
+
+
+### Confirmação operacional adicional de Marina — 2026-11-04
+- **Confirmação expressa:** o **agendamento prévio de plantões coletivos pelo aluno é a regra definitiva**. A antiga proposta de plantão sem reserva é substituída; DEC-066, sob titularidade de Marina, foi revisada por ela nesta data.
+- **Operação confirmada:** sessões de 20 minutos; até 10 participantes; reserva antecipada obrigatória para acessar a sessão; 1/2/4 plantões por mês nos planos 1/2/3, respectivamente.
+- **Pendências residuais:** política específica de cancelamento/reagendamento/falta de plantão e eventual teto semanal do plano 3 não foram definidos por esta resposta; não presumir. Alteração documental não aprova execução, stack ou custo.
