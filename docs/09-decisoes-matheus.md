@@ -163,3 +163,7 @@ A antiga MAT-013 / DEC-025 foi retirada da pauta porque Marina reassumiu essa de
 - **Confirmação expressa:** o **agendamento prévio de plantões coletivos pelo aluno é a regra definitiva**. A antiga proposta de plantão sem reserva é substituída; DEC-066, sob titularidade de Marina, foi revisada por ela nesta data.
 - **Operação confirmada:** sessões de 20 minutos; até 10 participantes; reserva antecipada obrigatória para acessar a sessão; 1/2/4 plantões por mês nos planos 1/2/3, respectivamente.
 - **Pendências residuais:** política específica de cancelamento/reagendamento/falta de plantão e eventual teto semanal do plano 3 não foram definidos por esta resposta; não presumir. Alteração documental não aprova execução, stack ou custo.
+
+
+### Confirmação definitiva do modelo de reserva dos plantões — 2026-11-04
+Marina confirmou expressamente que **os plantões coletivos exigem agendamento prévio pelo aluno**. A decisão anterior de entrada livre sem reserva foi substituída por revisão da DEC-066, também registrada no arquivo canônico da Marina. Permanecem confirmados 20 minutos por sessão, até 10 participantes e benefícios mensais de 1/2/4 plantões nos planos 1/2/3. A antiga nota acima sobre conflito ainda a reconciliar está superada por esta confirmação. Regras específicas de cancelamento, ausência e reposição de plantões não foram definidas nesta confirmação. Não há autorização de custo ou execução.
