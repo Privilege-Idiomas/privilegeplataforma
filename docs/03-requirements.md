@@ -565,3 +565,12 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Progressão não eliminatória:** **não bloquear a próxima etapa por nota inferior a 6,0**. A recomendação não se confunde com aprovação obrigatória. Preservar a realização das avaliações que já sejam obrigatórias por decisão funcional específica, sem criar regra nova de tentativas ou certificação.
 - **Precedência:** regra confirmada expressamente por Marina em 04/11/2026; prevalece sobre referências anteriores deste documento a nota mínima obrigatória, aprovação eliminatória, ou limiar inferior a 5 para recomendação. Atualizar futuramente os trechos históricos consolidados mantendo rastreabilidade.
 - **Dependências não resolvidas por esta confirmação:** regra específica de conclusão/certificação sob resultados baixos, fórmula e escala detalhada de avaliação, tentativas e outras mensagens pedagógicas; não presumir respostas.
+
+
+## Adendo vinculante — cancelamento/remarcação de plantão e aviso no agendamento (2026-11-04)
+**Origem:** confirmação expressa de Marina, DEC-067/08. **Prevalência:** substitui descrições anteriores de política de cancelamento de plantões como indefinida, preservando histórico.
+- Plantão agendado: cancelamento solicitado **até 2 horas antes do horário de início** preserva o crédito/benefício e permite nova reserva conforme vagas e direito disponível.
+- Cancelamento **com menos de 2 horas** de antecedência e **não comparecimento** sem cancelamento tempestivo consomem o crédito do plantão reservado.
+- A página de agendamento de plantões deve apresentar **antes do botão de confirmação** a política de cancelamento, a antecedência mínima de **2 horas** e a perda de crédito em caso de cancelamento tardio ou falta. Informação deve ser clara e acessível ao aluno.
+- **Critérios de aceite:** reserva confirmada mostra política; cancelamento tempestivo devolve o benefício utilizável; tardio não devolve; falta consome benefício; novo agendamento verifica disponibilidade e direito; não movimentar créditos de aula particular pela reserva/remarcação de plantão.
+- Não inferir mecanismos de exceção, prorrogação de validade de créditos, tratamento financeiro ou compensações de ausência docente. Jurídico, stack, custo e implementação continuam sujeitos aos gates.
