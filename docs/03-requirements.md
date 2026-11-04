@@ -622,3 +622,11 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **Critérios de aceite:** (1) três módulos com notas atuais 5/5/5 acionam recomendação; (2) ao melhorar um deles para 6, total de módulos em dificuldade cai para dois e deixa de satisfazer o gatilho; (3) tentativas antigas não mantêm artificialmente um módulo em dificuldade; (4) notas de cursos diferentes não são somadas; (5) recomendação não elimina nem bloqueia o aluno.
 - **Segurança do histórico:** preservar registros históricos de avaliação; substituir somente a referência usada na contagem, sem apagar notas anteriores.
 - **Governança:** decisão funcional, sem escolha de stack, autorização financeira ou execução.
+
+
+## Adendo vinculante — avaliações obrigatórias com novas tentativas ilimitadas (2026-11-04)
+- **Fonte:** aprovação expressa de Marina.
+- **Fluxo:** o aluno realiza a avaliação obrigatória da aula/módulo para atender o requisito de conclusão; poderá repeti-la **sem limite de tentativas e sem revisão de conteúdo como pré-condição**.
+- **Critérios de aceite:** (1) não bloquear nova tentativa por número de tentativas prévias; (2) não exigir abertura de resumo/vídeo para tentar novamente; (3) preservar o histórico dos resultados; (4) utilizar a nota mais recente por módulo para o alerta de dificuldade; (5) nota baixa não bloqueia avanço ou certificado, respeitadas as demais obrigações acadêmicas.
+- **Precedência:** substitui restrições legadas de duas tentativas e revisão obrigatória na avaliação formal (DEC-017/021/023), mas mantém as regras de exercícios opcionais de prática da DEC-031.
+- **Pendente:** escolha da composição das questões por tentativa, tratamento de sessão interrompida e formato/tempo de feedback; não pressupor aprovação tácita.
