@@ -713,3 +713,11 @@ Adicionar novos itens no formato:
 
 ## Histórico
 Apenas constar nesta fila não significa aprovação. Respostas e alterações dependem do que Marina comunicar. Transferências de responsabilidade não devem deixar cópias da decisão neste arquivo; o histórico de alterações permanece no versionamento Git.
+
+
+## Atualização da DEC-066 em 2026-11-04 — plantões mediante reserva
+Marina confirmou expressamente que o agendamento prévio pelo aluno é obrigatório para os plantões coletivos. Esta definição substitui as referências históricas a entrada livre e plantões sem reserva na DEC-066 e nas demais decisões dependentes; o texto histórico é preservado para rastreabilidade.
+
+Cada plantão possui duração de 20 minutos e limite de 10 participantes com vaga reservada antecipadamente. Benefícios por plano: plano 1, um plantão mensal; plano 2, dois mensais; plano 3, quatro mensais. A expressão uma vez por semana é apenas referência comercial e não fixa limite semanal. Plantões continuam coletivos, com professor escalado e benefício independente dos créditos de aula particular.
+
+A reserva deve considerar direito vigente e capacidade; regras próprias de cancelamento, falta e reposição de plantões ainda não estão especificadas. Esta revisão foi confirmada por Marina em 04/11/2026 e prevalece sobre as descrições anteriores de plantão livre neste arquivo. Não autoriza stack, custos ou desenvolvimento.
