@@ -547,3 +547,14 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **REQ-048 / separação:** reserva de plantão por vaga em sessão coletiva é distinta de reserva de aula particular por professor individual; ambas respeitam disponibilidade/escala, sem alterar a ordem dia/horário → professor nas particulares.
 - **Critérios de aceite:** (1) sem elegibilidade/benefício disponível, negar reserva; (2) com 10 vagas confirmadas, rejeitar a 11ª; (3) solicitações simultâneas nunca excedem 10 vagas; (4) link de participação restrito às condições aprovadas de reserva; (5) limites mensais 1/2/4 aplicados ao plano correspondente; (6) nenhuma reserva de plantão debita aula particular; (7) professor escalado não recebe conflito de agenda com particulares.
 - **A detalhar sem suposição:** regras de cancelamento, no-show, reposição, vencimento/renovação dos direitos a plantão e tratamento de lotação/ausência docente; revisão jurídica de interação entre menores; fornecedor, custo e implementação posteriores.
+
+
+## Atualização vinculante de REQ-044 e requisitos de plantões — 2026-11-04
+**Fonte:** confirmação expressa de Marina, alterando DEC-066, após reunião de 03/11. Este bloco prevalece sobre todas as referências anteriores, neste documento, a plantões sem agendamento, sem reserva ou de entrada livre; manter o histórico anterior para rastreabilidade.
+
+- Plantão coletivo de dúvidas: **agendamento prévio obrigatório pelo aluno**, com confirmação de vaga em sessão publicada de **20 minutos** e **máximo de 10 participantes**. Apenas alunos elegíveis e com benefício disponível podem reservar.
+- Benefícios mensais confirmados: **plano 1 = 1 plantão; plano 2 = 2 plantões; plano 3 = 4 plantões**. A expressão comercial '1 por semana' não estabelece limite semanal formal.
+- A reserva deve validar no servidor os direitos e as vagas, impedir duplicidade indevida e concorrência que ultrapasse dez confirmações. Link de participação vinculado à sessão reservada, sujeito às proteções de acesso e menores.
+- O plantão não é aula particular, não consome créditos de aula individual e mantém escala docente própria. A aula particular mantém a ordem de escolha data/horário antes do professor disponível, sem conflito.
+- Critérios de aceite: negar reserva sem direito; impedir 11ª vaga; não ultrapassar dez mesmo com pedidos simultâneos; aplicar quantidade 1/2/4 por plano; não descontar créditos particulares; negar acesso não autorizado ao atendimento.
+- **Não inferir:** política específica de cancelamento, falta, devolução/reagendamento ou vencimento de plantão, nem limitação de exatamente um agendamento semanal no plano 3. Esses parâmetros ficam para definição específica e avaliação jurídica quando cabível. Stack, custos e implementação não autorizados.
