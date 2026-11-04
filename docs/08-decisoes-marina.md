@@ -753,3 +753,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 - **Reavaliação:** recalcular o total quando uma nova nota for registrada; se a melhoria reduzir o total para menos de três módulos, a condição do alerta adicional deixa de estar satisfeita. Conservar histórico acadêmico sem tratá-lo como nota vigente para esse gatilho.
 - **Sem reprovação:** revisão e apoio são sugestões não eliminatórias; não bloquear conclusão, progressão nem certificação quando demais obrigações de conclusão forem atendidas.
 - **Limites:** não determina número de tentativas, periodicidade ou retenção de avaliações, nem autoriza stack, custos ou implementação.
+
+
+## Decisão confirmada — tentativas ilimitadas nas avaliações (2026-11-04)
+- **Fonte e aprovação:** Marina aprovou expressamente nesta conversa a proposta da PM.
+- **Regra vigente:** o aluno poderá refazer **avaliações obrigatórias quantas vezes desejar**, **sem exigência de revisar o resumo, o vídeo ou outro conteúdo antes de nova tentativa**.
+- **Precedência:** substitui, para as avaliações obrigatórias, as regras legadas que limitavam a duas tentativas e condicionavam a segunda à revisão do resumo (DEC-017/021/023 e requisitos relacionados). Não confundir com a decisão anterior de tentativas ilimitadas dos exercícios opcionais de prática (DEC-031), que permanece vigente.
+- **Progressão/certificado:** realizar a avaliação é obrigatório, mas a nota não é eliminatória; refazer para melhorar desempenho é opcional. Nota mais recente por módulo define a sinalização atual de dificuldade, com limiar abaixo de 6,0 e recomendação adicional após três módulos distintos no mesmo curso.
+- **A detalhar:** composição e variação das questões entre tentativas, salvamento de tentativa interrompida e experiência de feedback. Estas regras ainda não foram aprovadas por esta confirmação.
+- **Governança:** aprovação funcional, não autorização de stack, custos ou execução.
