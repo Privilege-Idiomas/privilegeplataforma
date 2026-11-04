@@ -191,3 +191,10 @@ Marina confirmou expressamente que **os plantões coletivos exigem agendamento p
 - **Regra distinta de falta do aluno:** este evento não se enquadra em cancelamento tardio ou ausência do estudante. O crédito deve permanecer válido ou ser restaurado se já houver reserva debitada.
 - **Operação:** registrar a ocorrência e comunicar a alteração aos alunos afetados, de acordo com as regras gerais de suporte e transparência já aprovadas. Não criar cobrança adicional nem consumo de crédito de aula particular.
 - **Escopo desta confirmação:** não fixa prazo de reembolso, indenização, prorrogação de validade mensal ou procedimento de força maior. Aspectos contratuais dependem de validação jurídica. Stack, custos e execução continuam sem autorização.
+
+
+### DEC-067/08 — Esclarecimento sobre não acumulação de plantões (2026-11-04)
+- **Decisão expressa de Marina:** os benefícios/créditos mensais de plantões **não são cumulativos** e **não passam para o mês seguinte**. O aluno tem o mês para agendar seus plantões; não há prorrogação automática no encerramento do período.
+- **Cancelamento da Privilège:** preservar/restituir **somente o crédito de aluno que já tinha reserva confirmada para a sessão especificamente cancelada**. O cancelamento de um horário não gera crédito novo para alunos que não reservaram aquele horário, pois não há evidência de que o utilizariam.
+- **Limite do direito:** restituição de reserva cancelada não é concessão de novo benefício. Crédito mensal preservado permanece sujeito à regra de não acumulação; a hipótese de transferi-lo excepcionalmente ao mês seguinte foi **expressamente rejeitada por Marina**.
+- **Precedência:** este esclarecimento prevalece sobre quaisquer interpretações anteriores que sugerissem prorrogação de validade ou compensação automática para não inscritos. Não altera o direito de remarcação dentro da vigência, conforme disponibilidade e política aprovada; questões de conformidade contratual ainda sujeitas ao jurídico.
