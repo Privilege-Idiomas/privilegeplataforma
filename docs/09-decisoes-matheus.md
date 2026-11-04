@@ -184,3 +184,10 @@ Marina confirmou expressamente que **os plantões coletivos exigem agendamento p
 - **Transparência na jornada:** a **página de agendamento** deve informar, antes da confirmação da reserva, a política de cancelamento, o prazo mínimo de duas horas para remarcação e a consequência de perda do crédito. Não deixar a informação apenas em documentos externos.
 - **Precedência:** resolve a ressalva anterior de que a política de cancelamento/remarcação/falta dos plantões ainda não fora definida. Permanecem sessões coletivas de 20 minutos, até 10 vagas por sessão e benefícios mensais 1/2/4 nos planos 1/2/3.
 - **Não presumir:** exceções por força maior, reagendamento de sessão cancelada pela escola, regras jurídicas de validade de créditos e soluções para indisponibilidade de vagas não foram decididas nesta resposta; tratar conforme análise jurídica/decisão específica quando necessário. Não autoriza despesas, stack ou desenvolvimento.
+
+
+### DEC-067/08 — Cancelamento de plantão pela Privilège (2026-11-04)
+- **Decisão confirmada por Marina:** se a Privilège cancelar um plantão coletivo por falta do professor ou problema operacional, **o aluno não perde o crédito/benefício correspondente** e poderá realizar novo agendamento, conforme disponibilidade de sessões.
+- **Regra distinta de falta do aluno:** este evento não se enquadra em cancelamento tardio ou ausência do estudante. O crédito deve permanecer válido ou ser restaurado se já houver reserva debitada.
+- **Operação:** registrar a ocorrência e comunicar a alteração aos alunos afetados, de acordo com as regras gerais de suporte e transparência já aprovadas. Não criar cobrança adicional nem consumo de crédito de aula particular.
+- **Escopo desta confirmação:** não fixa prazo de reembolso, indenização, prorrogação de validade mensal ou procedimento de força maior. Aspectos contratuais dependem de validação jurídica. Stack, custos e execução continuam sem autorização.
