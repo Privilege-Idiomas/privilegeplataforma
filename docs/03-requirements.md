@@ -574,3 +574,11 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - A página de agendamento de plantões deve apresentar **antes do botão de confirmação** a política de cancelamento, a antecedência mínima de **2 horas** e a perda de crédito em caso de cancelamento tardio ou falta. Informação deve ser clara e acessível ao aluno.
 - **Critérios de aceite:** reserva confirmada mostra política; cancelamento tempestivo devolve o benefício utilizável; tardio não devolve; falta consome benefício; novo agendamento verifica disponibilidade e direito; não movimentar créditos de aula particular pela reserva/remarcação de plantão.
 - Não inferir mecanismos de exceção, prorrogação de validade de créditos, tratamento financeiro ou compensações de ausência docente. Jurídico, stack, custo e implementação continuam sujeitos aos gates.
+
+
+## Adendo vinculante — cancelamento de plantão pela Privilège (2026-11-04)
+**Fonte:** confirmação expressa de Marina, complementar à DEC-067/08 e ao fluxo de agendamento de plantões.
+- Se a **Privilège cancelar** sessão coletiva por ausência docente ou problema operacional, o crédito de plantão do estudante afetado **não será consumido**. Caso reservado/debitado, restaurar o benefício para permitir novo agendamento sujeito à disponibilidade.
+- Registrar a ocorrência, permitir comunicação aos alunos afetados e preservar a distinção entre cancelamento pelo prestador e cancelamento tardio ou falta do aluno.
+- **Aceite:** (a) reserva de aluno afetada por cancelamento da escola não reduz o saldo de benefícios; (b) saldo anteriormente debitado é restituído; (c) aluno pode agendar outra sessão disponível; (d) não ocorre débito de aula particular; (e) cancelar um plantão não afeta reservas de outras sessões não canceladas.
+- **Dependências não definidas nesta decisão:** extensão do período de uso do crédito caso não haja horários disponíveis, obrigações legais de reembolso, compensação ou alternativas de atendimento; aguardar validação apropriada. Sem autorização para desenvolvimento ou custos.
