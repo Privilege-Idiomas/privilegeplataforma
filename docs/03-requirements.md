@@ -558,3 +558,10 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - O plantão não é aula particular, não consome créditos de aula individual e mantém escala docente própria. A aula particular mantém a ordem de escolha data/horário antes do professor disponível, sem conflito.
 - Critérios de aceite: negar reserva sem direito; impedir 11ª vaga; não ultrapassar dez mesmo com pedidos simultâneos; aplicar quantidade 1/2/4 por plano; não descontar créditos particulares; negar acesso não autorizado ao atendimento.
 - **Não inferir:** política específica de cancelamento, falta, devolução/reagendamento ou vencimento de plantão, nem limitação de exatamente um agendamento semanal no plano 3. Esses parâmetros ficam para definição específica e avaliação jurídica quando cabível. Stack, custos e implementação não autorizados.
+
+
+## Adendo de progressão pedagógica confirmado em 2026-11-04 — MAT-007
+- **Limiar de recomendação:** avaliação de módulo **inferior a 6,0 (escala 0–10)** aciona sugestão de revisão/refazimento e, quando pertinente e elegível, de apoio pedagógico. Nota **igual a 6,0** não aciona recomendação por resultado inferior ao limiar.
+- **Progressão não eliminatória:** **não bloquear a próxima etapa por nota inferior a 6,0**. A recomendação não se confunde com aprovação obrigatória. Preservar a realização das avaliações que já sejam obrigatórias por decisão funcional específica, sem criar regra nova de tentativas ou certificação.
+- **Precedência:** regra confirmada expressamente por Marina em 04/11/2026; prevalece sobre referências anteriores deste documento a nota mínima obrigatória, aprovação eliminatória, ou limiar inferior a 5 para recomendação. Atualizar futuramente os trechos históricos consolidados mantendo rastreabilidade.
+- **Dependências não resolvidas por esta confirmação:** regra específica de conclusão/certificação sob resultados baixos, fórmula e escala detalhada de avaliação, tentativas e outras mensagens pedagógicas; não presumir respostas.
