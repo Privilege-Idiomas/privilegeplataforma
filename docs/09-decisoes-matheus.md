@@ -176,3 +176,11 @@ Marina confirmou expressamente que **os plantões coletivos exigem agendamento p
 - **Precedência:** substitui o limiar de 5 mencionado no resumo da reunião de 03/11; mantém a informação mais recente do Notion. Também substitui referências legadas a nota mínima obrigatória para desbloqueio, quando incompatíveis com a decisão não eliminatória.
 - **Limite de alcance:** esta confirmação não estabelece novas regras de quantidade de tentativas, cálculo de notas, pontuação por questão ou critérios de certificação ainda não explicitamente definidos.
 - **Status:** RESOLVIDO quanto ao limiar de recomendação e natureza não eliminatória; custos, arquitetura e implementação continuam pendentes.
+
+
+### DEC-067/08 — Política de cancelamento e remarcação de plantões (2026-11-04)
+- **Fonte:** confirmação expressa de Marina em 04/11/2026, incorporando a mesma política já definida para as aulas particulares.
+- **Regra de negócio RESOLVIDA:** o aluno com reserva confirmada de plantão coletivo poderá cancelar/desmarcar a sessão com antecedência **mínima de 2 horas** em relação ao início previsto e **manter o benefício/crédito para realizar novo agendamento**, sujeito à disponibilidade de vagas e ao direito vigente. Com antecedência **inferior a 2 horas**, ou se não comparecer sem cancelamento tempestivo, **perderá o crédito correspondente àquela reserva**.
+- **Transparência na jornada:** a **página de agendamento** deve informar, antes da confirmação da reserva, a política de cancelamento, o prazo mínimo de duas horas para remarcação e a consequência de perda do crédito. Não deixar a informação apenas em documentos externos.
+- **Precedência:** resolve a ressalva anterior de que a política de cancelamento/remarcação/falta dos plantões ainda não fora definida. Permanecem sessões coletivas de 20 minutos, até 10 vagas por sessão e benefícios mensais 1/2/4 nos planos 1/2/3.
+- **Não presumir:** exceções por força maior, reagendamento de sessão cancelada pela escola, regras jurídicas de validade de créditos e soluções para indisponibilidade de vagas não foram decididas nesta resposta; tratar conforme análise jurídica/decisão específica quando necessário. Não autoriza despesas, stack ou desenvolvimento.
