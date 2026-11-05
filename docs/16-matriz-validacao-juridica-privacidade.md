@@ -42,3 +42,11 @@ Identificar decisões com necessidade de validação jurídica ou de privacidade
 - [ ] Gate de escopo homologado expressamente, antes da seleção de stack/custos/MVP e da autorização de implementação.
 
 AUD-005/006/010 continuam pendentes. Este documento não autoriza implementação, contratos, cronograma, custos, MVP ou stack.
+
+
+## Atualização de contexto para parecer — 2026-11-05 (sem parecer recebido)
+- **JUR-04 — plantões:** a descrição antiga "sem reserva" está superada pela confirmação expressa de Marina de 04/11/2026. A modalidade atual prevê **reserva prévia**, sessões coletivas de **20 minutos**, até **10 participantes** e benefícios mensais de 1/2/4 plantões por plano. A política de cancelamento dos alunos é de 2 horas de antecedência; faltas ou cancelamentos tardios consomem crédito. Cancelamento pela Privilège preserva o crédito apenas do aluno com reserva confirmada; benefícios não acumulam para outro mês, conforme decisão comercial. A assessoria deve avaliar as salvaguardas e eventuais obrigações jurídicas especialmente em relação a menores, exposição de voz/imagem, cancelamento de prestação agendada e ausência de alternativa no mês. **Este texto não é validação nem aprovação jurídica.**
+- **JUR-03/07/08:** decisões atuais sobre tolerância de 30 dias com acesso preservado, retentativas de cobrança, retorno à plataforma e recuperação de identidade devem ser consideradas no parecer; o cálculo do prazo e os procedimentos específicos permanecem sem definição final.
+- **JUR-10:** a emissão de certificado decorre da conclusão de componentes obrigatórios, inclusive realização de avaliações, **sem nota eliminatória**. Tentativas posteriores não alteram datas originais de conclusão/emissão; certificado legítimo permanece acessível sem assinatura ativa. A validação de retenção e dados de menores continua pendente.
+- **JUR-05/09:** o limiar de 5 avaliações válidas para média docente permanece **condicionado** à revisão de privacidade e anti-inferência, não liberado por decisões pedagógicas recentes.
+- **Status jurídico global:** PENDENTE, sem parecer anexado ou aceitação presumida. Custos e implementação também pendentes.
