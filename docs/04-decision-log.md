@@ -186,3 +186,11 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 - **Justificativa:**
 - **Impactos em escopo, prazo, custo, riscos e operação:**
 - **Documentos/requisitos afetados:**
+
+
+## Atualização do índice — 2026-11-05
+| ID | Tema | Definição | Status e situação | Responsável |
+|---|---|---|---|---|
+| DEC-074 | Cinco regras de avaliações e aprendizagem | [Registro canônico na decisão de Marina](08-decisoes-marina.md): embaralhamento por banco aprovado; nota/gabarito/explicações ao finalizar; retomar avaliação interrompida; histórico e evolução para aluno; novas tentativas após conclusão sem alterar datas originais | RESOLVIDO quanto ao funcional; custos, stack, G1 integral e execução pendentes | Marina |
+
+**Precedência:** DEC-074 complementa a aprovação de tentativas ilimitadas sem revisão obrigatória e a avaliação não eliminatória; referências históricas às regras substituídas não são vigentes. Detalhes de amostragem do banco, durabilidade da sessão, visualização da evolução e condições de acesso pós-assinatura permanecem em aberto e não podem ser presumidos.
