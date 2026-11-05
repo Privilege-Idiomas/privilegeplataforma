@@ -194,3 +194,11 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-074 | Cinco regras de avaliações e aprendizagem | [Registro canônico na decisão de Marina](08-decisoes-marina.md): embaralhamento por banco aprovado; nota/gabarito/explicações ao finalizar; retomar avaliação interrompida; histórico e evolução para aluno; novas tentativas após conclusão sem alterar datas originais | RESOLVIDO quanto ao funcional; custos, stack, G1 integral e execução pendentes | Marina |
 
 **Precedência:** DEC-074 complementa a aprovação de tentativas ilimitadas sem revisão obrigatória e a avaliação não eliminatória; referências históricas às regras substituídas não são vigentes. Detalhes de amostragem do banco, durabilidade da sessão, visualização da evolução e condições de acesso pós-assinatura permanecem em aberto e não podem ser presumidos.
+
+
+## Atualização de índice — DEC-075 (2026-11-05)
+| ID | Tema | Definição | Situação | Responsável |
+|---|---|---|---|---|
+| DEC-075 | Bloco 2 — configuração das avaliações | [Registro canônico da Marina](08-decisoes-marina.md): número configurável no admin; sorteio de questões aprovadas por filtros; autosave a cada resposta; gráfico com notas por tentativa, datas e histórico; novas tentativas somente com acesso ativo ao curso, preservando certificados | **RESOLVIDO funcionalmente**; G1 integral, stack, custos, MVP e execução ainda não aprovados | Marina |
+
+Os cinco itens acima deixam de ser pendências da DEC-074; permanecem abertas apenas as nuances adicionais expressamente identificadas em DEC-075, sem presumir respostas.
