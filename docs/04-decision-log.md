@@ -202,3 +202,11 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-075 | Bloco 2 — configuração das avaliações | [Registro canônico da Marina](08-decisoes-marina.md): número configurável no admin; sorteio de questões aprovadas por filtros; autosave a cada resposta; gráfico com notas por tentativa, datas e histórico; novas tentativas somente com acesso ativo ao curso, preservando certificados | **RESOLVIDO funcionalmente**; G1 integral, stack, custos, MVP e execução ainda não aprovados | Marina |
 
 Os cinco itens acima deixam de ser pendências da DEC-074; permanecem abertas apenas as nuances adicionais expressamente identificadas em DEC-075, sem presumir respostas.
+
+
+## Atualização do índice — DEC-076 (2026-11-05)
+| ID | Tema | Definição | Status e situação | Responsável pela confirmação |
+|---|---|---|---|---|
+| DEC-076 | G1 Bloco 3 — catálogo e contratação | [Registro canônico de Marina](08-decisoes-marina.md): sem teste gratuito inicialmente; upgrade imediato com ajuste proporcional; downgrade na renovação sem perda antecipada de benefícios; escolha de renovação apresentada na contratação | **RESOLVIDO** nas quatro diretrizes confirmadas por Marina; **REVISAR** fórmula do rateio, valores, modalidade de renovação, parâmetros comerciais de competência pertinente e legalidade; G2–G5 pendentes | Marina |
+
+A confirmação da Marina não deve ser convertida em aprovação individual de Matheus ou parecer jurídico favorável. Manter os detalhes não decididos em aberto no GitHub.
