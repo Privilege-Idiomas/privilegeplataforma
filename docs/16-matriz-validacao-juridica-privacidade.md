@@ -50,3 +50,9 @@ AUD-005/006/010 continuam pendentes. Este documento não autoriza implementaçã
 - **JUR-10:** a emissão de certificado decorre da conclusão de componentes obrigatórios, inclusive realização de avaliações, **sem nota eliminatória**. Tentativas posteriores não alteram datas originais de conclusão/emissão; certificado legítimo permanece acessível sem assinatura ativa. A validação de retenção e dados de menores continua pendente.
 - **JUR-05/09:** o limiar de 5 avaliações válidas para média docente permanece **condicionado** à revisão de privacidade e anti-inferência, não liberado por decisões pedagógicas recentes.
 - **Status jurídico global:** PENDENTE, sem parecer anexado ou aceitação presumida. Custos e implementação também pendentes.
+
+
+## Complemento para parecer — DEC-080 (2026-11-05)
+Este registro não é parecer jurídico. Nas relações de consumo, revisar rateio de upgrade por tempo restante e diferença de preços; escolha explícita entre renovação automática e encerramento, retentativas configuráveis e 30 dias de tolerância a partir do vencimento não pago. Validar transparência, consentimento, multas, cancelamentos e legalidade das condições dos contratos de 3/6/12 meses.
+
+Em proteção de dados educacionais, revisar expiração de avaliação após 30 dias desde seu início, notificação, retenção de tentativas incompletas, gabarito retroativo mediante análise/aprovação, versões de conteúdo e preservação de certificados legítimos. Preservar a análise de menores, representantes legais e plantões reservados. Tudo permanece pendente de parecer, e não se infere autorização de custos ou desenvolvimento.
