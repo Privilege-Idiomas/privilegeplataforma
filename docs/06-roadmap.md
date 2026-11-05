@@ -88,3 +88,10 @@ O planejamento detalhado e o próprio resumo executivo permanecerão documentado
 - **Bloqueios atuais:** validar titularidades/respostas comerciais atribuídas a Matheus, políticas comerciais remanescentes, desenho de trilhas/nivelamento, parâmetros de avaliação interrompida e alteração de gabarito, fluxos operacionais de menores e dependências jurídicas JUR-01–11. O parecer jurídico foi solicitado pela equipe, mas não há aprovação jurídica comprovada por este acompanhamento.
 - **G2–G5:** não autorizados por este registro. Sequência obrigatória preservada: concluir e homologar G1, definir stack integral, estimar/analisar custos, decidir versões/MVP, auditar e autorizar execução.
 - **Sem alteração de prazo:** meta antiga de 30 dias permanece apenas referência não aprovada; nenhuma data de entrega ou custo foi assumida.
+
+
+## Status de gestão após DEC-080 — 2026-11-05
+- Foram confirmadas **15 novas diretrizes do G1** (6 de nivelamento/trilhas, 4 de avaliações/conteúdo, 5 de contratação/operação). O GitHub contém o registro vinculante em `docs/08-decisoes-marina.md`, requisitos em `docs/03-requirements.md`, índice em `docs/04-decision-log.md`, trilhas em `docs/07-learning-paths.md` e auditoria em `docs/25-p08-checklist-aceitacao-funcional.md`.
+- **G1 continua não homologado**, porque há parâmetros concretos de conteúdo, regras comerciais/financeiras de contrato e pareceres JUR-01–11 pendentes, além da reconciliação dos trechos históricos conflitantes.
+- **Próximo trabalho interno da PM:** consolidar textos operativos de requisitos/testes antigos sem reabrir escolhas, classificar pendências por alçada e preparar pacote de validação formal para Matheus/jurídico.
+- **G2, G3, G4 e G5:** nenhum autorizado. Não escolher stack, estimar custos como aprovados, assumir cronograma, definir MVP ou encaminhar ordem de execução ao Claude.
