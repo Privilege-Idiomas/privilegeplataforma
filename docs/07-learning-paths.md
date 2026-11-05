@@ -73,3 +73,13 @@ A recomendação pedagógica de uma trilha não deve conceder acesso comercial a
 
 ## 7. Orientação técnica
 Modelar trilhas como entidades independentes que referenciam cursos existentes, com uma ordem/prioridade configurável. Evitar duplicação de cursos, módulos, aulas ou progresso. O progresso do aluno deve ser associado às unidades de conteúdo e relacionado à trilha em que o aluno está matriculado, preservando histórico caso a sequência de uma trilha seja alterada.
+
+
+## Atualização vinculante de produto — DEC-080, 2026-11-05
+**Aprovado expressamente por Marina nesta data**, com precedência sobre a versão 0.1 e as perguntas históricas acima:
+- **Teste de nivelamento:** opcional, disponível antes e durante o curso. O resultado recomenda **nível de inglês e orientação de curso**, sem bloquear progressão ou conceder acesso comercial. Faixas e limites são **configuráveis pela equipe pedagógica**; os valores e critérios específicos ainda não foram homologados.
+- **Trilhas:** Basic English é recomendado para iniciantes, **não é pré-requisito** obrigatório para Travel ou Business. Aluno pode escolher e mudar livremente de trilha, preservando progresso e respeitando direitos contratados. Administração autorizada define objetivos e ordenação das trilhas reutilizando cursos, sem duplicação de aulas.
+- **Avaliações na progressão:** a avaliação é obrigatória para concluir a aula, mas **não eliminatória**. A nota 6/10 é referencial para recomendação de revisão, nunca uma aprovação obrigatória. Tentativas são **ilimitadas** e não exigem revisão prévia; o vídeo integral e exercícios opcionais não são condições de progressão conforme decisões pedagógicas posteriores, ressalvada a rastreabilidade da DEC-024 atribuída a Matheus.
+- **Tentativa interrompida:** retomada em até **30 dias contados do início**; ao expirar, há aviso ao aluno e oportunidade de iniciar outra tentativa se tiver acesso vigente, sem conclusão automática.
+- **Pendentes sem inferência:** conteúdo real e parametrização do teste, níveis/faixas concretos, objetivos e sequências de trilhas efetivamente publicados, critérios de versionamento e transição de alunos já em andamento, mecanismos de aviso e retenção de tentativa expirada, validações de competência de Matheus explicitamente atribuídas e jurídico de menores.
+- **Governança:** isto não define arquitetura, serviços, custos, calendário, MVP nem início de produção.
