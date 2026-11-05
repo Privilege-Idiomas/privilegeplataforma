@@ -210,3 +210,11 @@ Os cinco itens acima deixam de ser pendências da DEC-074; permanecem abertas ap
 | DEC-076 | G1 Bloco 3 — catálogo e contratação | [Registro canônico de Marina](08-decisoes-marina.md): sem teste gratuito inicialmente; upgrade imediato com ajuste proporcional; downgrade na renovação sem perda antecipada de benefícios; escolha de renovação apresentada na contratação | **RESOLVIDO** nas quatro diretrizes confirmadas por Marina; **REVISAR** fórmula do rateio, valores, modalidade de renovação, parâmetros comerciais de competência pertinente e legalidade; G2–G5 pendentes | Marina |
 
 A confirmação da Marina não deve ser convertida em aprovação individual de Matheus ou parecer jurídico favorável. Manter os detalhes não decididos em aberto no GitHub.
+
+
+## Atualização de índice — DEC-077 (2026-11-05)
+| ID | Tema | Definição | Status e situação | Confirmado por |
+|---|---|---|---|---|
+| DEC-077 | Bloco 4 — cobrança, inadimplência e acesso | [Registro canônico da Marina](08-decisoes-marina.md): retentativas de cartão e aviso ao pagador; acesso/benefícios mantidos durante 30 dias de tolerância; histórico/progresso/certificados preservados e acesso restaurado conforme nova contratação; e-mail financeiro ao pagador e aviso operacional ao aluno sem exposição de dados financeiros | **RESOLVIDO** nas quatro diretrizes funcionais; **PENDENTE** calendário de retentativas, marco inicial de tolerância, suspensão subsequente, jurídico, valores, custos e integração | Marina |
+
+**Governança:** nenhuma subdecisão funcional implica autorização financeira, aprovação individual de Matheus, validação jurídica ou execução.
