@@ -218,3 +218,11 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | DEC-077 | Bloco 4 — cobrança, inadimplência e acesso | [Registro canônico da Marina](08-decisoes-marina.md): retentativas de cartão e aviso ao pagador; acesso/benefícios mantidos durante 30 dias de tolerância; histórico/progresso/certificados preservados e acesso restaurado conforme nova contratação; e-mail financeiro ao pagador e aviso operacional ao aluno sem exposição de dados financeiros | **RESOLVIDO** nas quatro diretrizes funcionais; **PENDENTE** calendário de retentativas, marco inicial de tolerância, suspensão subsequente, jurídico, valores, custos e integração | Marina |
 
 **Governança:** nenhuma subdecisão funcional implica autorização financeira, aprovação individual de Matheus, validação jurídica ou execução.
+
+
+## Atualização do índice — DEC-078 (2026-11-05)
+| ID | Tema | Definição | Situação | Responsável |
+|---|---|---|---|---|
+| DEC-078 | G1 Bloco 5 — identidade, segurança e suporte | [Registro canônico da Marina](08-decisoes-marina.md): troca de e-mail confirmada nos dois endereços ou recuperação excepcional; revogar demais sessões após troca de senha por suspeita; orientar login/recuperação sem duplicar cadastro; central de suporte com protocolo e acompanhamento mais e-mail | **RESOLVIDO funcionalmente**; fluxos de exceção, proteção de menores, LGPD, custos, stack, G1 integral e execução pendentes | Marina |
+
+**Não converter aprovação funcional em homologação jurídica, financeira ou técnica.**
