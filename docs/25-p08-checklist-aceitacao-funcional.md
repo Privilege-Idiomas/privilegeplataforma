@@ -103,3 +103,30 @@
 - **Financeiro/técnico:** custos de implantação, mensal fixo, variáveis por uso e administrativo **não estimados/aprovados**, fornecedores e stack **não escolhidos**, MVP/versões e cronograma **não homologados**, Claude/produção **não autorizados**.
 
 **Status de prontidão:** G1 **EM AUDITORIA / NÃO HOMOLOGADO**. O conteúdo deste adendo é diagnóstico e harmonização documental; não transforma perguntas pendentes em decisões.
+
+
+## Auditoria incremental G1 — atualização após DEC-080 (2026-11-05)
+**Escopo:** conferência das 15 escolhas expressamente confirmadas; não foram executados testes nem obtido parecer jurídico. O G1 permanece **NÃO HOMOLOGADO**.
+| ID | Área | Novo critério vigente para o teste futuro | Situação |
+|---|---|---|---|
+| AC-DEC080-01 | Nivelamento | Teste opcional acessível antes/durante curso; recomenda nível e curso sem bloqueio; faixas configuráveis por equipe pedagógica | Diretriz aprovada; banco/faixas concretas pendentes |
+| AC-DEC080-02 | Trilhas | Basic não obrigatório; aluno pode mudar trilha sem perder progresso; admin organiza cursos por objetivo sem duplicar conteúdo nem conceder acesso não contratado | Diretriz aprovada; catálogo real de trilhas pendente |
+| AC-DEC080-03 | Tentativa interrompida | Expira 30 dias após **início** da tentativa, com aviso, retomada até o limite e nova tentativa após expiração se houver acesso | Diretriz aprovada; antecedência/canal do aviso e retenção pendentes |
+| AC-DEC080-04 | Gabarito e conteúdo | Reprocessamento de nota após correção de gabarito exige análise de impacto e aprovação; conteúdo versionado preserva conclusões/certificados legítimos | Diretriz aprovada; fluxos editoriais e alunos em andamento pendentes |
+| AC-DEC080-05 | Upgrade | Proporcional ao período restante e diferença de planos; cálculo/condições exibidos antes de confirmar | Diretriz aprovada; fórmula concreta, gateway, valores e jurídico/comercial pendentes |
+| AC-DEC080-06 | Renovação | Opção explícita entre renovar automaticamente ou encerrar no período final; opção persistida por contrato/pagador | Diretriz aprovada; efeitos nas durações, textos legais e consentimento pendentes |
+| AC-DEC080-07 | Cobrança | Política de retentativas configurável conforme gateway com limites e avisos; tolerância de 30 dias a partir de vencimento não pago mantém benefícios | Diretriz aprovada; fornecedor, parâmetros e conformidade pendentes |
+| AC-DEC080-08 | Docente sem substituto | Abrir atendimento para solução individual sem consumir crédito quando escola não oferece professor alternativo | Diretriz aprovada; solução comercial/legal final pendente |
+
+### Reconciliação de pendências da auditoria anterior
+- **REC-G1-04:** resolvidos pela DEC-080 o marco inicial de 30 dias e o tratamento funcional da expiração; **permanecem** em aberto forma/antecedência do aviso e retenção de respostas não submetidas.
+- **P01-05 / AUD-006:** definidos por Marina os princípios de nivelamento e trilhas, a avaliação não eliminatória e as tentativas ilimitadas. **Permanecem** as faixas reais, o conteúdo do teste, objetivos publicados de cada trilha e atribuição explícita de DEC-024 a Matheus, além do necessário alinhamento documental.
+- **GAP-01 / AUD-005:** definidos as bases do rateio de upgrade, opção de renovação, retentativas configuráveis e início da tolerância. **Permanecem** preços, fórmula detalhada, validação de contratos/consentimento, gateway, demais condições comerciais e jurídico.
+- **GAP-08:** decidido o modelo de versionamento de aulas/módulos e aprovação antes de reprocessamento de gabarito; **permanecem** critérios para alunos em andamento, responsáveis/aprovadores específicos e efeitos de correções no histórico.
+- **REC-G1-01/02/03/05/06:** conflitos de texto legado ainda exigem consolidação no corpo dos documentos. Adendos DEC-074–080 determinam precedência; **não** retornar às regras históricas.
+- **JUR-01–11:** nenhuma aprovação jurídica presumida. Pauta de validação de menores, LGPD, avaliações docentes, contratos, cancelamentos e certificados permanece separada.
+
+### Próximos atos da PM sem aprovação de execução
+1. Harmonizar seções operativas legadas de requisitos e checklist, mantendo trilha de histórico no Git.
+2. Consolidar perguntas efetivamente abertas por titularidade: Marina (parâmetros operacionais/editoriais), Matheus (comercial e DEC-024, se ainda exigida), jurídico (contratos/menores/LGPD).
+3. Preparar pacote final de aceite G1 **para validação expressa**, sem escolher stack, dimensionar custos como aprovados ou autorizar Claude a executar.
