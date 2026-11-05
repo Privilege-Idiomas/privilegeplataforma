@@ -232,3 +232,11 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | ID | Tema | Definição | Status | Responsável |
 |---|---|---|---|---|
 | DEC-079 | G1 Bloco 6 — exceções operacionais | [Registro canônico na decisão de Marina](08-decisoes-marina.md): impedir publicação de avaliação com banco aprovado insuficiente; retomada de tentativa em até 30 dias; reagendamento de particular com docente escolhido e crédito preservado; plantão lotado indica outra sessão sem lista de espera | **RESOLVIDO funcionalmente**; termo inicial da validade, tratamentos excepcionais, jurídico, custos, stack e G1 integral pendentes | Marina |
+
+
+## Atualização de índice — DEC-080 (2026-11-05)
+| ID | Tema | Definições confirmadas por Marina | Status e pendências | Responsável |
+|---|---|---|---|---|
+| DEC-080 | G1 — rodada consolidada de 15 decisões | [Registro canônico](08-decisoes-marina.md): nivelamento opcional antes/durante o curso, orientação não bloqueante, faixas configuráveis, Basic não obrigatório, livre troca de trilha com histórico, trilhas configuráveis sem duplicação; avaliação expira 30 dias desde início com aviso e nova tentativa, correção de gabarito só após análise/aprovação, versionamento preserva conclusões; upgrade pelo período restante e diferença de valores, escolha explícita entre renovar automaticamente/encerrar, retentativas configuráveis pelo gateway, tolerância desde vencimento não pago, ausência de professor alternativo gera atendimento com crédito preservado | **RESOLVIDO nas 15 diretrizes confirmadas**; parâmetros pedagógicos, financeiros, contratuais, jurídicos e operacionais descritos no registro canônico seguem **PENDENTES**; G1 não homologado | Marina |
+
+**Precedência:** DEC-080 prevalece nos quinze assuntos sobre REQs e MAT históricos conflitantes; aprovações de Matheus/jurídico não são inferidas e as demais obrigações do gate G1 permanecem vigentes.
