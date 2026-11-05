@@ -226,3 +226,9 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | DEC-078 | G1 Bloco 5 — identidade, segurança e suporte | [Registro canônico da Marina](08-decisoes-marina.md): troca de e-mail confirmada nos dois endereços ou recuperação excepcional; revogar demais sessões após troca de senha por suspeita; orientar login/recuperação sem duplicar cadastro; central de suporte com protocolo e acompanhamento mais e-mail | **RESOLVIDO funcionalmente**; fluxos de exceção, proteção de menores, LGPD, custos, stack, G1 integral e execução pendentes | Marina |
 
 **Não converter aprovação funcional em homologação jurídica, financeira ou técnica.**
+
+
+## Atualização do índice — DEC-079 (2026-11-05)
+| ID | Tema | Definição | Status | Responsável |
+|---|---|---|---|---|
+| DEC-079 | G1 Bloco 6 — exceções operacionais | [Registro canônico na decisão de Marina](08-decisoes-marina.md): impedir publicação de avaliação com banco aprovado insuficiente; retomada de tentativa em até 30 dias; reagendamento de particular com docente escolhido e crédito preservado; plantão lotado indica outra sessão sem lista de espera | **RESOLVIDO funcionalmente**; termo inicial da validade, tratamentos excepcionais, jurídico, custos, stack e G1 integral pendentes | Marina |
