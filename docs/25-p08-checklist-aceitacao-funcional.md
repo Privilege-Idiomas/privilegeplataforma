@@ -66,3 +66,40 @@
 4. Preparar checklist de handoff futuro ao Claude sem criar ordem de execução.
 
 **Resultado:** P-08 pronto apenas como artefato documental. Nenhum cenário foi executado ou certificado. Stack, custos, MVP e implementação NÃO autorizados. GitHub canônico; Notion somente síntese executiva.
+
+
+## Auditoria incremental G1 — 2026-11-05 (DEC-074 a DEC-079 e decisões de 03–05/11)
+**Natureza:** conferência documental da PM. Não é teste de sistema, homologação do G1, parecer jurídico nem aprovação de stack/custos/MVP/execução. Comparados, nesta rodada, o presente checklist, `docs/03-requirements.md`, `docs/04-decision-log.md`, `docs/08-decisoes-marina.md`, `docs/09-decisoes-matheus.md`, `docs/06-roadmap.md`, `docs/18-revisao-cruzada-p01.md` e a matriz jurídica `docs/16-matriz-validacao-juridica-privacidade.md`. Não foram executados testes.
+
+### Critérios atuais incorporados à matriz de aceite (substituem descrições históricas conflitantes)
+| ID | Tema | Critério de aceite documental atualizado | Evidência necessária para teste futuro | Situação |
+|---|---|---|---|---|
+| AC-P08-09-R1 | Plantão agendado | Sessão coletiva de 20 min com reserva prévia obrigatória, até 10 vagas; planos 1/2/3 têm 1/2/4 plantões mensais | Reserva atômica, negação de 11ª vaga, validação de benefício e acesso ao link | REQUISITO APROVADO; teste pendente |
+| AC-P08-09-R2 | Cancelamento/lotação plantão | Desmarcação com pelo menos 2h preserva crédito; menos de 2h ou ausência consome; plantão lotado exibe alternativas, sem lista de espera; créditos mensais não cumulativos | Saldos, reservas/estornos, lotação e comunicação | REQUISITO APROVADO; teste pendente |
+| AC-P08-10-R1 | Plantão cancelado pela escola | Restituição somente a alunos com reserva confirmada na sessão cancelada; sem crédito extra a não inscritos e sem transferência automática ao mês seguinte | Histórico de reservas, estorno de crédito e ausência de bônus indevido | REQUISITO APROVADO; jurídico pendente |
+| AC-P08-17-R1 | Avaliação e conclusão | Avaliação obrigatória realizada, sem nota eliminatória; nota menor que 6 sugere revisão; terceira ocorrência em módulos distintos no mesmo curso recomenda apoio; usar nota mais recente de cada módulo | Progressão sem bloqueio, certificação por conclusão, contagem e recálculo das dificuldades | REQUISITO APROVADO; teste pendente |
+| AC-P08-17-R2 | Banco de questões | Total de questões configurável; selecionar sorteando questões aprovadas filtradas; embaralhar questões e alternativas; bloquear publicação se banco elegível insuficiente | Publicação recusada e filtros aplicados no servidor | REQUISITO APROVADO; teste pendente |
+| AC-P08-17-R3 | Tentativas e interrupção | Tentativas ilimitadas sem revisão obrigatória; nota/gabarito/explicação após envio; autosave por resposta; retomada com limite máximo de 30 dias; gráfico e histórico | Persistência, autorização, auditoria e datas, retomada e feedback | REQUISITO APROVADO; marco inicial de 30 dias pendente |
+| AC-P08-19-R1 | Pós-conclusão e certificado | Nova tentativa permitida com acesso vigente, sem alterar data original de conclusão/emissão; após contrato terminado, certificados legítimos permanecem consultáveis | Histórico imutável de conclusão, acesso autorizado ao certificado e negação de tentativa sem direito | REQUISITO APROVADO; jurídico/retenção pendentes |
+| AC-P08-07-R1 | Particular com imprevisto docente | Reagendamento com mesmo ou outro professor disponível à escolha do aluno, crédito preservado | Disponibilidade e saldo corretos, sem dupla reserva | REQUISITO APROVADO; teste pendente |
+| AC-P08-06-R1 | Contratação e cobrança | Sem teste gratuito; upgrade imediato proporcional (fórmula pendente); downgrade apenas na renovação; escolha de renovação na contratação; retentativas de cartão; 30 dias de tolerância com direitos mantidos | Estados financeiros/direitos, auditoria e comunicação segregada | PARCIAL: diretrizes aprovadas, parâmetros comerciais/jurídicos pendentes |
+| AC-P08-03-R1 | Segurança e suporte | Troca de e-mail confirma endereços antigo e novo ou fluxo excepcional; revogar demais sessões após suspeita de invasão; evitar cadastro duplicado; suporte na plataforma com protocolo e e-mail | Recuperação, tokens/sessões, separação por titularidade, tickets | REQUISITO APROVADO; jurídico e detalhes pendentes |
+
+### Inconsistências documentais identificadas — não equivalem a novas decisões
+| ID | Evidência conflitante/obsoleta | Regra atualmente prevalente | Ação de correção | Status |
+|---|---|---|---|---|
+| REC-G1-01 | AC-P08-09 original indica plantão sem reserva; REQ-044/048 e DEC-066 históricos repetem entrada livre | Reserva prévia obrigatória, 20 min, 10 vagas, créditos mensais 1/2/4, DEC-066 atualizada | Consolidar texto principal dos documentos e substituir critérios de aceite históricos sem apagar versão Git | ABERTO — este adendo fixa precedência; corpo legado ainda precisa revisão |
+| REC-G1-02 | AC-P08-17, REQ-013/015 e índice DEC-016–021 ainda mencionam nota mínima eliminatória e até duas tentativas | Avaliação obrigatória não eliminatória, tentativas ilimitadas, nota 6 orientativa e regra de três módulos | Reconciliar seções e índice antigos com DEC-074/075/079 e confirmações pedagógicas posteriores | ABERTO — adendos canônicos prevalecem |
+| REC-G1-03 | `docs/06-roadmap.md` e pacote de reunião `docs/26-pacote-reuniao-matheus-decisao.md` conservam pendências e regras anteriores a 03/11 | Conferir as respostas comunicadas por Marina e atualizar status sem presumir aprovação de Matheus | Atualizar cronologia de marcos, decisões e escopo; manter gate G1 sem homologação | ABERTO |
+| REC-G1-04 | DEC-075 indicava banco insuficiente e prazo de retomada como pendentes | DEC-079 resolve bloqueio de publicação e teto de 30 dias | Marcar apenas estes subitens como resolvidos; manter início do prazo e efeito da expiração pendentes | SUBITENS RESOLVIDOS; especificação residual ABERTA |
+| REC-G1-05 | Documentos jurídicos JUR-04 descrevem plantão sem reserva | Plantão exige reserva e limite de participantes; moderação e proteção de menores continuam críticas | Atualizar contexto enviado à assessoria jurídica; não marcar parecer recebido | ABERTO — jurídico |
+| REC-G1-06 | Visão antiga de notas/aprovação nos certificados | Certificado após componentes obrigatórios e realização das avaliações, sem nota mínima eliminatória | Reconciliar regras de conclusão e certificados, preservando privacidade e auditoria | ABERTO — revisão documental/jurídica |
+
+### Pendências remanescentes classificadas sem inventar respostas
+- **Comercial/contratual:** preços e benefícios finais do catálogo; fórmula do ajuste proporcional no upgrade; modalidade efetiva de renovação e comunicação; critérios detalhados de cobrança/retentativas e início da tolerância; efeitos jurídicos de cancelamento e rescisão, especialmente multa; consolidação de titularidades/validações com Matheus onde for de sua competência.
+- **Pedagógico/editorial:** desenho detalhado de trilhas e nivelamento; tratamento de alteração posterior de gabaritos; marco inicial e destino da tentativa interrompida após 30 dias; configuração suficiente do banco de questões; regras detalhadas de publicação e revisão de avaliações.
+- **Operacional:** ausência de horário docente alternativo, moderação de salas com menores, regras finais de atendimento e alçadas administrativas, suporte e retenção/continuidade.
+- **Jurídico/privacidade:** JUR-01–11 sem parecer recebido neste material, inclusive menores, LGPD, retenção, certificados e anti-inferência de médias docentes; consultar `docs/16-matriz-validacao-juridica-privacidade.md`.
+- **Financeiro/técnico:** custos de implantação, mensal fixo, variáveis por uso e administrativo **não estimados/aprovados**, fornecedores e stack **não escolhidos**, MVP/versões e cronograma **não homologados**, Claude/produção **não autorizados**.
+
+**Status de prontidão:** G1 **EM AUDITORIA / NÃO HOMOLOGADO**. O conteúdo deste adendo é diagnóstico e harmonização documental; não transforma perguntas pendentes em decisões.
