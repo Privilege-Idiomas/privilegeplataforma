@@ -80,3 +80,11 @@ As atividades e marcos abaixo permanecem como referência anterior para preserva
 
 ## Planejamento detalhado
 O planejamento detalhado e o próprio resumo executivo permanecerão documentados e versionados no GitHub. O PM apresentará no Notion somente datas e previsões dos **marcos de alto nível** que já constem do GitHub, e os desvios relevantes para Matheus, também registrados previamente lá. Não atribuir datas definitivas nem declarar andamento «em dia» sem cronograma de referência validado; a meta preliminar de 30 dias não é uma baseline confirmada.
+
+
+## Atualização de acompanhamento G1 — 2026-11-05 (auditoria incremental)
+- **G1 permanece EM CONSOLIDAÇÃO / NÃO HOMOLOGADO.** Foram confirmadas por Marina as decisões funcionais DEC-074–079 e os complementos comunicados de 03–05/11 sobre plantões, avaliação não eliminatória, progressão e certificados. Não confundir conclusão desses blocos com aprovação integral do escopo.
+- **Checklist de reconciliação:** consultar `docs/25-p08-checklist-aceitacao-funcional.md` (auditoria incremental de 05/11). Há critérios de aceite históricos obsoletos (plantão sem reserva, nota eliminatória, duas tentativas) nos documentos base que precisam ser harmonizados com as decisões prevalentes.
+- **Bloqueios atuais:** validar titularidades/respostas comerciais atribuídas a Matheus, políticas comerciais remanescentes, desenho de trilhas/nivelamento, parâmetros de avaliação interrompida e alteração de gabarito, fluxos operacionais de menores e dependências jurídicas JUR-01–11. O parecer jurídico foi solicitado pela equipe, mas não há aprovação jurídica comprovada por este acompanhamento.
+- **G2–G5:** não autorizados por este registro. Sequência obrigatória preservada: concluir e homologar G1, definir stack integral, estimar/analisar custos, decidir versões/MVP, auditar e autorizar execução.
+- **Sem alteração de prazo:** meta antiga de 30 dias permanece apenas referência não aprovada; nenhuma data de entrega ou custo foi assumida.
