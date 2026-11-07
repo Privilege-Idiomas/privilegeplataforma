@@ -71,3 +71,53 @@ Considere `n` assinantes todos do mesmo plano; `F=302,50+600=902,50`; `v=3,65`; 
 **Riscos a completar:** custos reais de gateway e regimes tributários, escolha de videoconferência e licenças por professor, tempo de marketing/atendimento, provisão de implantação e produção; capacidade por horário com sobreposição; uso integral das aulas particulares; obrigações legais e trabalhistas; sazonalidade, evasão e inadimplência. Tarifas públicas registradas em docs/27-proposta-stack-e-custos-2026-11-07.md.
 
 **Governança:** GitHub fonte oficial do planejamento; Notion só extrato executivo. Não houve contratação, autorização de Claude para implementação, homologação comercial nem decisão jurídica.
+
+## Adendo executivo de clareza — 2026-11-07 (preservação integral do histórico)
+**Orientação expressa:** não alterar ou suprimir nenhuma análise anterior; acrescentar comparação direta do custo tecnológico puro, consumo de vídeo, professores e contribuição bruta de cada plano. O Notion publicará somente um relatório executivo derivado deste GitHub. Nenhuma planilha nova deve ser gerada sem solicitação explícita.
+
+### Investimento de produção e lançamento — separar do custo mensal
+- **Produção/lançamento são custos de implantação não cotados**, não se presumem R$0: criação de interface, autenticação, trilhas, questões/avaliações, gerenciamento financeiro, agenda docente, relatórios, certificado/QR, testes e implantação; produção dos **118 vídeos** e eventuais ferramentas de IA para gravação/edição, legendas, acessibilidade; domínio e configuração; homologação de gateway, Meet/licenças e legal/LGPD. Claude está disponível como executor, mas acesso existente não prova trabalho humano ou API sem custos adicionais.
+- **Stack recomendada, não formalmente escolhida:** Next.js/TypeScript/React/Tailwind como software produzido (sem licença mensal própria estimada), Supabase Pro como banco/auth, Vercel Pro como hospedagem, Cloudflare Stream para vídeos, Resend inicialmente Free, GitHub Free para repositório/tarefas, Claude já acessível para desenvolvimento; Google Meet/Workspace e gateway (Asaas/Mercado Pago) **dependem de cotação e validação**.
+
+### Tecnologia mensal com nenhum assinante
+| Item | USD/mês | BRL/mês a câmbio hipotético R$5,50/USD |
+|---|---:|---:|
+| Supabase Pro | 25 | 137,50 |
+| Vercel Pro | 20 | 110,00 |
+| Cloudflare Stream — armazenamento de ~1.223min em faixa de 2.000 | 10 | 55,00 |
+| GitHub Free | 0 | 0,00 |
+| Resend Free (dentro da franquia) | 0 | 0,00 |
+| Reprodução, professores e gateway sem aluno | 0 | 0,00 |
+| **TOTAL apenas tecnologia conhecida** | **55** | **302,50** |
+**Excluir do custo fixo puro** a reserva administrativa anterior de R$600: não é despesa confirmada. O total de R$302,50 é **somente a soma dos serviços precificados**, não uma cotação completa: domínio, licenças de videoconferência, tributos cambiais, back-ups adicionais e demais serviços podem ser reais.
+
+### Consumo e docentes — fórmula mais simples
+- Stream por reprodução: **US$1 por 1.000min** × R$5,50 = **R$0,0055/min**. 1h = R$0,33; 2h = R$0,66; 3h = R$0,99; **5h = R$1,65/aluno/mês**; 10h = R$3,30; 20h = R$6,60. Replays e tempo efetivamente entregue contam; franquias de banco/hosting podem gerar adicionais em volumes maiores.
+- 1h de plantão tem 3 sessões de 20min de até 10 estudantes, **30 vagas teóricas**. **3 horários semanais por bloco iniciado de 50 alunos** (manhã/tarde/noite) × 52/12 semanas = **13 horas/mês**, a R$30/h = **R$390/mês por bloco**. Mesmo que 100% dos créditos sejam utilizados, há capacidade mensal agregada para 50 alunos com 2 plantões = 100 presenças e 4 plantões = 200 presenças, contra 390 vagas teóricas; a distribuição real dos horários exige verificação.
+- Plano 3 simulado com **2 particulares de 50min por aluno/mês**, provisionadas como hora docente cheia: 2 × R$30 = **R$60/aluno/mês**. **100% de uso** de todos os créditos contabilizado por segurança. P1 sem plantões é hipótese da conversa mais recente e CONTRADIZ benefício de 1 plantão anterior: confirmar comercialmente antes de publicar planos. Não simular opções de aulas extras ou avulsas.
+
+### Custo direto puro (sem reserva administrativa, gateway e impostos) — comparação de 50 em 50
+Para n alunos: **P1 = 302,50 + 1,65n**; **P2 = P1 + 390×teto(n/50)**; **P3 = P2 + 60n**. Com **zero alunos** em qualquer plano, R$302,50. Tabela de referência:
+| Alunos | Todos P1 | Todos P2 | Todos P3 |
+|---:|---:|---:|---:|
+| 0 | 302,50 | 302,50 | 302,50 |
+| 15 | 327,25 | 717,25 | 1.617,25 |
+| 50 | 385,00 | 775,00 | 3.775,00 |
+| 100 | 467,50 | 1.247,50 | 7.247,50 |
+| 150 | 550,00 | 1.720,00 | 10.720,00 |
+| 200 | 632,50 | 2.192,50 | 14.192,50 |
+| 250 | 715,00 | 2.665,00 | 17.665,00 |
+| 300 | 797,50 | 3.137,50 | 21.137,50 |
+| 350 | 880,00 | 3.610,00 | 24.610,00 |
+| 400 | 962,50 | 4.082,50 | 28.082,50 |
+| 450 | 1.045,00 | 4.555,00 | 31.555,00 |
+| 500 | 1.127,50 | 5.027,50 | 35.027,50 |
+**Nota:** são custos diretos mínimos modelados; e-mail pago acima da franquia, excessos dos provedores e despesas não cotadas podem elevar o valor. Câmbio fixado só para comparação.
+
+### Preço, equilíbrio, resultado — simulação, nunca preço aprovado
+Preços do exercício anterior: **P1 R$119, P2 R$169, P3 R$429** (P3 com duas particulares). **Receita bruta = N×mensalidade; resultado bruto parcial = receita bruta − custo direto puro acima**, sem margem real, imposto ou tarifa de cartão. De zero a primeiro bloco:
+- P1 equilíbrio: **3 alunos** (119n ≥ 302,5+1,65n)
+- P2 equilíbrio: **5 alunos** (169n ≥ 302,5+1,65n+390)
+- P3 equilíbrio: **2 alunos** (429n ≥ 302,5+1,65n+390+60n)
+**Com impostos e gateway hipotéticos, o ponto de equilíbrio sobe; não denominar o resultado bruto parcial de lucro líquido.**
+A tabela completa da versão aprovada para o Notion compara 0, 50, 100, ... 500 assinantes de cada plano isoladamente, faturamento e saldo; faixas adicionais podem ser calculadas com as mesmas fórmulas. Essas simulações não alteram nenhuma decisão de escopo, benefício ou preço.
