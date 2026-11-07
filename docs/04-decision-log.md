@@ -240,3 +240,9 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | DEC-080 | G1 — rodada consolidada de 15 decisões | [Registro canônico](08-decisoes-marina.md): nivelamento opcional antes/durante o curso, orientação não bloqueante, faixas configuráveis, Basic não obrigatório, livre troca de trilha com histórico, trilhas configuráveis sem duplicação; avaliação expira 30 dias desde início com aviso e nova tentativa, correção de gabarito só após análise/aprovação, versionamento preserva conclusões; upgrade pelo período restante e diferença de valores, escolha explícita entre renovar automaticamente/encerrar, retentativas configuráveis pelo gateway, tolerância desde vencimento não pago, ausência de professor alternativo gera atendimento com crédito preservado | **RESOLVIDO nas 15 diretrizes confirmadas**; parâmetros pedagógicos, financeiros, contratuais, jurídicos e operacionais descritos no registro canônico seguem **PENDENTES**; G1 não homologado | Marina |
 
 **Precedência:** DEC-080 prevalece nos quinze assuntos sobre REQs e MAT históricos conflitantes; aprovações de Matheus/jurídico não são inferidas e as demais obrigações do gate G1 permanecem vigentes.
+
+
+## Atualização do índice — DEC-081 (2026-11-07)
+| ID | Tema | Decisão e alcance | Status | Responsável |
+|---|---|---|---|---|
+| DEC-081 | Aceleração do fechamento interno e preparo de G2/G3 | Marina autorizou PM a consolidar/otimizar alternativas internas sob sua alçada e preparar proposta técnica/financeira em `docs/27-proposta-stack-e-custos-2026-11-07.md`; mantém sob aprovação de Matheus condições comerciais, jurídico e quaisquer contratações | **APROVADO:** consolidação interna e análise; **PENDENTE:** validações, homologação final, stack escolhida, custos aprovados e execução | Marina |
