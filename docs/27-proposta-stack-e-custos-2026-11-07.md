@@ -72,3 +72,14 @@ Marina autorizou, em 07/11, **aprovar recomendações de parametrização intern
 
 ## 8. Pauta executiva proposta a Matheus
 **Decidir:** 1) número de alunos previstos (100/500/2.000 ou outros), catálogo e preços por plano/curso e composição de serviços; 2) fórmula final de rateio, renovação e compromissos; 3) canal de cobrança em cartão; 4) licenças/operadores/professores e volume de vídeo; 5) limite de orçamento e quando contratar serviços; 6) confirmar DEC-024 (reprodução integral não obrigatória) e registrar eventual ressalva; 7) revisar parecer jurídico quando recebido. Com essas informações, fechar cenário R$ e decisão de stack, preservando gates.
+
+
+## Atualização de premissa de simulação — plantões (2026-11-07)
+**Confirmado pela responsável exclusivamente para projeção de custos:** considerar **segunda a sexta-feira**, com **1 hora de plantão pela manhã, 1 hora à tarde e 1 hora à noite**, totalizando **3 horas por dia e 15 horas por semana**. Esta nova hipótese **substitui** a premissa preliminar de 2 professores × 1 hora/dia × 22 dias/mês. Não constitui aprovação de escala nominal, contratação, salário ou horários exatos.
+
+- Fator médio: 52 semanas / 12 meses = 4,3333 semanas/mês; **65 horas docentes/mês**, arredondamento da média anual.
+- Custo de professor: **R$ 30/h**; **R$ 450/semana**, **R$ 1.950/mês (média anual)** de custo direto docente.
+- Referência de cobrança ao dobro da hora: **R$ 60/h**, equivalente a R$ 900/semana e R$ 3.900/mês de valor de referência da escala, **não preço automaticamente repassado por aluno ou valor do plano**. Dobrar custo é markup de 100% e margem bruta de 50% sobre este componente isolado, antes de tributos, taxas e outros custos.
+- Cada sessão dura **20 minutos**, com até **10 alunos com reserva**: **3 sessões por hora**, **45 sessões/semana**, **195 sessões/mês (média)**, capacidade teórica de **1.950 participações/mês** com ocupação integral. Não confundir participação/reserva com aluno único e não assumir taxa de ocupação de 100%; sessões reservadas têm limite real de capacidade.
+- Os planos já definidos contemplam 1, 2 e 4 plantões por aluno/mês, respectivamente; calcular demanda como `N1×1×u1 + N2×2×u2 + N3×4×u3`, com `u` = taxa de uso do benefício por plano. Caso a demanda exceda 1.950 reservas/mês, a oferta atual fica insuficiente e exige expansão da escala (sujeita a aprovação); mesmo abaixo de 1.950, a distribuição por horário e faltas pode criar lotação.
+- Custos indiretos de Meet/Workspace, coordenação, suporte, encargos e contingências não estão incluídos nos R$ 1.950. Custos mensais reais podem variar conforme o calendário com feriados e dias úteis, e o mês com 4 ou 5 semanas úteis.
