@@ -95,3 +95,7 @@ O planejamento detalhado e o próprio resumo executivo permanecerão documentado
 - **G1 continua não homologado**, porque há parâmetros concretos de conteúdo, regras comerciais/financeiras de contrato e pareceres JUR-01–11 pendentes, além da reconciliação dos trechos históricos conflitantes.
 - **Próximo trabalho interno da PM:** consolidar textos operativos de requisitos/testes antigos sem reabrir escolhas, classificar pendências por alçada e preparar pacote de validação formal para Matheus/jurídico.
 - **G2, G3, G4 e G5:** nenhum autorizado. Não escolher stack, estimar custos como aprovados, assumir cronograma, definir MVP ou encaminhar ordem de execução ao Claude.
+
+
+## Atualização de gestão — 2026-11-07
+Marina autorizou acelerar a consolidação gerencial interna de G1 e preparar **propostas G2 e G3 para Matheus**, considerando que o Claude Code já está disponível como executor. Proposta arquitetural e tabela de custos públicos com cenários em `docs/27-proposta-stack-e-custos-2026-11-07.md`. **Nenhum fornecedor, stack, orçamento, contrato ou execução foi aprovado por essa autorização de análise.** G1 integral permanece condicionado às decisões externas e auditoria de consistência documental; G4 e G5 seguem dependentes de aprovações posteriores.
