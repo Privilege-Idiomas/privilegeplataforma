@@ -246,3 +246,9 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | ID | Tema | Decisão e alcance | Status | Responsável |
 |---|---|---|---|---|
 | DEC-081 | Aceleração do fechamento interno e preparo de G2/G3 | Marina autorizou PM a consolidar/otimizar alternativas internas sob sua alçada e preparar proposta técnica/financeira em `docs/27-proposta-stack-e-custos-2026-11-07.md`; mantém sob aprovação de Matheus condições comerciais, jurídico e quaisquer contratações | **APROVADO:** consolidação interna e análise; **PENDENTE:** validações, homologação final, stack escolhida, custos aprovados e execução | Marina |
+
+
+## Atualização do índice — DEC-082 (2026-11-08)
+| ID | Tema | Decisão e alcance | Status | Responsável |
+|---|---|---|---|---|
+| DEC-082 | Benefício do Plano 1: produto digital escalável | Marina confirmou **Plano 1 exclusivamente videoaulas gravadas/direitos digitais**, sem plantões nem particulares; supera o registro anterior de 1 plantão mensal no Plano 1. Planos 2 e 3 preservam direitos atualmente registrados até decisão futura. Registro canônico em [docs/08-decisoes-marina.md](08-decisoes-marina.md). | **CONFIRMADO POR MARINA** para especificação funcional; preços, contrato e homologação comercial externa ainda requerem validação | Marina |
