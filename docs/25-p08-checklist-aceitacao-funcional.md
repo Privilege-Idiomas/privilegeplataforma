@@ -74,7 +74,7 @@
 ### Critérios atuais incorporados à matriz de aceite (substituem descrições históricas conflitantes)
 | ID | Tema | Critério de aceite documental atualizado | Evidência necessária para teste futuro | Situação |
 |---|---|---|---|---|
-| AC-P08-09-R1 | Plantão agendado | Sessão coletiva de 20 min com reserva prévia obrigatória, até 10 vagas; planos 1/2/3 têm 1/2/4 plantões mensais | Reserva atômica, negação de 11ª vaga, validação de benefício e acesso ao link | REQUISITO APROVADO; teste pendente |
+| AC-P08-09-R1 | Plantão agendado | Sessão coletiva de 20 min com reserva prévia obrigatória, até 10 vagas; **Plano 1 não tem plantões (DEC-082); Planos 2/3 têm 2/4 plantões mensais** | Reserva atômica, negação de 11ª vaga, **negação de reserva ao Plano 1**, validação de benefício e acesso ao link | REQUISITO ATUALIZADO (DEC-082); teste pendente |
 | AC-P08-09-R2 | Cancelamento/lotação plantão | Desmarcação com pelo menos 2h preserva crédito; menos de 2h ou ausência consome; plantão lotado exibe alternativas, sem lista de espera; créditos mensais não cumulativos | Saldos, reservas/estornos, lotação e comunicação | REQUISITO APROVADO; teste pendente |
 | AC-P08-10-R1 | Plantão cancelado pela escola | Restituição somente a alunos com reserva confirmada na sessão cancelada; sem crédito extra a não inscritos e sem transferência automática ao mês seguinte | Histórico de reservas, estorno de crédito e ausência de bônus indevido | REQUISITO APROVADO; jurídico pendente |
 | AC-P08-17-R1 | Avaliação e conclusão | Avaliação obrigatória realizada, sem nota eliminatória; nota menor que 6 sugere revisão; terceira ocorrência em módulos distintos no mesmo curso recomenda apoio; usar nota mais recente de cada módulo | Progressão sem bloqueio, certificação por conclusão, contagem e recálculo das dificuldades | REQUISITO APROVADO; teste pendente |
@@ -130,3 +130,9 @@
 1. Harmonizar seções operativas legadas de requisitos e checklist, mantendo trilha de histórico no Git.
 2. Consolidar perguntas efetivamente abertas por titularidade: Marina (parâmetros operacionais/editoriais), Matheus (comercial e DEC-024, se ainda exigida), jurídico (contratos/menores/LGPD).
 3. Preparar pacote final de aceite G1 **para validação expressa**, sem escolher stack, dimensionar custos como aprovados ou autorizar Claude a executar.
+
+
+### Atualização DEC-082 — plano exclusivamente digital (2026-11-08)
+- **AC-DEC082-01:** conta com Plano 1 acessa exclusivamente os cursos gravados e recursos digitais habilitados; não possui saldo elegível de plantões ou particulares e recebe bloqueio na interface e API de agendamento, sem crédito criado por engano.
+- **AC-DEC082-02:** dois plantões/mês do Plano 2 e quatro do Plano 3 permanecem até decisão futura; sessão com reserva de 20min e 10 vagas continua exigida.
+- **Precedência:** onde as seções históricas citarem “1 plantão” para o Plano 1, aplicar DEC-082. Nenhum preço, contrato ou benefício de aulas particulares de Plano 3 foi aprovado por este ajuste.
