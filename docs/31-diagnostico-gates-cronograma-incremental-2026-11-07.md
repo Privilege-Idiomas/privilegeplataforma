@@ -69,3 +69,7 @@ Para cada lote: (a) PM publica issue(s) e checklist de aceite no GitHub; (b) Cla
 ## 7. Observação de consistência
 
 A reunião de 03/11 definiu plantões com agendamento e limite de 10 alunos por sessão de 20 min; trechos históricos ainda descrevem sem reserva. Aplicar decisão mais recente validada e reconciliar critérios de aceite antes de programar. Não prometer capacidade simultânea de 30 pessoas; 30 é soma de três sessões sequenciais por hora.
+
+
+## Atualização do bloqueio comercial — DEC-082 (2026-11-08)
+**Encerrado por decisão expressa de Marina:** Plano 1 definitivamente **somente videoaulas gravadas**, sem plantões e sem particulares; prioridade de escalabilidade. Análises históricas que apresentem “Plano 1 digital vs 1 plantão” como questão em aberto não refletem mais o status atual. Pendem ainda preço/contrato, quantidade de particulares do Plano 3, DEC-024/MAT-009, demais validações de Matheus e jurídico; G1 integral e liberação de Claude seguem não homologados.
