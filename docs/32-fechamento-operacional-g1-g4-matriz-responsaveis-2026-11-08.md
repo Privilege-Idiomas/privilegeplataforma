@@ -18,7 +18,7 @@
 | PM-02 | PM | Pack de validação antigo `docs/26` pede respostas pedagógicas já recebidas | Produzir pauta **curta e atual**, distinguindo Matheus, jurídico, fornecedor e PM, sem reabrir diretrizes decididas | Reunião e G1 |
 | PM-03 | PM | Critérios verificáveis de planos/acesso, fluxo de expiração, transição entre versões, notificação, auditoria, reserva, tickets | Escrever testes e fluxos recomendados; não presumir rateio, autorização jurídica ou decisão comercial | G1 |
 | PM-04 | PM | Esforço de desenvolvimento sem dimensionamento | Desdobrar jornadas aprovadas em lotes candidatos, pontos de integração, dependências e critérios de pronto; pedir estimativas a Claude **sem implementar** depois da definição de stack | G4 cronograma |
-| COM-01 | Matheus/autoridade comercial (conforme alçada) | **Plano 1**: simulação recente é somente digital, enquanto baseline funcional previa 1 plantão/mês | Confirmar benefício final e se a simulação vira nova oferta; registrar decisão por escrito | G1 comercial, G3, G4 |
+| COM-01 | **Marina: DEC-082 confirmada**; homologação comercial restante conforme alçada | **RESOLVIDO NA DEFINIÇÃO FUNCIONAL:** Plano 1 definitivamente somente aulas gravadas/digital, **zero plantões e zero particulares**; objetivo: maior escalabilidade. Baseline com 1 plantão é histórico superado. | Atualizar preço, contrato e comunicação da oferta antes de publicar; não solicitar novamente escolha sobre plantões no Plano 1 | Preço/contrato em G1/G3/G4, **não a definição do benefício** |
 | COM-02 | Matheus/autoridade comercial | **Plano 3**: simulação usa 2 particulares/mês; histórico considerava 1–4 configuráveis | Confirmar benefício real a comercializar, elegibilidade e se variantes permanecem no produto futuro | G1 comercial, G3, G4 |
 | COM-03 | Matheus/autoridade comercial, com PM | Preços de planos, direitos por catálogo/curso, contratos de 1/3/6/12 meses, regra de upgrade pro-rata, renovação, cancelamento e multa | Aprovar política e parâmetros comerciais verificáveis, separados de hipóteses financeiras | G1/G3/G4; parte jurídica |
 | PED-01 | Matheus (atribuição expressa) | DEC-024: exigir vídeo integral para concluir aula? | Validar ou ajustar preferência de não exigir reprodução integral; não pedir nova decisão sobre nota mínima | G1 |
@@ -33,7 +33,7 @@
 | GATE-05 | Gestão + PM | Auditoria DEC-029/032 e liberação de Claude | Conferir checklist, dados, fornecedores e segurança; autorizar **primeiro lote** expressamente | início da codificação |
 
 ## 3. Pacote de reunião com Matheus — apenas decisões que exigem autoridade comercial/pedagógica
-1. **Plano 1:** inclui algum plantão ou é somente videoaula? O modelo financeiro está **somente digital**, mas o requisito anterior prevê 1 plantão.
+1. **Plano 1 — decisão já tomada (DEC-082):** exclusivamente aulas gravadas/digital, sem plantões nem particulares. **Não voltar a perguntar qual é o benefício**; solicitar apenas confirmação de preço/termos da oferta quando cabível.
 2. **Plano 3:** duas particulares mensais são a oferta real ou só uma hipótese? Confirmar acesso e créditos comercializados; não incluir compras avulsas na simulação atual.
 3. **Produtos/contratos:** confirmar preços, catálogo acessível por plano, vigências 1/3/6/12 meses, regra de cobrança, rateio na mudança, renovação e cancelamento sob revisão jurídica.
 4. **DEC-024:** confirmar formalmente que não é necessário assistir 100% da aula em vídeo para concluir.
@@ -66,3 +66,7 @@ Três roteiros originais de Matheus (Start 51; Travel 47; Business 20) são insu
 - Preparar primeiro piloto audiovisual e sua matriz de avaliação (roteiro preservado).
 
 **Status do presente documento:** é matriz de bloqueios e tarefas da PM, não ata de reunião nem autorização para Claude iniciar programação.
+
+
+## Registro posterior — DEC-082 (2026-11-08)
+Marina confirmou **definitivamente** que o Plano 1 é somente videoaulas gravadas, visando máxima escalabilidade. Pendência COM-01 encerrada no nível de definição funcional; preservar no pacote de Matheus apenas preço/contrato e homologação de oferta se aplicável. Os demais bloqueios COM-02/03, PED-01/02, G2–G5 e jurídico permanecem abertos.
