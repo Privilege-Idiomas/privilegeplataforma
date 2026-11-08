@@ -121,3 +121,7 @@ Preços do exercício anterior: **P1 R$119, P2 R$169, P3 R$429** (P3 com duas pa
 - P3 equilíbrio: **2 alunos** (429n ≥ 302,5+1,65n+390+60n)
 **Com impostos e gateway hipotéticos, o ponto de equilíbrio sobe; não denominar o resultado bruto parcial de lucro líquido.**
 A tabela completa da versão aprovada para o Notion compara 0, 50, 100, ... 500 assinantes de cada plano isoladamente, faturamento e saldo; faixas adicionais podem ser calculadas com as mesmas fórmulas. Essas simulações não alteram nenhuma decisão de escopo, benefício ou preço.
+
+
+## Atualização confirmada de produto — DEC-082 (2026-11-08)
+Marina decidiu **definitivamente que o Plano 1 inclui apenas aulas gravadas e recursos digitais do curso, sem plantões ou particulares**, para ser o produto mais escalável da Privilège. Esta decisão **resolve** o conflito mencionado nas notas históricas acima: a antiga previsão de 1 plantão mensal no Plano 1 está superada. Portanto a fórmula **P1 = R$302,50 + R$1,65 por assinante/mês** continua adequada ao modelo de custo tecnológico direto, com hipótese de 5 horas assistidas por mês; valores reais de gateway, tributação, excedentes e implantação permanecem fora do subtotal. **Não alterar** por consequência os preços hipotéticos, créditos do Plano 3 ou homologações externas pendentes.
