@@ -14,7 +14,7 @@
 | AC-P08-06 | Acesso contratado | Sem direito ao curso, URL/API de material e avaliação são negadas | Acesso negado por recurso | PRONTO / estados comerciais pendentes |
 | AC-P08-07 | Particular | Duas confirmações simultâneas não criam dupla reserva; professor em conflito não aparece | Um único agendamento válido | PRONTO / duração pendente |
 | AC-P08-08 | Remarcação e faltas | Notificação falha, reserva mantém estado; nenhum crédito é descontado sem regra | Histórico consistente sem efeito financeiro presumido | CONDICIONADO a DEC-067 |
-| AC-P08-09 | Plantão | Aluno entra sem reserva; não consome crédito individual | Janela publicada e acesso controlado | PRONTO / horários e jurídico pendentes |
+| AC-P08-09 | Plantão | **HISTÓRICO SUPERADO:** o critério original previa entrada sem reserva e sem consumo de crédito. **REGRA VIGENTE:** reserva obrigatória, 20 min, até 10 vagas, consumo de crédito conforme cancelamento e presença; ver AC-P08-09-R1/R2 | Negar entrada sem reserva, controlar vagas e créditos, disponibilizar alternativas quando lotado | ATUALIZADO POR DEC-074–080; teste pendente |
 | AC-P08-10 | Contingência plantão | Ausência docente resulta substituição autorizada ou suspensão comunicada | Ocorrência e status real | PRONTO / alçadas operacionais a validar |
 | AC-P08-11 | Denúncia de menor | Relato não se torna visível a público ou docente não autorizado | Minimização e controle de acesso | CONDICIONADO a JUR-04/11 |
 | AC-P08-12 | Permissões | Pagador, aluno, docente, suporte e administrador ficam limitados ao papel e titularidade | Testes de acesso direto em API/exportação | PRONTO / matriz G1–G5 a validar |
@@ -22,7 +22,7 @@
 | AC-P08-14 | Nota docente individual | Professor não acessa nota individual/ranking por tela, API, download | Todas as rotas negadas | PRONTO |
 | AC-P08-15 | Média docente | Com 4 votos oculta; com 5 ainda oculta enquanto não houver JUR-05 e anti-inferência homologados | Sem exposição por nenhum canal | CONDICIONADO a JUR-05 |
 | AC-P08-16 | Inferência | Atualização unitária, revisão e corte pequeno não permitem deduzir voto | Avaliação quantitativa da política | CONDICIONADO a JUR-05/09 |
-| AC-P08-17 | Prática/avaliação | Prática opcional não libera próxima aula sem avaliação exigida aprovada | Progresso correto | PRONTO / nota e DEC-024 pendentes |
+| AC-P08-17 | Prática/avaliação | **REGRA VIGENTE:** prática opcional; realização da avaliação obrigatória conclui etapa mesmo com nota abaixo de 6, sem bloqueio por nota; tentativas ilimitadas. A redação anterior exigia avaliação *aprovada* e está superada; ver AC-P08-17-R1/R2/R3 | Progresso sem reprovação; recomendação de revisão e histórico preservado | ATUALIZADO POR DEC-074–080; DEC-024 segue com Matheus, teste pendente |
 | AC-P08-18 | Gabarito retroativo | Alteração de avaliação publicada exige revisão de impacto prévia | Decisão auditada sem alteração silenciosa | PRONTO / alçada condicionada |
 | AC-P08-19 | Certificado | Emissão única, PDF privado, re-download não gera emissão nem nova data | Versão e data estáveis | PRONTO |
 | AC-P08-20 | Correção/revogação | Certificado substituído/revogado não aparece válido no verificador público | Estado e versão corretos | PRONTO / jurídico pendente |
