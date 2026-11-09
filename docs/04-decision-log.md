@@ -252,3 +252,9 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | ID | Tema | Decisão e alcance | Status | Responsável |
 |---|---|---|---|---|
 | DEC-082 | Benefício do Plano 1: produto digital escalável | Marina confirmou **Plano 1 exclusivamente videoaulas gravadas/direitos digitais**, sem plantões nem particulares; supera o registro anterior de 1 plantão mensal no Plano 1. Planos 2 e 3 preservam direitos atualmente registrados até decisão futura. Registro canônico em [docs/08-decisoes-marina.md](08-decisoes-marina.md). | **CONFIRMADO POR MARINA** para especificação funcional; preços, contrato e homologação comercial externa ainda requerem validação | Marina |
+
+
+## Atualização do índice — DEC-083 (2026-11-08)
+| ID | Tema | Definição atual | Status | Responsável |
+|---|---|---|---|---|
+| DEC-083 | Benefícios mensais do Plano 3 | **4 plantões coletivos de 20 minutos + 2 aulas particulares de 50 minutos** por aluno/mês; benefícios e créditos separados. Registro canônico em [docs/08-decisoes-marina.md](08-decisoes-marina.md). | **CONFIRMADO POR MARINA** para requisito funcional; mensalidade, contrato, disponibilidade e jurídico ainda pendentes | Marina |
