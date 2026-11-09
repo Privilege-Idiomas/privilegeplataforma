@@ -32,7 +32,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-009 | Pagamentos | Selecionar provedor e regras de cobrança recorrente | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | Matheus |
 | DEC-010 | Vídeos | Selecionar solução de geração/hospedagem/entrega de vídeos | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | A confirmar com Marina (atribuição legada não validada) |
 | DEC-011 | Planos e preços | Definir catálogo comercial, preços e benefícios | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | Matheus |
-| DEC-012 | Modalidades de assinatura | Suportar planos com acesso ao catálogo completo e assinaturas com acesso a cursos específicos | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
+| DEC-012 | Modalidades de assinatura | **Conforme reunião de 03/11:** comercializar **Travel e Business separadamente por curso/trilha**; **Basic bônus para todos os assinantes**. Nível de plano determina serviços, não libera automaticamente o catálogo completo. A parametrização para combos futuros não é oferta aprovada. MAT-002/REQ-003 atualizados. | **ALINHADO EM REUNIÃO 03/11**; preços, contratos e eventuais pacotes ainda pendentes | Matheus / Marina (reunião) |
 | DEC-013 | Catálogo inicial | Basic English, Travel e Business | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
 | DEC-014 | Trilhas por objetivo | Reutilizar os mesmos cursos em trilhas com sequências/prioridades diferentes | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
 | DEC-015 | Portas de entrada | Teste de nivelamento, início por Basic English ou entrada direta em Travel/Business | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | Matheus |
@@ -258,3 +258,7 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 | ID | Tema | Definição atual | Status | Responsável |
 |---|---|---|---|---|
 | DEC-083 | Benefícios mensais do Plano 3 | **4 plantões coletivos de 20 minutos + 2 aulas particulares de 50 minutos** por aluno/mês; benefícios e créditos separados. Registro canônico em [docs/08-decisoes-marina.md](08-decisoes-marina.md). | **CONFIRMADO POR MARINA** para requisito funcional; mensalidade, contrato, disponibilidade e jurídico ainda pendentes | Marina |
+
+
+## Reconciliação de MAT-002/DEC-012 com ata de 03/11 (registro 2026-11-08)
+O alinhamento comercial por curso/trilha com Basic bônus foi **decidido em reunião**, não exige nova pergunta à gestão. Fonte: notas e transcrição da reunião de 03/11, 00:56:44–00:58:11. Acesso a Travel e Business continua individual por direito contratado; os três níveis de plano definem serviços (DEC-082/083), não a liberação automática de todo catálogo. Permanece necessário confirmar **preços e contratos**, mas não se deve marcar o modelo de curso específico como não decidido.
