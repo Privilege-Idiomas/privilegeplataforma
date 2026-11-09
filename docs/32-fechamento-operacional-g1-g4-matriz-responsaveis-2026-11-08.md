@@ -20,7 +20,7 @@
 | PM-04 | PM | Esforço de desenvolvimento sem dimensionamento | Desdobrar jornadas aprovadas em lotes candidatos, pontos de integração, dependências e critérios de pronto; pedir estimativas a Claude **sem implementar** depois da definição de stack | G4 cronograma |
 | COM-01 | **Marina: DEC-082 confirmada**; homologação comercial restante conforme alçada | **RESOLVIDO NA DEFINIÇÃO FUNCIONAL:** Plano 1 definitivamente somente aulas gravadas/digital, **zero plantões e zero particulares**; objetivo: maior escalabilidade. Baseline com 1 plantão é histórico superado. | Atualizar preço, contrato e comunicação da oferta antes de publicar; não solicitar novamente escolha sobre plantões no Plano 1 | Preço/contrato em G1/G3/G4, **não a definição do benefício** |
 | COM-02 | **Marina: DEC-083 confirmada**; termos comerciais restantes conforme alçada | **RESOLVIDO NA DEFINIÇÃO FUNCIONAL:** Plano 3 dá **4 plantões de 20min + 2 particulares de 50min por aluno/mês**. As opções de 1–4 particulares eram propostas históricas. | Ajustar testes de saldo/acesso e textos contratuais; não reabrir quantidade mensal, não criar avulsas | Termos/preços em G1/G3/G4, **não o benefício** |
-| COM-03 | Matheus/autoridade comercial, com PM | Preços de planos, direitos por catálogo/curso, contratos de 1/3/6/12 meses, regra de upgrade pro-rata, renovação, cancelamento e multa | Aprovar política e parâmetros comerciais verificáveis, separados de hipóteses financeiras | G1/G3/G4; parte jurídica |
+| COM-03 | Matheus/autoridade comercial, com PM | **CURSOS JÁ ALINHADOS NA REUNIÃO 03/11:** Travel e Business separados por curso/trilha; Basic como bônus a assinantes. **PENDENTES:** preços, termos comerciais, eventual oferta de combos, contratos 1/3/6/12 meses, fórmula pro-rata, renovação, cancelamento, multa/pareceres | Não perguntar novamente sobre acesso por curso vs catálogo integral; fechar somente preços/contratos e regras comprovadamente abertas | G1/G3/G4; parte jurídica |
 | PED-01 | Matheus (atribuição expressa) | DEC-024: exigir vídeo integral para concluir aula? | Validar ou ajustar preferência de não exigir reprodução integral; não pedir nova decisão sobre nota mínima | G1 |
 | PED-02 | Equipe pedagógica com autoridade confirmada | Banco e faixas reais do nivelamento; objetivos, ordem e critérios de trilha | Validar conteúdos, faixas e recomendação, sem criar IA no fluxo do aluno | Conteúdo e G1 |
 | OPS-01 | PM propõe; gestão valida | Aviso de expiração (canal e antecedência), progresso de aluno entre versões, aprovação de alteração de gabarito, estados do suporte, permissões administrativas | Consolidar proposta operacional padrão e critérios de aceite; distinguir campos configuráveis de política de negócio | G1 |
@@ -35,7 +35,7 @@
 ## 3. Pacote de reunião com Matheus — apenas decisões que exigem autoridade comercial/pedagógica
 1. **Plano 1 — decisão já tomada (DEC-082):** exclusivamente aulas gravadas/digital, sem plantões nem particulares. **Não voltar a perguntar qual é o benefício**; solicitar apenas confirmação de preço/termos da oferta quando cabível.
 2. **Plano 3 — decisão já tomada (DEC-083):** 4 plantões de 20min e **2 particulares de 50min por mês**. **Não voltar a perguntar os créditos incluídos**; solicitar apenas preços/termos da oferta e providências jurídicas cabíveis.
-3. **Produtos/contratos:** confirmar preços, catálogo acessível por plano, vigências 1/3/6/12 meses, regra de cobrança, rateio na mudança, renovação e cancelamento sob revisão jurídica.
+3. **Produtos/contratos:** **não reabrir cursos:** Travel/Business separados, Basic bônus a assinantes (reunião de 03/11). Confirmar preços, eventuais combos novos, vigências 1/3/6/12 meses, cobrança, rateio, renovação e cancelamento sob revisão jurídica.
 4. **DEC-024:** confirmar formalmente que não é necessário assistir 100% da aula em vídeo para concluir.
 5. **Pedagogia:** confirmar responsável por banco/faixas de nivelamento e objetivos concretos das trilhas, sem reabrir regra opcional/não bloqueante.
 6. **Investimento:** somente após orçamento de fornecedores e estimativa de execução, confirmar limite e prioridade da versão inicial.
@@ -74,3 +74,7 @@ Marina confirmou **definitivamente** que o Plano 1 é somente videoaulas gravada
 
 ## Registro posterior — DEC-083 (2026-11-08)
 Marina confirmou expressamente **Plano 3 com quatro plantões mensais de 20 minutos e duas aulas particulares de 50 minutos mensais**, mantendo crédito separado por modalidade. **COM-02 encerrada como pendência funcional.** Permanecem COM-03 (preços, contratos, acesso ao catálogo), PED-01 (DEC-024), PED-02 (conteúdo de nivelamento), jurídico, fornecedores e gates G1–G5.
+
+
+## Correção do status de comercialização — reunião 03/11 (registrada em 2026-11-08)
+A ata da reunião confirmou **assinaturas por curso/trilha específico (Travel e Business separados) e Basic oferecido como bônus a todos os assinantes**. A vitrine mostra cursos não contratados, mas protege aulas e exercícios. O PM deve consultar as decisões MAT-002/DEC-012/REQ-003 antes de questionar novamente. **Definição de acesso por curso encerrada; preços e condições comerciais seguem abertos.**
