@@ -73,3 +73,7 @@ A reunião de 03/11 definiu plantões com agendamento e limite de 10 alunos por 
 
 ## Atualização do bloqueio comercial — DEC-082 (2026-11-08)
 **Encerrado por decisão expressa de Marina:** Plano 1 definitivamente **somente videoaulas gravadas**, sem plantões e sem particulares; prioridade de escalabilidade. Análises históricas que apresentem “Plano 1 digital vs 1 plantão” como questão em aberto não refletem mais o status atual. Pendem ainda preço/contrato, quantidade de particulares do Plano 3, DEC-024/MAT-009, demais validações de Matheus e jurídico; G1 integral e liberação de Claude seguem não homologados.
+
+
+## Atualização do bloqueio comercial — DEC-083 (2026-11-08)
+**Encerrada a indefinição sobre as particulares do Plano 3:** Marina confirmou **4 plantões de 20 minutos + 2 aulas particulares de 50 minutos por aluno por mês**. A simulação financeira agora coincide com a quantidade oficial de créditos, sem aprovar preço de assinatura. Não solicitar novamente escolha de 1–4 particulares como padrão. Pendem preços/contrato, DEC-024, parâmetros de nivelamento, jurídico, fornecedores e G1–G5.
