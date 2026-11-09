@@ -42,9 +42,9 @@ Prioridade inicial: **Alta**, **Média**, **Baixa** ou **A definir**. A priorida
 
 ### REQ-003 — Assinatura recorrente com modalidades flexíveis de acesso
 - **Status:** Confirmado pela responsável; aprovação formal do patrocinador pendente.
-- **Descrição:** suportar assinaturas recorrentes que concedam acesso ao catálogo completo ou a cursos específicos.
-- **Critério de aceitação preliminar:** a estrutura de planos/assinaturas permite configurar ambos os modelos sem reconstrução da lógica de autorização.
-- **Pendente:** planos, preços, periodicidade, benefícios, gateway, meios de pagamento, renovação, cancelamento, reembolso e inadimplência.
+- **Definição comercial prevalente — reunião de 03/11/2026:** venda segmentada por **curso/trilha de objetivo**; **Travel e Business** não são liberados automaticamente a toda assinatura. **Basic English (curso básico; material pedagógico Start in English)** integra o acesso como **bônus para todos os assinantes**, sem tornar sua conclusão pré-requisito de Travel/Business. Três níveis de **planos de serviços** diferentes (DEC-082/083) podem ser comercializados para cada curso/trilha conforme oferta aprovada.
+- **Critério de aceitação vigente:** assinante Travel recebe Travel + Basic bônus, sem conteúdo restrito Business; assinante Business recebe Business + Basic bônus, sem conteúdo restrito Travel; a vitrine pode mostrar ambos os cursos não contratados apenas como informação; autorização no backend bloqueia módulos, vídeo, avaliação e exercícios de curso não contratado. Benefícios de plantões e particulares dependem separadamente do nível do plano. Suportar futuras combinações de acesso configuráveis sem concedê-las por padrão.
+- **Pendente:** preços finais, nome comercial, pacotes adicionais não aprovados, gateway, detalhes contratuais/tributários, renovação, cancelamento, reembolso e inadimplência. **Não reabrir** a separação Travel/Business e o bônus Basic decididos na reunião.
 
 ### REQ-004 — Controle de acesso conforme direitos contratados
 - **Status:** Regra geral de controle de acesso proposta; **herança de acesso dos exercícios definida por Marina (DEC-027, RESOLVIDO)**.
@@ -730,3 +730,7 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 - **A autorização do servidor** deve validar o plano, o contrato ativo, o mês de competência, o saldo de cada tipo de crédito e a disponibilidade do professor, sem permitir reservas simultâneas conflitantes ou consumo indevido de crédito.
 - **Precedência:** menções anteriores de 1 a 4 particulares como benefício configurável do Plano 3 são propostas históricas; a oferta padrão agora é fixa em 2 por mês. Outras modalidades e avulsas não são autorizadas por esta decisão.
 - **Pendências preservadas:** preço final e períodos de contratação, política contratual/jurídica de alteração e cancelamento, fornecedor de videochamadas e custos indiretos. Não codificar antes de G5.
+
+
+### Harmonização da decisão de reunião — direitos de curso x níveis de plano (2026-11-08)
+A ata de 03/11 (00:56:44–00:58:11) confirmou a **comercialização por curso/trilha**, com **Basic incluído como bônus para assinantes**. Não equiparar “Plano 1 digital” a “catálogo todo liberado”. A funcionalidade de catálogo/vitrine pública e o acesso a resumos de cursos não contratados não são acesso à parte pedagógica protegida. As definições DEC-082/083 regem *serviços*, enquanto MAT-002/REQ-003 regem *cursos contratados*. Nome comercial final Basic/Start ainda precisa harmonização editorial, não mudança de acesso.
