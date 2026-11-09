@@ -103,3 +103,7 @@
 
 ## Nota posterior de governança — DEC-083 (2026-11-08)
 A definição de benefícios **Plano 3 = 4 plantões coletivos de 20 minutos + 2 particulares de 50 minutos por aluno/mês** foi confirmada por Marina e registrada na DEC-083. As perguntas históricas do corpo sobre quantidade e duração de particulares estão **resolvidas na especificação interna** para o Plano 3 e não devem ser reapresentadas como decisão não tomada. Permanecem preço e condições contratuais, pendências jurídicas, validação de Matheus quando aplicável e demais itens do pacote atualizado em `docs/32-fechamento-operacional-g1-g4-matriz-responsaveis-2026-11-08.md`.
+
+
+## Correção de pauta por evidência da reunião de 03/11 (registrada em 08/11)
+A pergunta histórica do bloco C (“catálogo todo ou cursos específicos?”) já foi respondida **em reunião, 00:56:44–00:58:11**: **Travel e Business vendidos separadamente por curso/trilha; Basic disponibilizado como bônus a todos os assinantes**. **Não reapresentar como pendência** nem alterar automaticamente o catálogo. Os planos P1/P2/P3 diferenciam o pacote de serviços, e direitos de curso dependem do produto contratado. A pauta ainda pode abordar preços, termos, condições de contrato, gateway e jurídico. Ver MAT-002/DEC-012 e matriz `docs/32-fechamento-operacional-g1-g4-matriz-responsaveis-2026-11-08.md`.
