@@ -44,7 +44,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 | DEC-021 | Segunda tentativa | Liberar a segunda tentativa da avaliação somente depois que o aluno revisar o conteúdo da aula | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | A confirmar com Marina (atribuição legada não validada) |
 | DEC-022 | Teste de nivelamento | Funcionamento, obrigatoriedade, critérios de avaliação e lógica de recomendação serão definidos posteriormente | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) Em aberto | A confirmar com Marina (atribuição legada não validada) |
 | DEC-023 | Revisão para segunda tentativa | Disponibilizar resumo escrito da aula para revisão; não exigir que o aluno assista novamente ao vídeo antes da segunda tentativa | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Pendente de aprovação | A confirmar com Marina (atribuição legada não validada) |
-| DEC-024 | Vídeo e conclusão de aula | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md) | ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** | Matheus |
+| DEC-024 | Vídeo e conclusão de aula | [Registro canônico no arquivo do Matheus](09-decisoes-matheus.md). **Matheus confirmou em reunião 03/11: NÃO exigir 100% do vídeo**. Avaliação não eliminatória definida depois por Marina. | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** | Matheus |
 | DEC-025 | Exercícios de prática opcionais | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — revisão e transferência de titularidade, histórico preservado | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — exercícios opcionais; avaliação obrigatória | Marina |
 | DEC-026 | Painel operacional complementar | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — Notion substitui ClickUp como relatório executivo resumido para Matheus; GitHub permanece principal | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) Escolha confirmada por Marina; implantação ainda pendente | Marina |
 | DEC-027 | Aba geral de exercícios | [Registro canônico no arquivo da Marina](08-decisoes-marina.md) — biblioteca filtrável; **indicação agregada de exercícios adicionais bloqueados**, sem listar exercícios individuais de cursos não contratados | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** — controle de acesso herdado do curso e oportunidade de conhecer planos maiores | Marina |
@@ -157,7 +157,7 @@ As tags representam o estágio da resposta, **não** a execução técnica. Esta
 
 | DEC-066 | Aula particular com agendamento; plantão coletivo com janelas fixas e link diário, sem reserva do aluno, com vários participantes | [Registro canônico da Marina](08-decisoes-marina.md) | RESOLVIDO (funcional; horários são exemplos, operações, jurídico, valores e execução pendentes) | Marina |
 
-| DEC-067 | Dez propostas de políticas comerciais e operacionais de particulares e plantões transferidas para decisão de Matheus (MAT-014) | [Registro canônico do Matheus](09-decisoes-matheus.md) | ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — propostas não aprovadas, parâmetros e custos pendentes | Matheus |
+| DEC-067 | Dez propostas de políticas comerciais e operacionais de particulares e plantões transferidas para decisão de Matheus (MAT-014) | [Registro canônico do Matheus](09-decisoes-matheus.md) | **PARCIALMENTE RESOLVIDO EM 03/11 + DEC-082/083; apenas parâmetros residuais abertos** | Matheus |
 
 | DEC-068 | Aprovação funcional integral das 12 áreas do Painel Administrativo Privilège | [Registro canônico da Marina](08-decisoes-marina.md) | ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO** (funcional; permissões, privacidade, auditoria, decisões de Matheus, stack, custos e execução pendentes) | Marina |
 
@@ -262,3 +262,10 @@ A confirmação da Marina não deve ser convertida em aprovação individual de 
 
 ## Reconciliação de MAT-002/DEC-012 com ata de 03/11 (registro 2026-11-08)
 O alinhamento comercial por curso/trilha com Basic bônus foi **decidido em reunião**, não exige nova pergunta à gestão. Fonte: notas e transcrição da reunião de 03/11, 00:56:44–00:58:11. Acesso a Travel e Business continua individual por direito contratado; os três níveis de plano definem serviços (DEC-082/083), não a liberação automática de todo catálogo. Permanece necessário confirmar **preços e contratos**, mas não se deve marcar o modelo de curso específico como não decidido.
+
+
+## Auditoria pós-reunião 03/11 (reconciliada em 08/11)
+- **DEC-024/MAT-009:** confirmada diretamente por Matheus em 03/11 — **não exigir reprodução integral de vídeo**. Remover da lista de decisões pendentes.
+- **DEC-067/MAT-014:** pacote **parcialmente respondido** na reunião, complementado por DEC-082/083. Ainda pendem contratação e disponibilidade dos professores, ativação comercial de aulas avulsas na primeira versão, fornecedores e validação jurídico-contratual, **não** duração, créditos, reserva, cancelamento de 2h ou não acúmulo.
+- **Curso/assinatura (MAT-002):** Travel e Business comercializados separados, Basic bônus a assinantes; registro conciliado no índice DEC-012.
+- **Cancelamentos e prazos:** comunicação com antecedência de 30 dias e multa de referência de **20%** sobre saldo remanescente em quebra antecipada, discutidos na reunião; aplicação definitiva depende de conferência jurídica. Não perguntar outra vez o percentual como se nunca decidido.
