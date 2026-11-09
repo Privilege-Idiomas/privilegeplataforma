@@ -136,3 +136,10 @@
 - **AC-DEC082-01:** conta com Plano 1 acessa exclusivamente os cursos gravados e recursos digitais habilitados; não possui saldo elegível de plantões ou particulares e recebe bloqueio na interface e API de agendamento, sem crédito criado por engano.
 - **AC-DEC082-02:** dois plantões/mês do Plano 2 e quatro do Plano 3 permanecem até decisão futura; sessão com reserva de 20min e 10 vagas continua exigida.
 - **Precedência:** onde as seções históricas citarem “1 plantão” para o Plano 1, aplicar DEC-082. Nenhum preço, contrato ou benefício de aulas particulares de Plano 3 foi aprovado por este ajuste.
+
+
+### Aceite funcional complementar — DEC-083 (2026-11-08)
+- **AC-DEC083-01:** usuário do Plano 3 com contrato elegível tem saldo mensal de **2 créditos de particular, cada qual com sessão de 50 minutos**, e **4 créditos de plantões de 20 minutos**, sem fusão ou transferência de créditos entre categorias.
+- **AC-DEC083-02:** duas reservas particulares confirmadas no mesmo mês consomem apenas dois créditos de particulares, respeitando política de cancelamento e disponibilidade, sem impedir quatro reservas de plantão independentes.
+- **AC-DEC083-03:** tentativa de terceira particular inclusa é recusada quando saldo esgotado; **não** oferecer automaticamente aula avulsa ou cobrança adicional sem política futura aprovada.
+- **AC-DEC083-04:** Plano 1 não pode reservar particulares/plantões; Plano 2 possui dois plantões por mês sem particulares inclusas. Preços e contratos aguardam homologação comercial; nenhuma implementação autorizada.
