@@ -99,3 +99,7 @@
 5. Somente após G1: comparar stack (G2), calcular custos implantação/fixos/variáveis (G3), definir releases/MVP (G4), auditar e autorizar execução (G5/DEC-029).
 
 **Observação:** reunião ainda não realizada, nenhuma decisão foi obtida neste pacote; sem execução autorizada ao Claude.
+
+
+## Nota posterior de governança — DEC-083 (2026-11-08)
+A definição de benefícios **Plano 3 = 4 plantões coletivos de 20 minutos + 2 particulares de 50 minutos por aluno/mês** foi confirmada por Marina e registrada na DEC-083. As perguntas históricas do corpo sobre quantidade e duração de particulares estão **resolvidas na especificação interna** para o Plano 3 e não devem ser reapresentadas como decisão não tomada. Permanecem preço e condições contratuais, pendências jurídicas, validação de Matheus quando aplicável e demais itens do pacote atualizado em `docs/32-fechamento-operacional-g1-g4-matriz-responsaveis-2026-11-08.md`.
