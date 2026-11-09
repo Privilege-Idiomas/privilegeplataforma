@@ -75,10 +75,11 @@
 - **Origem:** DEC-003; REQ-001.
 
 ### MAT-002 — Modelo comercial e modalidades de assinatura
-- **Pergunta:** aprova assinatura recorrente com suporte tanto a planos de catálogo completo quanto a planos com cursos específicos?
-- **Complementos a definir:** quantidade/nome dos planos, periodicidade, preços, benefícios, teste grátis e regras comerciais.
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) Direcionamento informado por Marina; aprovação e detalhes pendentes.
-- **Origem:** DEC-004, DEC-011 e DEC-012; REQ-003.
+- **DEFINIÇÃO JÁ ALINHADA NA REUNIÃO DE 03/11/2026 (00:56:44–00:58:11):** **Travel e Business são ofertas comerciais separadas por curso/trilha de objetivo**, não o acesso automático ao catálogo todo para qualquer assinatura. O curso **Basic (curso básico, material denominado Start in English no pacote pedagógico)** fica disponibilizado **como bônus para todos os assinantes**, inclusive quem contratar Travel ou Business. Os cursos não contratados continuam visíveis em vitrine informativa, sem direito a suas aulas e exercícios.
+- **Separação de eixos:** os **3 níveis de plano** determinam o pacote de serviços (Plano 1 gravadas; Plano 2 gravadas + 2 plantões mensais; Plano 3 gravadas + 4 plantões mensais e 2 particulares de 50min); o **curso/trilha contratado** determina o conteúdo adicional acessível além do Basic bônus. Não confundir nível de atendimento com direito irrestrito a Travel e Business.
+- **Fonte primária:** PDF “Privilege Plataforma - Fechamento de plano de execução - 2026-11-03 ... Anotações do Gemini”, seção “Separação de Cursos por Trilha e Objetivos” e transcrição 00:56:44–00:58:11, acordo verbal entre Marina e Matheus; reunião anterior mencionada na ata e conferência posterior não são novas aprovações.
+- **Status:** **RESOLVIDO no princípio de comercialização por curso + Basic bônus** conforme alinhamento da reunião. **PENDENTES** preços, nomenclatura comercial, eventuais pacotes multitrilha específicos, contratos e validação jurídico-financeira. Não retornar esta decisão à pauta como pergunta aberta.
+- **Origem:** DEC-004, DEC-011 e DEC-012; REQ-003/004; DEC-082/083.
 
 ### MAT-003 — Pagamentos e políticas de cobrança
 - **Perguntas:** qual provedor de pagamento será utilizado? Quais meios serão aceitos? Como funcionarão renovação, cancelamento, inadimplência, reembolso e suspensão/restauração de acesso?
