@@ -8,7 +8,7 @@
 - Teste de nivelamento **opcional**, recomenda curso/trilha sem bloquear; **IA elabora o banco de questões/gabarito previamente**, corrigido automaticamente por regras da plataforma **sem IA por aluno**; faixas e conteúdo reais dependem de pedagógico.
 - Trilhas reutilizam cursos sem duplicar conteúdo; alteração de trilha mantém progresso e não amplia acesso não contratado; versões de conteúdo devem preservar conclusões/certificados.
 - Tentativa interrompida tem janela de 30 dias **contados desde o início**; expiração após aviso, nova tentativa permitida.
-- Preferência comunicada por gestão é vídeo integral **não obrigatório**, mas **DEC-024 segue precisando do aceite expressamente atribuído a Matheus**.
+- **DEC-024 RESOLVIDA na reunião 03/11:** Matheus aprovou remover a obrigatoriedade de reprodução de 100% do vídeo (00:18:39 e 00:43:36). Não solicitar nova validação.
 - GitHub Free e Claude disponível; Notion somente extrato executivo. Não criar planilhas sem pedido expresso.
 
 ## 2. Matriz objetiva das pendências por responsabilidade
@@ -21,7 +21,7 @@
 | COM-01 | **Marina: DEC-082 confirmada**; homologação comercial restante conforme alçada | **RESOLVIDO NA DEFINIÇÃO FUNCIONAL:** Plano 1 definitivamente somente aulas gravadas/digital, **zero plantões e zero particulares**; objetivo: maior escalabilidade. Baseline com 1 plantão é histórico superado. | Atualizar preço, contrato e comunicação da oferta antes de publicar; não solicitar novamente escolha sobre plantões no Plano 1 | Preço/contrato em G1/G3/G4, **não a definição do benefício** |
 | COM-02 | **Marina: DEC-083 confirmada**; termos comerciais restantes conforme alçada | **RESOLVIDO NA DEFINIÇÃO FUNCIONAL:** Plano 3 dá **4 plantões de 20min + 2 particulares de 50min por aluno/mês**. As opções de 1–4 particulares eram propostas históricas. | Ajustar testes de saldo/acesso e textos contratuais; não reabrir quantidade mensal, não criar avulsas | Termos/preços em G1/G3/G4, **não o benefício** |
 | COM-03 | Matheus/autoridade comercial, com PM | **CURSOS JÁ ALINHADOS NA REUNIÃO 03/11:** Travel e Business separados por curso/trilha; Basic como bônus a assinantes. **PENDENTES:** preços, termos comerciais, eventual oferta de combos, contratos 1/3/6/12 meses, fórmula pro-rata, renovação, cancelamento, multa/pareceres | Não perguntar novamente sobre acesso por curso vs catálogo integral; fechar somente preços/contratos e regras comprovadamente abertas | G1/G3/G4; parte jurídica |
-| PED-01 | Matheus (atribuição expressa) | DEC-024: exigir vídeo integral para concluir aula? | Validar ou ajustar preferência de não exigir reprodução integral; não pedir nova decisão sobre nota mínima | G1 |
+| PED-01 | **Matheus: decisão da reunião 03/11** | **RESOLVIDO:** vídeo integral NÃO obrigatório; avaliação obrigatória, não eliminatória (confirmada depois) | Harmonizar textos históricos; não reabrir questionamento | Documento G1 apenas |
 | PED-02 | Equipe pedagógica com autoridade confirmada | Banco e faixas reais do nivelamento; objetivos, ordem e critérios de trilha | Validar conteúdos, faixas e recomendação, sem criar IA no fluxo do aluno | Conteúdo e G1 |
 | OPS-01 | PM propõe; gestão valida | Aviso de expiração (canal e antecedência), progresso de aluno entre versões, aprovação de alteração de gabarito, estados do suporte, permissões administrativas | Consolidar proposta operacional padrão e critérios de aceite; distinguir campos configuráveis de política de negócio | G1 |
 | VND-01 | PM + fornecedor; gestão escolhe | Gateway de cartão: recorrência e compromissos 1/3/6/12, opt-in/out, rateio, cancelamento, webhooks, retentativas, taxas | Prova de conceito contratual e técnica entre Asaas / Mercado Pago (ou outro com evidência); obter proposta de tarifas | G2/G3/G5 parcial |
@@ -35,8 +35,8 @@
 ## 3. Pacote de reunião com Matheus — apenas decisões que exigem autoridade comercial/pedagógica
 1. **Plano 1 — decisão já tomada (DEC-082):** exclusivamente aulas gravadas/digital, sem plantões nem particulares. **Não voltar a perguntar qual é o benefício**; solicitar apenas confirmação de preço/termos da oferta quando cabível.
 2. **Plano 3 — decisão já tomada (DEC-083):** 4 plantões de 20min e **2 particulares de 50min por mês**. **Não voltar a perguntar os créditos incluídos**; solicitar apenas preços/termos da oferta e providências jurídicas cabíveis.
-3. **Produtos/contratos:** **não reabrir cursos:** Travel/Business separados, Basic bônus a assinantes (reunião de 03/11). Confirmar preços, eventuais combos novos, vigências 1/3/6/12 meses, cobrança, rateio, renovação e cancelamento sob revisão jurídica.
-4. **DEC-024:** confirmar formalmente que não é necessário assistir 100% da aula em vídeo para concluir.
+3. **Produtos/contratos:** **não reabrir cursos:** Travel/Business separados, Basic bônus a assinantes (reunião de 03/11). Confirmar preços, eventuais combos novos, vigências 1/3/6/12 meses, cobrança, rateio, renovação e cancelamento sob revisão jurídica. **A reunião já fixou antecedência de 30 dias e multa de referência de 20% em quebra antecipada; não voltar a perguntar esses números, apenas validar legalidade e aplicação concreta.**
+4. **DEC-024 — JÁ DECIDIDA NA REUNIÃO:** vídeo integral não obrigatório (Matheus). Não levar de volta para validação; apenas atualizar os documentos operacionais.
 5. **Pedagogia:** confirmar responsável por banco/faixas de nivelamento e objetivos concretos das trilhas, sem reabrir regra opcional/não bloqueante.
 6. **Investimento:** somente após orçamento de fornecedores e estimativa de execução, confirmar limite e prioridade da versão inicial.
 
@@ -78,3 +78,7 @@ Marina confirmou expressamente **Plano 3 com quatro plantões mensais de 20 minu
 
 ## Correção do status de comercialização — reunião 03/11 (registrada em 2026-11-08)
 A ata da reunião confirmou **assinaturas por curso/trilha específico (Travel e Business separados) e Basic oferecido como bônus a todos os assinantes**. A vitrine mostra cursos não contratados, mas protege aulas e exercícios. O PM deve consultar as decisões MAT-002/DEC-012/REQ-003 antes de questionar novamente. **Definição de acesso por curso encerrada; preços e condições comerciais seguem abertos.**
+
+
+## Auditoria integral da ata de 03/11 — correção de pendências fictícias (2026-11-08)
+A verificação direta da transcrição da reunião no PDF do projeto demonstrou que **DEC-024 foi decidida expressamente por Matheus**, removendo a reprodução integral obrigatória. O registro anterior que a mantinha como PENDENTE/REVISAR estava desatualizado. Outros assuntos já alinhados: contrato via cartão, períodos 1/3/6/12 meses, aviso de cancelamento de 30 dias, percentual de referência de 20% para quebra antecipada, plantões com reserva (20min/10 vagas), particular de 50min, não acúmulo, cursos separados com Basic bônus, coordenação em um painel. DEC-082/083 posteriores prevalecem em benefícios dos Planos 1 e 3. A **única pauta de decisões remanescente** consta do documento de auditoria de pendências (a ser linkado) e não deve incluir essas regras.
