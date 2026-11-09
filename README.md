@@ -5,18 +5,21 @@ Projeto de desenvolvimento de uma plataforma digital de ensino de idiomas da Pri
 ## Objetivo
 Disponibilizar cursos online, aulas em vídeo, exercícios e avaliações, com acesso para alunos atuais e novos alunos e gestão de conteúdo pela equipe administrativa.
 
+## Referência vigente para início do desenvolvimento — 2026-11-09
+A plataforma **pode começar a ser construída em fases curtas, localmente e sem serviços pagos**, enquanto preços, contratação docente, fornecedores, conteúdo audiovisual e jurídico seguem sendo definidos. Ver [cronograma por lotes](docs/34-prontidao-desenvolvimento-cronograma-e-lotes-2026-11-09.md), [instruções atualizadas ao Claude](CLAUDE.md) e [Issue F1](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6). As regras antigas do histórico abaixo são superadas pela ata de 03/11 e DEC-074–083: avaliação obrigatória **não eliminatória**, tentativas ilimitadas, vídeo 100% não obrigatório, Plano 1 só digital, Plano 2 com 2 plantões/mês, Plano 3 com 4 plantões/mês + 2 particulares de 50min. Travel/Business são ofertas por curso, Basic bônus aos assinantes. **Nenhuma função financeira ou com dados reais pode entrar em produção sem homologação própria.**
+
 ## Estado atual
 **Documentação inicial — versão 0.2.** Este repositório registra o entendimento atual, propostas e decisões pendentes. As definições de produto informadas pela responsável ainda aguardam aprovação formal do patrocinador quando indicado no Decision Log.
 
 ## Definições de produto informadas
 - Público de lançamento: alunos atuais e novos alunos.
-- Modelo comercial: assinatura recorrente, com flexibilidade para planos que deem acesso ao catálogo completo ou a cursos específicos.
+- Modelo comercial: Travel/Business vendidos separadamente por curso/trilha; Basic/Start bônus aos assinantes; nível de serviços do plano separado de direito de curso, conforme reunião de 03/11.
 - Gestão de cursos e aulas: restrita à equipe administrativa.
 - Catálogo inicial: Basic English, Travel e Business.
 - Jornada: teste de nivelamento, início pela base (Basic English) ou entrada direta em Travel ou Business.
 - Trilhas: os mesmos cursos poderão ser organizados em sequências e prioridades diferentes conforme o objetivo do aluno.
-- Aprendizagem: aulas com exercícios e avaliações associados; avaliação com nota mínima e uma tentativa adicional.
-- Após duas tentativas sem atingir a nota mínima, a plataforma deverá sugerir plantão de dúvidas ou aula particular, conforme os serviços disponíveis no plano do aluno.
+- Aprendizagem: prática opcional, avaliação obrigatória **não eliminatória** e tentativas ilimitadas; nota inferior a 6/10 gera recomendação pedagógica, sem impedir progresso.
+- Após desempenho inferior a 6 em três módulos distintos do mesmo curso (nota mais recente por módulo), recomendar apoio pedagógico, respeitando o nível do plano, sem bloquear progresso.
 
 ## Ferramentas e fontes de verdade
 - **GitHub (principal e completo):** fonte **única** de verdade do projeto: **todas** as tarefas (inclusive marcos executivos), responsáveis, status, cronograma, riscos, decisões, requisitos, documentos, código, testes, evidências e histórico. Nada pode existir somente no Notion.
