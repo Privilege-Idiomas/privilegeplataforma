@@ -62,3 +62,12 @@ Os itens acima são **avanços de governança/documentação**, não evidências
 - **Notion:** camada de leitura executiva; pode mostrar versão curta deste relatório, com links e data de atualização. Nunca ser a origem de uma decisão, tarefa, prazo, conclusão ou bloqueio.
 - **Publicação inicial no Notion:** rascunho privado criado em 2026-10-31: https://app.notion.com/p/40b4d0da2309815ca13ec0eba6be93af?pvs=204. Compartilhamento com Matheus, validação da apresentação e sincronização automática permanecem pendentes.
 - **Cadência futura:** a definir; nenhuma atualização automática deve ser presumida.
+
+
+## Atualização executiva — 09/11/2026: pronto para iniciar construção incremental
+**Situação:** o planejamento do produto e as decisões da reunião 03/11/2026, complementadas pelas DEC-074–083, são suficientes para começar a desenvolver em ambiente local. Preços finais, fornecedores, escala docente, videoaulas definitivas e pareceres jurídicos **não bloqueiam a F1**; serão configurados e validados antes de ativação comercial e produção. **Não houve programação pelo Claude ainda**; somente organização das tarefas no GitHub.
+
+- **Repositório:** até o planejamento inicial, continha documentação e orientações, sem aplicação implementada.
+- **Cronograma de referência, não aprovado como prazo:** F1 semana 1 (fundação); F2 semanas 2–3 (contas); F3 4–5 (catálogo/player); F4 6–7 (aprendizagem); F5 8–9 (planos/cobranças simuladas); F6 10–11 (professores/agenda); F7 12–13 (admin e suporte); F8 14+ (homologação/integração). Calibrar após estimativas técnicas do Claude; nenhum compromisso de entrega 30 dias é inferido.
+- **Próximo marco imediato:** [Issue #6 — F1 Fundação técnica](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6), preparada para handoff e estimativa do Claude; aguarda liberação específica do primeiro lote por Marina. Outras fases em Issues #7–13, planejadas, não liberadas.
+- **Governança:** ChatGPT/PM atualizou `CLAUDE.md` para evitar regras obsoletas, configurou cronograma em [docs/34](34-prontidao-desenvolvimento-cronograma-e-lotes-2026-11-09.md) e criou Issues. GitHub continua contendo TODO o backlog e status; Notion recebe só este resumo. Cada PR do Claude será revisada e aceita antes da fase seguinte.
