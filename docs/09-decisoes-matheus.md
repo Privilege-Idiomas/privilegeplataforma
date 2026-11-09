@@ -24,30 +24,30 @@
 - **Responsável único:** Matheus.
 - **Arquivo canônico:** `docs/09-decisoes-matheus.md`. O ID de pauta MAT-009 corresponde a esta mesma decisão, não a uma segunda decisão.
 - **Data de abertura e registro:** 2026-10-31.
-- **Status:** ![REVISAR](https://img.shields.io/badge/STATUS-REVISAR-e6b800) **REVISAR** — resposta provisória registrada, requer confirmação de Matheus; não está aprovada por ele.
+- **Status ATUAL (auditoria da ata de 03/11):** ![RESOLVIDO](https://img.shields.io/badge/STATUS-RESOLVIDO-2da44e) **RESOLVIDO — Matheus concordou expressamente em NÃO exigir 100% de reprodução do vídeo**, conforme transcrição da reunião de 03/11/2026 nos momentos 00:18:39–00:19:43 e 00:43:36. A redação anterior de REVISAR estava desatualizada.
 - **Contexto/problema:** esclarecer se 100% de reprodução do vídeo deve ser obrigatório para considerar a aula concluída e liberar a próxima, preservando a regra já informada de realização dos componentes obrigatórios e aprovação na avaliação.
 - **Categoria / fila:** decisão do Matheus (necessita validação dele), atribuída explicitamente por Marina em 2026-10-31.
 - **Autora da resposta provisória:** Marina.
-- **Responsável pela confirmação/aprovação final:** Matheus; ainda não confirmou.
+- **Responsável pela confirmação/aprovação final:** Matheus; **confirmou na reunião de 03/11/2026**. O restante da pedagogia foi detalhado por Marina depois.
 - **Comunicado por:** Marina.
 - **Consultados:** não informados.
-- **Critérios explicitamente informados:** conclusão das atividades obrigatórias e aprovação na avaliação permanecem necessárias.
+- **Critérios vigentes:** cumprir os componentes pedagógicos obrigatórios e **realizar avaliação obrigatória sem nota eliminatória**; não exigir percentual integral de vídeo (DEC-074–080 aprovadas depois da reunião).
 - **Alternativas efetivamente apresentadas na consulta:** (1) vídeo integral obrigatório; (2) vídeo integral não obrigatório, desde que sejam cumpridos os demais componentes obrigatórios e a avaliação seja aprovada; (3) obrigatoriedade do vídeo definida por aula; (4) adiar a definição para Matheus/equipe pedagógica. Essas alternativas foram apresentadas, mas não há análise formal de prós/contras ou custos registrada.
 - **Resposta provisória definida por Marina:** opção (2). Não exigir que o aluno assista ao vídeo inteiro para concluir a aula, desde que as atividades obrigatórias sejam concluídas e a nota mínima seja atingida. Ainda precisa ser revisada/confirmada por Matheus.
 - **Alternativas não selecionadas e justificativas:** opções (1), (3) e (4) não selecionadas nesta consulta; motivos específicos de descarte não informados. Não tratar como rejeições pedagógicas formais.
 - **Justificativa registrada:** a própria definição de Marina condiciona a progressão ao cumprimento das atividades obrigatórias e à aprovação; justificativa adicional não informada.
-- **Aprovador final e data:** Matheus; confirmação e data pendentes. Marina comunicará o resultado, inclusive se a resposta for alterada.
+- **Aprovador final e data:** Matheus — reunião de 03/11/2026 (transcrição 00:18:39–00:19:43 e 00:43:36).
 - **Execução:** não autorizada nem comprovada por este registro; sem tarefa, PR, commit de produto ou validação funcional informados. Atualização documental não equivale a implementação.
-- **Impacto funcional:** percentual de reprodução do vídeo não deve ser requisito de desbloqueio segundo o direcionamento, mantendo-se os demais componentes obrigatórios e a aprovação na avaliação. O vídeo permanece disponível como conteúdo; não se conclui que exercícios específicos já estejam definidos.
+- **Impacto funcional:** percentual de reprodução do vídeo **não** é requisito de desbloqueio, e avaliação obrigatória **não é eliminatória** conforme decisões posteriores. O vídeo permanece acessível enquanto o aluno tiver direito ao conteúdo.
 - **Decisões relacionadas:** DEC-016, DEC-020 e DEC-023; sem substituição das decisões anteriores.
 - **Documentos afetados:** REQ-015 em `docs/03-requirements.md`; `docs/07-learning-paths.md`; MAT-009 em `docs/09-decisoes-matheus.md`; o antigo MAR-005 foi descontinuado como registro espelhado, preservando a história no versionamento Git.
-- **Pendências:** Marina comunicar a confirmação ou mudança da resposta por Matheus; identificação dos componentes obrigatórios por aula; nota mínima e escala de aprovação.
+- **Pendências atuais desta DEC:** **nenhuma sobre obrigatoriedade de vídeo integral**. Conclusão por realização da avaliação obrigatória, sem nota eliminatória, e nota orientativa inferior a 6 foram resolvidas posteriormente por Marina. Especificação do conteúdo pedagógico das avaliações permanece em outras decisões, não nesta.
 - **Histórico da classificação:** inicialmente o assistente atribuiu automaticamente validação pedagógica a Matheus. Marina corrigiu a prática e determinou que somente ela indica a quem pertence cada decisão; a atribuição anterior não equivalia a aprovação. **Posteriormente, em 2026-10-31, Marina classificou expressamente DEC-024 como decisão do Matheus, com resposta provisória formulada por ela e status REVISAR.** Esse novo enquadramento explícito não deve ser confundido com a antiga inferência. Preservar versões no Git e manter este registro de evolução.
-- **Próxima ação:** quando Marina trouxer a resposta de Matheus, registrar se confirmou ou alterou a alternativa, a data, a justificativa conhecida e evidências, sem apagar a versão provisória.
+- **Próxima ação:** harmonizar REQ-015 e critérios de aceite legados com a decisão tomada em 03/11 e DEC-074–080; **não solicitar nova aprovação de vídeo**.
 
 ### DEC-067 — Aprovação do pacote de 10 regras comerciais e operacionais de atendimentos (MAT-014)
 - **Data de encaminhamento:** 2026-11-02. **Responsável por decidir:** Matheus, **atribuído expressamente por Marina**. **Comunicado por:** Marina. **Resposta de Matheus:** não recebida.
-- **Status:** ![SEM RESPOSTA](https://img.shields.io/badge/STATUS-SEM%20RESPOSTA-d73a49) **SEM RESPOSTA** — pacote de recomendações encaminhado para decisão, **não aprovado**. **Registro canônico:** este arquivo; MAT-014 é identificação da pauta, não segunda decisão.
+- **Status ATUAL (auditado com reunião 03/11 e DEC-074–083):** **PARCIALMENTE RESOLVIDO**. Duração, créditos padrão, agendamento, capacidade, faltas, cancelamento, não acúmulo, painel de coordenação e diretrizes de avulsas foram debatidos/decididos na reunião e/ou confirmados depois; **permanecem** escala/remuneração efetivas do professor, condições de fornecedor/contrato e eventual ativação de avulsas na primeira versão. As propostas originais abaixo são **histórico de 02/11, não perguntas abertas integrais**. MAT-014 não é decisão duplicada.
 - **Contexto:** o sistema de **aulas particulares agendadas e plantões coletivos sem reservas** já tem estrutura funcional aprovada por Marina na DEC-066. Este pacote de **10 propostas operacionais/comerciais** foi apresentado a Marina, que solicitou transferir a responsabilidade para Matheus em vez de aprovar ela própria. Não transferir/reabrir DEC-066; suas regras vigentes continuam aprovadas.
 - **Proposta 1 — Duração:** aulas particulares possuem duração padronizada por modalidade, com valor configurável pela administração. **Matheus deverá decidir a duração numérica**, não presumir minutos.
 - **Proposta 2 — Benefícios por plano:** cada plano comercial determina quantidade de aulas particulares e direito de acesso aos plantões; modalidades, limites e preços dependem de decisão específica.
@@ -64,6 +64,11 @@
 - **Dependências e custo:** cruzar MAT-002, MAT-003, MAT-010 e DEC-066; implantação de agenda, saldo/consumo de benefícios, regras de cancelamento e remarcação, dados e painel administrativo, escalas/plantões, remuneração/cobertura docente e suporte. Avaliar investimento inicial, fixo mensal inclusive ocioso, variável por aluno, agendamento, professor-hora/plantão e administração; **nenhuma estimativa é aprovação de custo** (DEC-032). Fechamento do escopo, stack e comparação de custos antes de decidir MVP/releases (DEC-035); sem autorizar Claude, compras, pagamentos ou lançamento (DEC-029).
 - **Próxima ação:** Matheus avaliar o pacote único e comunicar sua resposta por Marina; atualizar esta ficha, índice e requisitos sem registrar como decidido até lá.
 - **Relacionamentos:** DEC-029/030/032/035/064/065/066; MAT-002/003/010/014; REQ-003/004/014/042/043/044/045.
+
+### Reconciliação da DEC-067/MAT-014 com reunião realizada em 03/11 e decisões posteriores
+- **CONFIRMADO, não reapresentar:** aula particular **50min**; plantão **20min, com reserva, limite de 10**; dois plantões/mês no Plano 2 e quatro no Plano 3; Plano 1 **sem plantão nem particular** (DEC-082); Plano 3 **duas particulares de 50min/mês** (DEC-083); antecedência **mínima 2h** para remarcação/cancelamento de sessão sem perda de crédito; falta/tardio consome crédito; falta docente preserva crédito; créditos não acumulam para mês seguinte; painel único de coordenação. Fontes: transcrição 03/11 nos trechos 00:46–01:10 e DEC-074–083.
+- **AULAS AVULSAS:** reunião mencionou oferta limitada ao Plano 3 com **R$60 como preço de referência inicial** (01:10:27). Depois, Marina determinou **não incluir extras nas projeções financeiras atuais**. **Não converter isso em obrigação de oferecer avulsas no lançamento nem em proibição definitiva**; a ativação em release depende de G4, precificação e contrato.
+- **RESTANTE A DEFINIR:** acordo efetivo de disponibilidade/pagamento de professores (por hora escalada versus só atendimento), escala e horários de funcionamento reais, implementação de gateway/Meet e detalhes contratuais/jurídicos. Não supor alteração de regra aprovada por falta de implementação.
 
 ## Pauta histórica de decisões classificadas para Matheus
 
