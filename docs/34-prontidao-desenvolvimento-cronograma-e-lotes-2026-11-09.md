@@ -1,7 +1,7 @@
 # Privilège — Prontidão de construção, cronograma de referência e execução em lotes
 **Data:** 2026-11-09  
 **Fonte:** confirmação de Marina de que definições comerciais/pedagógicas ainda parametrizáveis **não impedem começar a construir o software**; escopo e regras registradas no GitHub, reunião 03/11, decisões posteriores DEC-074–083.  
-**Status:** **pronto para criar e revisar o cronograma e preparar início do Lote 1 com Claude Code**, sem aprovação de contratação, desembolso, deploy público ou operação com dados reais. Não confundir autorização de planejamento com liberação incondicional de todos os lotes.
+**Status atual — 09/11/2026:** **F1 AUTORIZADA PARA EXECUÇÃO LOCAL por Marina**, com Next.js, TypeScript, Tailwind e PostgreSQL/Supabase local. **A ordem está publicada na Issue #6; Claude Code ainda precisa ser acionado em seu próprio ambiente**. F2–F8 continuam sem autorização. Nenhuma contratação, desembolso, deploy público ou operação com dados reais autorizados.
 
 ## 1. Resposta de prontidão
 **SIM: o material está suficiente para começar a programação incremental.** O repositório atualmente contém **README, CLAUDE.md e documentação**, mas **não contém ainda aplicação, banco implementado, CI ou testes de produto**. Isto é o ponto zero e deve ser a primeira entrega.
@@ -40,7 +40,7 @@ Proposta já estudada: Next.js (App Router) + TypeScript + React/Tailwind; Postg
 5. Aceitou → atualizar GitHub com evidências/status, revisar e **liberar explicitamente** próximo lote. Notion recebe apenas marco executivo extraído do GitHub.
 
 ## 6. Primeira ordem de trabalho que pode ser entregue hoje
-**F1 — Fundação**. Sem dependência de preços, aulas filmadas, gateway contratado, professor escalado ou parecer jurídico para alunos reais (não haverá dados reais). **Não incluir** pagamento real, perfis de menores com dados reais, deploy público, aulas ao vivo ou conteúdo de produção.
+**F1 — Fundação, autorizada em 09/11/2026 por Marina.** Sem dependência de preços, aulas filmadas, gateway contratado, professor escalado ou parecer jurídico para alunos reais (não haverá dados reais). **Não incluir** pagamento real, perfis de menores com dados reais, deploy público, aulas ao vivo ou conteúdo de produção.
 
 **Critérios de aceite F1:**
 - [ ] Projeto Next.js App Router em TypeScript configurado com lint, formatter e regras de TypeScript estritas.
@@ -58,3 +58,7 @@ PM e equipe preparam um prompt audiovisual fiel a **um** roteiro de Matheus e te
 
 ## 8. Governança
 Regra geral anterior G1→G5 continua sendo trilha para **homologação/lançamento e decisões irreversíveis**. A orientação atual de Marina diferencia **codificar de modo reversível** de **ativar comercialmente o produto**. Se houver conflito com textos históricos em `docs/06`, `docs/27`, `docs/28` ou `CLAUDE.md`, aplicar este esclarecimento **apenas ao desenvolvimento local e incremental**, preservando as salvaguardas de segurança, gastos, aceite por lote e proibição de operação pública sem validação.
+
+
+## 9. Autorização expressa da primeira fase — 09/11/2026
+Marina respondeu **“sim”** à pergunta da PM sobre liberar a F1 para Claude com **Next.js, TypeScript, Tailwind e estrutura inicial Supabase**. **Autorização funcional e técnica de codificação da F1**, limitada a desenvolvimento local e ao escopo/aceite da [Issue #6](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6). Este consentimento **não autoriza F2–F8**, gastos, serviços externos contratados, migrações destrutivas, dados reais ou deploy público. A execução ainda não foi iniciada por Claude Code na presente conversa; a Issue contém a ordem pronta para o executor. A estimativa em dias úteis deverá ser fornecida pelo Claude no início do trabalho e é necessária para converter janelas indicativas em cronograma comprometido.
