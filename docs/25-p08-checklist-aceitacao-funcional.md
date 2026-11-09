@@ -143,3 +143,7 @@
 - **AC-DEC083-02:** duas reservas particulares confirmadas no mesmo mês consomem apenas dois créditos de particulares, respeitando política de cancelamento e disponibilidade, sem impedir quatro reservas de plantão independentes.
 - **AC-DEC083-03:** tentativa de terceira particular inclusa é recusada quando saldo esgotado; **não** oferecer automaticamente aula avulsa ou cobrança adicional sem política futura aprovada.
 - **AC-DEC083-04:** Plano 1 não pode reservar particulares/plantões; Plano 2 possui dois plantões por mês sem particulares inclusas. Preços e contratos aguardam homologação comercial; nenhuma implementação autorizada.
+
+
+### Correção por auditoria direta da ata (2026-11-08)
+A **DEC-024** de dispensa de vídeo integral foi **confirmada expressamente por Matheus na reunião 03/11** (00:18:39 e 00:43:36), não está mais pendente. Critérios antigos que apresentam reprovação, nota eliminatória ou bloqueio pela reprodução integral são superados pela ata e pelas DEC-074–080. As pendências genuínas do produto, jurídico e fornecedores constam de `docs/33-auditoria-pendencias-reais-pos-reuniao-2026-11-08.md`. Não confundir texto legado com requisito atual.
