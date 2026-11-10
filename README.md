@@ -26,6 +26,19 @@ A plataforma **pode começar a ser construída em fases curtas, localmente e sem
 - **Notion (somente relatório derivado):** visão executiva resumida para Matheus, **extraída exclusivamente de fatos já registrados no GitHub**. Não armazena informação original, não modifica o fluxo do GitHub e não é repositório paralelo. Decisão DEC-026; implantação ainda não concluída.
 - **Claude Code:** executor técnico; atualiza primeiro no GitHub as tarefas, status, previsões, impedimentos e evidências. Se um marco sob sua responsabilidade aparecer no Notion, pode atualizar ali o resumo executivo **somente depois** de registrar a mesma informação no GitHub, quando autorizado/conectado.
 
+## Execução local (F1 — em validação)
+Aplicação Next.js (App Router) + TypeScript + Tailwind, com esquema inicial Supabase/PostgreSQL versionado. **Somente desenvolvimento local, dados fictícios, sem cobranças nem deploy.** Detalhes, arquitetura e evidências em [docs/35](docs/35-f1-fundacao-tecnica.md).
+
+```bash
+npm install       # Node.js >= 22.12 (CI: Node 24, ver .nvmrc)
+npm run dev       # http://localhost:3000
+npm run check     # lint + format:check + typecheck + testes (inclui migrações SQL)
+npm run build     # build de produção local
+```
+Nenhuma variável de ambiente é necessária; ver [.env.example](.env.example). Supabase local completo (`npm run db:start`) é opcional e requer Docker.
+
+**Privacidade:** Next.js e Supabase CLI enviam telemetria anônima por padrão. Recomenda-se desativar uma vez por máquina: `npx next telemetry disable` e `npx supabase@2.122.0 telemetry disable`.
+
 ## Documentação
 - [Termo de Abertura](docs/01-project-charter.md)
 - [Escopo do MVP](docs/02-scope.md)
@@ -37,6 +50,7 @@ A plataforma **pode começar a ser construída em fases curtas, localmente e sem
 - [Orientações para Claude Code](CLAUDE.md)
 - [Estrutura do relatório executivo no Notion](docs/11-estrutura-notion.md)
 - [Relatório executivo canônico (origem da projeção para Notion)](docs/12-relatorio-executivo.md)
+- [F1 — Fundação técnica (arquitetura, execução e evidências)](docs/35-f1-fundacao-tecnica.md)
 
 ## Separação de fontes de verdade
 - **GitHub é a fonte única e completa:** todas as tarefas, marcos, alterações de status, previsões, decisões, requisitos, documentação, execução e evidências devem estar registrados nele. Cada decisão possui uma única ficha Markdown canônica por responsável, com índice geral.

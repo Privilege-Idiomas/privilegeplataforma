@@ -1,0 +1,9 @@
+.next/
+node_modules/
+coverage/
+package-lock.json
+next-env.d.ts
+supabase/.temp/
+# Documentação de governança mantida manualmente; fora da formatação automática.
+docs/
+*.md

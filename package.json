@@ -1,0 +1,49 @@
+{
+  "name": "privilegeplataforma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm run test",
+    "db:start": "npx supabase@2.122.0 start",
+    "db:stop": "npx supabase@2.122.0 stop",
+    "db:reset": "npx supabase@2.122.0 db reset --local"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@tailwindcss/turbopack": "^4",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.3.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "eslint-config-prettier": "^10.1.8",
+    "jsdom": "^31.0.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  },
+  "description": "Plataforma Privilège — ensino de idiomas (F1: fundação técnica, somente desenvolvimento local).",
+  "engines": {
+    "node": ">=22.12"
+  }
+}
