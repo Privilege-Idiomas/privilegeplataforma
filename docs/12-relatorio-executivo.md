@@ -1,4 +1,6 @@
 # Relatório Executivo — Plataforma Privilège
+> **Atualização vigente — 10/11/2026:** F1 **aceita e integrada** no PR #14. **D1 (design/UX/UI) autorizada** para concepção, prototipação e aprovação visual: [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). **F2–F8 continuam sem autorização de implementação**. As descrições de planejamento e estados anteriores abaixo são registros históricos.
+
 
 > **Situação vigente — 10/11/2026:** **F1 FORMALMENTE ACEITA e integrada à `main`** mediante autorização expressa de Marina. [PR #14](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/14) mesclado no commit [`56e5f33`](https://github.com/Privilege-Idiomas/privilegeplataforma/commit/56e5f33b5f7b1e10203898da489c2cde4ac2fce3), após revalidação do head `5272cd5` e [CI aprovado](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/42898783110). **F2 não autorizada; sem deploy, serviços pagos ou dados reais.** Registros cronológicos antigos abaixo permanecem históricos.
 
@@ -103,3 +105,12 @@ Marina autorizou expressamente o **Lote F1** com **Next.js App Router, TypeScrip
 **Status de fases:** F1 **ACEITA / INTEGRADA À MAIN**. F2–F8 **NÃO AUTORIZADAS**; estimativas e preparação documental não equivalem a liberação da execução. Nenhum deploy, contratação, ativação de gateways, processamento de dados reais ou mudança de escopo autorizados.
 
 **Próxima ação de PM:** preparar critérios e decisões pendentes para possível autorização futura da F2, sem codificação antecipada. Atualizações do Notion, quando realizadas, devem refletir este estado já registrado no GitHub.
+
+
+## Marco de gestão — 10/11/2026: D1 de design autorizada
+
+**Decisão expressa:** após concluir a F1, Marina aprovou a inclusão da **D1 — Design e experiência (UX/UI)** como a próxima etapa, destinada a elaborar e aprovar a identidade visual digital e as telas principais **antes** da implementação definitiva do frontend. Issue canônica: [#15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15).
+
+**Status:** D1 AUTORIZADA PARA CONCEPÇÃO E PROTOTIPAÇÃO, ainda sem entregáveis aprovados; F1 CONCLUÍDA / INTEGRADA; **F2–F8 NÃO AUTORIZADAS**. Primeiras entregas D1: briefing visual, referências de marca, alternativas de linguagem visual, design system inicial e protótipos para revisão. Aprovação de design será expressa, não presumida; entregas adicionais por perfil podem ser iterativas.
+
+**Responsabilidades:** PM coordena briefing, aprovação e documentação. A execução eventual por Claude Code exige tarefa específica limitada ao design, sem criar funcionalidades da F2. Matheus será envolvido apenas se a titularidade de revisão/aprovação for indicada. Sem gastos, serviços pagos, deploy ou dados reais. Estimativa/prazo da D1 a definir.
