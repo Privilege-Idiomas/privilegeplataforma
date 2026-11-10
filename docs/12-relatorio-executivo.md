@@ -1,6 +1,6 @@
 # Relatório Executivo — Plataforma Privilège
 
-> **Atualização de situação — 10/11/2026:** A F1 foi implementada e está **em validação final** no [PR #14](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/14), commit `5272cd5`; CI [#42898783110](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/42898783110) concluído com sucesso e 70 testes informados. Os registros antigos abaixo que dizem "não houve programação" são históricos e **não representam mais a situação atual**. **Aceite formal, merge e liberação da F2 ainda pendentes.**
+> **Situação vigente — 10/11/2026:** **F1 FORMALMENTE ACEITA e integrada à `main`** mediante autorização expressa de Marina. [PR #14](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/14) mesclado no commit [`56e5f33`](https://github.com/Privilege-Idiomas/privilegeplataforma/commit/56e5f33b5f7b1e10203898da489c2cde4ac2fce3), após revalidação do head `5272cd5` e [CI aprovado](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/42898783110). **F2 não autorizada; sem deploy, serviços pagos ou dados reais.** Registros cronológicos antigos abaixo permanecem históricos.
 
 
 **Data de referência:** 2026-10-31  
@@ -92,3 +92,14 @@ Marina autorizou expressamente o **Lote F1** com **Next.js App Router, TypeScrip
 - **Governança:** nenhuma atualização no Notion antecede este registro canônico. Notion permanece exclusivamente projeção executiva derivada do GitHub. O status será atualizado para *aceita* apenas após decisão formal e, separadamente, *integrada à main* após merge verificado.
 
 **Fontes:** [Issue #6](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6), [PR #14](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/14), `docs/35-f1-fundacao-tecnica.md` §§9–13 (branch F1) e [CI](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/42898783110).
+
+
+## Marco de aceite formal — 10/11/2026
+
+**Decisão expressa da titular de aceite:** F1 aceita e autorizada a integração do PR #14 à `main`, condicionada à nova verificação do CI e do commit; **F2 expressamente não autorizada**.
+
+**Verificações realizadas pela PM:** head `5272cd5ed77a46828b0ded05ed28d6cf8e008873`, CI #42898783110 `completed/success`, PR #14 fechado e `merged=true`, merge SHA `56e5f33b5f7b1e10203898da489c2cde4ac2fce3`. O GitHub confirmou o merge. Os riscos conhecidos da F1 permanecem registrados em `docs/35` (RLS testado via PGlite; Supabase/Auth real apenas na F2; avisos moderados de dependências de desenvolvimento).
+
+**Status de fases:** F1 **ACEITA / INTEGRADA À MAIN**. F2–F8 **NÃO AUTORIZADAS**; estimativas e preparação documental não equivalem a liberação da execução. Nenhum deploy, contratação, ativação de gateways, processamento de dados reais ou mudança de escopo autorizados.
+
+**Próxima ação de PM:** preparar critérios e decisões pendentes para possível autorização futura da F2, sem codificação antecipada. Atualizações do Notion, quando realizadas, devem refletir este estado já registrado no GitHub.
