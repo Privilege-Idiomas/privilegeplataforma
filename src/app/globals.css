@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/*
+ * Identidade visual PROVISÓRIA (placeholder) — não há logotipo nem manual de
+ * marca aprovados no repositório. Tokens centralizados para troca simples.
+ */
+:root {
+  --background: #fbfaf7;
+  --surface: #ffffff;
+  --foreground: #1a2233;
+  --muted: #5b6475;
+  --border: #e4e1d8;
+  --brand: #1f3a5f;
+  --brand-foreground: #ffffff;
+  --accent: #b08d3c;
+  --notice: #fff4d6;
+  --notice-foreground: #5c4300;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f1521;
+    --surface: #161e2e;
+    --foreground: #e8ebf1;
+    --muted: #a3abba;
+    --border: #273247;
+    --brand: #8fb3e3;
+    --brand-foreground: #0f1521;
+    --accent: #d8b765;
+    --notice: #3a2f12;
+    --notice-foreground: #f6e2a8;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-accent: var(--accent);
+  --color-notice: var(--notice);
+  --color-notice-foreground: var(--notice-foreground);
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
