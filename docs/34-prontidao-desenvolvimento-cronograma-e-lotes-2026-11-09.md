@@ -1,4 +1,6 @@
 # Privilège — Prontidão de construção, cronograma de referência e execução em lotes
+> **Atualização vigente — 10/11/2026:** F1 **aceita e integrada** no PR #14. **D1 (design/UX/UI) autorizada** para concepção, prototipação e aprovação visual: [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). **F2–F8 continuam sem autorização de implementação**. As descrições de planejamento e estados anteriores abaixo são registros históricos.
+
 **Data:** 2026-11-09  
 **Fonte:** confirmação de Marina de que definições comerciais/pedagógicas ainda parametrizáveis **não impedem começar a construir o software**; escopo e regras registradas no GitHub, reunião 03/11, decisões posteriores DEC-074–083.  
 **Status atual — 09/11/2026:** **F1 AUTORIZADA PARA EXECUÇÃO LOCAL por Marina**, com Next.js, TypeScript, Tailwind e PostgreSQL/Supabase local. **A ordem está publicada na Issue #6; Claude Code ainda precisa ser acionado em seu próprio ambiente**. F2–F8 continuam sem autorização. Nenhuma contratação, desembolso, deploy público ou operação com dados reais autorizados.
@@ -65,3 +67,14 @@ Marina respondeu **“sim”** à pergunta da PM sobre liberar a F1 para Claude 
 
 ## 10. Andamento da F1 — 10/11/2026 (registro do Claude Code)
 Claude Code foi acionado e **executou a F1** na branch `f1/fundacao-tecnica`, com plano/estimativa (2–3 dias úteis) registrados na [Issue #6](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6). Entrega em PR para revisão; **situação: EM VALIDAÇÃO — aguardando aceite de PM/Marina**. Arquitetura, testes, riscos e proposta de F2 (estimativa 7–10 dias úteis, não iniciada) em `docs/35-f1-fundacao-tecnica.md`. Sem deploy, serviços contratados, dados reais ou migrações destrutivas. F2–F8 continuam sem autorização.
+
+
+## 11. D1 — marco de design/UX/UI autorizado em 10/11/2026
+
+**Atualização prevalente:** Marina confirmou a criação da etapa **D1 — Identidade visual digital, UX/UI e protótipos para aprovação**, registrada na [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). A fase F1 foi formalmente aceita e integrada ao `main` no [PR #14](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/14). As janelas anteriores permanecem **indicativas**, e o cronograma passa a contemplar **D1 após F1 e antes da autorização funcional da F2**.
+
+- **D1 autorizada:** briefing/inventário da marca, propostas de linguagem visual, design system, mapas UX, protótipos desktop/mobile e aceite explícito. A definição das telas de outras fases pode ser iterativa, mas as interfaces pertinentes à F2 devem ser aprovadas antes de seu desenvolvimento visual definitivo.
+- **Coordenação:** PM. **Execução das telas:** apenas tarefas de design expressamente delimitadas, não programação funcional. **Aprovação:** Marina e demais envolvidos somente quando a titularidade for confirmada.
+- **F2–F8:** **não autorizadas**; aceite de D1 não implica autorização de programação. Nenhum contrato, deploy, credencial de produção, processamento de dados reais ou integração externa liberados.
+- **Fonte de verdade:** GitHub Issue #15 e artefatos vinculados. Notion apenas projeção executiva do status registrado no GitHub.
+- **Data/prazo:** a estimar; nenhuma data-base de entrega da D1 foi aprovada.
