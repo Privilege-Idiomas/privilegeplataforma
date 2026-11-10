@@ -2,31 +2,24 @@
  * Valida as migrações SQL versionadas e o seed em um PostgreSQL real
  * (PGlite/WASM), sem Docker e sem banco remoto.
  */
-import { PGlite } from "@electric-sql/pglite";
-import { readdirSync, readFileSync } from "node:fs";
+import type { PGlite } from "@electric-sql/pglite";
 import { join } from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import {
   FICTIONAL_COURSES,
   FICTIONAL_LEARNING_PATHS,
 } from "@/modules/catalog/fixtures";
-
-const SUPABASE_DIR = join(process.cwd(), "supabase");
-const MIGRATIONS_DIR = join(SUPABASE_DIR, "migrations");
-
-const migrationFiles = readdirSync(MIGRATIONS_DIR)
-  .filter((f) => f.endsWith(".sql"))
-  .sort();
-const read = (path: string) => readFileSync(path, "utf8");
+import {
+  MIGRATIONS_DIR,
+  createMigratedDatabase,
+  migrationFiles,
+  read,
+} from "./support";
 
 let db: PGlite;
 
 beforeAll(async () => {
-  db = new PGlite();
-  for (const file of migrationFiles) {
-    await db.exec(read(join(MIGRATIONS_DIR, file)));
-  }
-  await db.exec(read(join(SUPABASE_DIR, "seed.sql")));
+  db = await createMigratedDatabase();
 });
 
 afterAll(async () => {

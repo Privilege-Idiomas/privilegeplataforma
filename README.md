@@ -37,6 +37,8 @@ npm run build     # build de produção local
 ```
 Nenhuma variável de ambiente é necessária; ver [.env.example](.env.example). Supabase local completo (`npm run db:start`) é opcional e requer Docker.
 
+**Privacidade:** Next.js e Supabase CLI enviam telemetria anônima por padrão. Recomenda-se desativar uma vez por máquina: `npx next telemetry disable` e `npx supabase@2.122.0 telemetry disable`.
+
 ## Documentação
 - [Termo de Abertura](docs/01-project-charter.md)
 - [Escopo do MVP](docs/02-scope.md)
