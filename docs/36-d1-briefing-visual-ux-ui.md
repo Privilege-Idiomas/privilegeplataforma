@@ -264,3 +264,34 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Claro/Escuro/Sistema, mobile/desktop e uso da marca original previstos; UX legível e acessível.
 
 **Pendências preservadas:** definição de quantidade de questões por conjunto e filtros de dificuldade, detalhes de cálculos acadêmicos, custos, arquitetura, aprovação final de layout, salvaguardas de privacidade/menores. **Apenas D1 autorizada; F2–F8 e programação funcional NÃO AUTORIZADAS.**
+
+
+## 18. Bloco 05 — Agenda, plantões e aulas particulares (aprovado em 11/11/2026)
+
+**Aprovação expressa de UX pela responsável:** cinco decisões de apresentação para prototipação D1; não ampliam benefícios comerciais nem autorizam programação.
+
+| Nº | Aspecto | Escolha de UX aprovada |
+|---|---|---|
+| 1 | Organização de agendamentos | **Uma página «Agenda», com abas «Plantões» e «Aulas particulares».** |
+| 2 | Consulta da disponibilidade | **Calendário** para selecionar data e visualizar horários disponíveis. |
+| 3 | Créditos do aluno | **Resumo de saldos no topo da Agenda, separando plantões de particulares**, conforme elegibilidade real. |
+| 4 | Reservas existentes | **Próximos agendamentos em destaque**, com histórico abaixo, preservando estados reais. |
+| 5 | Antes da confirmação de reserva | **Resumo contendo data, horário, modalidade, crédito utilizado e política de cancelamento**. Não confirmar automaticamente por selecionar um horário; expor prazo de 2 horas e consequências conforme regras vigentes. |
+
+### Precedência com as decisões canônicas
+- **DEC-066 (texto original histórico), revisão confirmada em DEC-067/08 e ata de 03/11:** **plantões coletivos exigem reserva prévia**; sessões de 20 minutos, no máximo 10 participantes; não adotar plantão de entrada livre do registro inicial de 02/11. Aulas particulares seguem com escolha de horário/professor conforme direitos e disponibilidade.
+- **DEC-082 (08/11):** **Plano 1 exclusivamente digital**, sem créditos ou opção de reservar plantão/aula particular como benefício. Isto substitui o antigo «1 plantão/mês»; a Agenda deve representar corretamente a **ausência de elegibilidade** sem saldo fictício.
+- **DEC-067/08, DEC-083:** Plano 2 tem 2 plantões/mês; Plano 3 tem 4 plantões/mês e 2 particulares de 50 min/mês, com créditos por modalidade separados e sem acúmulo. Não exibir valores ou ofertas avulsas não aprovadas.
+- **Cancelamento:** para sessões elegíveis, prazo mínimo aprovado de **2 horas antes do início** para remarcação/cancelamento sem perda de crédito; cancelamento tardio/falta podem consumir o crédito. Se a Privilège cancelar, preservar o crédito da reserva afetada. Mostrar detalhes antes de confirmar, sem prometer exceções contratuais não aprovadas.
+- **DEC-079.4:** plantão lotado deve indicar indisponibilidade e outra sessão quando houver, sem lista de espera e sem consumo do crédito por tentativa frustrada. Não apresentar como vaga reservável.
+- **DEC-064/078 e proteção de menores:** permissões por papel, dados de professor/aluno mínimos, segurança, provedor de videoconferência não escolhido; sem gravação ou contratação de ferramentas por esta decisão.
+
+### Orientação para os protótipos
+- Desktop/mobile: calendário e abas acessíveis; datas e fusos mostrados sem inventar horários; estados vazios, sem benefício, sessão lotada, reserva existente, cancelada, erro e carregamento.
+- Resumo de confirmação deve ser legível e inequívoco; distinguir prévia de reserva efetivamente confirmada e crédito ainda disponível/consumido.
+- Preferência Claro/Escuro/Sistema, logotipo oficial e leitura por tecnologias assistivas.
+- Créditos e serviços que não constam do direito real não podem aparecer como incluídos; não antecipar preços, fornecedor ou disponibilidade.
+
+**Registro histórico preservado:** as inconsistências antigas em DEC-066 e em notas iniciais de distribuição de benefícios permanecem disponíveis para auditoria, mas **não têm precedência** sobre as confirmações posteriores. DEC-066/067/082/083 prevalecem conforme datas e autoridade específica.
+
+**Status:** cinco escolhas **APROVADAS PARA UX D1**; nenhum aceite visual final, orçamento, implementação, F2–F8, contratação, deploy ou uso de dados reais autorizados.
