@@ -974,3 +974,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Reconciliação e limites:** preservar página pública única, conteúdo apenas público, etapas de conhecer → comparar preços → contratar, sem checkout direto; aluno com acesso vigente vê «Acessar curso» e entra na visão geral. Layout não aprova preço, oferta, plano, curso novo, benefício adicional, desconto, vídeo/imagem específica nem vínculo técnico a gateway. Respeitar distinção entre **direito de curso** e **nível de serviços**, decisões comerciais posteriores e adequação para menores; não expor conteúdos privados ou usar imagem sem direitos.
 
 **Documentação:** [docs/36 §22](36-d1-briefing-visual-ux-ui.md), Issue #15. Registro histórico das DEC-045–048 preservado. Nenhum custo, implementação funcional, F2–F8, compra, deploy ou contrato autorizado.
+
+
+## Complemento UX à DEC-064/065/069 — D1 Bloco 10 (11/11/2026)
+
+**Aprovação expressa de Marina, restrita ao design da D1:** (1) início docente com **dashboard de próximos atendimentos, agenda resumida e busca de questões**; (2) **calendário semanal** de atendimentos/disponibilidade; (3) **busca por código e filtros por curso com resultados detalhados**; (4) **tela de atendimento** com aluno identificado apenas dentro do mínimo autorizado, horário, modalidade, link de acesso e registro; (5) média de avaliações **apenas no perfil do próprio professor**, em forma agregada e preservando privacidade.
+
+**Precedência:** estas decisões não concedem novos direitos docentes. Questões completas por código/curso para docente autorizado (DEC-034), vedação à lista de dúvidas particular dos alunos, vedação às notas individuais, nomes de avaliadores e ranking de colegas (DEC-064/065) e seleção de professor após dia/horário (DEC-069) permanecem. A apresentação de média deve evitar inferência por baixa amostra; detalhes de proteção jurídica/técnica pendentes. Plantões e Planos 1–3 obedecem confirmações posteriores, não trechos históricos de «sem reserva» ou «Plano 1 com plantão».
+
+**Rastreabilidade:** [docs/36 §23](36-d1-briefing-visual-ux-ui.md) e Issue #15. Histórico preservado. Não autoriza implementação, F2–F8, gasto, fornecedores, deploy ou dados reais.
