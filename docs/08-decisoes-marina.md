@@ -965,3 +965,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência preservada:** DEC-080 mantém teste não bloqueante, recomendações não eliminatórias, faixas configuráveis pela equipe pedagógica (não inventar nota, classificação ou total de questões), Basic English sem obrigatoriedade como pré-requisito e livre troca de trilha sem apagar progresso ou conferir novo acesso. Nenhum conteúdo, curso ou orientação pedagógica concreta foi aprovado por escolha de layout. Não habilitar perfilamento comercial de menores.
 
 **Rastreabilidade:** [docs/36 §21](36-d1-briefing-visual-ux-ui.md), Issue #15. Histórico canônico preservado. Nenhum custo, implementação, F2–F8, contratação ou deploy autorizado.
+
+
+## Complemento de UX à DEC-045/046/047/048 — D1 Bloco 09 (11/11/2026)
+
+**Aprovação expressa de Marina, somente para UX D1:** (1) página pública de curso abre com **título, descrição breve, imagem editorial e CTA principal destacado**; (2) **módulos públicos expansíveis** com descrições aprovadas; (3) seções distintas **«O que você vai aprender»** e **«Benefícios»**; (4) CTA no início e depois dos módulos, respeitando **«Ver planos e preços»** ou **«Acessar curso»** conforme direito; (5) opções elegíveis de planos e preços, **quando comercialmente aprovadas**, exibidas em **cards comparativos com benefícios/condições claras**.
+
+**Reconciliação e limites:** preservar página pública única, conteúdo apenas público, etapas de conhecer → comparar preços → contratar, sem checkout direto; aluno com acesso vigente vê «Acessar curso» e entra na visão geral. Layout não aprova preço, oferta, plano, curso novo, benefício adicional, desconto, vídeo/imagem específica nem vínculo técnico a gateway. Respeitar distinção entre **direito de curso** e **nível de serviços**, decisões comerciais posteriores e adequação para menores; não expor conteúdos privados ou usar imagem sem direitos.
+
+**Documentação:** [docs/36 §22](36-d1-briefing-visual-ux-ui.md), Issue #15. Registro histórico das DEC-045–048 preservado. Nenhum custo, implementação funcional, F2–F8, compra, deploy ou contrato autorizado.
