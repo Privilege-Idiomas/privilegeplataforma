@@ -203,3 +203,34 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Nenhuma regra de desbloqueio ou tentativas legada reintroduzida.
 
 **Status:** as seis escolhas de UX estão **APROVADAS PARA D1**. Ainda não há aceite final de protótipos nem estimativa/custo aprovado para implementação. **F1 concluída; F2–F8 não autorizadas; sem desenvolvimento funcional, deploy, contratação ou dados reais.**
+
+
+## 16. Bloco 03 — visão geral dos cursos e navegação (aprovado em 11/11/2026)
+
+**Aprovação expressa para UX da D1:** as cinco decisões abaixo são de **organização visual e linguagem de interface**, não de novas regras comerciais ou pedagógicas.
+
+| Nº | Questão | Decisão de UX aprovada |
+|---|---|---|
+| 1 | Módulos na visão geral do curso | **Módulos expansíveis**, exibindo a lista de aulas ao selecionar/expandir cada módulo. |
+| 2 | Estado de acesso das aulas | **Ícone acompanhado de texto explícito:** «Concluída», «Disponível» ou «Bloqueada». Não usar apenas cor ou ícone como sinalização. |
+| 3 | Curso nunca iniciado | CTA principal **«Começar curso»**, conduzindo à primeira aula efetivamente autorizada, sem inventar progresso anterior. |
+| 4 | Organização da área «Meus cursos» | Mostrar **cursos em andamento primeiro**, seguidos de **não iniciados** e **concluídos**. Respeitar os direitos do aluno. Critério de desempate dentro de cada grupo não foi definido. |
+| 5 | Cursos acessíveis e descoberta comercial | Na interface, separar em duas seções: **«Meus cursos»** e **«Conhecer outros cursos»**; segunda seção apenas quando houver oferta pública pertinente não incluída nos direitos do aluno, sujeita à revisão de adequação para menores. |
+
+### Precedência e conciliação com decisões canônicas
+- **DEC-044:** já prevê dashboard personalizado e descoberta de cursos adicionais. Este bloco apenas define as seções e a ordenação dos cursos acessíveis. O destaque «Continuar de onde parou» permanece como prioridade do dashboard (docs/37).
+- **DEC-045/046/047/048:** a seção «Conhecer outros cursos» encaminha à **página pública de apresentação do curso**; página oferece «Ver planos e preços» a quem não tem acesso, e «Acessar curso» ao aluno autenticado com direito ativo. **Não redirecionar diretamente ao checkout** nem liberar conteúdo protegido.
+- **DEC-049:** «Acessar curso» abre **visão geral pedagógica**, com módulos, aulas, progresso e retomada. A organização expansível detalha a apresentação já definida. «Começar curso» é a ação específica para aluno sem histórico no curso; só leva à aula autorizada.
+- **DEC-063:** desktop pode manter navegação lateral estruturada, enquanto a visão geral do curso mostra módulos expansíveis; mobile mantém painel expansível de módulos na aula (Bloco 02). Estados devem permanecer compreensíveis e acessíveis.
+- **DEC-050/051 e regras pedagógicas posteriores:** percentual de progresso e status «Concluído» seguem os registros canônicos vigentes. **Não** reintroduzir nota eliminatória, limite de duas tentativas ou exigência de 100% do vídeo com base em linguagem histórica de DEC-049/050/063; avaliação obrigatória não eliminatória e tentativas ilimitadas prevalecem.
+- **Privacidade e comercialização:** nenhum dado protegido de curso sem direito; não usar personalização comercial direcionada a menores sem revisão jurídica/adequação. O bloco não define preços, ofertas, novos cursos nem requisitos para desbloqueio.
+
+### Critérios de aceite do protótipo
+- [ ] Visão geral de curso com módulos expansíveis e aulas listadas com estado textual e ícone.
+- [ ] Primeiro acesso apresenta «Começar curso» e estado sem histórico fictício.
+- [ ] Meus cursos tem três agrupamentos ordenados: em andamento → não iniciados → concluídos.
+- [ ] Seção «Conhecer outros cursos» separada e condicionada à existência de cursos não autorizados; rota exclusivamente informativa conforme DEC-045–048.
+- [ ] Desktop/mobile, Claro/Escuro/Sistema, acessibilidade e uso do logotipo original contemplados no design do Claude.
+- [ ] Direitos e regras pedagógicas prevalentes preservados; protótipo não finge funcionalidades implementadas.
+
+**Status:** Bloco 03 **APROVADO PARA ESPECIFICAÇÃO/PROTÓTIPOS D1**; não há aceite visual final, liberação técnica, custo aprovado ou autorização de implementação. **F2–F8 continuam NÃO AUTORIZADAS.**
