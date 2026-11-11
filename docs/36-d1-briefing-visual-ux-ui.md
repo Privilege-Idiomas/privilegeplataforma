@@ -295,3 +295,33 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 **Registro histórico preservado:** as inconsistências antigas em DEC-066 e em notas iniciais de distribuição de benefícios permanecem disponíveis para auditoria, mas **não têm precedência** sobre as confirmações posteriores. DEC-066/067/082/083 prevalecem conforme datas e autoridade específica.
 
 **Status:** cinco escolhas **APROVADAS PARA UX D1**; nenhum aceite visual final, orçamento, implementação, F2–F8, contratação, deploy ou uso de dados reais autorizados.
+
+
+## 19. Bloco 06 — Central de Ajuda e Suporte (aprovado em 11/11/2026)
+
+**Aprovação expressa de Marina:** cinco escolhas de UX, restritas à D1 e à prototipação visual. Não constituem autorização de novas ferramentas, implementação ou mudanças nas regras de negócio.
+
+| Nº | Elemento | Decisão de UX aprovada |
+|---|---|---|
+| 1 | Central de Ajuda | **Página única com Pesquisa, Perguntas frequentes, Minhas solicitações e Abrir chamado.** |
+| 2 | Formulário de suporte | **Página dedicada**, contendo assunto, descrição e contexto pertinente; evitar solicitação de informações pessoais além do necessário. |
+| 3 | Acompanhamento de solicitações | **Cards com protocolo, assunto, data e status**, abrindo detalhes da solicitação selecionada. |
+| 4 | Reportar problema durante uma aula | **Ação discreta na aula** que abre o formulário com **contexto da aula já identificado**; respeitar permissões e não divulgar respostas de avaliações ou outros dados sensíveis. |
+| 5 | Perguntas frequentes | **Categorias expansíveis**, com **pesquisa por palavras-chave**. |
+
+### Reconciliação com decisões canônicas
+- **DEC-070.3/070.4/070.5:** perguntas frequentes, canal de suporte técnico/pedagógico/administrativo, acompanhamento individual e relato contextual de problemas em vídeo/material/exercício/avaliação já estão aprovados. O Bloco 06 escolhe somente a forma de apresentação.
+- **DEC-071.8 e DEC-078.4:** cada solicitação tem protocolo e estados mínimos **«Aberta» → «Em análise» → «Resolvida»**; existe central de suporte dentro da plataforma **e canal por e-mail**. O layout em cards não altera estados, fluxo de atendimento, segurança, prazos nem disponibilidade do canal de e-mail.
+- **Privacidade e menores:** somente o aluno autenticado e profissionais legitimamente autorizados acessam os chamados correspondentes; dados de terceiros, dados pessoais excessivos e gabaritos restritos não são expostos no formulário/contexto automático. Regras específicas de responsável legal, retenção e LGPD seguem suas decisões aplicáveis e validação jurídica.
+- **Sem novas promessas:** não estabelecer SLA, atendimento 24 horas, chat em tempo real, respostas geradas por IA, integração paga de helpdesk, notificação por aplicativos ou possibilidade de reabrir chamados sem decisão separada.
+- **D1 Blocos 01–05:** preservar acesso à ajuda no dashboard e a ação de reporte em aula sem prejudicar player, prática ou avaliação; padrões de responsividade e modo Claro/Escuro/Sistema já definidos.
+
+### Critérios de aceite para protótipos D1
+- [ ] Central apresenta pesquisa, FAQ, Minhas solicitações e ação Abrir chamado com hierarquia clara.
+- [ ] Formulário dedicado com assunto, descrição e contexto pertinente; estados de validação/erro/sucesso sem protocolo fictício emitido.
+- [ ] Lista de chamados próprios em cards com protocolo, assunto, data e estado textual; detalhes acessíveis apenas ao usuário permitido.
+- [ ] Ação «Reportar problema» discreta na aula, com contexto permitido identificado sem exigir digitar dados já conhecidos.
+- [ ] FAQ agrupada em categorias expansíveis e pesquisável; estado sem resultados previsto.
+- [ ] Desktop/mobile, acessibilidade, texto compreensível, logo original e Claro/Escuro/Sistema preservados.
+
+**Status:** Bloco 06 **APROVADO PARA UX D1**; histórico original intacto. **Nenhum aceite final do design, custo, implementação, F2–F8, contratação, deploy ou operação com dados reais autorizado.**
