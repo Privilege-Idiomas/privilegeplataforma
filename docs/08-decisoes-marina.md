@@ -956,3 +956,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência e limites:** complementar apresentação sem substituir DEC-070/071/078 sobre verificação de identidade, confirmações de troca de e-mail, recuperação segura, sessões revogadas e controle de dados de menores/responsáveis. Manter padrão **Sistema** e persistência de seleção manual já previstos na D1 §11. Resumo não mistura curso contratado com nível de serviços e não revela dados financeiros do pagador ao aluno sem autorização. Nenhuma nova regra comercial, autenticação ou obrigação legal é criada.
 
 **Registro e checklist:** [docs/36 §20](36-d1-briefing-visual-ux-ui.md), Issue #15. Histórico preservado. Aprovação exclusivamente UX D1; nenhuma implementação, F2–F8, despesa, contratação ou deploy.
+
+
+## Complemento de UX à DEC-080.01–06 — D1 Bloco 08 (11/11/2026)
+
+**Aprovação expressa de Marina limitada à UX D1:** convite ao teste de nivelamento **opcional no primeiro acesso**, com acesso posterior pela **área de estudos**; convite em **card com explicação, «Fazer teste» e «Agora não»**; experiência de **uma questão por tela e indicador de progresso**; resultado em destaque, com **explicação curta e orientação de estudo**; trilhas apresentadas em **cards por objetivo**, com cursos vinculados e direitos de acesso explícitos.
+
+**Precedência preservada:** DEC-080 mantém teste não bloqueante, recomendações não eliminatórias, faixas configuráveis pela equipe pedagógica (não inventar nota, classificação ou total de questões), Basic English sem obrigatoriedade como pré-requisito e livre troca de trilha sem apagar progresso ou conferir novo acesso. Nenhum conteúdo, curso ou orientação pedagógica concreta foi aprovado por escolha de layout. Não habilitar perfilamento comercial de menores.
+
+**Rastreabilidade:** [docs/36 §21](36-d1-briefing-visual-ux-ui.md), Issue #15. Histórico canônico preservado. Nenhum custo, implementação, F2–F8, contratação ou deploy autorizado.
