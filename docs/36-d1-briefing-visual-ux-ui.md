@@ -383,3 +383,34 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Layout responsivo, acessível, Claro/Escuro/Sistema e marca original.
 
 **Status:** Bloco 08 **APROVADO PARA UX D1**. Especificação pedagógica, aprovação visual final, custos, stack, implementação, F2–F8, deploy e contratação seguem **não autorizados/pendentes conforme respectivos gates**.
+
+
+## 22. Bloco 09 — página pública de curso e apresentação de planos (aprovado em 11/11/2026)
+
+**Aprovação expressa de Marina:** cinco decisões de UX para D1. Não se trata de aceite visual final nem aprovação comercial, financeira ou de implementação.
+
+| Nº | Elemento | Decisão de UX |
+|---|---|---|
+| 1 | Abertura da página pública do curso | **Título, descrição breve, imagem editorial e CTA principal em destaque**. A imagem deve ser licenciada/autorizada e adequada ao público; não há aprovação de mídia específica. |
+| 2 | Apresentação dos módulos | **Lista de módulos expansíveis com descrições públicas**. Somente dados editoriais autorizados, sem aulas ou materiais protegidos. |
+| 3 | Objetivos e benefícios | **Seções distintas «O que você vai aprender» e «Benefícios»**, sem promessa de proficiência ou reconhecimento oficial não comprovado. |
+| 4 | Localização do CTA principal | **No início da página e após a apresentação dos módulos**, com o texto/ação já aprovado conforme direito: «Ver planos e preços» para visitante/sem acesso elegível, ou «Acessar curso» para aluno autenticado com direito vigente. |
+| 5 | Apresentação de planos e preços | **Cards comparativos apenas de ofertas comercialmente aprovadas e elegíveis**, com benefícios e condições claras. A escolha não aprova valores, periodicidade, quantidade de planos ou modalidades extras. |
+
+### Conciliação canônica
+- **DEC-045/046:** há **uma página pública única por curso**, acessível com ou sem login, expondo somente descrição, objetivos, visão pública dos módulos e benefícios esperados. Layout de abertura e módulos expansíveis detalha a interface; não publica questões, vídeos privados, gabaritos, arquivos ou progresso.
+- **DEC-047:** preservar sequência **Conhecer curso → Ver planos e preços → Contratar** para quem não tem direito, com decisão explícita posterior antes do checkout. Cards são comparativos e não autorizam compra automática, valores inventados nem fornecedor de pagamento.
+- **DEC-048/049:** para aluno autenticado com direito vigente, substituir CTA comercial por **«Acessar curso»** em ambas as posições; destino continua a **visão geral pedagógica** do curso, e não a aula/checkout. Não decidir autorização somente por estado visual.
+- **DEC-012/076/080/082/083 e MAT-002:** distinguir **curso/trilha contratado** de **nível de serviços**; Basic como bônus elegível, Travel e Business separados, Plano 1 digital apenas, demais benefícios conforme decisões posteriores. Condições efetivas, preços e validação jurídica/comercial não são inferidos dos cards.
+- **DEC-037/040–043 e segurança:** não realizar perfilamento comercial de menores, não expor dados de estudante, encaminhar contratação de menor somente com os controles legais exigidos. A fotografia/imagem editorial não autoriza usar imagem de pessoa real sem licença/consentimento.
+
+### Checklist de aceite visual D1
+- [ ] Hero com título, descrição objetiva, imagem editorial apropriada e CTA condicional.
+- [ ] Módulos expansíveis somente com informações públicas editorialmente aprovadas.
+- [ ] Seções «O que você vai aprender» e «Benefícios», claras e sem promessas excessivas.
+- [ ] CTA repetido após módulos, consistente com o direito ao curso, sem induzir checkout direto.
+- [ ] Página de planos com cards que permitam comparar somente ofertas aprovadas; não inventar preço/benefício.
+- [ ] Desktop/mobile, Claro/Escuro/Sistema, acessibilidade, identidade visual original e estados sem oferta/indisponível.
+- [ ] Não expor conteúdo protegido nem criar precificação, dados comerciais ou mecanismos de pagamento fictícios.
+
+**Status:** cinco escolhas **APROVADAS EXCLUSIVAMENTE PARA UX D1**; sem aprovação final dos protótipos ou autorização de F2–F8, gastos, implementação, contratação, deploy ou atividades com dados reais.
