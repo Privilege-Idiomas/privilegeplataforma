@@ -89,3 +89,28 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - **F2–F8:** **não autorizadas**; nenhuma implementação funcional, deploy, contratação, integração externa ativa ou dados reais.
 - **Regra de decisão:** nenhuma hipótese de cor, fonte, componente ou tela é «APROVADA» até declaração explícita; documentar revisões no GitHub.
 - **Notion:** somente visão executiva extraída do GitHub; não se tornar fonte de decisões.
+
+
+## 11. Decisão aprovada — modos de aparência (10/11/2026)
+
+**Decisão expressa de Marina:** o design da Privilège deverá prever **modo claro**, **modo escuro** e **modo automático (sistema)**. A **opção inicial preferida/padrão é automático pelo sistema**, respeitando a preferência de aparência do sistema operacional/dispositivo. A escolha manual do usuário deverá ser **persistida**, de modo que a preferência seja mantida nas próximas visitas/sessões, com possibilidade de retornar a «Sistema».
+
+**Status da decisão:** **APROVADO PARA O PLANEJAMENTO DA D1** — não significa que a implementação funcional esteja liberada ou realizada. A identidade visual final dos dois temas, paletas precisas, contrastes, componentes e protótipos ainda requerem revisão e aceite específico.
+
+### Requisitos de UX/UI para os protótipos
+- Desenhar as **mesmas telas** nos temas claro e escuro, preservando estrutura, hierarquia, funcionalidades e a identidade sofisticada, premium e elegante.
+- Desenhar seletor «Aparência» com as opções **Claro**, **Escuro** e **Sistema (automático)**; indicar de forma inequívoca o modo ativo.
+- Simular no protótipo a regra: preferência manual tem prioridade sobre o tema do dispositivo; «Sistema» acompanha claro/escuro do dispositivo quando essa opção estiver selecionada.
+- Prever persistência da escolha entre sessões como **requisito futuro**; não vincular ainda a tecnologia de armazenamento nem exigir conta autenticada para alternância.
+- Validar contraste WCAG 2.2 AA, foco visível, acessibilidade de ícones e controles e legibilidade de textos/tabelas/áreas de estudo nos dois temas. Usar o dourado como acento e não como único sinal de estado.
+- Priorizar superfícies claras para leitura prolongada no tema claro e azul profundo com superfícies escuras coerentes no tema escuro, sem tornar a experiência de estudo visualmente sobrecarregada.
+- Preservar os arquivos originais dos logotipos branco e dourado; testar sua adequação a cada fundo sem redesenhar a marca.
+
+### Critérios de aceite futuros
+- [ ] Protótipos desktop e mobile de uma tela de estudo e do dashboard em **ambos os temas**.
+- [ ] Seletor Claro / Escuro / Sistema representado nas especificações e estados.
+- [ ] Tokens semânticos de cores e estados documentados para os dois temas.
+- [ ] Simulação dos comportamentos «Sistema» e seleção manual, incluindo persistência como requisito especificado.
+- [ ] Revisão de legibilidade/contraste e aprovação expressa do conjunto visual.
+
+**Restrição mantida:** não executar código, instalar bibliotecas de tema ou iniciar a F2. A futura implementação dependerá de autorização independente da fase de desenvolvimento correspondente; nenhuma estimativa preliminar é compromisso de custo/prazo.
