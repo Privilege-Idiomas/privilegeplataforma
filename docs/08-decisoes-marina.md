@@ -909,3 +909,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **DEC-063:** a aula usa abas **«Resumo»** e **«Materiais»** (textos/PDFs autorizados), com botões **«Praticar»** e **«Fazer avaliação»** abrindo experiências separadas; em mobile o vídeo é destacado e os módulos/aulas ficam em **painel expansível**. A organização em abas/telas é refinamento de UX, não cancelamento da presença desses recursos na jornada da aula. As regras pedagógicas antigas sobre nota eliminatória e duas tentativas citadas no histórico da DEC-063 foram substituídas pelas decisões posteriores sobre avaliação obrigatória **não eliminatória** e tentativas ilimitadas (DEC-074 e complementos).
 
 **Governança:** **aprovado como requisito de UX para prototipação da D1**, sem aprovação de custo, implementação, F2–F8, deploy ou contratação.
+
+
+## Complemento de UX à DEC-044/045–049/063 — D1 Bloco 03 (11/11/2026)
+
+**Aprovação expressa de Marina, exclusivamente para D1:** (1) visão geral de curso com **módulos expansíveis** que mostram aulas ao abrir; (2) aulas sinalizadas com **ícone + estado textual** «Concluída», «Disponível» ou «Bloqueada»; (3) para curso ainda não iniciado, CTA **«Começar curso»**; (4) em «Meus cursos», ordenar **em andamento → não iniciados → concluídos**; (5) separar **«Meus cursos»** e **«Conhecer outros cursos»** em seções próprias.
+
+**Precedência sem apagar histórico:** estas escolhas detalham apresentação das jornadas já aprovadas em DEC-044–049, e não alteram as permissões e as etapas públicas de conhecer curso → ver planos/preços → contratar. Para aluno com direito vigente, permanece «Acessar curso» → visão geral do curso; para curso sem histórico, «Começar curso» leva à primeira aula autorizada. Estados «Bloqueada» dependem dos direitos e regras de progressão atuais, não de exigência de nota mínima eliminatória ou 100% do vídeo; decisões pedagógicas posteriores prevalecem sobre trechos legados de DEC-049/050/063. **A seção comercial não autoriza perfilamento direcionado a menores**, divulgação de conteúdo restrito ou compra direta.
+
+**Registro detalhado e checklist D1:** [docs/36 §16](36-d1-briefing-visual-ux-ui.md); complemento de dashboard em [docs/37 §8](37-d1-ux-dashboard-aluno.md); Issue #15. Nenhuma escolha de layout definitivo do Claude, custo, implementação, F2–F8, deploy ou contratação autorizada.
