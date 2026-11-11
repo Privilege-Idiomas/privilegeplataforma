@@ -929,3 +929,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 4. **DEC-050/051/074/075 — Acompanhamento:** usar uma área **«Meu progresso»** com resumo por curso, **gráfico da nota de avaliações por tentativa/data** e histórico detalhado. Não inventar uma fórmula diferente de avanço, nem usar requisitos legados de nota eliminatória/duas tentativas. A avaliação obrigatória não eliminatória e a preservação das tentativas seguem as decisões posteriores.
 
 **Registro completo e checklist:** [docs/36 §17](36-d1-briefing-visual-ux-ui.md); Issue #15. **Preservar histórico:** esta é uma adição de UX aos registros, sem apagar nem alterar o teor dos IDs DEC-027/028/031/033/034/050/051/074/075. Prototipação somente; custos, implementação funcional, F2–F8, deploy e contratação **não autorizados**.
+
+
+## Complemento UX à DEC-066/067/079/082/083 — D1 Bloco 05 (11/11/2026)
+
+**Aprovação expressa exclusivamente de interface D1:** (1) página única «Agenda» com abas Plantões/Aulas particulares; (2) calendário com data e horários disponíveis; (3) resumo superior de créditos separados por modalidade, quando houver direitos; (4) próximos agendamentos em destaque e histórico abaixo; (5) antes de confirmar, resumo de data, horário, modalidade, crédito utilizado e política de cancelamento.
+
+**Precedência e histórico:** as escolhas de apresentação **não restauram** a hipótese antiga de plantão sem reserva da DEC-066 nem a distribuição revogada de um plantão do Plano 1. Aplicar a confirmação posterior de **reserva obrigatória de plantão**, duração de 20 min, máximo de 10 participantes, e **Plano 1 apenas digital** (DEC-082); Plano 2 com 2 plantões/mês; Plano 3 com 4 plantões e 2 particulares de 50 min/mês (DEC-083). Respeitar créditos separados e não cumulativos, limite de 2h de cancelamento/remarcação, preservação em cancelamento pela escola e indisponibilidade de sessões lotadas sem lista de espera (DEC-079.4).
+
+**Especificação e aceite:** [docs/36 §18](36-d1-briefing-visual-ux-ui.md), Issue #15. Nenhuma alteração de regras comerciais, nem autorização de custos, fornecedor, programação, F2–F8 ou deploy. Manter registros originais para auditoria.
