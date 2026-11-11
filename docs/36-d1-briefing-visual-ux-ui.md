@@ -114,3 +114,20 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Revisão de legibilidade/contraste e aprovação expressa do conjunto visual.
 
 **Restrição mantida:** não executar código, instalar bibliotecas de tema ou iniciar a F2. A futura implementação dependerá de autorização independente da fase de desenvolvimento correspondente; nenhuma estimativa preliminar é compromisso de custo/prazo.
+
+
+## 12. Decisão aprovada — feedback de exercícios e avaliações (10/11/2026)
+
+**Decisão expressa de Marina para a D1:** diferenciar a experiência de correção de **exercícios de prática** e **avaliações**:
+
+1. **Exercícios de prática:** após responder a cada questão, o aluno pode verificar sua resposta e recebe **feedback imediato**, informando se acertou ou errou e apresentando **uma explicação educativa**. A prática é acessada pelo botão «Praticar» na página da aula e apresenta **uma questão por vez** (decisões anteriores da D1).
+2. **Avaliações:** o aluno responde às questões e recebe o **resultado consolidado somente ao final**, com indicação de desempenho, acertos/erros e explicações pertinentes. Não revelar a correção de cada resposta durante a realização da avaliação.
+
+### Regras UX para detalhar nos protótipos
+- Representar o botão «Verificar resposta» e o estado de correção imediata nas questões de prática (acerto, erro e explicação); manter mensagem legível, acessível e não dependente apenas de cor.
+- Representar a navegação por questões e a tela de resultado consolidado nas avaliações, sem fornecer feedback de acerto/erro antecipadamente.
+- Respeitar as regras pedagógicas prevalentes: **não bloquear a próxima aula por nota mínima nem por visualização integral do vídeo**.
+- A quantidade de questões, a apresentação da nota, tentativas, possibilidade de alterar resposta, momento de exibir o gabarito e outras regras específicas permanecem sujeitas a detalhamento/validação conforme documentos canônicos; esta decisão não as altera.
+- Aplicar os mesmos comportamentos aos protótipos Claro/Escuro/Sistema em desktop/mobile, com contraste e acessibilidade.
+
+**Status:** **APROVADO COMO REQUISITO DE UX DA D1**, não como design final ou funcionalidade implementada. Nenhuma programação, testes de produto, deploy, compras ou F2–F8 autorizados.
