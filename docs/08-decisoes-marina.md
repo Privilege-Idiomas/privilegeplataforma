@@ -918,3 +918,14 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência sem apagar histórico:** estas escolhas detalham apresentação das jornadas já aprovadas em DEC-044–049, e não alteram as permissões e as etapas públicas de conhecer curso → ver planos/preços → contratar. Para aluno com direito vigente, permanece «Acessar curso» → visão geral do curso; para curso sem histórico, «Começar curso» leva à primeira aula autorizada. Estados «Bloqueada» dependem dos direitos e regras de progressão atuais, não de exigência de nota mínima eliminatória ou 100% do vídeo; decisões pedagógicas posteriores prevalecem sobre trechos legados de DEC-049/050/063. **A seção comercial não autoriza perfilamento direcionado a menores**, divulgação de conteúdo restrito ou compra direta.
 
 **Registro detalhado e checklist D1:** [docs/36 §16](36-d1-briefing-visual-ux-ui.md); complemento de dashboard em [docs/37 §8](37-d1-ux-dashboard-aluno.md); Issue #15. Nenhuma escolha de layout definitivo do Claude, custo, implementação, F2–F8, deploy ou contratação autorizada.
+
+
+## Complemento de apresentação UX — D1 Bloco 04 (11/11/2026)
+
+**Aprovação expressa de Marina (somente D1):** quatro escolhas para apresentação de recursos que já constam das decisões funcionais canônicas:
+1. **DEC-027 — Biblioteca de exercícios:** filtros em **barra superior**, recolhível em mobile; exercícios disponíveis em **cards agrupados por curso/módulo**, com acesso à prática. Preservar filtros por curso, módulo, aula e dificuldade, e apenas **agrupamentos bloqueados** para cursos sem direito, sem listar questões individuais.
+2. **DEC-028 — Revisão por módulo:** na visão geral do módulo, ao final da lista de aulas, exibir botão **«Revisar módulo»** levando à lista de exercícios agregados daquele módulo; nenhuma nova exigência de conclusão ou bloqueio é criada.
+3. **DEC-031/033/034 — Prática e dúvida:** os cards são formas de localizar os conjuntos; a prática continua com uma questão por vez e regras pedagógicas vigentes, incluindo tentativas ilimitadas, prioridade e sorteio por grupo, gabarito opcional e marcador «Questões em dúvida» pessoal.
+4. **DEC-050/051/074/075 — Acompanhamento:** usar uma área **«Meu progresso»** com resumo por curso, **gráfico da nota de avaliações por tentativa/data** e histórico detalhado. Não inventar uma fórmula diferente de avanço, nem usar requisitos legados de nota eliminatória/duas tentativas. A avaliação obrigatória não eliminatória e a preservação das tentativas seguem as decisões posteriores.
+
+**Registro completo e checklist:** [docs/36 §17](36-d1-briefing-visual-ux-ui.md); Issue #15. **Preservar histórico:** esta é uma adição de UX aos registros, sem apagar nem alterar o teor dos IDs DEC-027/028/031/033/034/050/051/074/075. Prototipação somente; custos, implementação funcional, F2–F8, deploy e contratação **não autorizados**.
