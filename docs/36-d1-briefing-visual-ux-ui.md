@@ -170,3 +170,36 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 6. GitHub permanece a fonte de verdade integral; Notion apenas projeção executiva.
 
 **Restrição:** estas verificações não constituem autorização de implementação, liberação da F2–F8 ou alteração das regras de aprovação.
+
+
+## 15. Bloco 02 — organização da sala de aula e reconciliação com DEC-031 (aprovado em 11/11/2026)
+
+**Decisão expressa de Marina para UX da D1:** o conjunto abaixo foi aprovado como especificação de interface, sem autorização de implementação.
+
+| Nº | Elemento | Decisão aprovada |
+|---|---|---|
+| 1 | Resumo escrito da aula | Exibir em **aba «Resumo»**, junto às informações da aula. |
+| 2 | Materiais complementares | Exibir em **aba «Materiais»**, com lista de **textos e PDFs** disponíveis para aquela aula. |
+| 3 | Navegação no celular | **Vídeo em destaque** e módulos/aulas em **painel expansível**. |
+| 4 | Recursos e ações da aula | **Abas «Resumo» e «Materiais»**, mais botões claramente identificados **«Praticar»** e **«Fazer avaliação»**, em fluxos separados. |
+| 5 | Questões marcadas como dúvida | Acessar pelo filtro **«Questões em dúvida» na área geral de exercícios**; preservar a lista privada do aluno. |
+| 6 | Resposta errada nos exercícios de prática | Mostrar **explicação educativa imediata sem revelar automaticamente o gabarito**. A resposta correta aparece **somente se o aluno escolher «Ver resposta»**. |
+
+### Reconciliação histórica obrigatória
+
+- **DEC-031** (`docs/08-decisoes-marina.md`, 31/10/2026) já decidiu **tentativas ilimitadas, gabarito inicialmente oculto e escolha de «Tentar novamente» ou «Ver resposta e explicação»**, sem obrigar revelação; também decidiu que visualizar o gabarito não equivale a acertar. O Bloco 01 da D1 (10/11) havia aprovado «explicação imediata», que era ambígua quanto à revelação da resposta.
+- **Esta decisão de 11/11 esclarece, sem revogar a DEC-031:** apresentar **feedback explicativo imediato não revelador** em caso de erro, mantendo **gabarito oculto por padrão** e opções de **tentar novamente** ou **ver a resposta correta**. Se o aluno optar por «Ver resposta», mostrar o gabarito e a explicação completa já cadastrados. Tentativas permanecem ilimitadas; histórico e estados pedagógicos da DEC-031/033/034 permanecem vigentes. A explicação educativa pré-revelação precisa ser redigida sem entregar a alternativa correta ou pistas que a identifiquem de modo inequívoco.
+- **DEC-063** já determinava uma página com vídeo, resumo, materiais, prática e avaliação, e navegação por módulos/aulas. Este Bloco 02 **detalha a apresentação**: as abas ficam na página da aula, enquanto botões levam a telas separadas de prática e avaliação; a navegação lateral em desktop se adapta ao painel expansível em mobile. Não remover as capacidades funcionais já previstas.
+- **DEC-034:** a marcação «Questão em dúvida» é privada, independente do acerto/erro, persistente e com desmarcação; selecionar o filtro na área geral não concede acesso às questões de cursos sem direito, nem revela as marcações a professores. O botão/controle de marcar questão na própria prática continua previsto pela DEC-034, enquanto o filtro é a forma de reencontrá-las.
+- **DEC-074/075/079 e decisões posteriores prevalentes:** avaliação obrigatória, nota não eliminatória, tentativas ilimitadas, correção consolidada somente após finalizar, retomada e direitos vigentes. As frases antigas em DEC-063/REQ-013/015 que exigiam nota mínima para desbloqueio ou limitavam a duas tentativas são históricas **e não devem ser aplicadas**. Não exigir 100% do vídeo (DEC-024 consolidada).
+
+### Critérios de revisão do protótipo
+- [ ] Desktop: player de vídeo prioritário, navegação visível por módulos/aulas, abas Resumo/Materiais e botões Praticar/Fazer avaliação.
+- [ ] Mobile: vídeo em destaque, módulos/aulas acessíveis por painel expansível e botões facilmente acionáveis.
+- [ ] Materiais apresentam apenas textos e PDFs existentes e autorizados; estados vazios, indisponíveis e carregamento com mensagens claras.
+- [ ] Prática: erro apresenta explicação **sem gabarito automático**, com botões «Tentar novamente» e «Ver resposta»; acerto apresenta confirmação, explicação curta e «Próxima».
+- [ ] Questões em dúvida acessíveis pelo filtro na biblioteca pessoal, observando privacidade e direitos por curso.
+- [ ] Modo Claro/Escuro/Sistema, logotipo oficial, contraste, foco e navegação acessível; layouts definitivos para aprovação expressa.
+- [ ] Nenhuma regra de desbloqueio ou tentativas legada reintroduzida.
+
+**Status:** as seis escolhas de UX estão **APROVADAS PARA D1**. Ainda não há aceite final de protótipos nem estimativa/custo aprovado para implementação. **F1 concluída; F2–F8 não autorizadas; sem desenvolvimento funcional, deploy, contratação ou dados reais.**
