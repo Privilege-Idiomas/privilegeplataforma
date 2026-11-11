@@ -131,3 +131,28 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - Aplicar os mesmos comportamentos aos protótipos Claro/Escuro/Sistema em desktop/mobile, com contraste e acessibilidade.
 
 **Status:** **APROVADO COMO REQUISITO DE UX DA D1**, não como design final ou funcionalidade implementada. Nenhuma programação, testes de produto, deploy, compras ou F2–F8 autorizados.
+
+
+## 13. Bloco 01 — decisões de UX para prática e avaliações (aprovado em 10/11/2026)
+
+**Aprovação expressa de Marina:** as seis decisões a seguir foram aprovadas **em bloco**, exclusivamente para especificação de UX, protótipos e handoff futuro. Esta seção complementa as decisões anteriores de «Praticar», questão por vez e feedback imediato na prática / consolidado ao final da avaliação.
+
+| Nº | Situação | Comportamento aprovado |
+|---|---|---|
+| 1 | Aluno erra uma questão de prática | **Mostrar explicação e permitir tentar novamente.** |
+| 2 | Aluno acerta uma questão de prática | **Mostrar confirmação, explicação curta e botão «Próxima».** |
+| 3 | Aluno sai antes de concluir a atividade | **Salvar o progresso e permitir retomar posteriormente.** |
+| 4 | Aluno conclui os exercícios de prática | **Mostrar resumo de desempenho e opção de revisar.** |
+| 5 | Aluno conclui uma avaliação | **Mostrar nota, acertos, erros e explicações por questão.** A correção permanece consolidada ao final, não durante a avaliação. |
+| 6 | Nota da avaliação é baixa | **Sugerir revisão da aula e nova tentativa, sem bloquear o avanço.** |
+
+### Implicações de UX para prototipação
+- Prática apresenta uma questão por vez; «Verificar resposta» revela feedback educativo. Em erro, apresentar opção de nova tentativa; em acerto, confirmar, explicar brevemente e oferecer «Próxima».
+- Ao sair e retornar a exercícios/avaliações em andamento, permitir continuar do progresso salvo; definir os detalhes de persistência/autenticação na fase técnica autorizada, sem implementar na D1.
+- Ao terminar a prática, exibir resumo e ação de revisão; ao finalizar avaliação, exibir nota e revisão por questão, sem respostas corretas reveladas durante a realização.
+- Uma nota baixa gera orientação de estudo, **nunca bloqueio de avanço**. O mesmo vale para a exigência de assistir integralmente ao vídeo.
+- Incluir estados de carregamento, erro, retomada, conclusão e feedback acessível; aplicar em desktop/mobile e nos modos Claro/Escuro/Sistema.
+
+**Limites da decisão:** não foram aprovados neste bloco limiares numéricos de «nota baixa», escala/ponderação da nota, quantidade/tipos de questões, forma de cálculo do progresso, número de tentativas ou política de persistência técnica. Consultar decisões pedagógicas prevalentes e validar detalhes restantes sem inferência.
+
+**Governança:** somente D1 de design/UX autorizada; **nenhuma implementação, F2–F8, deploy, contratação ou operação com dados reais** foi autorizada.
