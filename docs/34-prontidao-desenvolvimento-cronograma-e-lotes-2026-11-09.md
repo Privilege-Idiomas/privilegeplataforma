@@ -78,3 +78,23 @@ Claude Code foi acionado e **executou a F1** na branch `f1/fundacao-tecnica`, co
 - **F2–F8:** **não autorizadas**; aceite de D1 não implica autorização de programação. Nenhum contrato, deploy, credencial de produção, processamento de dados reais ou integração externa liberados.
 - **Fonte de verdade:** GitHub Issue #15 e artefatos vinculados. Notion apenas projeção executiva do status registrado no GitHub.
 - **Data/prazo:** a estimar; nenhuma data-base de entrega da D1 foi aprovada.
+
+
+## 12. Diretriz de aceleração recebida — 11/11/2026 (meta: até 5 semanas)
+
+**Nova orientação expressa de Marina:** o plano original com referência de **14+ semanas é longo demais**; trabalhar com **teto desejado de 5 semanas**. A partir de 11/11/2026, cinco semanas corridas apontam para **16/12/2026** como **data-alvo proposta**, **não promessa/compromisso de lançamento nem homologação de viabilidade**. A antiga tabela de F1–F8 permanece preservada acima como baseline histórica, não cronograma aceito.
+
+**Situação factual no início da mudança:** F1 aceita e integrada; D1 (UX/UI) em definição; F2–F8 **não autorizadas**. Claude havia estimado F2 em 7–10 dias úteis; não existe estimativa validada que comprove conclusão integral do produto, conteúdo audiovisual e operação pública em 5 semanas. Não marcar fases «aprovadas» ou «em execução» somente porque foi solicitado acelerar.
+
+### Plano de compressão para análise, sujeito à revisão técnica do Claude e decisões da direção
+- **Semana 1 (11–17/11):** fechar decisões e aceite visual prioritários D1; auditar dependências, decompor escopo por caminho crítico, reestimar F2–F8 e dependências externas em dias úteis; preparar autorização **separada** de F2 após gates aplicáveis. Sem code execution adicional por inferência.
+- **Semana 2 (18–24/11):** cenário condicionado à aprovação de F2: identidade, autenticação, papéis, direitos e testes de isolamento; desenho e conteúdo audiovisual podem avançar em trilhas separadas **somente dentro de aprovações específicas**.
+- **Semana 3 (25/11–01/12):** cenário condicionado aos aceites precedentes: catálogo, cursos, player com mídia de teste, progresso e prática/avaliação; backend e frontend em lotes revisáveis, com integração contínua e testes.
+- **Semana 4 (02–08/12):** cenário condicionado às autorizações: integrar assinatura/benefícios em ambiente fictício, agenda e docentes, certificados, admin e suporte, com paralelismo onde houver interfaces estáveis; sem gatilho de cobrança real ou exposição de dados.
+- **Semana 5 (09–16/12):** cenário condicionado à prontidão: fechamento de fluxos críticos, acessibilidade, controle de acesso, testes de regressão, segurança, ajustes e eventual piloto/homologação; **lançamento público exige** jurídico, fornecedores, conteúdo final, licenças, segurança, aceite executivo e liberação específica.
+
+**Riscos/rota crítica que não desaparecem:** produção/validação das 118 videoaulas, parâmetros pedagógicos, capacidade do Claude/revisão da Marina, LGPD/menores, gateway/videoconferência, autenticação segura, testes de autorização, certificados e contratos; cinco semanas para produto integral em produção **não têm viabilidade demonstrada**. Não omitir componentes do escopo integral sem decisão explícita de Marina após apresentação das consequências; oferecer escolha entre entrega ampla demonstrável com serviços simulados e lançamento restrito condicionado aos requisitos de produção. Não mascarar escopo pendente como «feito».
+
+**Ações de gestão:** (1) obter do Claude estimativas e caminho crítico revisados em dias úteis, distinguindo tempo de execução/QA/dependências; (2) apresentar quadro semanal de entregáveis, riscos e bloqueadores; (3) propor lotes pequenos e paralelismo sem quebrar controle de autorização e PR; (4) organizar decisões pendentes por responsável e prazo desejado, explicitando se bloqueiam desenvolvimento local, integração ou lançamento; (5) registrar a nova baseline **somente após validação de viabilidade e aprovação expressa de Marina**.
+
+**Governança:** nova meta de calendário **não é autorização implícita** para F2–F8, IA paga, integrações, dados pessoais reais, contratação ou deploy. GitHub é fonte oficial; Notion somente relatório executivo derivado.
