@@ -354,3 +354,32 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Responsividade desktop/mobile, acessibilidade, modos Claro/Escuro/Sistema e logotipo original.
 
 **Status:** Bloco 07 **APROVADO PARA UX D1**; sem aceite visual definitivo, custo aprovado, implementação, F2–F8, deploy, contratação ou autorização de dados reais.
+
+
+## 21. Bloco 08 — nivelamento e trilhas de aprendizagem (aprovado em 11/11/2026)
+
+**Decisão expressa de Marina — apenas UX D1**, sem autorização de desenvolvimento, alteração pedagógica ou liberação de fases posteriores.
+
+| Nº | Aspecto | UX aprovada |
+|---|---|---|
+| 1 | Disponibilidade visual do teste de nivelamento | **Convite opcional no primeiro acesso**, permanecendo disponível posteriormente **na área de estudos**. |
+| 2 | Convite inicial | **Card com breve explicação e ações «Fazer teste» e «Agora não».** A dispensa não bloqueia a jornada de aprendizagem. |
+| 3 | Interface de questões | **Uma questão por tela, com indicador de progresso**; a quantidade de questões e metodologia ainda dependem da equipe pedagógica. |
+| 4 | Apresentação do resultado | **Resultado em destaque, explicação curta e orientações de estudo**, apenas conforme faixas e recomendações pedagogicamente aprovadas. |
+| 5 | Organização de trilhas | **Cards por objetivo de aprendizagem**, indicando **cursos vinculados e direitos de acesso**; nenhuma trilha duplica conteúdos ou concede acesso novo. |
+
+### Conciliação com a DEC-080 e demais decisões prevalentes
+- **DEC-080.01–03:** o teste é **facultativo** antes e durante o curso. Sua realização não é pré-requisito para começar, progredir ou concluir. Resultado recomenda nível/orientação; faixas, parâmetros e nomenclatura **configuráveis e dependentes de definição pedagógica** — não presumir nota 0–10, níveis fixos, número de questões ou pontuação.
+- **DEC-080.04–06:** Basic English é recomendável para iniciantes, **não obrigatório** para Travel/Business. Trilhas são selecionáveis e alteráveis livremente com progresso preservado, sem multiplicar cursos ou ampliar direitos contratados. O aluno só abre conteúdos autorizados. Cards explicam objetivos e cursos vinculados, sem inventar cursos/trilhas concretos.
+- **DEC-044 e Blocos 03/04:** o convite opcional de primeiro acesso deve integrar a experiência de dashboard sem bloquear «Começar curso», «Continuar estudando», «Meus cursos» ou «Meu progresso». «Agora não» não é reprovação, abandono obrigatório nem cria avanço fictício.
+- **Proteção de menores / DEC-040–043:** recomendações educacionais não equivalem a perfilamento comercial de menores; não usar resultado para compra direcionada, concessão automática ou restrição de curso.
+
+### Critérios de aceite do protótipo
+- [ ] Primeiro acesso mostra convite facultativo com «Fazer teste» e «Agora não»; ação de prosseguir sem testar sempre disponível.
+- [ ] Área de estudos permite iniciar teste posteriormente sem precisar passar pelo convite inicial.
+- [ ] Questão por tela e indicador de progresso ilustrados sem afirmar número de questões aprovado.
+- [ ] Resultado apresenta orientação textual sem nota/faixa inventada como parâmetro final.
+- [ ] Trilhas em cards por objetivo, com cursos relacionados, estados de direito e preservação de progresso na troca de trilha.
+- [ ] Layout responsivo, acessível, Claro/Escuro/Sistema e marca original.
+
+**Status:** Bloco 08 **APROVADO PARA UX D1**. Especificação pedagógica, aprovação visual final, custos, stack, implementação, F2–F8, deploy e contratação seguem **não autorizados/pendentes conforme respectivos gates**.
