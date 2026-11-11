@@ -938,3 +938,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência e histórico:** as escolhas de apresentação **não restauram** a hipótese antiga de plantão sem reserva da DEC-066 nem a distribuição revogada de um plantão do Plano 1. Aplicar a confirmação posterior de **reserva obrigatória de plantão**, duração de 20 min, máximo de 10 participantes, e **Plano 1 apenas digital** (DEC-082); Plano 2 com 2 plantões/mês; Plano 3 com 4 plantões e 2 particulares de 50 min/mês (DEC-083). Respeitar créditos separados e não cumulativos, limite de 2h de cancelamento/remarcação, preservação em cancelamento pela escola e indisponibilidade de sessões lotadas sem lista de espera (DEC-079.4).
 
 **Especificação e aceite:** [docs/36 §18](36-d1-briefing-visual-ux-ui.md), Issue #15. Nenhuma alteração de regras comerciais, nem autorização de custos, fornecedor, programação, F2–F8 ou deploy. Manter registros originais para auditoria.
+
+
+## Complemento de UX à DEC-070/071/078 — D1 Bloco 06 (11/11/2026)
+
+**Aprovação expressa de Marina, somente para UX D1:** (1) Central de Ajuda em página única, com Pesquisa, Perguntas frequentes, Minhas solicitações e Abrir chamado; (2) formulário de suporte em página dedicada, com assunto, descrição e contexto pertinente; (3) acompanhamento em cards de protocolo/assunto/data/status, com detalhes ao abrir; (4) ação discreta «Reportar problema» na aula que abre formulário com contexto da aula identificado; (5) FAQ organizada por categorias expansíveis com pesquisa por palavras-chave.
+
+**Precedência e limites:** complementa sem substituir as funcionalidades existentes de central, ticket, protocolo, estados **aberta/em análise/resolvida**, suporte por **e-mail**, relatos de problemas em componentes educacionais e proteção de dados previstas nas DEC-070.3–5, 071.8 e 078.4. Não instituir SLA, fornecedor, chat, IA ou notificações pagas. Informações de chamados e contexto da aula são minimizadas e submetidas a controle de acesso; não exibir gabaritos restritos, dados de terceiros ou conteúdos sem direito. Fluxos de menores/responsáveis e retenção seguem decisões canônicas e validação jurídica.
+
+**Rastreabilidade:** [docs/36 §19](36-d1-briefing-visual-ux-ui.md); Issue #15. **Registros anteriores preservados** para auditoria. Aprovação de interface **não** autoriza orçamento, implementação, F2–F8, deploy ou contratação.
