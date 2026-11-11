@@ -896,3 +896,16 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 - **Precedência:** a configuração de 1–4 particulares considerada em propostas e versões históricas **não representa mais a oferta padrão aprovada do Plano 3**; a quantidade mensal fixa é duas particulares. Não interpretar isso como autorização de avulsas, extensões pagas ou variantes comerciais.
 - **Custo direto de referência:** R$30 por aula particular de 50 minutos, provisionando conservadoramente uma hora docente remunerada para cada sessão; 2 aulas = R$60/mês por aluno do Plano 3, com 100% de uso. A escala de plantões é custo separado. Preços de mensalidade continuam hipotéticos.
 - **Governança:** confirma benefícios para especificação interna, sem aprovar preços finais, obrigações contratuais, fornecedor de videoconferência, condições jurídicas ou execução sem G5. Plano 1 somente gravadas (DEC-082) e Plano 2 com 2 plantões mensais permanecem.
+
+
+## Complemento de interface à DEC-031/034/063 — D1 Bloco 02 (11/11/2026)
+
+**Fonte da decisão:** aprovação expressa de Marina das seis escolhas de UX do Bloco 02 da D1; registro detalhado em [docs/36, seção 15](36-d1-briefing-visual-ux-ui.md) e [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15).
+
+**DEC-031, sem apagar ou substituir o registro de 31/10:** após erro na prática, apresentar imediatamente uma **explicação educativa que não revele a resposta correta**; continuar exibindo as escolhas «Tentar novamente» e «Ver resposta» (com explicação completa). **O gabarito só aparece por escolha expressa «Ver resposta»**. Tentativas permanecem ilimitadas, sem obrigar revelação; consultar gabarito não é acerto. Este complemento reconcilia o feedback imediato da D1 Bloco 01 com a proteção do gabarito decidida originalmente. Não deduzir qual alternativa é correta a partir do texto da explicação preliminar.
+
+**DEC-034:** o aluno reencontra questões marcadas pelo filtro **«Questões em dúvida» na área de exercícios**; as marcações continuam pessoais, persistentes, independentes dos acertos e inacessíveis a docentes, sem alterar direitos de curso.
+
+**DEC-063:** a aula usa abas **«Resumo»** e **«Materiais»** (textos/PDFs autorizados), com botões **«Praticar»** e **«Fazer avaliação»** abrindo experiências separadas; em mobile o vídeo é destacado e os módulos/aulas ficam em **painel expansível**. A organização em abas/telas é refinamento de UX, não cancelamento da presença desses recursos na jornada da aula. As regras pedagógicas antigas sobre nota eliminatória e duas tentativas citadas no histórico da DEC-063 foram substituídas pelas decisões posteriores sobre avaliação obrigatória **não eliminatória** e tentativas ilimitadas (DEC-074 e complementos).
+
+**Governança:** **aprovado como requisito de UX para prototipação da D1**, sem aprovação de custo, implementação, F2–F8, deploy ou contratação.
