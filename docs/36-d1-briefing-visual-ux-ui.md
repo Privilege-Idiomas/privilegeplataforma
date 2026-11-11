@@ -325,3 +325,32 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Desktop/mobile, acessibilidade, texto compreensível, logo original e Claro/Escuro/Sistema preservados.
 
 **Status:** Bloco 06 **APROVADO PARA UX D1**; histórico original intacto. **Nenhum aceite final do design, custo, implementação, F2–F8, contratação, deploy ou operação com dados reais autorizado.**
+
+
+## 20. Bloco 07 — Minha Conta e Preferências (aprovado em 11/11/2026)
+
+**Aprovação expressa para UX da D1:** cinco escolhas de apresentação, sem autorização de desenvolvimento funcional.
+
+| Nº | Assunto | Decisão aprovada |
+|---|---|---|
+| 1 | Organização de Minha Conta | **Abas «Dados pessoais», «Segurança» e «Preferências».** |
+| 2 | Edição dos dados pessoais | **Visualização em modo de leitura**, seguida de botão **«Editar»** para campos cuja alteração seja autorizada. |
+| 3 | Modos de aparência | Seletor **Claro / Escuro / Sistema** na aba **«Preferências»**, com acesso rápido também pelo **menu de perfil**. |
+| 4 | Ações de segurança | Área **«Segurança»** com ações individualizadas para **senha, e-mail e recuperação de acesso**. |
+| 5 | Assinatura e acesso | **Resumo do curso/plano e direitos pertinentes**, com acesso aos detalhes. Não confundir direito ao curso com benefícios do nível de plano. |
+
+### Reconciliação com as decisões canônicas
+- **DEC-070.1–2, DEC-071.1–2, DEC-078.1–3:** edição somente de campos permitidos, validação reforçada de mudança de e-mail no endereço atual e novo, recuperação excepcional quando necessário, redefinição de senha segura, revogação de sessões conforme motivo aprovado e tratamento neutro de conta existente. As abas e ações não alteram regras de autenticação, vínculos de menores, proteção contra abuso ou verificação de identidade.
+- **D1 §11 (10/11/2026):** Claro/Escuro/Sistema já aprovado com **Sistema como padrão**, persistência de escolha manual e comportamento correspondente ao tema do dispositivo; este bloco somente aprova as **localizações** dos seletores. Alterar aparência não exige modificar dados acadêmicos, direitos ou perfil.
+- **DEC-040/041/042/043 e DEC-012/082/083:** não criar portal de responsável, nem dar ao aluno acesso a informações financeiras privadas de outro pagador. Resumo diferencia **curso contratado (Travel/Business, Basic bônus conforme direito)** de **nível de serviços do plano** e exibe apenas benefícios verdadeiramente disponíveis. Detalhes comerciais ainda dependem de dados e parâmetros aprovados.
+- **Privacidade e dados:** não permitir alteração unilateral de dados sensíveis, titularidade ou vínculo do responsável; nenhum fluxo fictício é apresentado como funcional; preservar exclusão/retificação e tratamento de dados sujeito à legislação e decisões canônicas.
+
+### Critérios de aceite do protótipo D1
+- [ ] «Minha Conta» abre três abas acessíveis: Dados pessoais, Segurança e Preferências.
+- [ ] Dados pessoais inicialmente somente leitura, com botão «Editar» em contexto permitido e estados claros de salvamento/validação.
+- [ ] Aparência disponível em Preferências e menu de perfil; Sistema é padrão e escolha manual persistente é requisito futuro, sem tecnologia imposta.
+- [ ] Ações de senha, e-mail e recuperação de acesso agrupadas e diferenciadas; preservar confirmações e verificações já aprovadas.
+- [ ] Resumo de curso/plano distingue direitos de conteúdo, serviços e dados financeiros de terceiros; nenhum benefício inventado.
+- [ ] Responsividade desktop/mobile, acessibilidade, modos Claro/Escuro/Sistema e logotipo original.
+
+**Status:** Bloco 07 **APROVADO PARA UX D1**; sem aceite visual definitivo, custo aprovado, implementação, F2–F8, deploy, contratação ou autorização de dados reais.
