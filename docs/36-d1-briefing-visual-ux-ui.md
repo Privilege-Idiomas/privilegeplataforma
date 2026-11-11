@@ -156,3 +156,17 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 **Limites da decisão:** não foram aprovados neste bloco limiares numéricos de «nota baixa», escala/ponderação da nota, quantidade/tipos de questões, forma de cálculo do progresso, número de tentativas ou política de persistência técnica. Consultar decisões pedagógicas prevalentes e validar detalhes restantes sem inferência.
 
 **Governança:** somente D1 de design/UX autorizada; **nenhuma implementação, F2–F8, deploy, contratação ou operação com dados reais** foi autorizada.
+
+
+## 14. Protocolo obrigatório da PM — verificação de decisões existentes (10/11/2026)
+
+**Determinação expressa de Marina:** antes de formular **qualquer novo bloco de decisões** de UX, design ou produto, a PM deve **consultar os registros atuais no GitHub** para não reabrir escolhas já definidas.
+
+1. Consultar os documentos e registros canônicos aplicáveis ao assunto (requisitos, Decision Log e arquivos de decisões por responsável, atas prevalentes, especificações D1, Issues e PRs relevantes).
+2. Classificar cada ponto como **já resolvido**, **revisar/conflitante** ou **genuinamente em aberto**, com as fontes GitHub correspondentes.
+3. **Não pedir nova aprovação** de itens resolvidos, salvo pedido expresso de mudança ou conflito material identificado. Distinguir decisão vigente de hipótese antiga ou ilustração de mockup.
+4. Quando houver divergências entre documentos, rastrear a decisão posterior/prevalente e sinalizar somente o conflito que realmente exige confirmação, sem sobrepor regras silenciosamente.
+5. Apresentar os próximos blocos apenas com lacunas verdadeiras, registrando decisões aprovadas no GitHub e indicando eventual impacto em escopo e critérios de aceite.
+6. GitHub permanece a fonte de verdade integral; Notion apenas projeção executiva.
+
+**Restrição:** estas verificações não constituem autorização de implementação, liberação da F2–F8 ou alteração das regras de aprovação.
