@@ -947,3 +947,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência e limites:** complementa sem substituir as funcionalidades existentes de central, ticket, protocolo, estados **aberta/em análise/resolvida**, suporte por **e-mail**, relatos de problemas em componentes educacionais e proteção de dados previstas nas DEC-070.3–5, 071.8 e 078.4. Não instituir SLA, fornecedor, chat, IA ou notificações pagas. Informações de chamados e contexto da aula são minimizadas e submetidas a controle de acesso; não exibir gabaritos restritos, dados de terceiros ou conteúdos sem direito. Fluxos de menores/responsáveis e retenção seguem decisões canônicas e validação jurídica.
 
 **Rastreabilidade:** [docs/36 §19](36-d1-briefing-visual-ux-ui.md); Issue #15. **Registros anteriores preservados** para auditoria. Aprovação de interface **não** autoriza orçamento, implementação, F2–F8, deploy ou contratação.
+
+
+## Complemento UX à DEC-070/071/078 e modos de aparência D1 — Bloco 07 (11/11/2026)
+
+**Aprovação expressa de Marina somente para D1:** «Minha Conta» terá abas **Dados pessoais**, **Segurança** e **Preferências**; dados serão exibidos inicialmente em **modo de leitura** com botão **«Editar»**; alternância **Claro/Escuro/Sistema** estará em Preferências e terá acesso rápido no menu de perfil; Segurança separará ações de **senha, e-mail e recuperação de acesso**; haverá **resumo de curso/plano e direitos pertinentes com acesso aos detalhes**.
+
+**Precedência e limites:** complementar apresentação sem substituir DEC-070/071/078 sobre verificação de identidade, confirmações de troca de e-mail, recuperação segura, sessões revogadas e controle de dados de menores/responsáveis. Manter padrão **Sistema** e persistência de seleção manual já previstos na D1 §11. Resumo não mistura curso contratado com nível de serviços e não revela dados financeiros do pagador ao aluno sem autorização. Nenhuma nova regra comercial, autenticação ou obrigação legal é criada.
+
+**Registro e checklist:** [docs/36 §20](36-d1-briefing-visual-ux-ui.md), Issue #15. Histórico preservado. Aprovação exclusivamente UX D1; nenhuma implementação, F2–F8, despesa, contratação ou deploy.
