@@ -59,3 +59,10 @@ Marina concordou em seguir com o **dashboard completo**, reunindo visão de curs
 - **Continuidade e progresso:** preservam regras vigentes sobre avaliação obrigatória não eliminatória, tentativas ilimitadas, conclusão por requisitos realmente cumpridos e nenhum bloqueio por assistir menos que 100% do vídeo. Não aplicar formulações históricas que dependam de aprovação por nota mínima.
 
 **Natureza:** detalhes da apresentação UX aprovados; **sem implementação ou autorização F2–F8**.
+
+
+## 9. Complemento aprovado — «Meu progresso» (D1 Bloco 04, 11/11/2026)
+
+Marina aprovou apresentar o **histórico de aprendizagem em uma área centralizada «Meu progresso»**, com **resumo por curso, gráfico de evolução e histórico detalhado**. Ao desenhar esta área, respeitar o gráfico de **nota por tentativa com data** e histórico acadêmico definidos nas DEC-074/075; não inventar métricas, percentuais ou dados de alunos. Direitos de acesso, privacidade e avaliação obrigatória não eliminatória permanecem vigentes. A escolha visual não altera a hierarquia do dashboard principal nem a prioridade de «Continuar estudando».
+
+**Referência:** [docs/36 §17](36-d1-briefing-visual-ux-ui.md). Aprovação limitada à especificação UX D1; sem liberação de implementação, F2–F8.
