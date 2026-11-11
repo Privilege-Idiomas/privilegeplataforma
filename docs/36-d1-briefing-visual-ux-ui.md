@@ -234,3 +234,33 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Direitos e regras pedagógicas prevalentes preservados; protótipo não finge funcionalidades implementadas.
 
 **Status:** Bloco 03 **APROVADO PARA ESPECIFICAÇÃO/PROTÓTIPOS D1**; não há aceite visual final, liberação técnica, custo aprovado ou autorização de implementação. **F2–F8 continuam NÃO AUTORIZADAS.**
+
+
+## 17. Bloco 04 — biblioteca de exercícios e histórico de aprendizagem (aprovado em 11/11/2026)
+
+**Aprovação expressa de Marina:** quatro escolhas de organização visual para prototipação D1, não autorização de nova funcionalidade ou implementação.
+
+| Nº | Elemento | Comportamento de UX aprovado |
+|---|---|---|
+| 1 | Filtros da biblioteca «Exercícios» | **Barra de filtros no topo**, incluindo os filtros já definidos por curso, módulo, aula e dificuldade; **recolhível no celular**. |
+| 2 | Apresentação dos exercícios disponíveis | **Cards organizados por curso e módulo**, com ação clara de acesso à prática. Os cards não implicam divulgação de enunciados de cursos sem direito. |
+| 3 | Revisão dos conteúdos de cada módulo | Ao final da lista de aulas do módulo, exibir o botão **«Revisar módulo»**, direcionando à lista de revisão do módulo autorizada. |
+| 4 | Histórico de aprendizagem | Área centralizada **«Meu progresso»**, reunindo **resumo por curso, gráfico de evolução e histórico detalhado** do aluno. |
+
+### Reconciliação com decisões canônicas já aprovadas
+- **DEC-027 / REQ-018:** a biblioteca conserva filtro por **curso, módulo, aula e nível de dificuldade** e herança de autorização de curso. Cursos sem direito só podem aparecer como **agrupamentos bloqueados**, sem revelar questões individuais, códigos, alternativas ou respostas; não usar cards de exercícios individuais bloqueados.
+- **DEC-028 / REQ-019:** a lista «Revisar módulo» reúne exercícios dos conteúdos das aulas do mesmo módulo e **não substitui avaliações obrigatórias nem cria bloqueio adicional** por suposição. O novo botão só define a localização do acesso, não quantidade, composição, condições inéditas de obrigatoriedade ou regras de liberação.
+- **DEC-031/033/034:** preservar fluxo de feedback da D1, tentativas ilimitadas em prática, ordem **pendentes → inéditas → concluídas**, embaralhamento dentro de cada grupo, códigos de questão e marcadores pessoais privados. Os cards da biblioteca são de **conjuntos de prática por curso/módulo**, não autorizam substituir a experiência de uma questão por vez ao praticar.
+- **DEC-050/051 e decisões posteriores de avaliação:** «Meu progresso» apresenta dados acadêmicos verdadeiros por curso, sem deduzir conclusão a partir de prática opcional ou vídeo assistido. DEC-050 contém redação histórica de nota eliminatória; aplicar a regra posterior de avaliação obrigatória **não eliminatória**, sem inventar novo cálculo percentual.
+- **DEC-074/075:** gráfico de **nota por tentativa com data**, histórico de tentativas e evolução de desempenho já estão aprovados. Centralizar a apresentação em «Meu progresso» **não cria uma métrica de evolução adicional** nem redefine a nota vigente; manter segregação de dados por aluno e autorização de curso.
+- **D1 Blocos 01–03:** manter organização de aula, acesso «Praticar», tratamento de feedback e «Meus cursos» como aprovados; usar os mesmos padrões de responsividade e acessibilidade. Os padrões visuais definitivos permanecem sob design do Claude e aprovação visual de Marina.
+
+### Critérios de aceite do protótipo D1
+- [ ] Biblioteca desktop: filtros no topo; cards de conjuntos autorizados agrupados por curso/módulo com acesso à prática.
+- [ ] Mobile: filtros recolhíveis, acessíveis por teclado/leitor de tela, com estado aplicado/limpar compreensível.
+- [ ] Cursos sem autorização: indicações **agregadas** e bloqueadas, nunca cards ou enunciados de questões específicas.
+- [ ] Visão geral do módulo: botão «Revisar módulo» ao fim da lista de aulas, sem induzir falsa obrigatoriedade.
+- [ ] «Meu progresso»: resumo por curso, histórico detalhado e gráfico de nota por tentativa/data, sem dados fictícios ou de terceiros.
+- [ ] Claro/Escuro/Sistema, mobile/desktop e uso da marca original previstos; UX legível e acessível.
+
+**Pendências preservadas:** definição de quantidade de questões por conjunto e filtros de dificuldade, detalhes de cálculos acadêmicos, custos, arquitetura, aprovação final de layout, salvaguardas de privacidade/menores. **Apenas D1 autorizada; F2–F8 e programação funcional NÃO AUTORIZADAS.**
