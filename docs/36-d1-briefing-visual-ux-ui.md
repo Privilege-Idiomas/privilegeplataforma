@@ -414,3 +414,33 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Não expor conteúdo protegido nem criar precificação, dados comerciais ou mecanismos de pagamento fictícios.
 
 **Status:** cinco escolhas **APROVADAS EXCLUSIVAMENTE PARA UX D1**; sem aprovação final dos protótipos ou autorização de F2–F8, gastos, implementação, contratação, deploy ou atividades com dados reais.
+
+
+## 23. Bloco 10 — área docente (aprovado em 11/11/2026)
+
+**Cinco decisões de UX aprovadas por Marina para D1, não autorização de implementação:**
+
+| Nº | Elemento | Decisão de apresentação |
+|---|---|---|
+| 1 | Início docente | **Dashboard com próximos atendimentos, agenda resumida e busca de questões**. |
+| 2 | Agenda docente | **Calendário semanal com atendimentos e horários disponíveis**. |
+| 3 | Busca de questões | **Barra de pesquisa por código, filtros de curso e resultados detalhados** de questões permitidas ao professor autenticado. |
+| 4 | Detalhes de atendimento | **Tela dedicada** com identificação mínima permitida do aluno, horário, modalidade, link de acesso e registro da sessão. |
+| 5 | Avaliação média | **Na área de perfil docente**, apenas **média agregada do próprio professor**, com restrições de privacidade. |
+
+### Precedência canônica e limites
+- **DEC-064:** já aprova painel docente, agenda, disponibilidade, busca de questões e registro de sessões. A D1 só define composição de telas.
+- **DEC-034:** docente autenticado autorizado pode ver questões completas dos cursos e pesquisar pelo código, mas **não pode conhecer os marcadores pessoais «Questões em dúvida», seus vínculos ou progresso particular de alunos**.
+- **DEC-065:** docente vê **sua própria média agregada**, sem notas individuais, identificação de avaliadores, ranking de colegas nem metadados que permitam inferências. Apresentação sob amostra reduzida depende da análise de privacidade, não divulgar métricas identificáveis no protótipo.
+- **DEC-069:** agendamento individual preserva ordem **dia/horário → professores disponíveis** e controle de conflitos. Alterações posteriores de plantões (reserva obrigatória, 20 min/10 lugares) e direitos dos Planos 1–3 prevalecem sobre DEC-066/069 histórica.
+- **Dados e custos:** nenhum provedor de videoconferência, dados reais ou poderes de alterar notas/financeiro/conteúdo foi autorizado. Sem gravação, contratação ou deploy.
+
+### Aceite visual D1
+- [ ] Home do professor contempla próximos atendimentos, agenda resumida e busca.
+- [ ] Calendário semanal com distinção clara entre disponibilidade e atendimento.
+- [ ] Busca por código/curso retorna somente questões autorizadas e resultados detalhados.
+- [ ] Tela de sessão exibe somente os dados mínimos permitidos do aluno.
+- [ ] Perfil mostra exclusivamente média própria agregada, com proteção contra reidentificação.
+- [ ] Desktop/mobile, acessibilidade, Claro/Escuro/Sistema, logo original e estados vazios/erro/carga.
+
+**Status:** aprovado para **D1 somente**. **F2–F8 não autorizadas**, sem programação, custos aprovados, contratação, deployment ou operação com dados pessoais reais.
