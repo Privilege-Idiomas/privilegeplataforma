@@ -46,3 +46,16 @@ Marina concordou em seguir com o **dashboard completo**, reunindo visão de curs
 
 ## 7. Próxima tela a especificar
 **Sala de aula / player:** estrutura de curso/módulo/aula, videoaula, materiais, exercícios e navegação; priorizar o layout claro da proposta apreciada por Marina como referência, mantendo alternativa escura consistente. Regras pedagógicas e conteúdos dependem das decisões canônicas, não dos mockups gerados.
+
+
+## 8. Complemento aprovado — Bloco 03 (11/11/2026)
+
+**Fonte:** decisão expressa de Marina; detalhe e rastreabilidade em [docs/36 §16](36-d1-briefing-visual-ux-ui.md) e Issue #15.
+
+- **«Meus cursos»:** agrupar cursos com direito vigente na ordem **em andamento → não iniciados → concluídos**, sem criar progresso fictício. Critério de desempate não decidido.
+- **«Conhecer outros cursos»:** seção separada para informações públicas de cursos ainda não contratados, apenas se pertinentes e presentes no catálogo; acesso à página pública de apresentação antes de qualquer planos/preços, nunca diretamente ao checkout, conforme DEC-044–048 e salvaguardas relativas a menores.
+- **Visão geral de um curso acessível:** módulos **expansíveis**, cada qual exibindo aulas com **ícone + texto** «Concluída», «Disponível» ou «Bloqueada» conforme estado real, nunca somente por cor.
+- **Primeiro acesso a curso:** ação em destaque **«Começar curso»**, encaminhando à primeira aula autorizada; quem já iniciou vê opção de continuidade, conforme DEC-049.
+- **Continuidade e progresso:** preservam regras vigentes sobre avaliação obrigatória não eliminatória, tentativas ilimitadas, conclusão por requisitos realmente cumpridos e nenhum bloqueio por assistir menos que 100% do vídeo. Não aplicar formulações históricas que dependam de aprovação por nota mínima.
+
+**Natureza:** detalhes da apresentação UX aprovados; **sem implementação ou autorização F2–F8**.
