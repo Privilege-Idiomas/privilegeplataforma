@@ -7,6 +7,13 @@
 @media(max-width:560px){.three,.stats{grid-template-columns:1fr}.heading{font-size:31px}.pill{display:none}.toolbar{gap:8px}.toolbar-right{gap:4px}.select{padding:7px;max-width:140px}.card{padding:18px}.login-form{padding:22px}.info-row{font-size:12px}}
 
 :root{--accent-text:#76582d;--focus:#cba66a;--radius-card:16px;--radius-control:9px}
+.shell{width:100%;min-width:0}
+.side,.right,.content,.toolbar,.navi{min-width:0;max-width:100%}
+.side{overflow:hidden}
+.navi{overflow-x:auto}
+.toolbar>div:first-child{min-width:0}
+.tag{overflow-wrap:anywhere}
+@media(max-width:900px){.toolbar{flex-wrap:wrap;gap:12px}.toolbar-right{margin-left:auto}.shell{grid-template-columns:minmax(0,1fr)}}
 [data-theme="dark"]{--accent-text:#e0c28b;--focus:#e0c28b}
 .badge,.simplelink{color:var(--accent-text)}
 .screen .card .badge{font-weight:800}
