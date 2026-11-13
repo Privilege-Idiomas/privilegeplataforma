@@ -2,6 +2,14 @@
 
 **Estado:** diagnóstico documental para revisão de Marina; **não** constitui autorização de implementação, fornecedor, despesa, deploy, merge ou publicação. **Base examinada:** `main` do repositório em 13/11/2026, ata/transcrição de 03/11, DEC-024, DEC-030, DEC-074–083, docs/33, docs/49 e Issues #1, #7 e #18. Uma hipótese discutida em reunião não equivale a decisão final; uma redação histórica não prevalece sobre revisão posterior. Preservar histórico Git.
 
+## Atualização gerencial de escopo — 13/11/2026 (após retorno de Marina)
+
+**Não recolocar G2/stack e G3/orçamento na pauta como decisões do zero.** A PM já comparou e selecionou a direção tecnológica (ver `docs/27`), com Next.js/TypeScript, Supabase, Vercel e Cloudflare Stream como base recomendada; F1, F2.0 e F2.A foram implementadas/integradas nessa direção. O orçamento **já foi levado a Matheus**, e a aprovação dos custos apresentados foi comunicada expressamente por Marina e registrada na **MAT-011**. O arquivo `docs/27` permanece uma proposta histórica, não prova independente de que cada fornecedor candidato ou cifra isolada foi homologado; conciliar a versão exata aprovada **por rastreabilidade, sem refazer o orçamento nem bloquear trabalho técnico independente**.
+
+**Jurídico:** Marina informa que o jurídico de Matheus já considerou o material submetido **OK**. Não reabrir validação jurídica como bloco de planejamento. Para integridade documental, o escopo do aval e eventual documento de referência podem ser associados ao GitHub quando disponíveis; não inferir, sem o conteúdo, que toda futura funcionalidade ou tratamento de dados esteja abrangido.
+
+**Titularidade:** parâmetros pedagógicos e financeiros são decisões de **Matheus**, não devem integrar as perguntas de fechamento técnico da PM. Para Marina/PM/Claude, concentrar somente implementação e operações: (1) autenticação e segurança F2.B dentro da stack existente; (2) jornadas e permissões; (3) reservas/agenda/videoconferência; (4) painel administrativo e publicação; (5) testes, integrações, cronograma e implantação. **Diferença fundamental:** a confirmação da stack e do orçamento não equivale a autorização automática de iniciar F2.B–F8, contratar fornecedores ou publicar.
+
 ## A. Diretrizes funcionais vigentes comprovadas para NÃO reabrir
 
 1. **Teste de nivelamento SEM IA em execução:** prova opcional antes/durante o curso, feita com **questões e gabaritos previamente elaborados, revisados, aprovados e cadastrados**. Correção por gabarito e regras da plataforma; **não** é avaliação em tempo real por IA, nem depende de API/tokens por aluno. IA foi hipótese inicial de discussão; eventual auxílio offline de elaboração editorial não configura exigência de IA no produto. O resultado orienta nível/curso sem bloquear matrícula, progresso ou conceder acesso. Quantidades, itens, faixas, pontuação e mapeamento de recomendação **não estão homologados**. Fontes: correção expressa de Marina em 13/11, DEC-030, DEC-080, docs/32 e docs/33.
@@ -33,11 +41,11 @@
 
 ## C. Decisões verdadeiramente abertas — não inventar respostas
 
-- **Pedagógico/editorial:** preparar e validar banco real de questões, gabaritos e faixas do nivelamento; quantidade, escala, critérios de recomendação; mapear trilhas/objetivos concretos, tratamento de mudanças em avaliações publicadas e transição curricular.
-- **Comercial:** tabela final de preços por curso/plano/vigência, contratos e elegibilidade; eventual oferta de aulas avulsas e preço real (R$ 60 aparece como referência, **não** venda autorizada); fórmula de upgrade, downgrade, renovação e rescisão.
-- **Operação:** disponibilidade, escala, remuneração e substituições docentes; política final de excepcionalidades, comunicação e suporte.
-- **Tecnologia e custos:** MAT-011 registra **aprovação de custos comunicada por Marina em nome de Matheus**, mas **o quadro de itens/valores/limites ainda não está identificado**, e nenhuma despesa decorre automaticamente disso; conciliar com a versão orçamentária aprovada. Gateway, videoconferência, hospedagem/entrega de vídeo, ferramentas de produção audiovisual, SMTP, infraestrutura, custo fixo/variável e aprovações financeiras; sessão, MFA, retenção de logs, arquitetura F2.B, viabilidade e capacidade do cronograma integral 10/12.
-- **Jurídico e segurança:** inadimplência, cancelamento/multa, LGPD, dados/voz/imagem de menores, contratos, avaliações docentes, retenção, direitos e certificação; parecer não equivale a decisão comercial nem autoriza produção.
+- **Pedagógico/editorial — Matheus, FORA da pauta PM deste ciclo:** banco real, faixas e decisões curriculares permanecem na fila própria de Matheus; PM só mantém interfaces parametrizáveis, sem assumir valores pedagógicos.
+- **Comercial/financeiro — Matheus, FORA da pauta PM deste ciclo:** preços, contratos e fórmulas monetárias ficam na fila própria; não refazer o orçamento já apresentado/aprovado. Registrar versão exata do material aprovado apenas para rastreabilidade, quando disponibilizada.
+- **Operação técnica — PM/Claude:** automatização de disponibilidade, reserva, dupla marcação, créditos, notificações, ausências, substituições e suporte. Escala efetiva, contratação e remuneração docentes são insumos externos, não decisões de tecnologia a serem reinventadas.
+- **Tecnologia — concluir integrações, não reabrir a stack:** manter a direção Next.js/TypeScript, Supabase, Vercel e Cloudflare Stream já selecionada no planejamento. Pendências técnicas específicas: diagnóstico F2.B (sessões, MFA, revogação, proteção contra abuso), validação das integrações de gateway, videoconferência e e-mail com contratos existentes, capacidade de infraestrutura e execução do escopo integral até 10/12. MAT-011 registra aprovação de custos apresentada a Matheus; apenas a evidência exata do quadro orçamentário permanece a associar ao registro, **sem tratar o orçamento como não realizado**.
+- **Jurídico:** informado como validado pelo jurídico de Matheus, conforme Marina; não reabrir como bloco de decisão. Escopo documental da validação a vincular quando disponível. **Segurança técnica** (acesso, menores, auditoria e retenção) segue sujeita a implementação e testes dentro dos gates autorizados; aval jurídico não substitui QA nem autoriza deploy.
 
 ## D. Critérios de aceite da reconciliação documental
 
