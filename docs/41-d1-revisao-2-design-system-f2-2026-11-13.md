@@ -1,3 +1,5 @@
+> **NOVO ESTADO DE EXECUÇÃO — 13/11/2026:** após o aceite D1 R2, Marina **AUTORIZOU EXCLUSIVAMENTE F2.0 + F2.A** para código local de testes, identidade e RLS. A [ordem de execução docs/42](docs/42-f2-ordem-execucao-lote-0-a-2026-11-13.md) prevalece sobre declarações anteriores “F2 não autorizada” **somente para esses dois lotes**. **F2.B (autenticação funcional), F2.C (implementação visual), F2.D e F3–F8 NÃO AUTORIZADOS**. Não reinterpretar aceite visual como liberação de frontend; design continua exclusivo PM/ChatGPT.
+
 # D1 · Revisão 2 — especificação visual canônica F2, correções de acessibilidade e limites de escopo
 **13/11/2026 | Autor visual: ChatGPT/PM | Revisão motivada pelo diagnóstico do Claude | Direção A aprovada | PACOTE VISUAL ESSENCIAL PARA F2 ACEITO POR MARINA | F2 NÃO AUTORIZADA**
 
