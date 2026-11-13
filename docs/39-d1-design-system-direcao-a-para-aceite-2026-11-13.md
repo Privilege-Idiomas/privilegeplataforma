@@ -1,3 +1,5 @@
+> **ESTADO POSTERIOR (13/11/2026):** a **D1 VISUAL ESSENCIAL À F2 ESTÁ ACEITA por Marina** com base na **[Revisão 2 de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html) e [docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md)**. Este **docs/39 é versão histórica** e sua tabela de tokens inicial **não é a especificação vigente**. Declarações históricas de “aceite pendente” abaixo foram superadas. **F2 NÃO AUTORIZADA** até ato separado na Issue #7.
+
 > **D1 REVISÃO 2 — REGRA VIGENTE (13/11/2026):** a referência visual atual para F2 é o [protótipo de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html), com tokens e requisitos em [docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). O antigo protótipo de 8 telas **não deve ser implementado**, e o HTML intermediário de 9 telas é apenas histórico da composição premium. **DIREÇÃO A APROVADA, ACEITE FINAL DO PACOTE REVISADO PENDENTE, F2 NÃO AUTORIZADA.** Claude não faz design.
 
 # D1 — Design system v1 e padrões visuais para aceite final
