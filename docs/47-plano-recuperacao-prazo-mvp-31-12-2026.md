@@ -1,3 +1,5 @@
+> **ATUALIZAÇÃO DE META — 13/11/2026:** Marina solicitou expressamente um **MVP comercial até 10/12/2026**, substituindo como objetivo de planejamento a antiga meta 31/12 e descartando a alternativa de piloto como definição do que deseja. **O plano abaixo, elaborado antes dessa mudança, é HISTÓRICO**. O recorte comercial, riscos, cronograma, dependências de aprovação e duas rotas possíveis estão em [docs/48 — proposta vigente para a nova meta](48-mvp-comercial-10-12-2026-recorte-riscos-cronograma-proposta.md) e na [Issue #18](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/18). A preferência da PM para viabilizar o calendário é oferta inaugural externa gerenciada, **não a plataforma própria final**, dependente de aprovação específica de Marina e de Matheus. **Nenhuma implementação, aquisição, produção, dados reais ou go-live está autorizado** por essa orientação.
+
 # Plano de recuperação do prazo — MVP até 31/12/2026 (PROPOSTA DA PM)
 **Privilège Plataforma | 13/11/2026 | Fonte: Marina: “Preciso de um MVP até o final de dezembro” | Natureza: planejamento/priorização PROPOSTA, não autorização de código, compra ou produção.**
 
