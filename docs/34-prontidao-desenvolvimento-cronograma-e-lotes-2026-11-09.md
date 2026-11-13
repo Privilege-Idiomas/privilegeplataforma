@@ -98,3 +98,10 @@ Claude Code foi acionado e **executou a F1** na branch `f1/fundacao-tecnica`, co
 **Ações de gestão:** (1) obter do Claude estimativas e caminho crítico revisados em dias úteis, distinguindo tempo de execução/QA/dependências; (2) apresentar quadro semanal de entregáveis, riscos e bloqueadores; (3) propor lotes pequenos e paralelismo sem quebrar controle de autorização e PR; (4) organizar decisões pendentes por responsável e prazo desejado, explicitando se bloqueiam desenvolvimento local, integração ou lançamento; (5) registrar a nova baseline **somente após validação de viabilidade e aprovação expressa de Marina**.
 
 **Governança:** nova meta de calendário **não é autorização implícita** para F2–F8, IA paga, integrações, dados pessoais reais, contratação ou deploy. GitHub é fonte oficial; Notion somente relatório executivo derivado.
+
+
+## Atualização de risco F2 — 13/11/2026, diagnóstico recebido do Claude
+
+Claude, em análise preparatória **somente leitura**, estimou **13–18 dias úteis** para cinco pacotes F2.0 (0,5–1), F2.A (2–3), F2.B (3–4), F2.C (5–7) e F2.D (2–3), **sem contar revisão de PM**. A estimativa inicial 7–10 dias úteis de docs/35 tornou-se insuficiente para a interface premium em 2 temas + testes. A PM consolidou a [revisão visual 2 e 16 telas](41-d1-revisao-2-design-system-f2-2026-11-13.md), reduzindo o risco de retrabalho, mas **ainda não reestimou** o caminho crítico, nem validou os custos. Este número não é cronograma aprovado.
+
+O **teto aspiracional de cinco semanas para o projeto** enfrenta risco material caso F2 consuma a maior parte do prazo. Antes de autorizar, revisar capacidade, paralelismo **apenas após gates**, divisão de escopo e validações jurídicas/comerciais. Nenhum trabalho F2.0–F2.D está autorizado por este diagnóstico; D1 revisada ainda requer aceite final de Marina e F2 exige autorização expressa separada na Issue #7. A PM responde pelo design; Claude apenas pela implementação liberada.
