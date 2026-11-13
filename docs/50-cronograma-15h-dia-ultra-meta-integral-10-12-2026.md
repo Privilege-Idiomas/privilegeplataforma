@@ -1,6 +1,8 @@
 # Privilège — cronograma intensivo 15 horas/dia, Claude Ultra, meta integral 10/12/2026
 **Elaborado em 13/11/2026 pela PM. PROPOSTA CONDICIONAL PARA APROVAÇÃO. Não autoriza código, compra, contratação, deploy ou uso de dados reais.**
 
+> **CONFIRMAÇÃO DE MARINA — 13/11/2026:** o regime de planejamento é **15 horas por dia, TODOS OS DIAS**, inclusive sábados, domingos e feriados, no intervalo 16/11–10/12/2026. Portanto usar **25 dias × 15 horas = 375 horas brutas de janela operacional** como cenário principal, e 285 horas em dias de semana apenas como comparação histórica. A confirmação **não comprova disponibilidade efetiva ininterrupta do Claude Ultra, não equivale a 375 horas líquidas nem autoriza assinatura, código, contratação, deploy ou mudança de escopo**. O cronograma permanece condicional à reestimativa F2–F8 e aos gates de engenharia, jurídico, comercial e segurança.
+
 ## Objetivo e premissas
 - Marina exige a plataforma própria Privilège integral, funcional e automatizada até 10/12/2026, sem lançar somente cursos, sem área de membros terceirizada substituta, sem operar plantões/particulares manualmente como equivalente ao software.
 - A produção final de vídeo e atividades é paralela e não faz parte do esforço de engenharia. O aplicativo precisa permitir cadastrar/publicar/substituir vídeos, questões, atividades e materiais, testados com conteúdo fictício. A disponibilidade técnica não equivale a autorização para vender produtos cujo conteúdo ainda não exista.
