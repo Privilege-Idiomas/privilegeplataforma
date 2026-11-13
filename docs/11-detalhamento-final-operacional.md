@@ -1,3 +1,5 @@
+> **ATUALIZAÇÃO VIGENTE 13/11/2026 — DEC-087:** este arquivo inclui registros históricos. Para comportamento operacional, consultar [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md) e [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md). **Regras vigentes:** nivelamento opcional sem IA; avaliação obrigatória e não eliminatória, tentativas ilimitadas; 100% de vídeo não obrigatório; plantões com reserva de 20 min e até 10 pessoas, P1/P2/P3 = 0/2/4, P3 com duas particulares mensais de 50 min. **F1/F2.0/F2.A integradas**, design D1 R2 aceito; **F2.B–F8 ainda sem liberação de código**. Escopo integral proprietário até 10/12 é meta, não viabilidade garantida. DEC-084/085 e DEC-086 prevalecem sobre ofertas/métodos anteriores; preço/fornecedor/retenção/parecer específico dependem de evidências e alçadas. Não tratar prazo, parâmetro técnico ou hipótese antiga abaixo como autorização vigente.
+
 # Detalhamento funcional transversal — cinco frentes finais
 
 **Data:** 2026-11-02  
@@ -12,7 +14,7 @@ Marina **aprovou integralmente dez regras operacionais**, transformadas em DEC-0
 
 ## Deliberação posterior — DEC-072 / REQ-051 (2026-11-02)
 
-Marina aprovou funcionalmente seis controles complementares: (1) processo de recuperação excepcional com validação de identidade ao perder o e-mail; (2) ocultação da média docente ao próprio professor até atingir **limiar mínimo de avaliações válidas a definir**, mantendo ranking/notas individuais exclusivamente internos da administração; (3) revisão de impacto antes de alterar retroativamente avaliações publicadas; (4) regras de participação e moderação em plantões coletivos com proteção de menores, sem reservas; (5) justificativa, agente identificado e auditoria em intervenções sensíveis, conforme papel autorizado; e (6) cada indicador deve ter fonte, definição e período, **nunca converter ausência de dados em zero**.
+Marina aprovou funcionalmente seis controles complementares: (1) processo de recuperação excepcional com validação de identidade ao perder o e-mail; (2) ocultação da média docente ao próprio professor até atingir **limiar mínimo de avaliações válidas a definir**, mantendo ranking/notas individuais exclusivamente internos da administração; (3) revisão de impacto antes de alterar retroativamente avaliações publicadas; (4) regras de participação e moderação em plantões coletivos com proteção de menores, **reserva prévia obrigatória** (20 min; até 10 participantes); (5) justificativa, agente identificado e auditoria em intervenções sensíveis, conforme papel autorizado; e (6) cada indicador deve ter fonte, definição e período, **nunca converter ausência de dados em zero**.
 
 **Status:** as seis regras são **VIGENTES** conforme DEC-072 e REQ-051; respectivos **parâmetros e fluxos de implementação não estão automaticamente aprovados**. A política concreta de limiar, recuperação de identidade, moderação, retroatividade acadêmica, alçadas, fontes e periodicidade de KPIs, validações jurídicas e decisões comerciais/pedagógicas de Matheus continuam pendentes. Esta deliberação complementa DEC-071/REQ-050 sem revogar regras anteriores nem autorizar stack, custos ou execução.
 
@@ -91,8 +93,8 @@ Definições **PROPOSTAS para validação** (DEC-068/069 aprovam existência dos
 | Assinaturas vigentes | contratos com direito ativo na data do corte | regras de inadimplência e cancelamento Matheus |
 | Evolução da base | série temporal de alunos ativos com cortes consistentes | mudanças de status e atraso de eventos |
 | Progresso do curso | aulas efetivamente concluídas/aprovadas ÷ total aplicável da versão do curso | REQ-030/031; não usar tempo de vídeo ou prática opcional |
-| Conclusão de curso | alunos que cumpriram requisitos de conclusão da versão, não apenas chegaram à última aula | DEC-052/062; aguardar DEC-024 e nota mínima |
-| Dificuldade acadêmica | incidência de tentativas insuficientes por aula/avaliação e período | escala/limiar Matheus, proteção de pequenos grupos |
+| Conclusão de curso | alunos que cumpriram requisitos de conclusão da versão, não apenas chegaram à última aula | DEC-052/062; DEC-024 resolvida e avaliação sem nota mínima eliminatória (DEC-074–080) |
+| Dificuldade acadêmica | incidência de tentativas insuficientes por aula/avaliação e período | nota <6 orientativa já decidida; proteção de pequenos grupos |
 | Particular realizada | reserva concluída e validada como realizada, sem contar cancelada/falta | política de revisão de ocorrências |
 | Cobertura de plantão | janelas publicadas efetivamente cobertas por docente ÷ janelas previstas | escala real ainda não aprovada, não inferir presença de alunos |
 | Nota média de professor | média aritmética de notas válidas de particulares efetivamente realizados | só administração vê ranking e individuais; professor apenas sua média com proteção de baixa amostragem |
@@ -136,7 +138,7 @@ Definições **PROPOSTAS para validação** (DEC-068/069 aprovam existência dos
 |---|---|---|
 | Professor falta a particular | Registrar ocorrência; notificar as partes; oferecer reagendamento sujeito às políticas comerciais aprovadas | Não descontar crédito nem fixar indenização por omissão |
 | Aluno falta/cancela/remarca | Registrar motivo/horário, manter status legível, aguardar política de benefícios | Antecedência, validade e desconto de crédito são pendência comercial |
-| Docente não cobre plantão | Administrador autorizado escolhe substituto habilitado ou suspende a janela e avisa alunos elegíveis | Plantão coletivo sem reservas ou consumo de créditos de particulares |
+| Docente não cobre plantão | Administrador autorizado escolhe substituto habilitado ou suspende a janela e avisa alunos elegíveis | Plantão coletivo com reservas confirmadas e saldo próprio, sem consumir créditos de particulares |
 | Link inválido ou incidente de plataforma externa | Registrar incidente, corrigir link autorizado ou comunicar indisponibilidade, preservando histórico | Não prometer SLA, sala própria nem custo externo |
 | Conflito/moderação envolvendo menor | Moderação e canal de denúncia com possibilidade de interromper participação indevida; registro minimizado de evidências | Regras concretas de consentimento, imagem/voz, supervisão e retenção precisam jurídico |
 | Choque de horários em particular | Confirmar reserva apenas com horário e docente ainda disponíveis, evitando dupla marcação | Preservar ordem dia/horário → professor elegível (REQ-048) |

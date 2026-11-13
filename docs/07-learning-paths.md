@@ -1,3 +1,5 @@
+> **BASELINE OPERACIONAL VIGENTE — DEC-087 / 13-11-2026:** aplicar [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md), [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md) e as DEC posteriores aprovadas sobre trechos históricos divergentes. **Nivelamento opcional SEM IA (banco pré-aprovado, correção determinística); avaliação obrigatória NÃO eliminatória e tentativas ilimitadas; sem exigência de vídeo integral; plantão COM reserva (20 min/10 vagas), P1/P2/P3 = 0/2/4 e P3 também 2 particulares de 50 min.** Não converter hipótese, parâmetro externo ou proposta técnica em requisito aprovado. F2.B–F8 continuam sem autorização de implementação. Os trechos antigos abaixo que contradizem esta regra são históricos superados e devem ser lidos apenas para rastreabilidade. GitHub canônico; Notion executivo.
+
 # Trilhas de Aprendizagem — Plataforma Privilège
 
 **Versão:** 0.1  
@@ -18,7 +20,7 @@ O aluno poderá iniciar sua jornada por uma das opções:
 2. **Começar do zero:** iniciar em Basic English e, depois, seguir para Travel ou Business.
 3. **Entrada direta:** iniciar diretamente em Travel ou Business, conforme escolha e direitos de acesso.
 
-O funcionamento do teste de nivelamento ainda será definido. Permanecem em aberto sua obrigatoriedade, estrutura, critérios de avaliação, interpretação do resultado e eventual lógica de recomendação/encaminhamento.
+**Regra vigente:** teste de nivelamento opcional, com questões e gabaritos previamente preparados e aprovados, correção determinística sem IA e resultado orientativo não bloqueante. A obrigatoriedade já está decidida: NÃO é obrigatório. Permanecem pendentes somente banco, quantidade, pontuação, faixas e recomendação efetivos da equipe pedagógica (DEC-080 e correção de 13/11).
 
 ## 3. Estrutura conceitual inicial
 
@@ -38,18 +40,15 @@ ou
 
 Esses exemplos representam as opções informadas até o momento, não uma definição completa de todas as trilhas comerciais/pedagógicas.
 
-## 4. Regras de progressão dentro dos cursos
-- Para desbloquear a próxima aula do mesmo curso, o aluno deverá concluir os componentes efetivamente obrigatórios e atingir a nota mínima na **avaliação obrigatória**. **Exercícios de prática são opcionais** (DEC-025, resolvida por Marina), não condicionam o acesso à avaliação nem o desbloqueio.
-- **DEC-024 — REVISAR:** resposta provisória formulada e comunicada por Marina, que atribuiu a confirmação final a Matheus. A proposta é não exigir 100% do vídeo para conclusão/desbloqueio, desde que atividades obrigatórias e avaliação sejam cumpridas. **Aguardando Matheus; ainda não aprovada por ele.**
-- Se não atingir a nota mínima na primeira tentativa, terá direito a uma segunda tentativa após revisar o conteúdo da aula por meio de um resumo escrito disponibilizado na própria aula.
-- Não será necessário assistir novamente ao vídeo para realizar a segunda tentativa.
-- A nota mínima ainda será definida.
-- A sequência de aulas é definida dentro do curso.
-- A ordem dos cursos é definida pela trilha escolhida.
-- Ainda será detalhado se existe algum outro componente obrigatório por aula além da aprovação na avaliação. A obrigatoriedade de assistir ao vídeo integral depende de revisão com Matheus (DEC-024); exercícios de prática **não são obrigatórios** (DEC-025, Marina).
+## 4. Regras de progressão dentro dos cursos — redação operacional vigente
+- Para liberar a próxima aula do mesmo curso, concluir os componentes obrigatórios e **realizar** a avaliação da aula. A avaliação é obrigatória, porém **não eliminatória; a nota não bloqueia a progressão**. Prática opcional não é condição.
+- **Tentativas ilimitadas**, sem revisão obrigatória entre tentativas; feedback de nota/gabarito/explicações após envio. Nota inferior a 6 sugere revisão. Após 3 módulos distintos com última nota <6, sugerir apoio adicional conforme benefícios existentes.
+- **Reprodução de 100% do vídeo não é obrigatória**, confirmado por Matheus na reunião 03/11 (DEC-024).
+- Tentativa interrompida pode ser retomada até **30 dias do início** e, ao expirar, o aluno com acesso vigente pode iniciar nova tentativa.
+- Trilhas não duplicam cursos, não alteram direitos de acesso, não apagam progresso já realizado. Banco real/parametrização pedagógica continuam a cargo da equipe competente.
 
 ## 4.1. Prática opcional, biblioteca e revisão modular
-- **Fluxo de aprendizagem:** conteúdo da aula (vídeo e materiais) → exercícios de fixação **opcionais** → avaliação **obrigatória** → desbloqueio por nota mínima. A ordem descreve a apresentação/recomendação, não um bloqueio para exercícios que o aluno deseje pular.
+- **Fluxo de aprendizagem:** conteúdo da aula (vídeo e materiais) → exercícios de fixação **opcionais** → avaliação **obrigatória** → desbloqueio após realização da avaliação obrigatória. A ordem descreve a apresentação/recomendação, não um bloqueio para exercícios que o aluno deseje pular.
 - **Aba “Exercícios” (DEC-027):** entrada independente para prática, com filtros por curso, módulo, aula e dificuldade.
 - **Revisão de módulo (DEC-028):** cada módulo possui uma lista de exercícios que mistura conteúdos das aulas daquele módulo, como uma revisão de capítulo.
 - **Acesso aos exercícios — definido por Marina (DEC-027):** cada exercício pertence à hierarquia curso → módulo → aula e **herda os direitos de acesso do curso**. Sem direito ao curso, o aluno não pode abrir ou resolver seus exercícios, seja na aula, na biblioteca ou nas listas de revisão. **Na aba geral, apenas indicadores agregados de exercícios disponíveis em cursos sem acesso permanecem visíveis como bloqueados**; não exibir cada exercício individual de um curso restrito. Esses indicadores permitem descobrir conteúdos adicionais e conhecer opções de planos mais amplos, sem conceder acesso aos exercícios.

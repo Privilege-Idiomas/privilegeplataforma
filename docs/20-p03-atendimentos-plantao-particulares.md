@@ -1,3 +1,5 @@
+> **BASELINE OPERACIONAL VIGENTE — DEC-087 / 13-11-2026:** aplicar [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md), [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md) e as DEC posteriores aprovadas sobre trechos históricos divergentes. **Nivelamento opcional SEM IA (banco pré-aprovado, correção determinística); avaliação obrigatória NÃO eliminatória e tentativas ilimitadas; sem exigência de vídeo integral; plantão COM reserva (20 min/10 vagas), P1/P2/P3 = 0/2/4 e P3 também 2 particulares de 50 min.** Não converter hipótese, parâmetro externo ou proposta técnica em requisito aprovado. F2.B–F8 continuam sem autorização de implementação. Os trechos antigos abaixo que contradizem esta regra são históricos superados e devem ser lidos apenas para rastreabilidade. GitHub canônico; Notion executivo.
+
 # P-03 — Especificação funcional de aulas particulares e plantões coletivos
 **Privilège | 2026-11-02 | Status:** preparação documental, sem homologação de parâmetros comerciais, parecer jurídico, tecnologia, orçamento, MVP ou implementação.
 **Fontes:** DEC-064–069/071–073, REQ-042–045/048/050–052, AUD-007, docs/09,11–13,16–19.
@@ -5,11 +7,11 @@
 
 ## 1. Invariantes funcionais
 1. **V** Particular é individual, agendada: aluno informa **dia e horário antes** de selecionar docente disponível; confirmação não admite sobreposição de agenda ou dupla reserva.
-2. **V** Plantão é **coletivo**, professor disponível em janela institucional publicada, acesso pelo link do dia sem reserva de aluno; não consumir créditos de particulares.
+2. **V — REGRA VIGENTE:** plantão **coletivo de 20 minutos**, até **10 alunos**, com **reserva prévia obrigatória** e saldo específico de plantão (P1=0/P2=2/P3=4 por mês). Links acessíveis apenas a reservas confirmadas na janela. Créditos de particulares são separados (P3=2 sessões de 50 minutos/mês).
 3. **V** Elegibilidade depende dos direitos contratuais existentes; **E** quais planos/benefícios e condições é decisão comercial pendente.
 4. **V** Registro de ocorrências, substituição de docente ou suspensão comunicada, controles de moderação de menores e auditoria administrativa sensível conforme DEC-071–073.
 5. **V** Avaliações docentes individuais e ranking acessíveis só à administração autorizada; professor vê apenas sua média condicional após cinco avaliações válidas e validação anti-inferência, jamais avaliações individuais.
-6. **E** Duração de particular, antecedência, saldo, créditos, compra avulsa, compensações, horário definitivo e demais termos comerciais não aprovados.
+6. **V/E:** particular de 50 minutos, P3 com 2 créditos/mês; cancelamento de plantão >=2h preserva crédito, <2h ou no-show consome; créditos não cumulativos. **E:** escala concreta, compra avulsa, exceções de conexão/contestações, fornecedor de videochamada, parâmetros comerciais ainda não validados.
 
 ## 2. Jornadas ponta a ponta e exceções
 
@@ -42,9 +44,9 @@
 
 ### AT-05 — Publicar e acessar plantão coletivo
 **Atores:** administrador autorizado, professor escalado, aluno elegível.
-**Fluxo:** criar janela institucional e escala [V] → publicar período, docente/link do dia [V] → aluno elegível acessa diretamente na janela [V] → sala coletiva operada e moderada [V].
+**Fluxo:** criar janela institucional e escala [V] → publicar período, docente/link do dia [V] → aluno elegível **reserva vaga** (máx. 10; direito/saldo validado) → aluno com reserva confirmada acessa link na janela [V] → sala coletiva operada e moderada [V].
 **Exceções:** link indisponível, professor indisponível, horário alterado, excesso de participantes, falha do provedor, aluno sem direito.
-**Aceite:** nenhum fluxo exige escolher docente ou reservar vaga individual; acesso não reduz crédito de particular; horário meramente ilustrativo não vira horário real.
+**Aceite vigente:** nenhuma entrada sem reserva confirmada; a 11ª vaga é recusada; débito/estorno somente do saldo de plantão; acesso nunca reduz crédito de particular; horário ilustrativo não vira real.
 **E:** janela e capacidade definitivas, regras de plano, critérios jurídicos de participação de menores.
 
 ### AT-06 — Substituir docente ou suspender plantão
@@ -68,7 +70,7 @@
 | Objeto | Estados candidatos | Observação |
 |---|---|---|
 | Reserva particular | solicitada, confirmada, cancelada, remarcada, realizada, ausência registrada, em contestação | Efeitos de crédito não definidos; transições finais serão validadas |
-| Janela de plantão | planejada, publicada, em andamento, concluída, suspensa | Sem reserva de aluno |
+| Janela de plantão | planejada, publicada, em andamento, concluída, suspensa | Com reserva de aluno obrigatória (até 10) |
 | Cobertura docente | escalado, confirmado, substituído, ausente | Verificar colisão entre particular e plantão |
 | Ocorrência | registrada, em análise, resolvida | Não equivale a decisão financeira |
 | Avaliação docente | válida, contestada, invalidada, revisada | Privacidade e recalculabilidade pendentes |
@@ -77,7 +79,7 @@
 - **AT-C01:** duas confirmações concorrentes da mesma janela não podem ambas resultar em reserva.
 - **AT-C02:** professor ocupado em particular ou plantão incompatível é excluído da lista de disponibilidade.
 - **AT-C03:** usuário fora de um plano elegível não consegue acessar particular/plantão por URL direta.
-- **AT-C04:** plantão não cria reserva e não consome crédito de particular.
+- **AT-C04:** plantão exige reserva e saldo de plantão; não consome crédito de particular nem permite 11º participante.
 - **AT-C05:** professor faltou, evento foi registrado mas nenhum crédito foi debitado sem regra aprovada.
 - **AT-C06:** falha no e-mail não reverte agendamento nem afirma envio bem-sucedido.
 - **AT-C07:** aluno A não vê a reserva de B, incluindo API e exportação.

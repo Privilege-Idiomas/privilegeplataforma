@@ -1,3 +1,5 @@
+> **PROPOSTA HISTÓRICA SUPERADA — 13/11/2026:** o objetivo atual é plataforma própria, integral e automatizada, sem área de membros terceirizada temporária ou entrega comercial reduzida como substituto. Ver [docs/49](49-replanejamento-escopo-integral-plataforma-10-12-2026.md), [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md) e [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md). Hipóteses de prazo, custo, recorte e arquitetura abaixo são históricas e não autorizam execução.
+
 # MVP comercial até 10/12/2026 — recorte mínimo vendável, riscos e plano de recuperação
 **Privilège Plataforma · 13/11/2026 · PM/ChatGPT · Status: PROPOSTA PARA APROVAÇÃO DE MARINA · NÃO AUTORIZA IMPLEMENTAÇÃO, GASTOS, CONTRATAÇÃO, CONTAS REAIS OU PUBLICAÇÃO**
 
