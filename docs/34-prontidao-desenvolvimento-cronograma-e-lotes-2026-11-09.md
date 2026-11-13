@@ -1,3 +1,5 @@
+> **STATUS MAIS RECENTE — 13/11/2026:** Marina liberou exclusivamente a execução local dos lotes **F2.0 + F2.A** (testes/CI e identidade/RLS), com ordem, escopo e critérios em [docs/42](docs/42-f2-ordem-execucao-lote-0-a-2026-11-13.md) e [Issue #7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7). O design D1 essencial à F2 foi aceito na Revisão 2. **F2.B–F2.D e F3–F8 permanecem bloqueados; não há cronograma global aprovado.** A estimativa de 13–18 dias úteis para a F2 inteira continua preliminar, e esta autorização **não** permite deploy ou contratação. Estados anteriores “F2 não autorizada” abaixo são históricos e foram parcialmente superados apenas para os lotes F2.0/F2.A.
+
 # Privilège — Prontidão de construção, cronograma de referência e execução em lotes
 > **Atualização vigente — 10/11/2026:** F1 **aceita e integrada** no PR #14. **D1 (design/UX/UI) autorizada** para concepção, prototipação e aprovação visual: [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). **F2–F8 continuam sem autorização de implementação**. As descrições de planejamento e estados anteriores abaixo são registros históricos.
 
