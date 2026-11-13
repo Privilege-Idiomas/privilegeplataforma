@@ -269,3 +269,13 @@ O alinhamento comercial por curso/trilha com Basic bônus foi **decidido em reun
 - **DEC-067/MAT-014:** pacote **parcialmente respondido** na reunião, complementado por DEC-082/083. Ainda pendem contratação e disponibilidade dos professores, ativação comercial de aulas avulsas na primeira versão, fornecedores e validação jurídico-contratual, **não** duração, créditos, reserva, cancelamento de 2h ou não acúmulo.
 - **Curso/assinatura (MAT-002):** Travel e Business comercializados separados, Basic bônus a assinantes; registro conciliado no índice DEC-012.
 - **Cancelamentos e prazos:** comunicação com antecedência de 30 dias e multa de referência de **20%** sobre saldo remanescente em quebra antecipada, discutidos na reunião; aplicação definitiva depende de conferência jurídica. Não perguntar outra vez o percentual como se nunca decidido.
+
+
+## Atualização do índice — reunião semanal 11/11 (registrada em 13/11/2026)
+
+| ID | Tema | Registro canônico | Situação vigente | Responsável final |
+|---|---|---|---|---|
+| **DEC-084** | Plano 1 digital: 6 meses de direito, compra única parcelável no cartão; recorrência preservada para ofertas longas | [Matheus — DEC-084](09-decisoes-matheus.md#dec-084--plano-1-digital-seis-meses-fechados-e-compra-única-parcelável) | **Diretriz alinhada/aprovada em reunião 11/11.** Preço, renovação e integração operacional específicos pendentes | **Matheus** (comercial; classificação comunicada por Marina) |
+| **DEC-085** | Desconto de 20%–30% para aluno presencial no digital, retornando à tabela integral ao perder o vínculo | [Matheus — DEC-085](09-decisoes-matheus.md#dec-085--desconto-de-aluno-presencial-no-digital-e-retorno-à-tabela-padrão) | **Diretriz aprovada em 11/11.** Percentual exato, elegibilidade e transição pendentes | **Matheus** (comercial; classificação comunicada por Marina) |
+
+**Complementos SEM novo DEC:** [ata de 11/11 e alinhamentos ALIN-11-01/02/03/04](51-registro-reuniao-semanal-2026-11-11.md) — endosso visual premium sem duplicar o aceite D1 R2; campanha Travel em dezembro com parceiro Mateus/Tipino das Milhas; diretriz futura de white label; reuniões por demanda. **Titularidade formal de ALIN-11-02/03 ainda depende de Marina.** MAT-011 (custos aprovados comunicados) ganhou evidência da apresentação de 11/11 e informação de parecer jurídico OK, sem criar nova decisão ou ressuscitar o gate orçamentário.
