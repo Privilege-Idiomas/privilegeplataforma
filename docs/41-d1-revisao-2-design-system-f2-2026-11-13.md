@@ -1,7 +1,10 @@
 # D1 · Revisão 2 — especificação visual canônica F2, correções de acessibilidade e limites de escopo
-**13/11/2026 | Autor visual: ChatGPT/PM | Revisão motivada pelo diagnóstico do Claude | Direção A aprovada | PACOTE REVISADO AINDA SEM ACEITE VISUAL FINAL | F2 NÃO AUTORIZADA**
+**13/11/2026 | Autor visual: ChatGPT/PM | Revisão motivada pelo diagnóstico do Claude | Direção A aprovada | PACOTE VISUAL ESSENCIAL PARA F2 ACEITO POR MARINA | F2 NÃO AUTORIZADA**
 
 > **Precedência obrigatória:** para a composição visual e os tokens usados nas telas F2, prevalece este documento **e** o [protótipo Revisão 2](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html). O docs/39 registra o primeiro design system, mas seus valores numéricos não coincidiam com a composição que Marina preferiu; esses valores **não devem ser copiados para a F2**. O HTML inicial `d1-f2-prototipo-direcao-a` foi descartado visualmente; o HTML `d1-f2-alinhado-conceitos-originais` é a referência histórica de estilo, **não o handoff final**. Esta revisão mantém o design premium original e o adapta a requisitos F2, sem autorizar desenvolvimento.
+
+
+> **ACEITE FORMAL DA MARINA — 13/11/2026 (registro posterior à Revisão 2):** Marina respondeu **“aprovado”** à apresentação da **Revisão 2**, do protótipo navegável de **16 telas** e do design system corrigido. **O gate visual D1 necessário à F2 está ACEITO**. Esse aceite valida a **referência de UX/UI**, não afirma que as telas constituem código funcional, não valida direitos de imagens, não substitui QA completo WCAG, não resolve pendências comerciais/jurídicas e **NÃO AUTORIZA F2.0–F2.D, F3–F8, instalações, migrações ou deploy**. Autoria visual: ChatGPT/PM; Claude é apenas potencial implementador técnico após autorização independente na [Issue #7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7). Telas das fases futuras seguem D1.x quando aplicável. O gate visual passa de “aguardando aceite” para “ACEITO”; bloqueios não visuais permanecem abertos.
 
 ## 1. Regra-mãe de fidelidade
 O dashboard conceitual com **logotipo oficial em branco**, sidebar azul-marinho, hierarquia editorial, imagem de **Londres/Big Ben**, bordas creme, cartões e detalhes dourados **permanece como referência estética** que agradou Marina. **Não redesenhar nem trocar por template administrativo.** As correções se limitam a contraste, tipografia auxiliar, estados, acesso público e fidelidade aos limites de direito.
@@ -112,7 +115,7 @@ Claude reportou **13–18 dias úteis para F2** em F2.0 (0,5–1), F2.A (2–3),
 - [x] Tokens, breakpoints, fonte e papéis corrigidos nesta revisão.
 - [x] Fluxos essenciais de F2 demonstrados, com shell público separado.
 - [x] QA local preliminar de desktop/tablet/mobile/temas e interações.
-- [ ] **Marina aprova visualmente o HTML Revisão 2 e o design system corrigido** na Issue #15.
+- [x] **Marina aprovou expressamente o HTML Revisão 2 e o design system corrigido** — aceite visual final D1 essencial à F2, registrado na Issue #15.
 - [ ] Verificar direitos/resolução de imagens e fonte para produção — pode ser gate de asset/implementação, não pressupor aceite de licença.
 - [ ] Decisões de sessão, menores, vinculações e regras excepcionais, com bloqueios seguros e alçadas definidas.
 - [ ] **Marina autoriza a F2 separadamente na Issue #7**.
