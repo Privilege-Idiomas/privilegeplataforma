@@ -1,3 +1,5 @@
+> **PROPOSTA TÉCNICA PRODUZIDA — 13/11/2026, AINDA NÃO APROVADA POR MARINA:** [docs/45 — parâmetros concretos propostos para segurança F2.B](45-f2b-proposta-parametros-seguranca-para-aprovacao-2026-11-13.md). Contém valores de JWT/sessões/tokens/antiabuso/MFA/auditoria, diagnóstico do `supabase/config.toml`, dependência de plano Supabase Pro para limites nativos de sessão hospedada e comparação BFF vs SSR pendente. O “ok” de Marina autorizou **apenas a elaboração desta proposta**. **F2.B/C/D e F3–F8 continuam NÃO AUTORIZADAS**, sem código, branch, pagamento, produção ou autorização de parâmetros definitivos.
+
 # F2.B — Plano preparatório de autenticação, sessões e recuperação (SEM AUTORIZAÇÃO)
 **Privilège · 13/11/2026 · Responsável por escopo/gates: PM/ChatGPT · Executor futuro: Claude Code · Estado: PREPARAÇÃO DOCUMENTAL, F2.B NÃO AUTORIZADA**
 
