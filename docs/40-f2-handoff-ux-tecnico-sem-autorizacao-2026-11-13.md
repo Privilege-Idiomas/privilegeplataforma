@@ -1,4 +1,6 @@
 # F2 — Handoff de UX/UI para implementação técnica (NÃO AUTORIZADA)
+
+> **PRECEDÊNCIA VISUAL — 13/11/2026:** O protótipo citado na seção histórica abaixo divergiu dos conceitos anteriores e **NÃO está aprovado**. **Referência revisada:** [d1-f2-alinhado-conceitos-originais-2026-11-13.html](prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html). Ainda **SEM ACEITE D1 FINAL** e **SEM AUTORIZAÇÃO F2**. A seção final de correção explica o histórico.
 **Preparado pela PM/ChatGPT em 13/11/2026** · **Status:** PRONTO PARA REVISÃO, **NÃO EXECUTAR** · **Issue:** [#7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7).
 
 ## 0. Natureza do documento
