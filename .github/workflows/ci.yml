@@ -68,10 +68,13 @@ jobs:
             | grep -E '^[A-Z_]+=' > "$RUNNER_TEMP/supabase.env"
           sed 's/=.*/=<omitido>/' "$RUNNER_TEMP/supabase.env"
           set -a; . "$RUNNER_TEMP/supabase.env"; set +a
+          echo "::add-mask::$ANON_KEY"
+          echo "::add-mask::$JWT_SECRET"
           {
             echo "SUPABASE_DB_URL=$DB_URL"
             echo "SUPABASE_API_URL=$API_URL"
             echo "SUPABASE_ANON_KEY=$ANON_KEY"
+            echo "SUPABASE_JWT_SECRET=$JWT_SECRET"
           } >> "$GITHUB_ENV"
 
       - run: npm run test:db:supabase

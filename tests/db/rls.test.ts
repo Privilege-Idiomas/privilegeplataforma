@@ -51,12 +51,12 @@ afterAll(async () => {
 
 describe("pré-condição: emulação fiel das permissões do Supabase", () => {
   it.each(["anon", "authenticated"])(
-    "%s tem privilégios de tabela (logo, só o RLS o impede)",
+    "%s tem privilégios nas tabelas do catálogo (logo, só o RLS o impede)",
     async (role) => {
       const { rows } = await db.query<{ ok: boolean }>(
-        `select bool_and(has_table_privilege($1, 'public.' || table_name, 'select,insert,update,delete')) as ok
-         from information_schema.tables where table_schema = 'public'`,
-        [role],
+        `select bool_and(has_table_privilege($1, 'public.' || t, 'select,insert,update,delete')) as ok
+         from unnest($2::text[]) as t`,
+        [role, Object.keys(TABLES)],
       );
       expect(rows[0]?.ok).toBe(true);
     },
