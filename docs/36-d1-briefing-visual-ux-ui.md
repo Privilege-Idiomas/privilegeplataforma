@@ -1,4 +1,6 @@
 # D1 — Briefing visual oficial para revisão — Privilège Plataforma
+
+> **ESTADO VIGENTE — 13/11/2026:** Marina aprovou **direção visual A** (marinho editorial, dourado discreto, superfícies claras quentes, logos oficiais e Claro/Escuro/Sistema). O sistema visual e as oito telas demonstrativas para F2 foram consolidados em [docs/39](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md) e [protótipo HTML](prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html), **ainda aguardando o aceite visual final de Marina**. Claude não fará design. **F2–F8 NÃO AUTORIZADAS**. O texto histórico abaixo foi mantido para rastreabilidade e pode conter estados antigos superados por esta atualização.
 **Data:** 10/11/2026 · **Etapa:** D1 · **Issue:** [#15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15)
 **Status:** **BRIEFING PROPOSTO / AGUARDANDO REVISÃO E ACEITE VISUAL** — o direcionamento verbal «sofisticado, premium e elegante» foi dado por Marina; **paleta, tipografia, componentes, protótipos e aplicações abaixo não estão aprovados**.
 **Coordenação/curadoria:** PM (ChatGPT) · **Aprovação:** Marina, com participação de outros responsáveis somente se indicada.
