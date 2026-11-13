@@ -1,4 +1,4 @@
-import { type AuditSink, NoopAuditSink } from "./audit";
+import type { AuditSink } from "./audit";
 import type {
   AuthorizationPolicy,
   Decision,
@@ -34,11 +34,21 @@ const PRIVILEGED_ACTIONS = new Set([
 
 /**
  * Política do servidor (F2.A): nega por padrão, permite apenas acesso ao
- * próprio recurso e registra toda negação na auditoria. Não substitui o RLS —
+ * próprio recurso e envia toda negação ao AuditSink fornecido (OBRIGATÓRIO).
+ * Se o registro falhar, o erro é propagado (falha fechada): a chamada nunca
+ * prossegue como se a negação tivesse sido auditada. Persistência dessas
+ * negações só existirá na F2.B (ver audit.ts). Não substitui o RLS —
  * é a primeira barreira; o banco é a segunda.
  */
 export class RoleBasedPolicy implements AuthorizationPolicy {
-  constructor(private readonly audit: AuditSink = new NoopAuditSink()) {}
+  constructor(private readonly audit: AuditSink) {
+    // Defesa também em tempo de execução (chamadas JS ou com `as any`).
+    if (!audit || typeof audit.record !== "function") {
+      throw new TypeError(
+        "RoleBasedPolicy exige um AuditSink explícito; não há auditoria silenciosa.",
+      );
+    }
+  }
 
   async can(
     actor: Actor,

@@ -125,6 +125,41 @@ revoke all on function private.has_active_role(uuid, public.app_role) from publi
 grant execute on function private.has_active_role(uuid, public.app_role)
   to authenticated, service_role;
 
+-- Um vínculo pagador→aluno só é EFETIVO (visível a qualquer das pontas) se o
+-- vínculo está ativo E o titular mantém papel de pagador ativo E o aluno
+-- mantém papel de aluno ativo. Revogar qualquer desses três oculta o vínculo
+-- para AMBAS as pontas (histórico preservado na tabela).
+-- SECURITY DEFINER é necessário porque o RLS de user_roles só deixa cada
+-- usuário ver os próprios papéis; a função responde apenas um booleano sobre
+-- um vínculo e fica no schema `private`, fora da API de dados.
+create function private.payer_link_is_effective(link_id uuid)
+returns boolean
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select exists (
+    select 1
+    from public.account_links l
+    where l.id = link_id
+      and l.kind = 'payer'
+      and l.status = 'active'
+      and exists (
+        select 1 from public.user_roles r
+        where r.user_id = l.holder_id and r.role = 'payer' and r.revoked_at is null
+      )
+      and exists (
+        select 1 from public.user_roles r
+        where r.user_id = l.student_id and r.role = 'student' and r.revoked_at is null
+      )
+  );
+$$;
+
+revoke all on function private.payer_link_is_effective(uuid) from public;
+grant execute on function private.payer_link_is_effective(uuid)
+  to authenticated, service_role;
+
 -- Registra evento de auditoria para mudanças em papéis e vínculos.
 create function private.audit_change() returns trigger
 language plpgsql
@@ -288,22 +323,21 @@ create policy user_roles_select_own on public.user_roles
   for select to authenticated
   using (user_id = (select auth.uid()));
 
--- Vínculos: visíveis às duas pontas apenas enquanto ATIVOS e com o papel
--- correspondente ativo — revogar vínculo ou papel encerra a visibilidade.
+-- Vínculos: visíveis às duas pontas somente enquanto EFETIVOS — vínculo ativo
+-- e papéis de pagador (titular) e aluno ativos. Revogar o vínculo, o papel do
+-- pagador ou o papel do aluno encerra a visibilidade para AMBOS os lados.
 create policy account_links_select_holder on public.account_links
   for select to authenticated
   using (
-    status = 'active'
-    and holder_id = (select auth.uid())
-    and private.has_active_role((select auth.uid()), 'payer')
+    holder_id = (select auth.uid())
+    and private.payer_link_is_effective(id)
   );
 
 create policy account_links_select_student on public.account_links
   for select to authenticated
   using (
-    status = 'active'
-    and student_id = (select auth.uid())
-    and private.has_active_role((select auth.uid()), 'student')
+    student_id = (select auth.uid())
+    and private.payer_link_is_effective(id)
   );
 
 -- audit_events: sem políticas → nenhum usuário lê (consulta por papel de

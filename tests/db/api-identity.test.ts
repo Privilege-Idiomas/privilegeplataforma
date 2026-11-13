@@ -6,13 +6,15 @@
  * O JWT de cada usuário FICTÍCIO é assinado (HS256) com o segredo local que o
  * próprio `supabase start` gera no runner — nunca com segredo real.
  */
-import { createHmac } from "node:crypto";
+import { createHmac, randomUUID } from "node:crypto";
+import pg from "pg";
 import { describe, expect, it } from "vitest";
 import { LINK, U } from "./identities";
 
 const API_URL = process.env.SUPABASE_API_URL;
 const ANON_KEY = process.env.SUPABASE_ANON_KEY;
 const JWT_SECRET = process.env.SUPABASE_JWT_SECRET;
+const DB_URL = process.env.SUPABASE_DB_URL;
 
 const b64url = (v: string | Buffer) => Buffer.from(v).toString("base64url");
 
@@ -117,6 +119,67 @@ describe.skipIf(!API_URL || !ANON_KEY || !JWT_SECRET)(
       const res = await api("profiles?select=id");
       expect(res.status).toBeGreaterThanOrEqual(400);
     });
+
+    it.skipIf(!DB_URL)(
+      "revogar o papel do pagador oculta o vínculo também para o aluno, pela API",
+      async () => {
+        // Par FICTÍCIO exclusivo deste teste (IDs aleatórios), criado no banco
+        // descartável do CI: a API não roda dentro de transação revertível.
+        const payer = randomUUID();
+        const student = randomUUID();
+        const link = randomUUID();
+        const payerRole = randomUUID();
+        const client = new pg.Client({ connectionString: DB_URL });
+        await client.connect();
+        try {
+          for (const [id, label] of [
+            [payer, "pagador-revogacao"],
+            [student, "aluno-revogacao"],
+          ] as const) {
+            await client.query(
+              `insert into auth.users (instance_id, id, aud, role, email, encrypted_password,
+                 raw_app_meta_data, raw_user_meta_data, created_at, updated_at)
+               values ('00000000-0000-0000-0000-000000000000', $1, 'authenticated',
+                 'authenticated', $2, '', '{}', '{}', now(), now())`,
+              [id, `${label}.${id.slice(0, 8)}@example.invalid`],
+            );
+            await client.query(
+              `insert into public.profiles (id, display_name) values ($1, $2)`,
+              [id, `[FICTÍCIO] ${label}`],
+            );
+          }
+          await client.query(
+            `insert into public.user_roles (id, user_id, role) values ($1, $2, 'payer'), ($3, $4, 'student')`,
+            [payerRole, payer, randomUUID(), student],
+          );
+          await client.query(
+            `insert into public.account_links (id, kind, holder_id, student_id) values ($1, 'payer', $2, $3)`,
+            [link, payer, student],
+          );
+
+          const before = await api("account_links?select=id", { as: student });
+          expect(await before.json()).toEqual([{ id: link }]);
+
+          await client.query(
+            `update public.user_roles set revoked_at = now() where id = $1`,
+            [payerRole],
+          );
+
+          for (const who of [student, payer]) {
+            const after = await api("account_links?select=id", { as: who });
+            expect(after.status).toBe(200);
+            expect(await after.json()).toEqual([]);
+          }
+          const history = await client.query(
+            `select status from public.account_links where id = $1`,
+            [link],
+          );
+          expect(history.rows).toEqual([{ status: "active" }]);
+        } finally {
+          await client.end();
+        }
+      },
+    );
 
     it("token com assinatura inválida é rejeitado", async () => {
       const forged = userJwt(U.admin).slice(0, -4) + "AAAA";

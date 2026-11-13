@@ -69,28 +69,44 @@ Identidade está **separada** de direitos comerciais, matrícula e progresso, qu
 - Os grants amplos padrão do Supabase são **revogados** nas tabelas novas. Ficam apenas `SELECT` em `profiles`/`user_roles`/`account_links` e `UPDATE (display_name)` em `profiles` para `authenticated`. `anon` não tem nenhum acesso.
 - **Perfil:** cada usuário lê e edita (só o nome) o **próprio** perfil.
 - **Papéis:** cada usuário lê só os próprios papéis. **Não há política nem privilégio de escrita** → autopromoção impossível pela API.
-- **Vínculos:** visíveis às duas pontas só enquanto o vínculo **e** o papel correspondente estão ativos. Revogar qualquer um encerra a visibilidade.
+- **Vínculos:** visíveis às duas pontas (pagador e aluno) somente enquanto o vínculo está **efetivo**, ou seja, quando três condições valem ao mesmo tempo:
+  - o vínculo está ativo;
+  - o titular mantém papel de **pagador** ativo;
+  - o aluno mantém papel de **aluno** ativo.
+  
+  Revogar **qualquer** dos três oculta o vínculo **para os dois lados**. O registro permanece na tabela, como histórico. A regra fica numa única função, `private.payer_link_is_effective`, usada pelas duas políticas. Ela é `SECURITY DEFINER` porque o RLS de `user_roles` impede o aluno de ver o papel do pagador; responde só um booleano e fica fora da API. *(Corrigido na revisão PM 1: antes, a política do aluno não verificava o papel do pagador.)*
 - **Admin:** o papel existe, mas **não concede leitura de terceiros** até as alçadas serem decididas (DEC-071, B-P04-01/02, JUR-06).
 - **Professor:** sem modelo de atribuição (F6) → só os próprios dados.
 - **Pagador ≠ acesso acadêmico:** o vínculo não dá leitura do perfil nem dos papéis do aluno.
 - **Menores/responsáveis:** trigger rejeita `guardian` para **qualquer papel, inclusive `service_role` e dono das tabelas**, até JUR-02/JUR-11 e decisão de Marina. Desbloquear exigirá nova migração aprovada.
 - **Auditoria por trigger:** `role.grant`, `role.revoke`, `link.create`, `link.revoke`, com `auth.uid()` e o papel do banco que executou.
-- Funções auxiliares no schema `private` (fora da API); `anon` não tem acesso.
+- Funções auxiliares no schema `private` (fora da API): `has_active_role` (permissões do chamador) e `payer_link_is_effective` (`SECURITY DEFINER`, `search_path` vazio). `anon` não tem acesso a nenhuma.
 
 ### Servidor (TypeScript)
 - `RoleBasedPolicy` (`src/modules/access/role-based-policy.ts`):
   - nega por padrão;
   - permite só ações sobre o **próprio** perfil e os próprios papéis;
   - ações privilegiadas (conceder/revogar papel, criar vínculo, ler auditoria ou perfis de terceiros) são **negadas para todos**, com motivo `pending_authority`;
-  - toda negação vai para uma porta `AuditSink`.
-- `DenyAllPolicy` continua como padrão. A política é usada a partir da F2.B, quando houver sessão real. Negações não podem ser gravadas pelo banco dentro de uma transação revertida; por isso, o registro de negações fica no servidor.
+  - toda negação é enviada ao `AuditSink`, que é **obrigatório no construtor**: não existe padrão silencioso, e a falta de sink é rejeitada também em tempo de execução;
+  - **falha fechada:** se o registro falhar, o erro é propagado e a chamada não prossegue.
+- `DenyAllPolicy` continua como padrão do módulo. **A `RoleBasedPolicy` ainda não está ligada a nenhuma rota**; isso será feito na F2.B, quando houver sessão real.
+
+### Auditoria: o que está persistido e o que fica para a F2.B
+| Evento | Onde é registrado | Persistido? |
+|---|---|---|
+| Concessão e revogação de papel (`role.grant`, `role.revoke`) | Trigger no banco → `audit_events` | **Sim**, append-only |
+| Criação e revogação de vínculo (`link.create`, `link.revoke`) | Trigger no banco → `audit_events` | **Sim**, append-only |
+| Negações decididas pelo servidor (`RoleBasedPolicy`) | `AuditSink` injetado | **Não.** Hoje só existe `InMemoryAuditSink`, **para testes**. O adaptador persistente será feito na **F2.B**, com a sessão real; até lá a política não atende requisições |
+| Negações pelo RLS ou por privilégios do banco (ex.: tentativa de autopromoção via API) | — | **Não.** O banco não grava dentro de uma transação que ele mesmo reverte; o registro dessas tentativas dependerá do servidor ou dos logs do provedor na F2.B (a definir com JUR-08) |
+
+*(Corrigido na revisão PM 1: a versão anterior tinha um `NoopAuditSink` como padrão, que descartava negações em silêncio, e a documentação dizia "registra toda negação".)*
 
 ### Testes (contas fictícias do seed, `@example.invalid`, sem senha utilizável)
 | Arquivo | Modos | Cobertura |
 |---|---|---|
-| `tests/db/identity.test.ts` (37) | pglite + supabase | acesso próprio; IDOR; anônimo; edição só do nome; autopromoção negada para os 6 usuários; papel imutável/sem reativação/sem exclusão; admin sem alçada; pagador com 2 alunos; aluno só vê o próprio vínculo; pagador não lê perfis/papéis dos alunos; terceiros sem vínculos; transferência bloqueada até para `service_role`; vínculo exige papéis; responsável legal bloqueado para `service_role` e dono; nenhuma coluna de idade; revogação de vínculo e de papel encerra acesso; auditoria registrada, append-only, ilegível, sem colunas sensíveis; schema `private` fechado |
-| `tests/db/api-identity.test.ts` (10) | só supabase | os mesmos riscos **pela API REST**, com JWT HS256 assinado com o segredo local gerado pelo `supabase start`: IDOR por filtro na URL, PATCH em terceiro, POST de autopromoção (403), pagador × perfis, vínculo de responsável, auditoria (403), anônimo, token forjado (401) |
-| `src/modules/access/role-based-policy.test.ts` | unidade | própria × alheia, anônimo, ações privilegiadas negadas para os 4 papéis, admin sem alçada, ação/tipo desconhecidos, auditoria só de negações |
+| `tests/db/identity.test.ts` (41) | pglite + supabase | acesso próprio; IDOR; anônimo; edição só do nome; autopromoção negada para os 6 usuários; papel imutável/sem reativação/sem exclusão; admin sem alçada; pagador com 2 alunos; aluno só vê o próprio vínculo; pagador não lê perfis/papéis dos alunos; terceiros sem vínculos; transferência bloqueada até para `service_role`; vínculo exige papéis; responsável legal bloqueado para `service_role` e dono; nenhuma coluna de idade; revogação de vínculo e de papel encerra acesso; **revogar o papel do pagador oculta o vínculo também para os alunos (histórico preservado)**; revogar o papel de um aluno oculta só aquele vínculo, nas duas pontas; auditoria registrada, append-only, ilegível, sem colunas sensíveis; schema `private` fechado |
+| `tests/db/api-identity.test.ts` (11) | só supabase | os mesmos riscos **pela API REST** (inclusive a revogação do papel do pagador, com par fictício próprio criado no banco descartável do CI), com JWT HS256 assinado com o segredo local gerado pelo `supabase start`: IDOR por filtro na URL, PATCH em terceiro, POST de autopromoção (403), pagador × perfis, vínculo de responsável, auditoria (403), anônimo, token forjado (401) |
+| `src/modules/access/role-based-policy.test.ts` | unidade | própria × alheia, anônimo, ações privilegiadas negadas para os 4 papéis, admin sem alçada, ação/tipo desconhecidos, auditoria só de negações, **sink obrigatório (sem padrão silencioso)**, **falha fechada quando o registro falha**, toda negação chega ao sink |
 | `tests/db/migrations.test.ts` / `rls.test.ts` (F1) | pglite + supabase | atualizados para listar **exatamente** as 9 tabelas e as 5 políticas existentes; catálogo segue sem políticas e sem acesso |
 
 **Provas de mutação** (migração temporária, removida em seguida; não versionada):
@@ -101,6 +117,7 @@ Identidade está **separada** de direitos comerciais, matrícula e progresso, qu
 | M2 — autopromoção liberada (grant + política de INSERT) | 6 |
 | M3 — pagador lê perfis dos alunos vinculados | 2 |
 | M4 — bloqueio de responsável legal removido | 5 |
+| M5 — política antiga do aluno, sem checar o papel do pagador (revisão PM 1) | 1 (o teste novo) |
 
 A M2 revelou uma asserção fraca: o teste aceitava qualquer "permission denied", e a inserção estava sendo barrada pelo trigger de auditoria. As asserções agora exigem a **tabela exata** (`permission denied for table user_roles`, etc.).
 

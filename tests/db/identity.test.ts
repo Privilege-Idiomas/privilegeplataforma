@@ -330,6 +330,64 @@ describe("revogação encerra o acesso em novas operações", () => {
     });
     expect(rows).toEqual([]);
   });
+
+  it("revogar o papel do pagador oculta o vínculo TAMBÉM para os alunos, preservando o histórico", async () => {
+    const seen = await inTransaction(db, async () => {
+      await db.query(
+        `update public.user_roles set revoked_at = now(), revoked_by = $2 where id = $1`,
+        [ROLE_ROW.pagador, U.admin],
+      );
+      await becomeUser(db, U.alunoA);
+      const alunoA = (await db.query(`select id from public.account_links`))
+        .rows;
+      await becomeOwner(db);
+      await becomeUser(db, U.alunoB);
+      const alunoB = (await db.query(`select id from public.account_links`))
+        .rows;
+      await becomeOwner(db);
+      const history = (
+        await db.query<{ id: string; status: string }>(
+          `select id, status from public.account_links where holder_id = $1 order by id`,
+          [U.pagador],
+        )
+      ).rows;
+      return { alunoA, alunoB, history };
+    });
+    expect(seen.alunoA).toEqual([]);
+    expect(seen.alunoB).toEqual([]);
+    // O registro do vínculo continua existindo (nada foi apagado nem alterado).
+    expect(seen.history).toEqual([
+      { id: LINK.pagadorAlunoA, status: "active" },
+      { id: LINK.pagadorAlunoB, status: "active" },
+    ]);
+  });
+
+  it("revogar o papel de um aluno oculta só aquele vínculo, para as duas pontas", async () => {
+    const seen = await inTransaction(db, async () => {
+      await db.query(
+        `update public.user_roles set revoked_at = now(), revoked_by = $2 where id = $1`,
+        [ROLE_ROW.alunoA, U.admin],
+      );
+      await becomeUser(db, U.pagador);
+      const payer = await db.query<{ id: string }>(
+        `select id from public.account_links`,
+      );
+      await becomeOwner(db);
+      await becomeUser(db, U.alunoA);
+      const alunoA = (await db.query(`select id from public.account_links`))
+        .rows;
+      return { payer: ids(payer.rows), alunoA };
+    });
+    expect(seen.payer).toEqual([LINK.pagadorAlunoB]);
+    expect(seen.alunoA).toEqual([]);
+  });
+
+  it("antes de qualquer revogação, aluno e pagador veem o vínculo (controle positivo)", async () => {
+    const { rows } = await asUser(db, U.alunoA, () =>
+      db.query<{ id: string }>(`select id from public.account_links`),
+    );
+    expect(ids(rows)).toEqual([LINK.pagadorAlunoA]);
+  });
 });
 
 describe("auditoria mínima", () => {
@@ -397,11 +455,15 @@ describe("auditoria mínima", () => {
 });
 
 describe("funções auxiliares", () => {
-  it("schema private não é acessível a visitantes anônimos", async () => {
-    await expect(
-      asRole(db, "anon", () =>
-        db.query(`select private.has_active_role($1, 'admin')`, [U.admin]),
-      ),
-    ).rejects.toThrow(denied("private"));
-  });
+  it.each([
+    [`select private.has_active_role($1, 'admin')`, U.admin],
+    [`select private.payer_link_is_effective($1)`, LINK.pagadorAlunoA],
+  ])(
+    "schema private não é acessível a visitantes anônimos: %s",
+    async (sql, arg) => {
+      await expect(
+        asRole(db, "anon", () => db.query(sql, [arg])),
+      ).rejects.toThrow(denied("private"));
+    },
+  );
 });

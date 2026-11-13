@@ -8,5 +8,5 @@ export type {
 } from "./authorization";
 export { DenyAllPolicy } from "./authorization";
 export type { AuditEvent, AuditSink } from "./audit";
-export { InMemoryAuditSink, NoopAuditSink } from "./audit";
+export { InMemoryAuditSink } from "./audit";
 export { RoleBasedPolicy } from "./role-based-policy";
