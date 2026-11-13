@@ -1,3 +1,5 @@
+> **PRECEDÊNCIA CANÔNICA — 13/11/2026:** DEC-087 [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md) fixa o fluxo vigente; DEC-074–080, DEC-082/083 e a confirmação de Matheus sobre DEC-024 superam descrições anteriores que exigiam nota eliminatória, duas tentativas, vídeo 100% e plantão sem reserva. **Nivelamento não usa IA no runtime, nem exige IA offline**; banco preparado e aprovado previamente. DEC-084/085 pertencem ao arquivo único de Matheus, DEC-086/087 ao da Marina. Preservar o histórico abaixo; não aplicar texto anterior conflitante como regra operacional. Aprovação documental de DEC-087 não autoriza PoC/código, compra, merge ou produção.
+
 # Decisões da Marina a Tomar — Plataforma Privilège
 
 **Última consolidação:** 2026-10-31  
