@@ -22,10 +22,10 @@ Esta seção resume **o conjunto de funcionalidades desejadas para o produto com
 | Aquisição e acesso comercial | páginas públicas de curso, apresentação de planos, contratação e ativação individual segura, cursos contratados e vitrine de outros cursos | DEC-036–048; planos, preços, pagamento e modelos de contratação com Matheus |
 | Identidade, pagador e crianças | login por e-mail/senha, recuperação, minha conta, vínculo pagador e múltiplos alunos, conta do menor com responsável | DEC-037–043/070, REQ-002/020–024/049; LGPD/ECA Digital e fluxos de exceção pendentes |
 | Catálogo e orientação | Basic English, Travel e Business como catálogo de referência, teste de nivelamento, portas de entrada e trilhas | REQ-005–008; detalhes pedagógicos e validação de Matheus pendentes |
-| Experiência acadêmica | aulas em vídeo, materiais, resumos, retomada, prática opcional, biblioteca e revisões, avaliações obrigatórias e progresso real | DEC-025/027/028/031–034/049–051/063; vídeo completo DEC-024, nota mínima e exceções pendentes |
+| Experiência acadêmica | aulas em vídeo, materiais, resumos, retomada, prática opcional, biblioteca e revisões, avaliações obrigatórias e progresso real | DEC-025/027/028/031–034/049–051/063; vídeo integral dispensado DEC-024, nota não eliminatória DEC-074–080; somente exceções residuais pendentes |
 | Certificados | PDF privado, acesso após término de assinatura conforme retenção, QR e código verificador, correções, revogações e privacidade | DEC-052–062, REQ-032–040; pacote funcional fechado, jurídico e stack/custos pendentes |
 | Docentes e qualidade | área docente, agenda, consulta a questões de todos os cursos, média agregada própria, notas individuais/ranking somente para admin | DEC-034/064/065; proteção por amostras pequenas e operação pendentes |
-| Atendimentos | aulas particulares individuais agendadas por **data e horário → professores disponíveis**, anticolisão; plantão coletivo de entrada livre por link do dia | DEC-066/069, REQ-044/048; créditos, duração, cancelamentos e escala sob pauta comercial/operacional pendente de Matheus |
+| Atendimentos | aulas particulares individuais agendadas por **data e horário → professores disponíveis**, anticolisão; plantão coletivo de 20 minutos, até 10 participantes e com reserva prévia obrigatória e créditos por plano | DEC-066/069, REQ-044/048; créditos, duração, cancelamentos e escala sob pauta comercial/operacional pendente de Matheus |
 | Administração e finanças | 12 áreas administrativas incluindo cursos, alunos, avaliações, professores, agenda, plantões, pagamentos, certificados, usuários e auditoria | DEC-068; procedimentos, permissões e decisões comerciais específicas pendentes |
 | Relatórios, automações e integrações | 12 funções de métricas, alertas, e-mails, exportações, auditoria e integração modular de serviços | DEC-069; fontes, segurança, provedores e orçamento pendentes |
 | Suporte, publicação e resiliência | recuperação de conta, FAQ, tickets, relatos de erro, revisão/publicação editorial, solicitações de dados e contingências | DEC-070; detalhamento no `docs/11-detalhamento-final-operacional.md` e validações restantes |
@@ -86,8 +86,8 @@ A lógica de recomendação após o teste e os objetivos específicos de cada tr
 | Assinaturas | Cobrança recorrente com acesso ao catálogo completo ou a cursos específicos | Definição informada; regras comerciais pendentes |
 | Controle de acesso | Conceder e restringir acesso conforme assinatura e direitos do aluno | A detalhar |
 | Conteúdo | Cursos, módulos e aulas em vídeo | Proposta |
-| Exercícios e avaliações | Exercícios de prática opcionais; avaliação obrigatória com nota mínima para desbloqueio (DEC-025) | Regra definida por Marina; detalhes técnicos pendentes |
-| Tentativas e recuperação | Nota mínima, uma tentativa adicional e recomendação de apoio após duas tentativas insuficientes | Definição informada; parâmetros pendentes |
+| Exercícios e avaliações | Exercícios de prática opcionais; avaliação obrigatória NÃO eliminatória para desbloqueio após realização, sem exigência de nota mínima (DEC-025/074–080) | Regra definida por Marina; detalhes técnicos pendentes |
+| Tentativas e recuperação | Tentativas ilimitadas; nota <6 recomenda revisão, e dificuldade em 3 módulos distintos recomenda apoio sem bloqueio | Definição informada; parâmetros pendentes |
 | Progresso | Registro de conclusão e desbloqueio sequencial de aulas no mesmo curso | Definição informada; regra de conclusão pendente |
 | Administração | Cadastro e gestão de cursos, módulos, aulas e atividades pela equipe administrativa | Definição informada |
 
