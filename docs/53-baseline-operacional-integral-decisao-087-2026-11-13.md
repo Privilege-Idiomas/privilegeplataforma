@@ -105,7 +105,11 @@
 - **Categoria C / dependência externa real:** preços e percentuais exatos, bancos e faixas pedagógicas, materiais editoriais certificados e audiovisuais, escala e remuneração docentes, provedor gateway/reunião e contas/licenças, evidência documental específica do jurídico, política final de retenção e aprovação de gastos específicos. Registrar dono e prazo, não preencher com palpite.
 - **Categoria D / gate de execução:** qualquer PoC, Claude F2.B–F8, credencial real, gasto, merge e deploy exige autorização expressa correspondente.
 
-## 8. Definição de “pronto para enviar ao Claude”
+## 8. Evidência PM complementar na main
+
+A auditoria de preparação dos primeiros lotes foi incluída separadamente na main como [docs/55](55-auditoria-pm-preparo-primeiros-lotes-2026-11-13.md). Ela não substitui este contrato DEC-087 nem autoriza execução; o inventário de conflitos históricos está em [docs/56](56-auditoria-reconciliacao-historica-2026-11-13.md).
+
+## 9. Definição de “pronto para enviar ao Claude”
 
 A fase tem **baseline de requisitos e telas aprovadas pertinentes**, IDs DEC/REQ rastreados, escopo e exclusões, endpoints/entidades/estados e exceções especificados, fluxos sem ambiguidades bloqueadoras, fornecedor/segurança comprovados quando necessários, testes positivos e negativos, previsão e dependências, custo e alçada verificados, Issue com ordem assinada por Marina. Claude **não escolhe política de produto**; dúvidas emergentes voltam como exceção de Issue sem interromper frentes independentes. Após execução: PR pequeno, CI, testes, screenshots apenas quando pertinentes, relatório, revisão PM, aceite/merge expressos e autorização **nova** para o lote seguinte.
 
