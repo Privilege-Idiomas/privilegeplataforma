@@ -1,10 +1,12 @@
-# F2.B — Proposta técnica de segurança para aprovação da Marina
-**Privilège · 13/11/2026 · PM/ChatGPT · Status: PROPOSTA NÃO APROVADA · SEM AUTORIZAÇÃO DE CÓDIGO OU IMPLANTAÇÃO**
+# F2.B — Diretrizes técnicas de segurança aprovadas por Marina (sem autorização de execução)
+**Privilège · 13/11/2026 · PM/ChatGPT · Status: DIRETRIZES TÉCNICAS APROVADAS por Marina · ARQUITETURA/CUSTOS/IMPLEMENTAÇÃO AINDA NÃO APROVADOS**
 
-> **ÂMBITO DA AUTORIZAÇÃO RECEBIDA:** Marina respondeu “ok” ao pedido para a PM **definir uma proposta técnica conservadora e submetê-la à aprovação posterior, SEM iniciar implementação**. Portanto este documento **NÃO É uma decisão aprovada, NÃO libera Claude, F2.B.1 ou F2.B.2, NÃO aprova custos e NÃO altera o `supabase/config.toml`**. F2.0 e F2.A já foram integradas na `main` nos PRs #16/#17; F2.B/C/D e F3–F8 permanecem bloqueadas.
+> **DECISÃO EXPRESSA MAIS RECENTE (13/11/2026):** Marina respondeu **“sim”** à pergunta exata: **“Você aprova esses parâmetros como diretrizes técnicas para a F2.B, mantendo a escolha final da arquitetura, os custos e a implementação sujeitos a aprovações separadas?”**. **SIM: parâmetros SEC-01–SEC-13, SEC-15, SEC-17–SEC-19 e controles de segurança correspondentes de SEC-14 aprovados como diretrizes para planejamento, não como configurações já implantadas;** valores de sessão e quotas sujeitos à verificação de capacidade do provedor, custo e arquitetura. **SEC-14 NÃO escolhe BFF vs SSR**, só registra requisitos de proteção; **SEC-16 NÃO aprova a hipótese de retenção de 30 dias, excluída da aprovação por depender de JUR-07/08/09**. A retenção, acesso e descarte reais de logs seguem pendentes. Confirmação técnica **não aprova plano Supabase Pro, fornecedor, serviço pago, ajustes em `supabase/config.toml`, código F2.B, branch, migração, UI ou deploy**. F2.0/F2.A já integradas. **F2.B.1/B.2, F2.C, F2.D e F3–F8 permanecem NÃO AUTORIZADAS.** Caso a arquitetura ou o plano disponível não possam cumprir um controle aprovado, documentar a incompatibilidade e retornar à Marina; **não suavizar silenciosamente os requisitos.**
+>
+> **HISTÓRICO:** o texto original desta proposta foi redigido antes do “sim” de Marina, em resposta ao “ok” que autorizava apenas elaborar o documento. Referências abaixo a “aguardando aceite dos parâmetros” são históricas e superadas pelo registro acima, **sem** alterar pendências jurídicas ou de viabilidade/custo.
 
-## 1. Proposta executiva — parâmetros candidatos, não decisões
-| ID | Controle | Proposta da PM (a validar por Marina) | Condição/restrição |
+## 1. Diretrizes técnicas aprovadas — implementação sujeita a gates
+| ID | Controle | Diretriz aprovada para planejamento | Condição/restrição |
 |---|---|---|---|
 | SEC-01 | Autenticação cotidiana | **E-mail + senha**, sem login social ou magic link como alternativa regular | **Já aprovado** (DEC-039); não é nova escolha |
 | SEC-02 | Senha | Mínimo **12 caracteres**, máximo operacional **128**, permitir gerenciadores/frases e Unicode seguro; sem regras artificiais de composição nem rotação periódica obrigatória | Validar suporte real do GoTrue, força, comprimento em bytes e tratamento de senha comprometida; apenas provedor faz hash, nunca código próprio |
@@ -67,10 +69,10 @@ O JWT curto (30 min) limita o intervalo máximo **somente para recursos que depe
 ## 5. Matriz de decisões para Marina — pendentes
 | Gate docs/44 | Proposta atual | Situação |
 |---|---|---|
-| F2B-G01 sessões e revogação | SEC-03 a SEC-08/SEC-19: JWT 30 min, inatividade 8h, máximo 24h, sem “manter conectado”, revogação real no servidor | **AGUARDA ACEITE**; avaliar custo Pro/alternativa BFF |
-| F2B-G02 validade e abuso | SEC-02, SEC-09 a SEC-12: senha 12+, reset 20 min, ativação 30 min, quotas e backoff | **AGUARDA ACEITE**; provar capacidade GoTrue e distinguir B.1/B.2 |
-| F2B-G03 MFA privilegiada | SEC-13/SEC-19: TOTP AAL2 para ações de professor/admin, bloqueio até inscrição segura | **AGUARDA ACEITE**; JUR-06/alçadas permanecem pendentes |
-| F2B-G08 auditoria | SEC-15/SEC-16: logs mínimos, sem segredos, nenhuma consulta indiscriminada; retenção **30 dias é mera hipótese jurídica** | **AGUARDA ACEITE TÉCNICO LIMITADO**, sem liberar retenção real antes JUR-08 |
+| F2B-G01 sessões e revogação | SEC-03 a SEC-08/SEC-19: JWT 30 min, inatividade 8h, máximo 24h, sem “manter conectado”, revogação real no servidor | **DIRETRIZ APROVADA**; viabilidade/custos do controle efetivo ainda por decidir |
+| F2B-G02 validade e abuso | SEC-02, SEC-09 a SEC-12: senha 12+, reset 20 min, ativação 30 min, quotas e backoff | **DIRETRIZ APROVADA**; provar viabilidade GoTrue e distinguir B.1/B.2 |
+| F2B-G03 MFA privilegiada | SEC-13/SEC-19: TOTP AAL2 para ações de professor/admin, bloqueio até inscrição segura | **DIRETRIZ APROVADA**; JUR-06/alçadas permanecem pendentes |
+| F2B-G08 auditoria | SEC-15/SEC-16: logs mínimos, sem segredos, nenhuma consulta indiscriminada; retenção **30 dias é mera hipótese jurídica** | **AUDITORIA MÍNIMA APROVADA COMO DIRETRIZ**; retenção/leitura/expurgo reais NÃO aprovados antes JUR-08 |
 | Arquitetura | SEC-14 e seção 3: preferência BFF, comparar com Supabase SSR e custos | **AGUARDA DIAGNÓSTICO READ-ONLY DO CLAUDE E DECISÃO ESPECÍFICA** |
 | Fornecedor, menores, contrato, dados reais | F2B-G04–G07/G09 | **BLOQUEADOS** até decisões e validações próprias; sem aprovação implícita |
 
@@ -81,4 +83,4 @@ O JWT curto (30 min) limita o intervalo máximo **somente para recursos que depe
 - [MFA Auth — níveis AAL1/AAL2 e enforcement em backend/RLS](https://supabase.com/docs/guides/auth/auth-mfa) e [MFA TOTP](https://supabase.com/docs/guides/auth/auth-mfa/totp).
 - [Rate limits — valores e âmbito de quotas nativas](https://supabase.com/docs/guides/auth/rate-limits).
 
-**Conclusão para decisão:** A PM **recomenda submeter SEC-01–SEC-19 como parâmetros candidatos** para o recorte **F2.B.1**, excluindo retenção definitiva, direitos comerciais, menores, e-mail real e F2.B.2. O “ok” da Marina autorizou **somente a elaboração desta proposta**, não a aceitou nem liberou código. Mesmo que os parâmetros sejam aprovados posteriormente, **uma autorização independente de execução na Issue #7** continuará obrigatória, conforme DEC-029.
+**Conclusão vigente após aceite de Marina:** as diretrizes de segurança SEC-01–SEC-19 foram **aprovadas para o planejamento técnico**, com a ressalva específica de que o prazo de **retenção de 30 dias em SEC-16 é apenas hipótese e NÃO foi aprovado**, e que **SEC-14 não decide arquitetura BFF/SSR**. Implementação de sessões, revogação e MFA depende de compatibilidade comprovada, orçamento e validação de riscos; nenhuma alternativa mais fraca está implicitamente permitida. **F2.B.1/B.2 e fases posteriores NÃO autorizadas.** Um diagnóstico de viabilidade/estimativa deve preceder a **autorização separada de execução na Issue #7**, conforme DEC-029.
