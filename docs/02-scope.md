@@ -1,5 +1,10 @@
 # Escopo do Produto — Plataforma Privilège
 
+> **BASELINE VIGENTE EM 13/11 (precedência sobre textos de 02/11):** o objetivo atual de Marina é **plataforma própria, integral e automatizada até 10/12/2026**, sem recorte provisório de MVP nem operação manual substituta ([Issue #18](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/18), docs/49 e docs/50-cronograma). **Stack já estudada/selecionada na direção técnica e orçamento apresentado e aprovado por Matheus**; **jurídico OK** conforme comunicado por Marina; não recolocar G2/G3/jurídico na pauta como etapas não realizadas. O escopo funcional atualizado inclui [DEC-084](09-decisoes-matheus.md#dec-084--plano-1-digital-seis-meses-fechados-e-compra-única-parcelável) — **Plano 1 digital por 6 meses, compra única parcelável** — e [DEC-085](09-decisoes-matheus.md#dec-085--desconto-de-aluno-presencial-no-digital-e-retorno-à-tabela-padrão) — **desconto de 20%–30% para aluno presencial, com retorno ao preço integral após desvínculo**, percentual exato por Matheus. A ata [11/11](51-registro-reuniao-semanal-2026-11-11.md) também registra estratégia Travel em dezembro, white label futuro e endosso visual premium, sem autorização para impor implementação adicional.
+>
+> **Não utilizar as tabelas históricas abaixo como regras atuais quando divergirem:** vídeo integral **não obrigatório**, prática opcional, avaliação obrigatória não eliminatória com tentativas ilimitadas, nivelamento **sem IA em runtime** e por banco preparado, plantões **com reserva**, P1/P2/P3 = **0/2/4 plantões** e P3 com **2 particulares de 50min**, Basic bônus a assinantes. Design **D1 Revisão 2** aceito; F2.0/A integradas; F2.B–F8 ainda sem liberação de implementação. **Financeiro e pedagogia são decisões de Matheus; PM coordena requisitos, arquitetura de integração e execução sob gates próprios.**
+
+
 **Versão:** 0.3 — consolidação documental do escopo integral  
 **Status:** escopo funcional em consolidação; **MVP/versões não selecionados**, decisões de Matheus e requisitos jurídicos/técnicos/financeiros pendentes  
 **Última atualização:** 2026-11-02
