@@ -1,5 +1,7 @@
 # Orientações para Claude Code — Plataforma Privilège
 
+> **ATUALIZAÇÃO VIGENTE — 13/11/2026:** Marina determinou que **o design da plataforma é de responsabilidade exclusiva da PM/ChatGPT**. Claude **NÃO executa design ou protótipos D1** e **NÃO tem autorização de implementação F2–F8**. Direção visual A aprovada; aceite final das telas ainda pendente. Ler [docs/39](docs/39-d1-design-system-direcao-a-para-aceite-2026-11-13.md), [protótipo D1/F2](docs/prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html) e [handoff técnico bloqueado docs/40](docs/40-f2-handoff-ux-tecnico-sem-autorizacao-2026-11-13.md). A liberação da F2 exige autorização expressa **separada** na Issue #7.
+
 ## INSTRUÇÕES PRIORITÁRIAS ATUALIZADAS — 2026-11-09 (LER ANTES DE PROGRAMAR)
 **Este guia tinha premissas de outubro que foram substituídas.** A fonte atual para a execução é `docs/34-prontidao-desenvolvimento-cronograma-e-lotes-2026-11-09.md`, com a reunião de 03/11 e DEC-074–083. Quando seção histórica abaixo conflitar com estas instruções, **a regra mais recente prevalece**; não reabrir decisões aprovadas.
 
