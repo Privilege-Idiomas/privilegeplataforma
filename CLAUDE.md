@@ -139,3 +139,16 @@ Fonte canônica: docs/08-decisoes-marina.md (DEC-035); roadmap docs/06-roadmap.m
 
 ## Autorização operacional recebida — F1 em 09/11/2026
 Marina **AUTORIZOU executar a F1**, com Next.js App Router, TypeScript, Tailwind e esquema inicial Supabase/Postgres local; ver [Issue #6](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/6) e `docs/34-prontidao-desenvolvimento-cronograma-e-lotes-2026-11-09.md`. **Não exigir nova permissão para iniciar codificação de F1 dentro do escopo.** Apresentar avaliação técnica/estimativa, perguntar apenas se houver impedimento material, executar F1 em branch/PR, registrar testes/evidências e aguardar aceite antes de F2. Não fazer deploy público, contratação, acesso a dados reais ou despesas. O status autorizado não equivale a trabalho iniciado enquanto o Claude Code não tiver sido acionado.
+
+
+## Atualização prioritária D1/F2 — 13/11/2026 (ler antes de iniciar qualquer nova fase)
+
+**Ordem expressa da Marina:** a identidade visual, layouts, design system e protótipos da Privilège **não serão desenhados pelo Claude**. A criação visual é responsabilidade exclusiva da PM/ChatGPT, sob aceite final de Marina. **NÃO criar/reinterpretar/reestilizar a D1**, alterar tokens, layouts ou logos por conta própria. Claude é candidato a **implementador técnico** das especificações aprovadas, **somente quando houver autorização da fase**.
+
+**Direção A aprovada pela Marina:** marinho editorial, dourado discreto, superfícies claras quentes, imagens originais de logotipos, aparências Claro/Escuro/Sistema; **protótipos essenciais ainda dependem de aceite visual final**.
+- [docs/39 — Design system v1](docs/39-d1-design-system-direcao-a-para-aceite-2026-11-13.md)
+- [Protótipo D1/F2 em HTML, somente demonstrativo](docs/prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html)
+- [docs/40 — Handoff F2, leitura preparatória](docs/40-f2-handoff-ux-tecnico-sem-autorizacao-2026-11-13.md)
+- [Issue #15 — Gate de aceite visual](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15)
+
+**F2–F8 continuam NÃO AUTORIZADAS.** Nenhuma issue, handoff, aprovação da paleta, meta de cinco semanas ou protótipo constitui ordem para escrever código F2. Se e quando Marina liberar expressamente a **Issue #7**, implementar exatamente o escopo autorizado, via branches/PRs e testes, sem design autônomo, sem dados reais, provedores pagos ou deploy público.
