@@ -1,3 +1,5 @@
+> **D1 REVISÃO 2 — REGRA VIGENTE (13/11/2026):** a referência visual atual para F2 é o [protótipo de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html), com tokens e requisitos em [docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). O antigo protótipo de 8 telas **não deve ser implementado**, e o HTML intermediário de 9 telas é apenas histórico da composição premium. **DIREÇÃO A APROVADA, ACEITE FINAL DO PACOTE REVISADO PENDENTE, F2 NÃO AUTORIZADA.** Claude não faz design.
+
 # D1 — Pacote de fechamento visual e handoff seguro para F2
 **Data:** 13/11/2026 · **Responsável por concepção, UX/UI, design e protótipos:** ChatGPT (PM/design) · **Aprovação final:** Marina.
 
