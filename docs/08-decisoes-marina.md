@@ -1025,3 +1025,12 @@ A pedido de Marina (“vamos corrigir então”), a PM/ChatGPT executou **corre�
 **Não concedido por esta decisão:** **F2.B (login/ativação/recuperação funcional), F2.C (UI), F2.D (QA final/release), F3–F8**, dados pessoais reais, produção, compras, deploy, migrações destrutivas, privilégios administrativos autoatribuídos ou operação de menores/vínculos sem base jurídica. Falta de definição de sessões, tokens, direitos de imagem, menores e alçadas **não autoriza presumir regra nem contornar bloqueios no backend**. Novos lotes exigem autorização separada de Marina na Issue #7.
 
 **Status:** F2.0 + F2.A **AUTORIZADOS / aguardando início local pelo Claude**; demais lotes **não autorizados**; estimativa da F2 total 13–18 dias úteis é apenas provisória, sem compromisso aceito. Registros anteriores deste arquivo sobre “nenhuma F2 autorizada” foram **superados apenas quanto aos dois lotes específicos liberados** e permanecem íntegros como histórico.
+
+
+## Autorização expressa de merge do PR #17 — F2.A (13/11/2026)
+
+**Decisão de Marina:** respondeu **“sim”** à pergunta da PM **“Você autoriza agora o merge do PR #17 (F2.A) na `main`?”**, com ressalva expressa de que **F2.B, F2.C e F2.D** continuariam condicionadas a aprovações próprias. **Objeto exclusivamente autorizado:** integração do código já revisado de F2.A no [PR #17](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/17).
+
+**Execução confirmada pelo GitHub:** merge do PR #17 realizado em `main`, SHA `0f964e094579421d6253e26bb83d2561a5118ab3`, depois de conferir head `eed578a5443c89c7e37a3750066b9ce0657e4649`, base `81a87fc7`, estado `mergeable` e CI [43502733109](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/43502733109) com três jobs verdes e 120 testes Supabase real sem ignorados. O [PR #16/F2.0](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/16) já havia sido integrado em `81a87fc7`, após autorização separada de Marina. **F2.0 + F2.A tecnicamente aceitas e integradas, somente em código versionado**, não implantadas em produção.
+
+**Não autorizados pela decisão:** F2.B (login, sessões, e-mails, autenticação funcional), F2.C (telas), F2.D (homologação/release), F3–F8, uso de dados reais, produção, contratação, migração destrutiva ou operações de menores. Sessões, alçadas e retenção/auditoria ainda exigem decisões e defaults seguros. **Autoria UX/UI permanece da PM; Claude apenas implementa fases autorizadas.**
