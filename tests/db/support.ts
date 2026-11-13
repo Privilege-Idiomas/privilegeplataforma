@@ -174,6 +174,22 @@ export function asRole<T>(
   });
 }
 
+/**
+ * Dentro de uma transação já aberta, passa a agir como `userId` autenticado.
+ * Use `becomeOwner` para voltar ao papel de conexão (dono das tabelas).
+ */
+export async function becomeUser(db: TestDb, userId: string): Promise<void> {
+  await db.query(`select set_config('request.jwt.claims', $1, true)`, [
+    JSON.stringify({ sub: userId, role: "authenticated" }),
+  ]);
+  await db.exec("set local role authenticated");
+}
+
+export async function becomeOwner(db: TestDb): Promise<void> {
+  await db.exec("reset role");
+  await db.query(`select set_config('request.jwt.claims', '', true)`);
+}
+
 /** Executa `fn` como usuário autenticado `userId` (como o PostgREST faria). */
 export function asUser<T>(
   db: TestDb,

@@ -48,23 +48,30 @@ describe("arquivos de migração", () => {
 });
 
 describe("esquema inicial", () => {
-  const TABLES = [
+  const CATALOG_TABLES = [
     "course_modules",
     "courses",
     "learning_path_courses",
     "learning_paths",
     "lessons",
   ];
+  const IDENTITY_TABLES = [
+    "account_links",
+    "audit_events",
+    "profiles",
+    "user_roles",
+  ];
+  const ALL_TABLES = [...CATALOG_TABLES, ...IDENTITY_TABLES].sort();
 
-  it("cria somente as tabelas de catálogo da F1", async () => {
+  it("cria somente as tabelas esperadas (catálogo F1 + identidade F2.A)", async () => {
     const { rows } = await db.query<{ table_name: string }>(
       `select table_name from information_schema.tables
        where table_schema = 'public' order by table_name`,
     );
-    expect(rows.map((r) => r.table_name)).toEqual(TABLES);
+    expect(rows.map((r) => r.table_name)).toEqual(ALL_TABLES);
   });
 
-  it("habilita RLS em todas as tabelas, sem políticas (nega por padrão)", async () => {
+  it("habilita RLS em todas as tabelas públicas", async () => {
     const { rows } = await db.query<{
       relname: string;
       relrowsecurity: boolean;
@@ -74,12 +81,52 @@ describe("esquema inicial", () => {
        where n.nspname = 'public' and c.relkind = 'r' order by c.relname`,
     );
     expect(rows).toEqual(
-      TABLES.map((relname) => ({ relname, relrowsecurity: true })),
+      ALL_TABLES.map((relname) => ({ relname, relrowsecurity: true })),
     );
-    const policies = await db.query(
-      `select 1 from pg_policies where schemaname = 'public'`,
+  });
+
+  it("catálogo continua sem políticas (nega tudo); identidade só com as políticas previstas", async () => {
+    const { rows } = await db.query<{
+      tablename: string;
+      policyname: string;
+      cmd: string;
+      roles: string;
+    }>(
+      `select tablename, policyname, cmd, array_to_string(roles, ',') as roles
+       from pg_policies where schemaname = 'public' order by tablename, policyname`,
     );
-    expect(policies.rows).toHaveLength(0);
+    expect(rows).toEqual([
+      {
+        tablename: "account_links",
+        policyname: "account_links_select_holder",
+        cmd: "SELECT",
+        roles: "authenticated",
+      },
+      {
+        tablename: "account_links",
+        policyname: "account_links_select_student",
+        cmd: "SELECT",
+        roles: "authenticated",
+      },
+      {
+        tablename: "profiles",
+        policyname: "profiles_select_own",
+        cmd: "SELECT",
+        roles: "authenticated",
+      },
+      {
+        tablename: "profiles",
+        policyname: "profiles_update_own",
+        cmd: "UPDATE",
+        roles: "authenticated",
+      },
+      {
+        tablename: "user_roles",
+        policyname: "user_roles_select_own",
+        cmd: "SELECT",
+        roles: "authenticated",
+      },
+    ]);
   });
 
   it("não possui colunas de dados pessoais", async () => {

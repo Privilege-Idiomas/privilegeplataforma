@@ -1,8 +1,15 @@
 import type { Actor, ResourceRef } from "./types";
 
+export type DenialReason =
+  | "not_authenticated"
+  | "no_policy"
+  /** O recurso pertence a outro titular. */
+  | "not_owner"
+  /** Ação privilegiada cuja alçada ainda não foi decidida (DEC-071/JUR-06). */
+  | "pending_authority";
+
 export type Decision =
-  | { allowed: true }
-  | { allowed: false; reason: "not_authenticated" | "no_policy" };
+  { allowed: true } | { allowed: false; reason: DenialReason };
 
 /**
  * Porta de autorização, verificada no servidor (nunca só na interface).
