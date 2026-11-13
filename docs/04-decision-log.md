@@ -288,3 +288,9 @@ O alinhamento comercial por curso/trilha com Basic bônus foi **decidido em reun
 | **DEC-086** | Método permanente de execução e uso de agentes Claude | [Registro canônico aprovado por Marina](08-decisoes-marina.md#dec-086--diretriz-principal-e-permanente-de-eficiência-de-execução-do-claude-code-13112026), detalhamento em [docs/52](52-diretriz-permanente-eficiencia-claude-execucao.md): **integrador principal único, auxiliares somente por demanda**, evitar pesquisas duplicadas, usar contexto mínimo relevante, lotes autorizados e pequenos com testes/CI/PR, medir produtividade e quota; revisões técnicas profundas obrigatórias quando o risco exigir; GitHub canônico e Notion executivo | **APROVADO / OBRIGATÓRIO PARA TODO O PROJETO**. Não autoriza novos lotes de código, gastos, Ultra, merges ou publicação. Regime 15h/dia é apenas hipótese temporária do sprint 10/12. | Marina |
 
 **Registro de precedência:** a otimização de tokens nunca substitui segurança, conformidade, alçadas, escopo integral e decisões de produto. Referência operacional também em `CLAUDE.md` e `AGENTS.md`. O histórico de cinco pesquisadores no diagnóstico F2.B foi excepcional, não padrão de execução.
+
+## Atualização do índice — DEC-087 (13/11/2026)
+
+| ID | Tema | Registro canônico | Situação vigente | Responsável final |
+|---|---|---|---|---|
+| **DEC-087** | Adotar o fechamento conjunto dos seis blocos e o padrão permanente de preparação/aceite por fase | [DEC-087 — Marina](08-decisoes-marina.md#dec-087--fechamento-conjunto-dos-seis-blocos-operacionais-e-protocolo-de-execução-13112026); [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md); [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md) | **APROVADA como organização/especificação** após “Perfeito! Pode seguir”; provas técnicas/custos/insumos externos e autorizações de PoC, F2.B–F8, PR/merge e deploy continuam independentes | Marina |
