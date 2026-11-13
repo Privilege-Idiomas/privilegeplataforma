@@ -230,3 +230,48 @@ As quinze diretrizes da DEC-080 foram confirmadas por Marina. As perguntas hist�
 - **Limites:** aprovação de custos **não equivale automaticamente** a escolha definitiva da arquitetura BFF versus Supabase SSR, seleção/licença de fornecedores adicionais, liberação de compra/contratação específica, execução/despesa pela PM/Claude, publicação em produção, aprovação jurídica ou autorização de F2.B. As diretrizes de segurança F2.B já aprovadas pela Marina continuam condicionadas à análise de viabilidade e orçamento específico, caso gerem custo incremental.
 - **Estado técnico concomitante:** F2.0 e F2.A já integradas; Claude autorizado **somente para diagnóstico F2.B read-only**, conforme [Issue #7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7#issuecomment-6864880339); implementação F2.B.1/B.2, F2.C/D e F3–F8 **não autorizada**.
 - **Próxima validação objetiva de MAT-011:** identificar planilha/proposta realmente aprovada por Matheus (versão, itens, valores, recorrência, premissas e eventuais exclusões), para separar **aprovação comercial** de **autorização de despesa** e de **decisão tecnológica**. Registrar documento e decisão sem repetir a resposta do Matheus no arquivo de decisões exclusivo da Marina.
+
+---
+
+## Decisões comerciais comunicadas pela ata de 11/11/2026 (registro PM 13/11)
+
+**Fonte:** ata “Plataforma Privilege - Semanal”, quarta-feira 11/11/2026, seis páginas, disponível no projeto; desdobramento e cautelas em [docs/51](51-registro-reuniao-semanal-2026-11-11.md). **Alçada das decisões financeiras/comerciais:** Matheus, conforme orientação expressa de Marina em 13/11. Os alinhamentos estratégicos cujo decisor exclusivo não foi classificado por Marina ficam em docs/51, sem ficha DEC duplicada.
+
+### DEC-084 — Plano 1 digital: seis meses fechados e compra única parcelável
+
+- **Data da deliberação:** 11/11/2026. **Registro:** 13/11/2026.
+- **Problema/contexto:** o plano digital de entrada precisava de uma modalidade de venda com vigência clara, evitando cancelamentos precoces e complexidade de multa.
+- **Proponente:** Matheus, segundo ata; Marina discutiu e concordou.
+- **Responsável final pela decisão comercial:** Matheus (competência comunicada por Marina); **fonte da decisão:** ata da reunião disponibilizada por Marina à PM.
+- **Alternativas efetivamente discutidas:** mensalidade recorrente para o produto básico versus acesso semestral com pagamento único no cartão, eventualmente parcelado; manter recorrência para cursos de maior duração. Não há outras opções documentadas.
+- **Opção selecionada:** **Plano 1 somente digital e sem plantões (DEC-082) dá direito a 6 meses fechados**, mediante **uma compra no cartão, passível de parcelamento**, não seis assinaturas cobradas automaticamente todo mês. **Cursos mais longos**, como preparatórios, continuam admitindo modalidades recorrentes mensal, trimestral, semestral e anual conforme parametrização comercial.
+- **Justificativa relatada:** previsibilidade de receita e menor risco de cancelamentos precoces/litígio de multa na oferta curta.
+- **Status:** **ALINHADA/APROVADA COMO DIRETRIZ NA REUNIÃO, EM ALÇADA DE MATHEUS**; **NÃO** significa fornecedor de pagamento/contrato implementado nem preço/tabela comercial definitivos.
+- **Precedência:** atualiza MAT-002/MAT-003 e a modalidade comercial cogitada em 03/11 **somente para a oferta digital de entrada**. Não altera a venda de Travel/Business por curso, o bônus Basic/Start, nem transforma o curso Basic no “plano básico”; não presumir mudança nos P2/P3 sem declaração específica.
+- **Plano técnico sob gate próprio:** F5 / Issue #10 deve suportar produto com **prazo fixo de acesso**, compra única/parcelamento, data de início e fim, emissão e cessação segura dos direitos e distinção de pagamentos recorrentes. **Nenhuma implementação liberada por este registro.**
+- **Dependências exclusivamente comerciais de Matheus:** preços efetivos, forma de apresentação do parcelamento, renovação após 6 meses e exceções; operabilidade do gateway é teste técnico da PM, não reabertura da stack aprovada.
+- **Evidência / aceite futuro:** docs/51, ata 11/11 pp. 1–4; testes de concessão/expiração de acesso e cobrança apenas após autorização de lote.
+
+### DEC-085 — Desconto de aluno presencial no digital e retorno à tabela padrão
+
+- **Data da deliberação:** 11/11/2026. **Registro:** 13/11/2026.
+- **Contexto/objetivo:** viabilizar extensão digital da experiência para alunos que já estudam presencialmente.
+- **Proponente:** Marina; **aprovador e responsável pela decisão comercial:** Matheus, conforme ata e alçada informada por Marina.
+- **Alternativas efetivamente consideradas:** concessão de desconto para aluno presencial versus contratação sem benefício identificado; **percentual entre 20% e 30% discutido, sem número final escolhido**.
+- **Opção selecionada:** **diretriz de desconto entre 20% e 30%** na aquisição da plataforma por aluno presencial elegível; **perdido o vínculo presencial, o preço deve voltar ao valor integral** segundo política a definir.
+- **Status:** **DIRETRIZ APROVADA por Matheus na reunião; PERCENTUAL E PROCEDIMENTO OPERACIONAL A DEFINIR por Matheus**. Não declarar 20% nem 30% como desconto fixo já aprovado.
+- **Justificativa relatada:** tornar atraente a adesão de estudantes presenciais ao reforço digital, preservando diferenciação do benefício enquanto houver vínculo.
+- **Dependências de negócio:** percentual exato por produto, fonte confiável de elegibilidade, momento e aviso da mudança para preço integral, efeitos em compra semestral já paga e meios de comprovação do encerramento do vínculo. Não deduzir cobrança adicional automática sobre compra quitada sem regra expressa.
+- **Plano técnico sob gate próprio:** F5 / Issue #10 deverá permitir **regra de elegibilidade e precificação promocional configurável**, com alteração de status do vínculo e histórico/auditoria; implementação condicionada a fórmula comercial e autorização.
+- **Evidência:** docs/51, ata 11/11 pp. 2 e 4; nenhuma oferta publicada ou contrato alterado por este registro.
+
+### MAT-011 — Complemento de evidência da aprovação de custos e validação jurídica relatadas (reunião 11/11; registro 13/11)
+
+Este complemento **não cria nova decisão MAT-011** nem substitui a confirmação de aprovação anteriormente comunicada por Marina.
+
+- **A reunião de 11/11 foi a apresentação dos cenários financeiros**: base fixa tecnológica relatada de **R$ 302,50/mês** para a configuração simulada; uso de vídeo **R$ 2/aluno** como premissa; projeção de aproximadamente **10 alunos** para equilíbrio conforme composição de planos, além de referências R$ 97/169/429 em cálculos. A ata relata análise favorável do patrocinador. A aprovação dos custos apresentados foi **posteriormente confirmada expressamente por Marina** para registro no GitHub em 13/11.
+- **Cuidado com a evidência:** os dados representam o **cenário apresentado**, não contrato de cada fornecedor, preço definitivo de venda ou autorização irrestrita de gasto. Em particular, a própria ata contém a referência incongruente “R$ 97/mês” e “R$ 354 ou R$ 359/semestre”: **não homologar nenhum dos valores sem esclarecimento de Matheus**. Custos indiretos, transacionais, docentes e aquisição de clientes não podem ser inferidos do custo tecnológico.
+- **Jurídico:** o encerramento da ata informa aprovação jurídica/financeira e Marina **confirmou em 13/11 que o jurídico de Matheus considera o material OK**. Registrar **validação jurídica comunicada**, não reabrir indevidamente o assunto como se não tivesse sido analisado; escopo documental do aval pode ser vinculado quando disponível. Não interpretar como liberação automática de dados reais, deploy ou aprovação de novas funcionalidades.
+- **Pendência de documentação, não de decisão já tomada:** associar o arquivo/versão exata do orçamento apresentado e a identificação do aval jurídico ao registro, se disponibilizados. A etapa de apresentar orçamento a Matheus **está concluída**; não solicitar nova pesquisa ou orçamento como condição para organização da implementação.
+- **Fonte de rastreio:** [docs/51](51-registro-reuniao-semanal-2026-11-11.md), seção 2.
+
