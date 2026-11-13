@@ -47,3 +47,27 @@ O protótipo visual **Privilège D1 — Proposta visual navegável** foi prepara
 4. Só então solicitar **autorização separada de F2** para Claude executar código e testes sob Issue #7, sem expandir escopo.
 
 **Governança:** Meta de até 5 semanas permanece objetivo de planejamento, **não** prova de viabilidade técnica nem autorização automática. GitHub é fonte única e completa de verdade; Notion somente projeção executiva. Não há aprovação de gasto, fornecedor, deploy ou uso de dados reais.
+
+---
+
+## Atualização de estado do pacote — 13/11/2026 (após aprovação da direção A)
+
+**MARINA APROVOU EXPRESSAMENTE A DIREÇÃO VISUAL A:** marinho editorial, dourado discreto, superfícies claras quentes, logotipos oficiais intactos, modos Claro/Escuro/Sistema. Esta aprovação substitui o estado `direção A recomendada/pendente` descrito no registro preparatório acima; **não** constitui aceite visual dos protótipos nem autorização de implementação.
+
+**Entregas autorais ChatGPT/PM efetivamente versionadas no GitHub:**
+- [Design system v1 e checklist de aceite — docs/39](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md).
+- [Protótipo HTML navegável — 8 telas](prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html): Acesso, Cadastro, Papéis, Dashboard amostral, Minha Conta, Acesso negado, Recuperação e Estados da interface.
+- [Handoff de requisitos de engenharia da F2 — docs/40](40-f2-handoff-ux-tecnico-sem-autorizacao-2026-11-13.md).
+
+**Verificação realizada:** interações de apresentação testadas com Chromium/Playwright nas larguras 1440px e 390px, sem erros JS observados e sem overflow horizontal do documento após correção. Testes são de UI demonstrativa, não homologação funcional, nem auditoria de acessibilidade completa.
+
+**Status atual do gate:**
+- [x] UX Blocos 01–10 definidos.
+- [x] Autoria do design atribuída à PM/ChatGPT; Claude não cria o design.
+- [x] Direção visual A aprovada expressamente.
+- [x] Design system v1 consolidado, aguarda aceite final.
+- [x] Evidência navegável desktop/mobile versionada no GitHub.
+- [ ] Revisão e **aceite visual final** de Marina ao design system e telas essenciais F2.
+- [ ] **Liberação explícita e separada da F2**, se decidida, na [Issue #7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7).
+
+**Forma de trabalho sem novas rodadas:** uma única revisão de Marina de [docs/39](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md) + HTML; ajustes estritamente necessários à F2, registro do aceite D1 e, só então, pedido independente de autorização de implementação. Telas F3–F8 continuam documentadas como UX já aprovado quando aplicável, mas suas composições finais são D1.x. Nenhum gasto, contrato, deploy, dados reais ou código de fase nova autorizado.
