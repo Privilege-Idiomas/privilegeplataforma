@@ -1,3 +1,5 @@
+> **ORDEM EXECUTADA E ACEITA (13/11/2026):** F2.0 concluída no [PR #16](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/16), merge `81a87fc7`; F2.A concluída no [PR #17](https://github.com/Privilege-Idiomas/privilegeplataforma/pull/17), merge `0f964e0`. Ambas revisadas tecnicamente pela PM, CI final 3/3 verde + 120 testes Supabase real. O status histórico “aguardando início” abaixo foi superado. **F2.B/C/D e F3–F8 continuam não autorizadas**; somente novo ato de Marina na Issue #7 poderá liberar outro lote. Não usar migração para ambiente real sem gate próprio.
+
 # F2 — Ordem de execução AUTORIZADA exclusivamente para F2.0 + F2.A
 **Plataforma Privilège · 13/11/2026 · Autorização expressa de Marina: “sim” à pergunta da PM sobre liberar APENAS o primeiro lote F2.0 + F2.A · Executor: Claude Code no VS Code · Coordenação e aceite: PM/ChatGPT + Marina**
 
