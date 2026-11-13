@@ -181,6 +181,17 @@ describe.skipIf(!API_URL || !ANON_KEY || !JWT_SECRET)(
       },
     );
 
+    it("funções do schema private não são expostas como RPC", async () => {
+      for (const fn of ["payer_link_is_effective", "has_active_role"]) {
+        const res = await api(`rpc/${fn}`, {
+          as: U.pagador,
+          method: "POST",
+          body: JSON.stringify({ link_id: LINK.pagadorAlunoA }),
+        });
+        expect(res.status).toBe(404);
+      }
+    });
+
     it("token com assinatura inválida é rejeitado", async () => {
       const forged = userJwt(U.admin).slice(0, -4) + "AAAA";
       const res = await fetch(`${API_URL}/rest/v1/profiles?select=id`, {

@@ -132,6 +132,11 @@ grant execute on function private.has_active_role(uuid, public.app_role)
 -- SECURITY DEFINER é necessário porque o RLS de user_roles só deixa cada
 -- usuário ver os próprios papéis; a função responde apenas um booleano sobre
 -- um vínculo e fica no schema `private`, fora da API de dados.
+-- TITULARIDADE (revisão PM 2): só retorna true se quem chama (auth.uid()) é
+-- uma das partes do vínculo. Um terceiro que conheça o UUID recebe false, sem
+-- poder inferir se uma relação alheia está efetiva. `anon` nem chega a
+-- executá-la (sem acesso ao schema private); chamada sem JWT (auth.uid() nulo,
+-- ex.: service_role sem claims) recebe false.
 create function private.payer_link_is_effective(link_id uuid)
 returns boolean
 language sql
@@ -143,6 +148,7 @@ as $$
     select 1
     from public.account_links l
     where l.id = link_id
+      and (l.holder_id = (select auth.uid()) or l.student_id = (select auth.uid()))
       and l.kind = 'payer'
       and l.status = 'active'
       and exists (

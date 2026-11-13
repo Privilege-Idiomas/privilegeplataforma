@@ -390,6 +390,110 @@ describe("revogação encerra o acesso em novas operações", () => {
   });
 });
 
+describe("private.payer_link_is_effective — titularidade (revisão PM 2)", () => {
+  const NONEXISTENT = "00000000-0000-4000-8000-00000000cfff";
+
+  /** Chama a função como `userId` autenticado, na mesma transação. */
+  const effectiveAs = async (userId: string, linkId: string) => {
+    await becomeUser(db, userId);
+    const { rows } = await db.query<{ ok: boolean }>(
+      `select private.payer_link_is_effective($1) as ok`,
+      [linkId],
+    );
+    await becomeOwner(db);
+    return rows[0]?.ok;
+  };
+
+  it("retorna true para o titular (pagador) e para o aluno do vínculo", async () => {
+    const r = await inTransaction(db, async () => ({
+      pagadorA: await effectiveAs(U.pagador, LINK.pagadorAlunoA),
+      pagadorB: await effectiveAs(U.pagador, LINK.pagadorAlunoB),
+      alunoA: await effectiveAs(U.alunoA, LINK.pagadorAlunoA),
+      alunoB: await effectiveAs(U.alunoB, LINK.pagadorAlunoB),
+    }));
+    expect(r).toEqual({
+      pagadorA: true,
+      pagadorB: true,
+      alunoA: true,
+      alunoB: true,
+    });
+  });
+
+  it.each([
+    ["outro aluno do mesmo pagador", U.alunoB],
+    ["professor", U.professor],
+    ["admin (sem alçada)", U.admin],
+    ["usuário sem papel", U.semPapel],
+  ])(
+    "terceiro que conhece o UUID válido recebe false: %s",
+    async (_who, userId) => {
+      const ok = await inTransaction(db, () =>
+        effectiveAs(userId, LINK.pagadorAlunoA),
+      );
+      expect(ok).toBe(false);
+    },
+  );
+
+  it("UUID inexistente retorna false", async () => {
+    const ok = await inTransaction(db, () =>
+      effectiveAs(U.pagador, NONEXISTENT),
+    );
+    expect(ok).toBe(false);
+  });
+
+  it("sem JWT (service_role sem claims) retorna false", async () => {
+    const { rows } = await asRole(db, "service_role", () =>
+      db.query<{ ok: boolean }>(
+        `select private.payer_link_is_effective($1) as ok`,
+        [LINK.pagadorAlunoA],
+      ),
+    );
+    expect(rows[0]?.ok).toBe(false);
+  });
+
+  it("após revogar o papel do pagador, retorna false para os dois lados", async () => {
+    const r = await inTransaction(db, async () => {
+      await db.query(
+        `update public.user_roles set revoked_at = now() where id = $1`,
+        [ROLE_ROW.pagador],
+      );
+      return {
+        pagador: await effectiveAs(U.pagador, LINK.pagadorAlunoA),
+        alunoA: await effectiveAs(U.alunoA, LINK.pagadorAlunoA),
+      };
+    });
+    expect(r).toEqual({ pagador: false, alunoA: false });
+  });
+
+  it("após revogar o papel do aluno, retorna false para os dois lados", async () => {
+    const r = await inTransaction(db, async () => {
+      await db.query(
+        `update public.user_roles set revoked_at = now() where id = $1`,
+        [ROLE_ROW.alunoA],
+      );
+      return {
+        pagador: await effectiveAs(U.pagador, LINK.pagadorAlunoA),
+        alunoA: await effectiveAs(U.alunoA, LINK.pagadorAlunoA),
+      };
+    });
+    expect(r).toEqual({ pagador: false, alunoA: false });
+  });
+
+  it("após revogar o vínculo, retorna false para os dois lados", async () => {
+    const r = await inTransaction(db, async () => {
+      await db.query(
+        `update public.account_links set status = 'revoked', revoked_at = now() where id = $1`,
+        [LINK.pagadorAlunoA],
+      );
+      return {
+        pagador: await effectiveAs(U.pagador, LINK.pagadorAlunoA),
+        alunoA: await effectiveAs(U.alunoA, LINK.pagadorAlunoA),
+      };
+    });
+    expect(r).toEqual({ pagador: false, alunoA: false });
+  });
+});
+
 describe("auditoria mínima", () => {
   it("registra concessão e revogação de papel, sem dados sensíveis", async () => {
     const events = await inTransaction(db, async () => {

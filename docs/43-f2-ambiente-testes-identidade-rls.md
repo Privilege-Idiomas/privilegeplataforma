@@ -75,12 +75,13 @@ Identidade está **separada** de direitos comerciais, matrícula e progresso, qu
   - o aluno mantém papel de **aluno** ativo.
   
   Revogar **qualquer** dos três oculta o vínculo **para os dois lados**. O registro permanece na tabela, como histórico. A regra fica numa única função, `private.payer_link_is_effective`, usada pelas duas políticas. Ela é `SECURITY DEFINER` porque o RLS de `user_roles` impede o aluno de ver o papel do pagador; responde só um booleano e fica fora da API. *(Corrigido na revisão PM 1: antes, a política do aluno não verificava o papel do pagador.)*
+  - **Titularidade dentro da função** *(revisão PM 2)*: a função só retorna `true` se quem chama (`auth.uid()`) é o titular **ou** o aluno do vínculo. Um terceiro que conheça o UUID — outro aluno do mesmo pagador, professor, admin sem alçada, usuário sem papel — recebe `false`. `anon` é **recusado** (sem acesso ao schema `private`); chamada sem JWT, como `service_role` sem *claims*, recebe `false`. A função **não é exposta** como RPC pela API (testado).
 - **Admin:** o papel existe, mas **não concede leitura de terceiros** até as alçadas serem decididas (DEC-071, B-P04-01/02, JUR-06).
 - **Professor:** sem modelo de atribuição (F6) → só os próprios dados.
 - **Pagador ≠ acesso acadêmico:** o vínculo não dá leitura do perfil nem dos papéis do aluno.
 - **Menores/responsáveis:** trigger rejeita `guardian` para **qualquer papel, inclusive `service_role` e dono das tabelas**, até JUR-02/JUR-11 e decisão de Marina. Desbloquear exigirá nova migração aprovada.
 - **Auditoria por trigger:** `role.grant`, `role.revoke`, `link.create`, `link.revoke`, com `auth.uid()` e o papel do banco que executou.
-- Funções auxiliares no schema `private` (fora da API): `has_active_role` (permissões do chamador) e `payer_link_is_effective` (`SECURITY DEFINER`, `search_path` vazio). `anon` não tem acesso a nenhuma.
+- Funções auxiliares no schema `private` (fora da API): `has_active_role` (permissões do chamador) e `payer_link_is_effective` (`SECURITY DEFINER`, `search_path` vazio, objetos qualificados, checagem de titularidade). `anon` não tem acesso a nenhuma.
 
 ### Servidor (TypeScript)
 - `RoleBasedPolicy` (`src/modules/access/role-based-policy.ts`):
@@ -104,8 +105,8 @@ Identidade está **separada** de direitos comerciais, matrícula e progresso, qu
 ### Testes (contas fictícias do seed, `@example.invalid`, sem senha utilizável)
 | Arquivo | Modos | Cobertura |
 |---|---|---|
-| `tests/db/identity.test.ts` (41) | pglite + supabase | acesso próprio; IDOR; anônimo; edição só do nome; autopromoção negada para os 6 usuários; papel imutável/sem reativação/sem exclusão; admin sem alçada; pagador com 2 alunos; aluno só vê o próprio vínculo; pagador não lê perfis/papéis dos alunos; terceiros sem vínculos; transferência bloqueada até para `service_role`; vínculo exige papéis; responsável legal bloqueado para `service_role` e dono; nenhuma coluna de idade; revogação de vínculo e de papel encerra acesso; **revogar o papel do pagador oculta o vínculo também para os alunos (histórico preservado)**; revogar o papel de um aluno oculta só aquele vínculo, nas duas pontas; auditoria registrada, append-only, ilegível, sem colunas sensíveis; schema `private` fechado |
-| `tests/db/api-identity.test.ts` (11) | só supabase | os mesmos riscos **pela API REST** (inclusive a revogação do papel do pagador, com par fictício próprio criado no banco descartável do CI), com JWT HS256 assinado com o segredo local gerado pelo `supabase start`: IDOR por filtro na URL, PATCH em terceiro, POST de autopromoção (403), pagador × perfis, vínculo de responsável, auditoria (403), anônimo, token forjado (401) |
+| `tests/db/identity.test.ts` (51) | pglite + supabase | acesso próprio; IDOR; anônimo; edição só do nome; autopromoção negada para os 6 usuários; papel imutável/sem reativação/sem exclusão; admin sem alçada; pagador com 2 alunos; aluno só vê o próprio vínculo; pagador não lê perfis/papéis dos alunos; terceiros sem vínculos; transferência bloqueada até para `service_role`; vínculo exige papéis; responsável legal bloqueado para `service_role` e dono; nenhuma coluna de idade; revogação de vínculo e de papel encerra acesso; **revogar o papel do pagador oculta o vínculo também para os alunos (histórico preservado)**; revogar o papel de um aluno oculta só aquele vínculo, nas duas pontas; **função de efetividade: `true` para titular e aluno; `false` para 4 tipos de terceiro com UUID válido, UUID inexistente, chamada sem JWT e após cada tipo de revogação (papel do pagador, papel do aluno, vínculo)**; auditoria registrada, append-only, ilegível, sem colunas sensíveis; schema `private` fechado |
+| `tests/db/api-identity.test.ts` (12) | só supabase | os mesmos riscos **pela API REST** (inclusive a revogação do papel do pagador, com par fictício próprio criado no banco descartável do CI), com JWT HS256 assinado com o segredo local gerado pelo `supabase start`: IDOR por filtro na URL, PATCH em terceiro, POST de autopromoção (403), pagador × perfis, vínculo de responsável, auditoria (403), anônimo, token forjado (401), funções do schema `private` sem rota RPC (404) |
 | `src/modules/access/role-based-policy.test.ts` | unidade | própria × alheia, anônimo, ações privilegiadas negadas para os 4 papéis, admin sem alçada, ação/tipo desconhecidos, auditoria só de negações, **sink obrigatório (sem padrão silencioso)**, **falha fechada quando o registro falha**, toda negação chega ao sink |
 | `tests/db/migrations.test.ts` / `rls.test.ts` (F1) | pglite + supabase | atualizados para listar **exatamente** as 9 tabelas e as 5 políticas existentes; catálogo segue sem políticas e sem acesso |
 
@@ -118,6 +119,7 @@ Identidade está **separada** de direitos comerciais, matrícula e progresso, qu
 | M3 — pagador lê perfis dos alunos vinculados | 2 |
 | M4 — bloqueio de responsável legal removido | 5 |
 | M5 — política antiga do aluno, sem checar o papel do pagador (revisão PM 1) | 1 (o teste novo) |
+| M6 — função sem checagem de titularidade (revisão PM 2) | 5 (os 4 terceiros e a chamada sem JWT) |
 
 A M2 revelou uma asserção fraca: o teste aceitava qualquer "permission denied", e a inserção estava sendo barrada pelo trigger de auditoria. As asserções agora exigem a **tabela exata** (`permission denied for table user_roles`, etc.).
 
@@ -129,6 +131,7 @@ A M2 revelou uma asserção fraca: o teste aceitava qualquer "permission denied"
 5. **UI provisória da F1** tem 2 violações de acessibilidade (seção F2.0), a resolver na F2.C.
 
 ### Riscos e limitações
+- **Modelo de ameaça de `auth.uid()`:** o Supabase deriva `auth.uid()` das *claims* que o PostgREST grava na sessão a partir de um JWT validado. A proteção de titularidade, como todo o RLS do Supabase, vale para esse caminho. Uma sessão SQL direta com papel `authenticated` poderia definir as próprias *claims*; por isso, acesso SQL direto **não** é um canal suportado para usuários finais e nunca deve ser concedido. Na F2.B, o servidor deve usar o JWT do usuário, sem conexões SQL por usuário.
 - O *stub* de `auth` no PGlite não reproduz GoTrue. Por isso, os mesmos testes rodam no Supabase real no CI.
 - As contas de seed não têm senha nem tokens de confirmação. Na F2.B, o seed de usuários de login deverá ser revisto conforme o fluxo do GoTrue.
 - `FORCE ROW LEVEL SECURITY` não aplicado: o dono das tabelas (migrações/seed) ignora RLS, mas os triggers de bloqueio valem para ele.
