@@ -444,3 +444,16 @@ A linguagem sugerida prioriza superfícies claras quentes e blocos institucionai
 - [ ] Desktop/mobile, acessibilidade, Claro/Escuro/Sistema, logo original e estados vazios/erro/carga.
 
 **Status:** aprovado para **D1 somente**. **F2–F8 não autorizadas**, sem programação, custos aprovados, contratação, deployment ou operação com dados pessoais reais.
+
+
+## 25. Fechamento acelerado D1 e autoria visual — 13/11/2026
+
+**Orientação expressa de Marina:** acelerar a passagem à F2 e **não delegar mais o design ao Claude**. A **PM/ChatGPT fica responsável pela criação de identidade digital, composições, design system e protótipos D1**, e Marina mantém a aprovação final. Matheus manifestou preferência pelo design apresentado pela PM, mas esta preferência **não equivale a aceite visual final nem a autorização da F2**.
+
+**Situação auditada:** Blocos 01–10 de UX já aprovados e rastreados; F1 concluída; D1 autorizada; F2–F8 não autorizadas. Não abrir novos blocos de microdecisões para postergar as telas da F2.
+
+**Entrega visual inicial:** protótipo HTML demonstrativo autoral com Acesso, Cadastro, Perfis, Dashboard Aluno, Minha Conta e Acesso Restrito, usando logotipos originais e alternância de tema. Requer revisão de Marina e depósito controlado da evidência no GitHub antes do aceite final. Não contém implementação de login ou backend.
+
+**Direção recomendada (pendente de escolha):** marinho editorial com superfícies claras quentes e dourado discreto; alternativas e critérios de aceite no [pacote de fechamento, docs/38](38-d1-pacote-fechamento-visual-f2-2026-11-13.md).
+
+**Único gate necessário agora:** revisar visual, confirmar direção, aprovar design system e telas F2 com estados essenciais e responsividade; registrar aceite de D1 e **pedir liberação da F2 separadamente** na Issue #7. Fases F3–F8 terão seu design refinado em D1.x sem bloquear indevidamente autenticação/perfis. Nenhuma despesa, implantação, uso de dados reais ou programação funcional autorizada por esta anotação.
