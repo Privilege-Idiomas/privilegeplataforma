@@ -27,6 +27,8 @@ Este registro **substitui como direção** a preferência por H1 terceirizado/mi
 - Entre segunda 16/11 e quinta 10/12 são 19 dias de semana **antes de excluir feriados e bloqueios**. Não é racional somar estimativas sequenciais e prometer o escopo integral.
 
 ## 3. Frentes de execução paralela a reestimar — sem omitir nenhuma
+**Regra pedagógica vinculante para esta reestimativa (correção de Marina em 13/11):** teste de nivelamento **não será realizado por IA**. O produto aplica questões previamente preparadas, revisadas e aprovadas, corrige por gabarito/regras configuradas e fornece orientação não bloqueante; não orçar nem implementar inferência ou API de IA por aluno. Eventual uso editorial de IA na preparação offline não constitui requisito do teste. Conteúdo, faixas e pontuação reais continuam pendentes. Ver DEC-030/080 e [auditoria docs/50](50-auditoria-reconciliacao-decisoes-2026-11-13.md).
+
 | Frente | Funcionalidade real esperada | Dependências/testes críticos |
 |---|---|---|
 | A. Identidade e autorização | login, ativação, recuperação, sessões, permissões e papéis, pagador/responsável e MFA privilegiado | SEC/GoTrue, RLS, SMTP, jurídico/menores |
@@ -34,7 +36,7 @@ Este registro **substitui como direção** a preferência por H1 terceirizado/mi
 | C. Comércio | oferta por curso/plano, cartão, assinatura, webhooks idempotentes, concessão/revogação de direito, cancelamento e reconciliação | fornecedor contratado, regras comerciais, financeiro/jurídico |
 | D. Apoio humano | plantões e agenda automática, lotação, créditos, disponibilidade, remarcação, aulas particulares e videoconferência | professores, disponibilidade, regras de serviço, fornecedor |
 | E. Administração | publicar conteúdos e provas, gerenciar usuários/permissões, alunos, professores, suporte, auditoria e indicadores | ações privilegiadas, MFA, juridico, rastreabilidade |
-| F. Recursos adicionais | certificados com emissão/verificação, nivelamento IA, feedback/ranking, relatórios, notificações e demais requisitos aprovados | fornecedores, custo e QA específico |
+| F. Recursos adicionais | certificados com emissão/verificação, **nivelamento opcional por questões e gabaritos previamente elaborados, aprovados e cadastrados (sem IA para aplicar/corrigir em tempo real)**, feedback/ranking, relatórios, notificações e demais requisitos aprovados | fornecedores, custo e QA específico |
 | G. Produção e qualidade | hospedagem, domínio, e-mails, backups, acessibilidade, observabilidade, segurança, testes E2E e incidentes | contas reais, LGPD, aprovações e integrações reais |
 
 **Não confundir execução paralela com merge paralelo irrestrito:** frentes isoladas em worktrees/branches, contratos de API e migrações coordenados, PRs pequenos e CI contínuo. Integração diária e teste completo de jornadas são obrigatórios.
