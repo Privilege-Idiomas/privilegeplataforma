@@ -983,3 +983,12 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Precedência:** estas decisões não concedem novos direitos docentes. Questões completas por código/curso para docente autorizado (DEC-034), vedação à lista de dúvidas particular dos alunos, vedação às notas individuais, nomes de avaliadores e ranking de colegas (DEC-064/065) e seleção de professor após dia/horário (DEC-069) permanecem. A apresentação de média deve evitar inferência por baixa amostra; detalhes de proteção jurídica/técnica pendentes. Plantões e Planos 1–3 obedecem confirmações posteriores, não trechos históricos de «sem reserva» ou «Plano 1 com plantão».
 
 **Rastreabilidade:** [docs/36 §23](36-d1-briefing-visual-ux-ui.md) e Issue #15. Histórico preservado. Não autoriza implementação, F2–F8, gasto, fornecedores, deploy ou dados reais.
+
+
+## Decisão de direção visual aprovada — D1, 13/11/2026
+
+**Marina aprovou expressamente a direção visual A para a identidade digital da Privilège:** **marinho editorial, dourado discreto, superfícies claras quentes, uso de logotipos oficiais e três opções de aparência Claro/Escuro/Sistema**. As regras anteriores de preferência **Sistema padrão** e persistência de escolha manual continuam vigentes (D1 §11). A aplicação de variantes de logotipo é contextual; não há declaração de qual arte é a variante institucional primária, nem autorização de redesenho/recolorização dos arquivos.
+
+**Autoria de design:** por determinação expressa de Marina, **ChatGPT/PM consolida design system, layouts e protótipos**; Claude Code **não realizará a etapa de criação visual**. A implementação técnica por Claude só poderá ocorrer com **autorização individual e expressa da F2**, depois do aceite visual final, sem transferir a ele alçada para mudar UX.
+
+**Registro da materialização e gate:** [docs/39 — design system v1](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md), [protótipo HTML D1/F2 no GitHub](prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html), [docs/40 — handoff F2 não autorizado](40-f2-handoff-ux-tecnico-sem-autorizacao-2026-11-13.md) e [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). **Direção A aprovada; protótipos e design system ainda em aceite visual final.** Nenhuma implementação, F2–F8, contratação, custo ou deploy liberados.
