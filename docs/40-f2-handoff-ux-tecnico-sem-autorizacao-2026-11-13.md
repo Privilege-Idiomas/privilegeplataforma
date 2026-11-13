@@ -70,3 +70,16 @@ Este arquivo prepara a futura entrega da F2; **não autoriza desenvolvimento**, 
 - [ ] Somente então Claude recebe ordem para implementação de F2 e inicia branch/PR.
 
 **Proibido interpretar este documento, a aprovação da direção A ou a meta de 5 semanas como liberação de F2.** D1 pode ser aceita antes da F2, mas as duas aprovações continuam independentes.
+
+
+---
+
+## Aviso de substituição da referência visual — 13/11/2026
+
+**ATENÇÃO — Correção de divergência identificada por Marina:** o arquivo `docs/prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html` citado acima fica preservado **apenas para histórico**; **não implementar sua composição** nem usá-lo como aceite visual. A referência atual para futura implementação, depois de aceite final da D1, é:
+
+**[docs/prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html](prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html)**
+
+Esta versão restaura a composição visual dos mockups anteriores da plataforma (dashboard premium, imagens editoriais de Londres, cards, navegação marinho/dourado), mantendo o logo oficial e os estados F2. Documento [docs/39 — revisão de fidelidade](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md).
+
+**D1 continua sob revisão e F2 continua NÃO AUTORIZADA**. O handoff é somente preparatório. Claude não desenha nem altera a identidade e não deve iniciar código F2 antes do aceite visual final de Marina + autorização separada na Issue #7.
