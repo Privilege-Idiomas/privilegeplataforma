@@ -1,3 +1,5 @@
+> **D1/F2 — ESTADO PRIORITÁRIO (13/11/2026):** Marina aprovou a direção visual A, não o aceite final do pacote. O [protótipo REV2 de 16 telas](docs/prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html) e a [especificação canônica docs/41](docs/41-d1-revisao-2-design-system-f2-2026-11-13.md) SUBSTITUEM a versão anterior como referência para futura F2. **Claude não desenha nem altera UX/UI. F2–F8 continuam NÃO AUTORIZADAS.** Não iniciar F2.0/F2.A/F2.B, nem criar branch, migrações, integração ou código de fase nova sem autorização expressa de Marina na Issue #7.
+
 # Orientações para Claude Code — Plataforma Privilège
 
 > **REFERÊNCIA VISUAL VIGENTE (13/11/2026):** O primeiro protótipo F2 foi considerado visualmente divergente por Marina e **NÃO está aprovado**. Usar somente para eventual revisão futura: [novo protótipo alinhado às telas anteriores](docs/prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html). **Ainda sem aceite final D1; implementação F2–F8 NÃO AUTORIZADA. Claude não faz design.**
