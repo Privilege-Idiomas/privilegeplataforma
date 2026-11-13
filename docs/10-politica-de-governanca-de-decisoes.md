@@ -227,3 +227,12 @@ Também são decisões de Marina, sem validação de Matheus indicada: **DEC-027
 6. Nenhuma ata ou decisão de produto autoriza automaticamente **programação, compra, custo adicional, acesso a dados reais, migração, merge, publicação ou deploy**. Manter aprovação de execução por lote e evidência separada.
 
 **Baseline comunicado em 13/11:** stack e orçamento já foram trabalhados/apresentados a Matheus; aprovação de custos MAT-011 comunicada por Marina; jurídico OK informado por Marina; pedagógico e financeiro pertencem a Matheus. Reunião de 11/11 registrada em [docs/51](51-registro-reuniao-semanal-2026-11-11.md), **DEC-084/085 em docs/09**, com reflexo em docs/04, docs/03 e Issues. Essas frentes **não devem ser devolvidas como macroblocos de discussão genérica**.
+
+
+## Diretriz permanente de eficiência de execução com IA — DEC-086 (13/11/2026)
+
+**Autoridade:** aprovação expressa de Marina; vigência durante toda a Privilège, inclusive depois de qualquer meta de calendário. **Fonte normativa especializada:** [docs/52 — protocolo permanente do Claude Code](52-diretriz-permanente-eficiencia-claude-execucao.md), registrado em [docs/08 — DEC-086](08-decisoes-marina.md), indexado em [docs/04](04-decision-log.md), aplicado nos arquivos `CLAUDE.md` e `AGENTS.md`.
+
+O modelo de execução obrigatório utiliza **um agente Claude principal integrador**, que só convoca auxiliares quando tarefas forem realmente independentes, breves, delimitadas e houver benefício objetivo mensurável. **Não repetir automaticamente cinco pesquisadores** por assunto. Priorizar decisões canônicas e contexto mínimo pertinente em vez de pesquisa duplicada; entregar lotes técnicos autorizados, pequenos, integrados, com testes negativos, CI, PRs rastreáveis e evidências de funcionalidade; registrar métricas de produtividade, bloqueios, erros e uso de quota.
+
+**Salvaguardas:** auditoria especializada de segurança/autorização/pagamentos/privacidade e outros riscos relevantes não será reduzida para economizar recursos. Múltiplos agentes compartilham quota; não prometer multiplicação de velocidade nem 15 horas líquidas/dia. A proposta de 15 horas diárias e plano Ultra vale como cenário do sprint atual, não regra permanente, compra autorizada ou capacidade garantida. As aprovações e alçadas da direção, do Matheus, da PM, dos lotes e de produção permanecem intactas. Esta diretriz organiza o **como trabalhar**, não altera o **que entregar**. Conflitos e revisões exigem registro decisório novo, preservando histórico.
