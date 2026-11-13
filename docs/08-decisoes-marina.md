@@ -1005,3 +1005,12 @@ A pedido de Marina (“vamos corrigir então”), a PM/ChatGPT executou **corre�
 - Os 20 ícones simples são vetoriais preparados no protótipo; a procedência/licença de fotografias e compatibilidade tipográfica entre SO ainda devem ser verificadas para publicação.
 
 **Estado:** direção A aprovada; **Revisão 2 pronta para revisão visual/aceite final específico de Marina na Issue #15**; **F2 não autorizada na Issue #7**. A meta de 5 semanas é intenção, não autorização nem compromisso de entrega.
+
+
+## Decisão — aceite visual final D1 essencial à F2 (13/11/2026)
+
+**Decisão EXPRESSA de Marina:** “**aprovado**”, em resposta à apresentação da **Revisão 2 do design D1/F2**. Aprovação do **protótipo navegável de 16 telas** e do **design system corrigido**, mantendo o conceito premium da Privilège (marinho editorial, dourado discreto, fundos quentes, imagem Londres como referência estética, logotipos oficiais, modos Claro/Escuro/Sistema). **Gate D1 visual essencial da F2: ACEITO**. Não equivale a homologação funcional, jurídica, comercial, acessibilidade integral, licença de imagens ou telas finais de fases futuras.
+
+**Artefatos vinculantes:** [protótipo R2](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html), [especificação R2 docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md) e [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). Docs/39 e protótipos anteriores permanecem **somente históricos**, sem precedência sobre R2. Claude **NÃO faz design**.
+
+**Autorizações expressamente não concedidas:** **F2.0, F2.A, F2.B, F2.C, F2.D e F3–F8**; nenhum código, branch, migração, instalação, dados reais, serviços pagos ou deploy. A liberação futura da F2 exigirá **novo ato independente de Marina na Issue #7**, após revisão do gate técnico e das pendências de produto/segurança. A Issue #15 poderá continuar aberta apenas para inventário de entregas visuais futuras D1.x sem desfazer este aceite específico.
