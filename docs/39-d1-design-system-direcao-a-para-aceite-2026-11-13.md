@@ -87,3 +87,23 @@ Os HEX abaixo são **tokens digitais do produto**, não um manual de marca retro
 - [ ] **Autorização F2 separada**, explícita na Issue #7, após aceite visual e revisão de gate técnico.
 
 **Estado do gate:** **PRONTO PARA REVISÃO E ACEITE VISUAL**, não **D1 ACEITA**. A meta de cinco semanas é alvo de planejamento, não autorização de F2 ou promessa de lançamento.
+
+
+---
+
+## Revisão de fidelidade à proposta original — 13/11/2026 (substitui amostra visual precedente)
+
+**Problema reportado pela Marina:** o primeiro protótipo HTML, embora coerente com os tokens de cor, divergiu das telas premium que haviam sido mostradas. **A paleta sozinha não define a identidade visual**. A versão anterior permanece rastreável, mas **não aprovada**.
+
+**Composição da nova referência obrigatória para aceite:**
+- Sidebar marinho profundo com **logotipo oficial em branco**, ícones de traço dourado e estado ativo com acento dourado.
+- Topbar clara com busca, aparência e avatar ilustrativo (apenas na demonstração).
+- Hero editorial com vista de Londres/Big Ben, título serifado generoso, respiro e destaque dourado.
+- Card principal de retomada dos estudos; cards de cursos com imagens editoriais e estados de direito claros.
+- Superfícies branco/creme, bordas sutis, sombras leves e hierarquia tipográfica elegante; layout responsivo.
+- Páginas de acesso, recuperação, cadastro, Minha Conta e restrição **herdam a mesma linguagem** do dashboard, sem transformar o produto em um painel administrativo genérico.
+- Exibição de dados acadêmicos e percentuais **inteiramente fictícia**, sem prometer direito de curso, sem uso de dados reais, sem liberar cadastros, integrações ou pagamentos.
+
+**Referência visual principal para a revisão da D1:** [HTML alinhado às propostas anteriores](prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html). Inclui tela «Referência original» para comparação com uma proposta conceitual anterior. O [HTML anterior](prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html) não é mais a referência de fidelidade visual.
+
+**Ainda não aprovado:** o aceite final de todo o design system e das telas essenciais F2. A direção A permanece aprovada. Alterações na identidade exigem revisão de Marina e não podem ser inventadas pelo Claude.
