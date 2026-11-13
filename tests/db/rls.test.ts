@@ -4,9 +4,8 @@
  * Supabase concede por padrão. Resultado esperado: nenhuma linha visível e
  * nenhuma escrita possível, porque não existem políticas (nega por padrão).
  */
-import type { PGlite } from "@electric-sql/pglite";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
-import { createMigratedDatabase } from "./support";
+import { type TestDb, asRole as runAs, openTestDatabase } from "./support";
 
 const ID = (n: number) =>
   `00000000-0000-4000-8000-${String(n).padStart(12, "0")}`;
@@ -35,19 +34,15 @@ const TABLES: Record<string, { insert: string; update: string }> = {
   },
 };
 
-let db: PGlite;
+let db: TestDb;
 
-async function asRole<T>(role: string, fn: () => Promise<T>): Promise<T> {
-  await db.exec(`set role ${role}`);
-  try {
-    return await fn();
-  } finally {
-    await db.exec("reset role");
-  }
-}
+const asRole = <T>(
+  role: "anon" | "authenticated" | "service_role",
+  fn: () => Promise<T>,
+) => runAs(db, role, fn);
 
 beforeAll(async () => {
-  db = await createMigratedDatabase({ supabaseRoles: true });
+  db = await openTestDatabase();
 });
 
 afterAll(async () => {
@@ -75,7 +70,7 @@ describe("pré-condição: emulação fiel das permissões do Supabase", () => {
   });
 });
 
-describe.each(["anon", "authenticated"])("papel %s", (role) => {
+describe.each(["anon", "authenticated"] as const)("papel %s", (role) => {
   describe.each(Object.entries(TABLES))("tabela %s", (table, sql) => {
     it("não enxerga nenhuma linha", async () => {
       const { rows } = await asRole(role, () =>

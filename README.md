@@ -34,7 +34,10 @@ npm install       # Node.js >= 22.12 (CI: Node 24, ver .nvmrc)
 npm run dev       # http://localhost:3000
 npm run check     # lint + format:check + typecheck + testes (inclui migrações SQL)
 npm run build     # build de produção local
+npm run test:e2e  # smoke e2e + acessibilidade (Playwright/axe; usa o Google Chrome instalado)
 ```
+Testes de banco rodam localmente em PostgreSQL WASM (PGlite) com emulação do Supabase; no CI, a mesma suíte roda também contra o **Supabase local real** (ver [docs/43](docs/43-f2-ambiente-testes-identidade-rls.md)).
+
 Nenhuma variável de ambiente é necessária; ver [.env.example](.env.example). Supabase local completo (`npm run db:start`) é opcional e requer Docker.
 
 **Privacidade:** Next.js e Supabase CLI enviam telemetria anônima por padrão. Recomenda-se desativar uma vez por máquina: `npx next telemetry disable` e `npx supabase@2.122.0 telemetry disable`.
@@ -51,6 +54,7 @@ Nenhuma variável de ambiente é necessária; ver [.env.example](.env.example). 
 - [Estrutura do relatório executivo no Notion](docs/11-estrutura-notion.md)
 - [Relatório executivo canônico (origem da projeção para Notion)](docs/12-relatorio-executivo.md)
 - [F1 — Fundação técnica (arquitetura, execução e evidências)](docs/35-f1-fundacao-tecnica.md)
+- [F2.0/F2.A — Ambiente de testes, identidade e RLS](docs/43-f2-ambiente-testes-identidade-rls.md)
 
 ## Separação de fontes de verdade
 - **GitHub é a fonte única e completa:** todas as tarefas, marcos, alterações de status, previsões, decisões, requisitos, documentação, execução e evidências devem estar registrados nele. Cada decisão possui uma única ficha Markdown canônica por responsável, com índice geral.

@@ -15,7 +15,9 @@
     "check": "npm run lint && npm run format:check && npm run typecheck && npm run test",
     "db:start": "npx supabase@2.122.0 start",
     "db:stop": "npx supabase@2.122.0 stop",
-    "db:reset": "npx supabase@2.122.0 db reset --local"
+    "db:reset": "npx supabase@2.122.0 db reset --local",
+    "test:e2e": "playwright test",
+    "test:db:supabase": "vitest run tests/db"
   },
   "dependencies": {
     "next": "16.4.3",
@@ -23,12 +25,15 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@electric-sql/pglite": "^0.5.16",
+    "@playwright/test": "^1.65.0",
     "@tailwindcss/turbopack": "^4",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@types/node": "^24.19.2",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.3.0",
@@ -36,6 +41,7 @@
     "eslint-config-next": "16.4.3",
     "eslint-config-prettier": "^10.1.8",
     "jsdom": "^31.0.0",
+    "pg": "^8.23.1",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",

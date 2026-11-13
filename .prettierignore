@@ -7,3 +7,5 @@ supabase/.temp/
 # Documentação de governança mantida manualmente; fora da formatação automática.
 docs/
 *.md
+test-results/
+playwright-report/
