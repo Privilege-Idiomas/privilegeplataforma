@@ -1,3 +1,5 @@
+> **BASELINE OPERACIONAL VIGENTE — DEC-087 / 13-11-2026:** aplicar [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md), [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md) e as DEC posteriores aprovadas sobre trechos históricos divergentes. **Nivelamento opcional SEM IA (banco pré-aprovado, correção determinística); avaliação obrigatória NÃO eliminatória e tentativas ilimitadas; sem exigência de vídeo integral; plantão COM reserva (20 min/10 vagas), P1/P2/P3 = 0/2/4 e P3 também 2 particulares de 50 min.** Não converter hipótese, parâmetro externo ou proposta técnica em requisito aprovado. F2.B–F8 continuam sem autorização de implementação. Os trechos antigos abaixo que contradizem esta regra são históricos superados e devem ser lidos apenas para rastreabilidade. GitHub canônico; Notion executivo.
+
 # Requisitos do Produto — Plataforma Privilège
 
 **Versão:** 0.2  
