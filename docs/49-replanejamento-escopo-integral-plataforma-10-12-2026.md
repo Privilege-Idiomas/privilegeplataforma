@@ -2,6 +2,8 @@
 
 **13/11/2026 · Registro de requisito da solicitante · Plano de recuperação para análise, SEM autorização de implementação, gastos, deploy ou uso de dados reais**
 
+> **Correção de precedência funcional (13/11/2026):** o nivelamento usa questões previamente redigidas e aprovadas, não perguntas geradas por IA. Quanto aos plantões, a regra mais recente registrada em docs/08–09 após a reunião é **reserva antecipada pelo aluno, 20 minutos, até 10 vagas, créditos por plano e cancelamento/remarcação conforme antecedência aprovada**; descrições anteriores de entrada livre em docs/02, docs/20 e trechos históricos estão superadas. Ver [docs/50 — cronograma 15h/dia Ultra](50-cronograma-15h-dia-ultra-meta-integral-10-12-2026.md), que prevalece como **proposta de cronograma**, sem substituir o requisito de escopo integral deste documento.
+
 ## 1. Correção expressa do objetivo
 Marina esclareceu que **não aceita**:
 - lançamento provisório em área de membros externa como substituto da plataforma própria;
@@ -34,7 +36,7 @@ Este registro **substitui como direção** a preferência por H1 terceirizado/mi
 | C. Comércio | oferta por curso/plano, cartão, assinatura, webhooks idempotentes, concessão/revogação de direito, cancelamento e reconciliação | fornecedor contratado, regras comerciais, financeiro/jurídico |
 | D. Apoio humano | plantões e agenda automática, lotação, créditos, disponibilidade, remarcação, aulas particulares e videoconferência | professores, disponibilidade, regras de serviço, fornecedor |
 | E. Administração | publicar conteúdos e provas, gerenciar usuários/permissões, alunos, professores, suporte, auditoria e indicadores | ações privilegiadas, MFA, juridico, rastreabilidade |
-| F. Recursos adicionais | certificados com emissão/verificação, nivelamento IA, feedback/ranking, relatórios, notificações e demais requisitos aprovados | fornecedores, custo e QA específico |
+| F. Recursos adicionais | certificados com emissão/verificação, **nivelamento com questões previamente elaboradas e aprovadas (NÃO geração por IA)**, feedback/ranking, relatórios, notificações e demais requisitos aprovados | fornecedores, custo e QA específico |
 | G. Produção e qualidade | hospedagem, domínio, e-mails, backups, acessibilidade, observabilidade, segurança, testes E2E e incidentes | contas reais, LGPD, aprovações e integrações reais |
 
 **Não confundir execução paralela com merge paralelo irrestrito:** frentes isoladas em worktrees/branches, contratos de API e migrações coordenados, PRs pequenos e CI contínuo. Integração diária e teste completo de jornadas são obrigatórios.
