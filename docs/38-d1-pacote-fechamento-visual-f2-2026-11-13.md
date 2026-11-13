@@ -71,3 +71,20 @@ O protótipo visual **Privilège D1 — Proposta visual navegável** foi prepara
 - [ ] **Liberação explícita e separada da F2**, se decidida, na [Issue #7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7).
 
 **Forma de trabalho sem novas rodadas:** uma única revisão de Marina de [docs/39](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md) + HTML; ajustes estritamente necessários à F2, registro do aceite D1 e, só então, pedido independente de autorização de implementação. Telas F3–F8 continuam documentadas como UX já aprovado quando aplicável, mas suas composições finais são D1.x. Nenhum gasto, contrato, deploy, dados reais ou código de fase nova autorizado.
+
+
+---
+
+## Alerta de consistência visual e revisão da amostra — 13/11/2026
+
+**Marina identificou divergência expressa:** o protótipo de acesso e conta preparado anteriormente, apesar de usar paleta marinho/dourado, **não correspondia à composição sofisticada das telas conceituais já mostradas** (dashboard com Londres, imagens editoriais, navegação institucional, iconografia dourada e cartões elegantes). **A direção A continua aprovada**, mas o **primeiro HTML do pacote F2 não obteve aceite e não pode ser tratado como design definitivo**.
+
+**Correção realizada pela PM/ChatGPT, sem delegar a Claude:**
+- **[Novo protótipo D1/F2 alinhado às referências anteriores](prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html)** — referência visual **prevalente** de composição, com dashboard premium, Londres, cursos em cards, telas de acesso, cadastro, perfis, conta, recuperação, acesso negado, estados e uma seção comparativa **«Referência original»** com a imagem conceitual anterior.
+- Recuperados: sidebar institucional marinho, ícones dourados, imagem editorial de Londres, tipografia serifada dos destaques, cartões claros, sombras suaves, navegação e aparência Claro/Escuro/Sistema.
+- O HTML anterior `docs/prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html` fica preservado **somente como histórico não aprovado**. **Não usar** como referência visual prioritária para a F2.
+- A composição revisada reutiliza fotografias/ilustrações recortadas de imagens conceituais previamente produzidas; as imagens e métricas demonstrativas não representam conteúdo contratado, direitos acadêmicos reais nem aprovação editorial para operação pública. **Logotipo oficial embutido sem redesenho**.
+
+**QA básico da nova amostra:** navegação por 9 áreas, abas e estados; troca de modo Claro/Escuro/Sistema; Playwright Chromium testado com desktop 1440×900 e celular 390×844, sem exceções JS e sem rolagem horizontal do documento nos percursos verificados. Não é inspeção WCAG completa, homologação de mobile, conteúdo de produção ou implementação funcional.
+
+**Gate revisto:** **aguardando validação de Marina sobre a fidelidade visual ao conceito anterior e aceite final D1/F2**. Não atribuir aceite a partir do relato de divergência, nem autorizar F2 por inferência. O design continua sob responsabilidade exclusiva da PM/ChatGPT; Claude somente executor técnico após autorização independente.
