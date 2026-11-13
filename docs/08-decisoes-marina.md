@@ -992,3 +992,16 @@ A reserva deve considerar direito vigente e capacidade; regras próprias de canc
 **Autoria de design:** por determinação expressa de Marina, **ChatGPT/PM consolida design system, layouts e protótipos**; Claude Code **não realizará a etapa de criação visual**. A implementação técnica por Claude só poderá ocorrer com **autorização individual e expressa da F2**, depois do aceite visual final, sem transferir a ele alçada para mudar UX.
 
 **Registro da materialização e gate:** [docs/39 — design system v1](39-d1-design-system-direcao-a-para-aceite-2026-11-13.md), [protótipo HTML D1/F2 no GitHub](prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html), [docs/40 — handoff F2 não autorizado](40-f2-handoff-ux-tecnico-sem-autorizacao-2026-11-13.md) e [Issue #15](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15). **Direção A aprovada; protótipos e design system ainda em aceite visual final.** Nenhuma implementação, F2–F8, contratação, custo ou deploy liberados.
+
+
+## D1 — Revisão visual 2 após diagnóstico técnico Claude (13/11/2026)
+
+A pedido de Marina (“vamos corrigir então”), a PM/ChatGPT executou **correções no design e na apresentação dos fluxos essenciais F2**, preservando o conceito premium que ela havia gostado: Big Ben, marinho editorial, dourado discreto, logotipos oficiais e Claro/Escuro/Sistema. **Não houve novo aceite visual final, decisão de negócio nova ou autorização de implementação.**
+
+- **[Design system canônico Revisão 2 — docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md)**: os tokens e breakpoints agora reproduzem o protótipo preferido; docs/39 é histórico e seus HEX divergentes não devem ser usados na F2.
+- **[Protótipo visual de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html)**: área de login/ativação/recuperação separada da área logada, fluxo de confirmação, nova senha, duas confirmações de e-mail, estados de erro, perfis em demonstração e início F2 vazio sem direitos inventados.
+- A ativação após direito contratado e a resposta neutra de recuperação já decorrem de P-02/J-01/J-03 e não são uma nova política comercial criada pela PM.
+- Busca, notificações e dashboard com dados acadêmicos ilustrativos permanecem apenas na demonstração estética F3/F4. Rota `/cursos` de F1 não foi modificada; política de menores e sessões ainda pendente.
+- Os 20 ícones simples são vetoriais preparados no protótipo; a procedência/licença de fotografias e compatibilidade tipográfica entre SO ainda devem ser verificadas para publicação.
+
+**Estado:** direção A aprovada; **Revisão 2 pronta para revisão visual/aceite final específico de Marina na Issue #15**; **F2 não autorizada na Issue #7**. A meta de 5 semanas é intenção, não autorização nem compromisso de entrega.
