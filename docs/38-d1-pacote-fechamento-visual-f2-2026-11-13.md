@@ -1,3 +1,5 @@
+> **ACEITE FINAL DO GATE VISUAL D1 PARA F2 (13/11/2026):** Marina disse “**aprovado**” à **Revisão 2**. A referência é o [protótipo de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html) + [design system docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). Registros históricos anteriores de aprovação pendente foram superados somente para esse gate. **F2 continua NÃO AUTORIZADA**; condicionantes de segurança/jurídico/licença de imagens e design D1.x futuro não foram aceitos automaticamente.
+
 > **D1 REVISÃO 2 — REGRA VIGENTE (13/11/2026):** a referência visual atual para F2 é o [protótipo de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html), com tokens e requisitos em [docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). O antigo protótipo de 8 telas **não deve ser implementado**, e o HTML intermediário de 9 telas é apenas histórico da composição premium. **DIREÇÃO A APROVADA, ACEITE FINAL DO PACOTE REVISADO PENDENTE, F2 NÃO AUTORIZADA.** Claude não faz design.
 
 # D1 — Pacote de fechamento visual e handoff seguro para F2
