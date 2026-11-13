@@ -1,3 +1,5 @@
+> **ACEITE FINAL DO PRIMEIRO LOTE (13/11/2026):** F2.0 e F2.A tecnicamente aceitas pela PM e integradas à `main` com aprovação explícita de Marina. PR #16 → `81a87fc7`; PR #17 → `0f964e0`. A descrição histórica “em validação” abaixo não é mais o estado vigente. CI final do PR #17: **3 jobs aprovados; 120 testes no Supabase real, nenhum pulado**, ref [43502733109](https://github.com/Privilege-Idiomas/privilegeplataforma/actions/runs/43502733109). Não houve autorização para deploy público, bases reais ou F2.B/C/D. Bloqueios conservadores de menores, alçadas, auditoria, sessão e direitos contratuais permanecem em vigor.
+
 # F2.0 / F2.A — Ambiente de testes, identidade e RLS
 **Data:** 13/11/2026 · **Executor:** Claude Code · **Issue:** [#7](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/7) · **Ordem:** [docs/42](42-f2-ordem-execucao-lote-0-a-2026-11-13.md)
 **Status:** **EM VALIDAÇÃO** — entregue em PR para revisão PM/Marina; **não aceito**. F2.B, F2.C, F2.D e F3–F8 **não iniciadas**.
