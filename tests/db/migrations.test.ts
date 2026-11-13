@@ -1,8 +1,7 @@
 /**
- * Valida as migrações SQL versionadas e o seed em um PostgreSQL real
- * (PGlite/WASM), sem Docker e sem banco remoto.
+ * Valida as migrações SQL versionadas e o seed em PostgreSQL — PGlite (local)
+ * ou Supabase real (CI, job db-integration). Ver tests/db/support.ts.
  */
-import type { PGlite } from "@electric-sql/pglite";
 import { join } from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import {
@@ -11,15 +10,17 @@ import {
 } from "@/modules/catalog/fixtures";
 import {
   MIGRATIONS_DIR,
-  createMigratedDatabase,
+  type TestDb,
+  inTransaction,
   migrationFiles,
+  openTestDatabase,
   read,
 } from "./support";
 
-let db: PGlite;
+let db: TestDb;
 
 beforeAll(async () => {
-  db = await createMigratedDatabase();
+  db = await openTestDatabase();
 });
 
 afterAll(async () => {
@@ -92,37 +93,45 @@ describe("esquema inicial", () => {
 
   it("rejeita slug inválido", async () => {
     await expect(
-      db.query(
-        `insert into public.courses (slug, title) values ('Slug Inválido', 'x')`,
+      inTransaction(db, () =>
+        db.query(
+          `insert into public.courses (slug, title) values ('Slug Inválido', 'x')`,
+        ),
       ),
     ).rejects.toThrow();
   });
 
   it("rejeita posição duplicada de módulo no mesmo curso", async () => {
     await expect(
-      db.query(
-        `insert into public.course_modules (course_id, position, title)
-         values ('00000000-0000-4000-8000-000000000101', 1, 'duplicado')`,
+      inTransaction(db, () =>
+        db.query(
+          `insert into public.course_modules (course_id, position, title)
+           values ('00000000-0000-4000-8000-000000000101', 1, 'duplicado')`,
+        ),
       ),
     ).rejects.toThrow();
   });
 
   it("impede excluir curso referenciado por trilha ou módulo (ON DELETE RESTRICT)", async () => {
     await expect(
-      db.query(
-        `delete from public.courses where id = '00000000-0000-4000-8000-000000000101'`,
+      inTransaction(db, () =>
+        db.query(
+          `delete from public.courses where id = '00000000-0000-4000-8000-000000000101'`,
+        ),
       ),
     ).rejects.toThrow();
   });
 
   it("atualiza updated_at automaticamente", async () => {
-    await db.query(
-      `update public.courses set updated_at = '2000-01-01', title = title
-       where slug = 'travel'`,
-    );
-    const { rows } = await db.query<{ recent: boolean }>(
-      `select updated_at > '2000-01-02' as recent from public.courses where slug = 'travel'`,
-    );
+    const { rows } = await inTransaction(db, async () => {
+      await db.query(
+        `update public.courses set updated_at = '2000-01-01', title = title
+         where slug = 'travel'`,
+      );
+      return db.query<{ recent: boolean }>(
+        `select updated_at > '2000-01-02' as recent from public.courses where slug = 'travel'`,
+      );
+    });
     expect(rows[0]?.recent).toBe(true);
   });
 });
