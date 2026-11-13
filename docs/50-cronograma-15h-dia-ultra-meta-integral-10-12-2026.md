@@ -1,3 +1,5 @@
+> **PRECEDÊNCIA DEC-086/087 — 13/11/2026:** 15h/dia, uso diário e plano Ultra são **hipóteses do cenário intensivo 10/12**, não compromisso de capacidade, compra ou autorização de novos agentes. Padrão permanente: um Claude integrador principal e auxiliares só com justificativa por demanda; ver [docs/52](52-diretriz-permanente-eficiencia-claude-execucao.md), [docs/53](53-baseline-operacional-integral-decisao-087-2026-11-13.md), [docs/54](54-protocolo-handoff-aceite-fases-dec-087.md). Nenhum cálculo de cronograma prova viabilidade de produto integral em produção.
+
 # Privilège — cronograma intensivo 15 horas/dia, Claude Ultra, meta integral 10/12/2026
 **Elaborado em 13/11/2026 pela PM. PROPOSTA CONDICIONAL PARA APROVAÇÃO. Não autoriza código, compra, contratação, deploy ou uso de dados reais.**
 
