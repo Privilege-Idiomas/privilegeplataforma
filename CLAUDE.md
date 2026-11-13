@@ -154,3 +154,12 @@ Marina **AUTORIZOU executar a F1**, com Next.js App Router, TypeScript, Tailwind
 - [Issue #15 — Gate de aceite visual](https://github.com/Privilege-Idiomas/privilegeplataforma/issues/15)
 
 **F2–F8 continuam NÃO AUTORIZADAS.** Nenhuma issue, handoff, aprovação da paleta, meta de cinco semanas ou protótipo constitui ordem para escrever código F2. Se e quando Marina liberar expressamente a **Issue #7**, implementar exatamente o escopo autorizado, via branches/PRs e testes, sem design autônomo, sem dados reais, provedores pagos ou deploy público.
+
+
+## Correção de referência visual — 13/11/2026 (prevalece sobre links anteriores de D1)
+
+Marina apontou que o primeiro protótipo HTML D1/F2 **divergia das telas de design previamente apresentadas**. A PM/ChatGPT criou a versão corrigida, mantendo marinho/dourado, visual editorial, imagens de Londres e cards.
+
+**Referência visual de trabalho (ainda não aceita formalmente):** [Protótipo D1/F2 alinhado ao design anterior](docs/prototipos/d1-f2-alinhado-conceitos-originais-2026-11-13.html). O arquivo anterior `docs/prototipos/d1-f2-prototipo-direcao-a-2026-11-13.html` é **HISTÓRICO NÃO APROVADO** e não deverá orientar implementação.
+
+**NENHUMA TAREFA DE DESIGN PARA CLAUDE. F2–F8 NÃO AUTORIZADAS.** A aprovação da direção A não aprova individualmente protótipos, e a revisão da referência não autoriza começar código.
