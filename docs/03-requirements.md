@@ -734,3 +734,25 @@ Após concluir a definição integral do produto e as decisões pendentes, detal
 
 ### Harmonização da decisão de reunião — direitos de curso x níveis de plano (2026-11-08)
 A ata de 03/11 (00:56:44–00:58:11) confirmou a **comercialização por curso/trilha**, com **Basic incluído como bônus para assinantes**. Não equiparar “Plano 1 digital” a “catálogo todo liberado”. A funcionalidade de catálogo/vitrine pública e o acesso a resumos de cursos não contratados não são acesso à parte pedagógica protegida. As definições DEC-082/083 regem *serviços*, enquanto MAT-002/REQ-003 regem *cursos contratados*. Nome comercial final Basic/Start ainda precisa harmonização editorial, não mudança de acesso.
+
+
+## Requisitos adicionais vinculantes da ata 11/11/2026 — DEC-084/085 (registrados 13/11)
+
+### REQ-053 — Entitlement de seis meses e pagamento não recorrente para Plano 1 digital
+**Origem:** DEC-084, [ata 11/11](51-registro-reuniao-semanal-2026-11-11.md); complementa REQ-003/004/044 e DEC-082.
+- Para a oferta **Plano 1 digital sem plantões**, criar registro de compra única com **período de acesso de seis meses fechados**, início/fim explícitos, curso/trilha e aluno autorizado vinculados. **Parcelar uma única compra no cartão não equivale a renovação mensal nem a seis assinaturas independentes.**
+- Integrar a máquina de estados do pagamento e da vigência com **webhooks idempotentes**, sem concessão duplicada de direito ou acesso antes da confirmação comercial exigível.
+- Restringir automaticamente o acesso quando esgotada a vigência, respeitando regras já confirmadas de certificados e histórico. Não revogar certificados conquistados; demais direitos de cursos ou serviços só mudam conforme contratação própria.
+- Os modelos recorrentes para produtos de maior duração devem continuar representáveis, sem impor a vigência semestral de Plano 1 a todos os produtos.
+- **Aceite:** compra de teste autorizada ativa acesso por seis meses com um ID de operação e histórico de parcelas; nova entrega do mesmo webhook não duplica acesso; fim da vigência afeta somente direitos pertinentes; ausência de contratação não libera outros cursos; serviços P2/P3 não são alterados por inferência.
+- **Dependências Matheus:** preço, eventuais regras de renovação após os seis meses, parcelamento exato/termos e exceções contratuais. **Status:** requisito de produto definido em princípio, implementação F5 ainda NÃO autorizada.
+
+### REQ-054 — Benefício promocional condicionado à matrícula presencial
+**Origem:** DEC-085, [ata 11/11](51-registro-reuniao-semanal-2026-11-11.md); complementa preços/elegibilidade de REQ-003/004 e gestão administrativa.
+- Representar elegibilidade verificável do usuário/pagador ao **benefício de aluno presencial**, com trilha de origem, datas, alterações e histórico de auditoria.
+- Permitir desconto **configurável na faixa 20%–30%** apenas após escolha do valor exato pela autoridade comercial; não fixar automaticamente um percentual no código.
+- O encerramento do vínculo presencial deve desencadear **reavaliação para preço padrão**, sem inventar cobrança retroativa, alteração de compra já quitada, estorno, vencimento ou prazo de aviso. Tais efeitos dependem de parametrização comercial, especialmente na oferta semestral.
+- **Aceite:** status presencial elegível aplica configuração aprovada; estado inelegível deixa de obter benefício em novas operações e segue a política de transição aprovada; nenhuma mudança financeira ocorre sem evento auditável e regra confirmada; segregar dados de outros alunos.
+- **Dependências Matheus:** percentual, comprovação de vínculo, momento de transição e regra para compra semestral vigente. **Status:** diretriz aprovada, detalhes comerciais e implementação F5 ainda pendentes de liberação.
+
+**Precedência:** DEC-084/085 são posteriores à descrição de cobrança mensal/trimestral/semestral/anual genérica da reunião de 03/11 e **atualizam somente os aspectos expressos**. Não reabrir a escolha da stack, a apresentação financeira ao Matheus, o parecer jurídico já comunicado como OK nem decisões pedagógicas. Links canônicos em [docs/09](09-decisoes-matheus.md) e índice [docs/04](04-decision-log.md).
