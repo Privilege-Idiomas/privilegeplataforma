@@ -1,3 +1,5 @@
+> **ESTADO VIGENTE — ACEITE DA MARINA (13/11/2026):** o **gate visual D1 essencial à F2 foi ACEITO** com base no [protótipo Revisão 2](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html) e na [especificação docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). As declarações históricas abaixo sobre aguardar aceite, ou o primeiro protótipo, **não têm mais precedência**. Design de demais fases permanece em ciclos D1.x quando necessário. **F2–F8 NÃO AUTORIZADAS**; Claude não faz design.
+
 > **D1 REVISÃO 2 — REGRA VIGENTE (13/11/2026):** a referência visual atual para F2 é o [protótipo de 16 telas](prototipos/d1-f2-revisao-2-acessibilidade-e-fluxos-2026-11-13.html), com tokens e requisitos em [docs/41](41-d1-revisao-2-design-system-f2-2026-11-13.md). O antigo protótipo de 8 telas **não deve ser implementado**, e o HTML intermediário de 9 telas é apenas histórico da composição premium. **DIREÇÃO A APROVADA, ACEITE FINAL DO PACOTE REVISADO PENDENTE, F2 NÃO AUTORIZADA.** Claude não faz design.
 
 # D1 — Briefing visual oficial para revisão — Privilège Plataforma
